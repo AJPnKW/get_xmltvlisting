@@ -1,0 +1,31 @@
+{
+  "provider": "xmltvlistings.com",
+  "api_key_env": "API_XMLTVLISTING_KEY",
+  "default_days": 5,
+  "lineups": [
+    {
+      "id": 9328,
+      "name": "Hulu Live TV - custom",
+      "enabled": true,
+      "notes": "https://www.xmltvlistings.com/xmltv/download/.../9328"
+    },
+    {
+      "id": 9329,
+      "name": "DirecTV - USA - Custom",
+      "enabled": true,
+      "notes": "https://www.xmltvlistings.com/xmltv/download/.../9329"
+    },
+    {
+      "id": 9330,
+      "name": "Spectrum - Manhattan, NY",
+      "enabled": true,
+      "notes": "https://www.xmltvlistings.com/xmltv/download/.../9330"
+    },
+    {
+      "id": 9331,
+      "name": "Canada - Bell Fibe feed - custom",
+      "enabled": false,
+      "notes": "Not downloaded yet (daily limit). Enable later."
+    }
+  ]
+}
