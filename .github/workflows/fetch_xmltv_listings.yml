@@ -1,3 +1,5 @@
+# This file replaces your existing workflow.
+# Version: 0.6.0
 name: Fetch XMLTV Listings
 
 on:
@@ -24,27 +26,47 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests
 
-      - name: Fetch listings (publish to repo)
+      - name: Fetch channel lists (channels-only)
         env:
           API_XMLTVLISTING_KEY: ${{ secrets.API_XMLTVLISTING_KEY }}
         run: |
           set +e
-          python tools/fetch_xmltvlistings_listings.py --lineups 9329 9330 9331 --days 7 --offset 0 --device-dir ./out/_runner_device_ignore --repo-publish-dir IPTV/iptv_lineup
+          python tools/fetch_xmltvlistings_channels.py --lineups 9329 9330 9331 --publish-dir IPTV
           rc=$?
           if [ "$rc" -eq 2 ]; then
-            echo "Daily limit/partial update detected (rc=2). Treating as success; existing XML remains in repo."
+            echo "Channels fetch blocked/partial (rc=2). Treating as success; existing channel files preserved."
             exit 0
           fi
           exit $rc
 
-      - name: Commit and push updated IPTV files (if changed)
+      - name: Fetch listings (publish into repo/IPTV)  # uses your existing listings fetcher
+        env:
+          API_XMLTVLISTING_KEY: ${{ secrets.API_XMLTVLISTING_KEY }}
+        run: |
+          set +e
+          python tools/fetch_xmltvlistings_listings.py --lineups 9329 9330 9331 --days 7 --offset 0 --device-dir ./out/_runner_device_ignore --publish-dir IPTV --publish-mode all_or_nothing
+          rc=$?
+          if [ "$rc" -eq 2 ]; then
+            echo "Listings fetch blocked/partial (rc=2). Treating as success; publish unchanged."
+            exit 0
+          fi
+          exit $rc
+
+      - name: Upload logs as artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: xmltv-fetch-logs
+          path: out/downloads/**
+
+      - name: Commit and push IPTV outputs (if changed)
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add IPTV/iptv_lineup/*.xml tools/fetch_xmltvlistings_listings.py .github/workflows/fetch_xmltv_listings.yml || true
+          git add IPTV/*.xml tools/fetch_xmltvlistings_channels.py tools/channels_inventory.py .github/workflows/fetch_xmltv_listings.yml || true
           if git diff --cached --quiet; then
             echo "No changes to commit."
             exit 0
           fi
-          git commit -m "Update XMLTV lineup files"
+          git commit -m "Update XMLTV IPTV files"
           git push
