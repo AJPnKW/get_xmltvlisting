@@ -1,0 +1,173 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+fetch_xmltvlistings_listings.py
+
+Version: 0.3.0
+
+Goal
+- Fetch XMLTV listings for multiple lineup IDs.
+- Write:
+  1) Audit copy to: out/downloads/<timestamp>/xmltv-<lineup>.xml
+  2) Device copy to: <device_dir>/xmltv-<lineup>.xml
+  3) Repo publish copy to: <repo_publish_dir>/xmltv-<lineup>.xml   (for GitHub / web access)
+
+Defaults
+- device_dir:
+    env IPTV_LINEUP_DIR, else C:\X1_Share\Tivimate\iptv_lineup
+- repo_publish_dir:
+    IPTV\iptv_lineup  (relative to repo root)
+- repo root:
+    auto-detected as parent of this script's folder (repo\tools\this_file.py)
+
+Auth
+- API key from env: API_XMLTVLISTING_KEY
+
+Daily limit note
+- Each successful /xmltv/get request counts toward the provider's daily download limit.
+"""
+
+from __future__ import annotations
+
+import argparse
+import datetime as dt
+import os
+import sys
+from pathlib import Path
+
+import requests
+
+__version__ = "0.3.0"
+BASE_URL = "https://www.xmltvlistings.com"
+DEFAULT_DEVICE_DIR = r"C:\X1_Share\Tivimate\iptv_lineup"
+DEFAULT_REPO_PUBLISH_REL = r"IPTV\iptv_lineup"
+
+
+def die(msg: str) -> None:
+    print(f"ERROR: {msg}", file=sys.stderr)
+    raise SystemExit(1)
+
+
+def now_stamp() -> str:
+    return dt.datetime.now().strftime("%Y%m%d-%H%M%S")
+
+
+def repo_root_from_script() -> Path:
+    return Path(__file__).resolve().parents[1]
+
+
+def get_api_key() -> str:
+    k = (os.getenv("API_XMLTVLISTING_KEY") or "").strip()
+    if not k:
+        die("Missing env var API_XMLTVLISTING_KEY")
+    return k
+
+
+def http_get(url: str, timeout: int = 600) -> str:
+    r = requests.get(url, timeout=timeout)
+    r.raise_for_status()
+    return r.text
+
+
+def save_text(path: Path, text: str) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(text, encoding="utf-8", newline="\n")
+
+
+def log_line(log_path: Path, msg: str) -> None:
+    ts = dt.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    with log_path.open("a", encoding="utf-8", newline="\n") as f:
+        f.write(f"[{ts}] {msg}\n")
+
+
+def fetch_listings(api_key: str, lineup_id: str, days: int, offset: int) -> str:
+    url = f"{BASE_URL}/xmltv/get/{api_key}/{lineup_id}/{days}/{offset}"
+    return http_get(url, timeout=900)
+
+
+def pick_device_dir(cli_device_dir: str | None) -> Path:
+    if cli_device_dir:
+        return Path(cli_device_dir).expanduser()
+    env_dir = (os.getenv("IPTV_LINEUP_DIR") or "").strip()
+    if env_dir:
+        return Path(env_dir).expanduser()
+    return Path(DEFAULT_DEVICE_DIR)
+
+
+def main(argv: list[str]) -> int:
+    ap = argparse.ArgumentParser(add_help=True)
+    ap.add_argument("--lineups", nargs="+", default=["9329", "9330", "9331"], help="Lineup IDs to fetch")
+    ap.add_argument("--days", type=int, default=7, help="Days of listings to pull (1..14)")
+    ap.add_argument("--offset", type=int, default=0, help="Offset days")
+    ap.add_argument("--out-dir", default="", help="Optional audit output dir (default: repo/out/downloads/<timestamp>/)")
+    ap.add_argument("--device-dir", default="", help="Optional device folder (stable filenames)")
+    ap.add_argument("--repo-publish-dir", default="", help="Optional repo publish folder (relative or absolute)")
+    args = ap.parse_args(argv)
+
+    if args.days < 1 or args.days > 14:
+        die("days must be 1..14")
+
+    api_key = get_api_key()
+    repo = repo_root_from_script()
+
+    stamp = now_stamp()
+    out_dir = Path(args.out_dir).expanduser() if args.out_dir else (repo / "out" / "downloads" / stamp)
+    out_dir.mkdir(parents=True, exist_ok=True)
+
+    device_dir = pick_device_dir(args.device_dir.strip() or None)
+    device_dir.mkdir(parents=True, exist_ok=True)
+
+    publish_arg = (args.repo_publish_dir or "").strip()
+    if publish_arg:
+        publish_dir = Path(publish_arg).expanduser()
+        if not publish_dir.is_absolute():
+            publish_dir = (repo / publish_dir)
+    else:
+        publish_dir = repo / DEFAULT_REPO_PUBLISH_REL
+    publish_dir.mkdir(parents=True, exist_ok=True)
+
+    log_path = out_dir / f"fetch_listings_{stamp}.log.txt"
+    log_line(log_path, f"START fetch listings v{__version__}")
+    log_line(log_path, f"Repo        = {repo}")
+    log_line(log_path, f"OutDir       = {out_dir}")
+    log_line(log_path, f"DeviceDir    = {device_dir}")
+    log_line(log_path, f"PublishDir   = {publish_dir}")
+    log_line(log_path, f"Lineups      = {args.lineups}")
+    log_line(log_path, f"Days/Offset  = {args.days}/{args.offset}")
+
+    for lid in args.lineups:
+        lid = str(lid).strip()
+        if not lid:
+            continue
+
+        try:
+            log_line(log_path, f"Fetching lineup {lid} ...")
+            xml = fetch_listings(api_key, lid, args.days, args.offset)
+
+            audit_file = out_dir / f"xmltv-{lid}.xml"
+            save_text(audit_file, xml)
+            log_line(log_path, f"Audit wrote: {audit_file}")
+            print(f"Wrote: {audit_file}")
+
+            device_file = device_dir / f"xmltv-{lid}.xml"
+            save_text(device_file, xml)
+            log_line(log_path, f"Device wrote: {device_file}")
+            print(f"Wrote: {device_file}")
+
+            publish_file = publish_dir / f"xmltv-{lid}.xml"
+            save_text(publish_file, xml)
+            log_line(log_path, f"Publish wrote: {publish_file}")
+            print(f"Wrote: {publish_file}")
+
+        except Exception as e:
+            log_line(log_path, f"ERROR lineup {lid}: {e}")
+            die(f"Failed for lineup {lid}: {e}")
+
+    log_line(log_path, "DONE")
+    print("DONE")
+    print(f"Log: {log_path}")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main(sys.argv[1:]))
