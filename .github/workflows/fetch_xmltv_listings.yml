@@ -28,9 +28,16 @@ jobs:
         env:
           API_XMLTVLISTING_KEY: ${{ secrets.API_XMLTVLISTING_KEY }}
         run: |
+          set +e
           python tools/fetch_xmltvlistings_listings.py --lineups 9329 9330 9331 --days 7 --offset 0 --device-dir ./out/_runner_device_ignore --repo-publish-dir IPTV/iptv_lineup
+          rc=$?
+          if [ "$rc" -eq 2 ]; then
+            echo "Daily limit/partial update detected (rc=2). Treating as success; existing XML remains in repo."
+            exit 0
+          fi
+          exit $rc
 
-      - name: Commit and push updated IPTV files
+      - name: Commit and push updated IPTV files (if changed)
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"

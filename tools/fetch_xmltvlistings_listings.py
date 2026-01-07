@@ -3,7 +3,7 @@
 """
 fetch_xmltvlistings_listings.py
 
-Version: 0.4.0
+Version: 0.4.1
 
 Key behaviors
 - NEVER deletes/empties your existing published files.
@@ -12,11 +12,11 @@ Key behaviors
 - If provider returns the daily-limit message (or any non-XMLTV payload):
   - script logs the reason
   - script does NOT overwrite existing lineup XML files
-  - script exits with code 2 (so you can detect it)
+  - script exits with code 2 (so automation can detect it)
 
 Files written (3 copies, same filenames)
 1) Audit (timestamped): out/downloads/<timestamp>/...
-2) Local device folder:  C:\X1_Share\Tivimate\iptv_lineup\...
+2) Local device folder:  C:\\X1_Share\\Tivimate\\iptv_lineup\\...
 3) Repo publish folder:  IPTV/iptv_lineup/...   (push to GitHub for web access)
 
 Human-friendly filenames
@@ -42,12 +42,11 @@ from pathlib import Path
 
 import requests
 
-__version__ = "0.4.0"
+__version__ = "0.4.1"
 BASE_URL = "https://www.xmltvlistings.com"
 DEFAULT_DEVICE_DIR = r"C:\X1_Share\Tivimate\iptv_lineup"
 DEFAULT_REPO_PUBLISH_REL = r"IPTV\iptv_lineup"
 
-# Lineup -> friendly filename prefix (you can change these)
 LINEUP_LABELS = {
     "9329": "DirecTV[US]",
     "9330": "Spectrum_NY[US]",
@@ -110,18 +109,16 @@ def lineup_output_name(lineup_id: str) -> str:
 
 
 def looks_like_xmltv(xml: str) -> bool:
-    # Quick sanity check. XMLTV files contain <tv ...> root. Some providers omit the xml declaration.
     s = (xml or "").lstrip()
     if not s:
         return False
     if LIMIT_TEXT in xml:
         return False
-    return "<tv" in s[:1000]  # keep it cheap
+    return "<tv" in s[:1000]
 
 
 def atomic_write_text(target: Path, text: str) -> None:
     target.parent.mkdir(parents=True, exist_ok=True)
-    # write temp in same directory to allow atomic replace on Windows
     with tempfile.NamedTemporaryFile("w", delete=False, encoding="utf-8", newline="\n", dir=str(target.parent)) as tf:
         tf.write(text)
         tmp_name = tf.name
@@ -202,7 +199,6 @@ def main(argv: list[str]) -> int:
                 print(f"SKIP (invalid): {fname}")
                 continue
 
-            # Safe: only now do we overwrite targets (atomic)
             write_all_copies(out_dir, device_dir, publish_dir, fname, xml)
 
             print(f"Wrote: {out_dir / fname}")
@@ -219,7 +215,6 @@ def main(argv: list[str]) -> int:
     print("DONE")
     print(f"Log: {log_path}")
 
-    # Exit code 2 means: completed but one or more lineups were blocked/invalid/error
     return 2 if any_blocked else 0
 
 
