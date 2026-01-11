@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tv SYSTEM "xmltv.dtd">
-<tv date="01/10/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
+<tv date="01/11/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
   <channel id="2091.stations.xmltv.tvmedia.ca">
     <display-name>LOGO - East</display-name>
     <display-name>LOGO</display-name>

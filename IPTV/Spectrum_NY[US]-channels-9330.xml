@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tv SYSTEM "xmltv.dtd">
-<tv date="01/10/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
+<tv date="01/11/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
   <channel id="6003.stations.xmltv.tvmedia.ca">
     <display-name>NY1 New York</display-name>
     <display-name>NY1</display-name>
