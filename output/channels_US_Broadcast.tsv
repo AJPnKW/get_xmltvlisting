@@ -1,0 +1,195 @@
+provider	xmltv_id	channel_number	canonical_name	alt_names	country	region	category	edge_case	exclude	hd_flag	duplicate_flag	network_group	icon_url	url	notes
+US	2172.stations.xmltv.tvmedia.ca		CBS (KCBS) Los Angeles, CA	KCBS-TV|2-1	US	KCBS	Entertainment	False	False	False	False	US Network	http://cdn.tvpassport.com/image/station/76x28/v2/s28711_h15_ab.png		
+US	17242.stations.xmltv.tvmedia.ca		Start TV (KCBS-TV2) Los Angeles, CA	KCBS-TV2|2-2	US	KCBS-TV2	Entertainment	False	False	False	False	US Network	http://cdn.tvpassport.com/image/station/76x28/v2/s109454_h15_ab.png	WWW.CHANNEL2000.COM	
+US	34149.stations.xmltv.tvmedia.ca		DABL (KCBS-TV3) Los Angeles, CA	KCBS-TV3|2-3	US	KCBS-TV3	Entertainment	False	False	False	False	US Network	http://cdn.tvpassport.com/image/station/76x28/v2/s112157_h15_ab.png		
+US	35863.stations.xmltv.tvmedia.ca		FAVE TV (KCBS-TV4) Los Angeles, CA	KCBS-TV4|2-4	US	KCBS-TV4	Entertainment	False	False	False	False	US Network	http://cdn.tvpassport.com/image/station/76x28/v2/s117058_h15_aa.png		
+US	2588.stations.xmltv.tvmedia.ca		NBC (KNBC) Los Angeles, CA	KNBC|4-1	US	KNBC	Entertainment	False	False	False	False	US Network	http://cdn.tvpassport.com/image/station/76x28/v2/s10991_h15_ad.png	www.nbc4.tv	
+US	10920.stations.xmltv.tvmedia.ca		Cozi TV (KNBC2) Los Angeles, CA	KNBC2|4-2	US	KNBC2	Entertainment	False	False	False	False	US Network	http://cdn.tvpassport.com/image/station/76x28/v2/s78851_h15_ab.png	WWW.NBC4LA.COM	
+US	35026.stations.xmltv.tvmedia.ca		LX Network (KNBC-DT3) Los Angeles, CA	KNBC3|4-3	US	KNBC-DT3	Entertainment	False	False	False	False	US Network	http://cdn.tvpassport.com/image/station/76x28/v3/114892-38198.png		
+US	37110.stations.xmltv.tvmedia.ca		Oxygen (KNBC-DT4) Los Angeles, CA	KNBC4|4-4	US	KNBC-DT4	Entertainment	False	False	False	False	US Network	http://cdn.tvpassport.com/image/station/76x28/v2/s21484_h15_ac.png	WWW.OXYGEN.COM	
+US	90.stations.xmltv.tvmedia.ca		KTLA Los Angeles, CA	KTLA|5-1	US		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s53098_h15_ac.png	www.ktla.com	
+US	11204.stations.xmltv.tvmedia.ca		Antenna (KTLA2) Los Angeles, CA	KTLA2|5-2	US	KTLA2	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v3/63335-1EECE.png	WWW.KTLA.COM	
+US	11205.stations.xmltv.tvmedia.ca		GritTV (KTLA3) Los Angeles, CA	KTLA3|5-3	US	KTLA3	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v3/70319-2255E.png	WWW.KTLA.COM	
+US	33679.stations.xmltv.tvmedia.ca		Shop LC (KTLA4) Los Angeles, CA	KTLA4|5-4	US	KTLA4	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s56032_h15_ac.png	WWW.KTLA.COM	
+US	36477.stations.xmltv.tvmedia.ca		Rewind TV US (KTLA5) Los Angeles, CA	KTLA5|5-5	US	KTLA5	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s119814_h15_ab.png	www.ktla.com/	
+US	13348.stations.xmltv.tvmedia.ca		MeTV Plus (KHTV) Los Angeles, CA	KHTV-CD|6-1	US	KHTV	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s119266_h15_aa.png		
+US	13349.stations.xmltv.tvmedia.ca		"KHTV-DT2 ""Mana"" - Los Angeles, CA"	KHTV-CD2|6-2	US		Entertainment	False	False	False	False	Specialty			
+US	13351.stations.xmltv.tvmedia.ca		KHTV-CD3 Los Angeles, CA	KHTV-CD3|6-3	US		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s10270_h15_ad.png		
+US	13350.stations.xmltv.tvmedia.ca		Jewelry TV (KHTV-CD4) Los Angeles, CA	KHTV-CD4|6-4	US	KHTV-CD4	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s16604_h15_ab.png		
+US	18110.stations.xmltv.tvmedia.ca		Al Karma TV (KHTV-CD5) Los Angeles, CA	KHTV-CD5|6-5	US	KHTV-CD5	Entertainment	False	False	False	False	Specialty			
+US	2589.stations.xmltv.tvmedia.ca		ABC (KABC) Los Angeles, CA	KABC-TV|7-1	US	KABC	Entertainment	False	False	False	False	US Network	http://cdn.tvpassport.com/image/station/76x28/v2/s28708_h15_ac.png	WWW.ABC7.COM	
+US	6543.stations.xmltv.tvmedia.ca		Localish (KABC-TV2) HD Los Angeles, CA	KABC-TV2|7-2	US	KABC-TV2	Entertainment	False	False	True	False	US Network	http://cdn.tvpassport.com/image/station/76x28/v2/s70938_h15_ac.png	WWW.ABC7.COM	
+US	9092.stations.xmltv.tvmedia.ca		Charge! (KABC-TV3) Los Angeles, CA	KABC-TV3|7-3	US	KABC-TV3	Entertainment	False	False	False	False	US Network	http://cdn.tvpassport.com/image/station/76x28/v2/s102148_h15_ab.png	WWW.ABC7.COM	
+US	11210.stations.xmltv.tvmedia.ca		Newsmax2 (KFLA) Los Angeles, CA	KFLA-LD|8-1	US	KFLA	News	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s153592_h9_aa.png		
+US	11213.stations.xmltv.tvmedia.ca		OAN (KFLA-LD9) Los Angeles, CA	KFLA-LD9|8-2	US	KFLA-LD9	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s82542_h15_ab.png	www.oneamericanews.com	
+US	36911.stations.xmltv.tvmedia.ca		America's Voice (KFLA-LD2) Los Angeles, CA	KFLA-LD2|8-2	US	KFLA-LD2	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s102475_h6_aa.png	www.kfla.tv	
+US	11215.stations.xmltv.tvmedia.ca		Ace TV (KFLA-LD3) Los Angeles, CA	KFLA-LD3|8-3	US	KFLA-LD3	Entertainment	False	False	False	False	Specialty		www.kfla.tv	
+US	11216.stations.xmltv.tvmedia.ca		Biz-TV (KFLA-LD4) Los Angeles, CA	KFLA-LD4|8-4	US	KFLA-LD4	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s66281_h15_ab.png	www.kfla.tv	
+US	11785.stations.xmltv.tvmedia.ca		Shop LC (KFLA-LD5) Los Angeles, CA	KFLA-LD5|8-5	US	KFLA-LD5	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s56032_h15_ac.png		
+US	16475.stations.xmltv.tvmedia.ca		AWE Plus (KFLA-LD6) Los Angeles, CA	KFLA-LD6|8-6	US	KFLA-LD6	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s141933_h15_aa.png	www.kfla.tv	
+US	36874.stations.xmltv.tvmedia.ca		NewsNet (KFLA-LD7) Los Angeles, CA	KFLA-LD7|8-7	US	KFLA-LD7	News	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s110428_h15_ab.png	www.yournewsnet.com	
+US	36875.stations.xmltv.tvmedia.ca		DIYA TV (KFLA-LD8) Los Angeles, CA	KFLA-LD8|8-8	US	KFLA-LD8	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s86867_h15_aa.png		
+US	1826.stations.xmltv.tvmedia.ca		KCAL Los Angeles	KCAL-TV|9-1	US		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s10362_h9_ab.png		
+US	34480.stations.xmltv.tvmedia.ca		The Nest (KCAL-TV2) Los Angeles, CA	KCAL-TV2|9-2	US	KCAL-TV2	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s147367_h15_aa.png		
+US	34508.stations.xmltv.tvmedia.ca		Circle (KCAL-TV3) Los Angeles, CA	KCAL-TV3|9-3	US	KCAL-TV3	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s97051_h15_ab.png		
+US	35864.stations.xmltv.tvmedia.ca		HSN (KCAL-TV4) Los Angeles, CA	KCAL-TV4|9-4	US	KCAL-TV4	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s10269_h15_ab.png	https://losangeles.cbslocal.com/	
+US	35865.stations.xmltv.tvmedia.ca		QVC (KCAL-TV5) Los Angeles, CA	KCAL-TV5|9-5	US	KCAL-TV5	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s11069_h15_ad.png		
+US	11156.stations.xmltv.tvmedia.ca		US Armenia (KIIO-LD) Los Angeles, CA	KIIO-LD|10-1	US	KIIO-LD	Entertainment	False	False	False	False	Specialty			
+US	11889.stations.xmltv.tvmedia.ca		ARTN (KIIO-LD2) Los Angeles, CA	KIIO-LD2|10-2	US	KIIO-LD2	Entertainment	False	False	False	False	Specialty			
+US	18785.stations.xmltv.tvmedia.ca		amga TV (KIIO-LD6) Los Angeles, CA	KIIO-LD6|10-6	US	KIIO-LD6	Entertainment	False	False	False	False	Specialty			
+US	1949.stations.xmltv.tvmedia.ca		FOX (KTTV) Los Angeles, CA	KTTV|11-1	US	KTTV	Entertainment	False	False	False	False	US Network	http://cdn.tvpassport.com/image/station/76x28/v2/s10212_h15_ab.png	www.myfoxla.com	
+US	38510.stations.xmltv.tvmedia.ca		Fox Weather (KTTV2) Los Angeles, CA	KTTV2|11-2	US	KTTV2	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v3/66342-2064C.png		
+US	31502.stations.xmltv.tvmedia.ca		TBD (KTTV3) Los Angeles, CA	KTTV3|11-3	US	KTTV3	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s102116_h15_ac.png		
+US	34448.stations.xmltv.tvmedia.ca		Catchy Comedy (KTTV4) Los Angeles, CA	KTTV4|11-4	US	KTTV4	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s91415_h15_ab.png		
+US	1811.stations.xmltv.tvmedia.ca		MNT (KCOP) Los Angeles, CA	KCOP-TV|13-1	US	KCOP	Entertainment	False	False	False	False	Specialty		WWW.UPN13.COM	
+US	11269.stations.xmltv.tvmedia.ca		Buzzr TV (KCOP-TV2) Los Angeles, CA	KCOP-TV2|13-2	US	KCOP-TV2	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s93430_h15_ab.png	WWW.UPN13.COM	
+US	11234.stations.xmltv.tvmedia.ca		Movies! (KCOP-TV3) Los Angeles, CA	KCOP-TV3|13-3	US	KCOP-TV3	Movies	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s81275_h15_ab.png	WWW.UPN13.COM	
+US	16479.stations.xmltv.tvmedia.ca		H&I (KCOP-TV4) Los Angeles, CA	KCOP-TV4|13-4	US	KCOP-TV4	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s90401_h15_ad.png	WWW.UPN13.COM	
+US	2606.stations.xmltv.tvmedia.ca		ShopHQ (KSCI) Los Angeles, CA	KSCI|18-1	US	KSCI	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s56032_h15_ac.png	www.kscitv.com	
+US	11168.stations.xmltv.tvmedia.ca		SBS (KSCI-DT2) Long Beach, CA	KSCI2|18-2	CA	KSCI-DT2	Entertainment	False	False	False	False	Specialty			
+US	11164.stations.xmltv.tvmedia.ca		MBC-D (KSCI-DT3)	KSCI3|18-3	CA	KSCI-DT3	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s70622_h15_aa.png	www.kscitv.com	
+US	11163.stations.xmltv.tvmedia.ca		CGN (KSCI-DT4) Los Angeles, CA	KSCI4|18-4	US	KSCI-DT4	Entertainment	False	False	False	False	Specialty			
+US	10352.stations.xmltv.tvmedia.ca		US Armenia (KSCI-DT5) Los Angeles	KSCI5|18-5	US	KSCI-DT5	Entertainment	False	False	False	False	Specialty		www.kscitv.com	
+US	10349.stations.xmltv.tvmedia.ca		ARTN (KSCI7) Los Angeles, CA	KSCI7|18-7	US	KSCI7	Entertainment	False	False	False	False	Specialty		www.kscitv.com	
+US	11167.stations.xmltv.tvmedia.ca		LA 18.8 (KSCI-DT8)	KSCI8|18-8	CA	KSCI-DT8	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s14948_h15_ae.png	www.vvtv.com	
+US	11166.stations.xmltv.tvmedia.ca		South Korean (KSCI-DT9)	KSCI9|18-9	CA	KSCI-DT9	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s67676_h15_aa.png		
+US	11169.stations.xmltv.tvmedia.ca		SonLife Network (KNLA) Los Angeles, CA	KNLA-CD|20-1	US	KNLA	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s67676_h15_aa.png		
+US	11181.stations.xmltv.tvmedia.ca		CEN (KNLA-CD2) Los Angeles, CA	KNLA-CD2|20-2	US	KNLA-CD2	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s183094_h9_aa.png		
+US	11183.stations.xmltv.tvmedia.ca		DIYA TV (KNLA-CD3) Los Angeles, CA	KNLA-CD3|20-3	US	KNLA-CD3	Entertainment	False	False	False	False	Specialty			
+US	18590.stations.xmltv.tvmedia.ca		US Armenia (KNLA-DT5) Los Angeles, CA	KNLA-CD5|20-5	US	KNLA-DT5	Entertainment	False	False	False	False	Specialty			
+US	18591.stations.xmltv.tvmedia.ca		LA 18.8 (KNLA-DT6) Los Angeles, CA	KNLA-CD6|20-6	US	KNLA-DT6	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s56032_h15_ac.png		
+US	10693.stations.xmltv.tvmedia.ca		Canal 22 (KWHY-TV) Los Angeles, CA	KWHY-TV|22-1	US	KWHY-TV	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s10820_h15_ac.png		
+US	11173.stations.xmltv.tvmedia.ca		Heartland (KWHY-TV2) Los Angeles, CA	KWHY-TV2|22-2	US	KWHY-TV2	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s33652_h15_aa.png		
+US	18325.stations.xmltv.tvmedia.ca		KWHY-DT3 Los Angeles, CA	KWHY-TV3|22-3	US		Entertainment	False	False	False	False	Specialty		WWW.KWHY.COM	
+US	18326.stations.xmltv.tvmedia.ca		KWHY-TV4 Los Angeles, CA	KWHY-TV4|22-4	US		Entertainment	False	False	False	False	Specialty		WWW.KWHY.COM	
+US	16487.stations.xmltv.tvmedia.ca		Majestadtv (KWHY-DT5) Los Angeles, CA	KWHY-TV5|22-5	US	KWHY-DT5	Entertainment	False	False	False	False	Specialty		WWW.KWHY.COM	
+US	18327.stations.xmltv.tvmedia.ca		KWHY-TV6 Los Angeles, CA	KWHY-TV6|22-6	US		Entertainment	False	False	False	False	Specialty			
+US	16488.stations.xmltv.tvmedia.ca		KWHY-TV7 Los Angeles, CA	KWHY-TV7|22-7	US		Entertainment	False	False	False	False	Specialty			
+US	2610.stations.xmltv.tvmedia.ca		PBS (KVCR) San Bernardino, CA	KVCR-DT|24-1	CA	KVCR	Entertainment	True	False	False	False	PBS	http://cdn.tvpassport.com/image/station/76x28/v2/s32356_h15_ac.png	www.kvcr.org/	
+US	11220.stations.xmltv.tvmedia.ca		FNX (KVCR-DT2) San Bernardino, CA	KVCR-DT2|24-2	CA	KVCR-DT2	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s82462_h9_aa.png	www.kvcr.org/	
+US	11222.stations.xmltv.tvmedia.ca		Empire PBS (KVCR-DT3) San Bernardino, CA	KVCR-DT3|24-3	CA	KVCR-DT3	Entertainment	True	False	False	False	PBS		www.kvcr.org/	
+US	11224.stations.xmltv.tvmedia.ca		Create (KVCR-DT4) San Bernardino, CA	KVCR-DT4|24-4	CA	KVCR-DT4	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s48990_h15_aa.png	www.kvcr.org/	
+US	11184.stations.xmltv.tvmedia.ca		HSN (KNET) Los Angeles, CA	KNET-CD|25-1	US	KNET	Entertainment	False	False	False	False	Specialty			
+US	18601.stations.xmltv.tvmedia.ca		"KNET-CD2 ""CitiCable3"" Los Angeles, CA"	KNET-CD2|25-2	US		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s175506_h15_aa.png	WWW.WORLDTELEVISION.COM	
+US	11226.stations.xmltv.tvmedia.ca		DIYA TV (KNET-CD11) Los Angeles, CA	KNET-CD11|25-11	US	KNET-CD11	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s86867_h15_aa.png		
+US	18599.stations.xmltv.tvmedia.ca		US Armenia (KNET-DT12) Los Angles, CA	KNET-CD12|25-12	CA	KNET-DT12	Entertainment	False	False	False	False	Specialty			
+US	18459.stations.xmltv.tvmedia.ca		Jewelry TV (KSFV) Los Angeles, CA	KSFV-CD|27-1	US	KSFV	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s159817_h15_aa.png		
+US	18460.stations.xmltv.tvmedia.ca		Corner Store (KSFV-CD3) Los Angeles, CA	KSFV-CD3|27-3	US	KSFV-CD3	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s16604_h15_ab.png		
+US	16473.stations.xmltv.tvmedia.ca		H&I (KSFV-CD2) Los Angeles, CA	KSFV-CD2|27-4	US	KSFV-CD2	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v3/87005-2A7BA.png		
+US	18461.stations.xmltv.tvmedia.ca		Al Karma TV (KSFV-CD5) Los Angeles, CA	KSFV-CD5|27-5	US	KSFV-CD5	Entertainment	False	False	False	False	Specialty			
+US	18460.stations.xmltv.tvmedia.ca		Corner Store (KSFV-CD3) Los Angeles, CA	KSFV-CD3|27-6	US	KSFV-CD3	Entertainment	False	False	False	True	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s16604_h15_ab.png		Duplicate channel ID
+US	2310.stations.xmltv.tvmedia.ca		KCET Los Angeles, CA	KCET|28-1	US		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s10373_h15_aa.png		
+US	11266.stations.xmltv.tvmedia.ca		Create (KCET2) Los Angeles, CA	KCET2|28-2	US	KCET2	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s48990_h15_aa.png		
+US	11202.stations.xmltv.tvmedia.ca		NHK World (KCET-DT3) Los Angeles, CA	KCET3|28-3	US	KCET-DT3	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s59155_h15_aa.png		
+US	11276.stations.xmltv.tvmedia.ca		NHK World (KCET-DT4) Los Angeles, CA	KCET4|28-4	US	KCET-DT4	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s59155_h15_aa.png	www.nhk.jn.co.jp	
+US	2587.stations.xmltv.tvmedia.ca		ION (KPXN) Los Angeles, CA	KPXN-TV|30-1	US	KPXN	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s18633_h15_ad.png	www.iontelevision.com	
+US	11175.stations.xmltv.tvmedia.ca		Court TV (KPXN-TV2) Los Angeles, CA	KPXN-TV2|30-2	US	KPXN-TV2	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s111043_h15_aa.png	https://iontelevision.com/	
+US	11177.stations.xmltv.tvmedia.ca		ION Plus (KPXN-TV3) Los Angeles, CA	KPXN-TV3|30-3	US	KPXN-TV3	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s55241_h15_ad.png	https://iontelevision.com/	
+US	11180.stations.xmltv.tvmedia.ca		Laff (KPXN-TV4) Los Angeles, CA	KPXN-TV4|30-4	US	KPXN-TV4	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v3/49819-18536.png	https://iontelevision.com/	
+US	12267.stations.xmltv.tvmedia.ca		Game Show Central (KPXN-TV5) Los Angeles, CA	KPXN-TV5|30-5	US	KPXN-TV5	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s116474_h15_aa.png		
+US	11666.stations.xmltv.tvmedia.ca		Busted (KPXN-TV6) Los Angeles, CA	KPXN-TV6|30-6	US	KPXN-TV6	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s175331_h15_aa.png	https://www.tvbusted.com/	
+US	19470.stations.xmltv.tvmedia.ca		KSMV - Los Angeles, CA	KSMV-LD|31-1	US		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s155158_h15_ac.png		
+US	13354.stations.xmltv.tvmedia.ca		KSMV-LD2 Los Angeles, CA	KSMV-LD2|31-2	US		Entertainment	False	False	False	False	Specialty			
+US	16510.stations.xmltv.tvmedia.ca		Fil Am TV (KSMV-LD3) Los Angeles, CA	KSMV-LD3|31-3	US	KSMV-LD3	Entertainment	False	False	False	False	Specialty			
+US	19468.stations.xmltv.tvmedia.ca		GDTV (KSMV-LD4) Los Angeles, CA	KSMV-LD4|31-4	US	KSMV-LD4	Entertainment	False	False	False	False	Specialty			
+US	16519.stations.xmltv.tvmedia.ca		Creation TV (KSMV-LD5) Los Angeles, CA	KSMV-LD5|31-5	US	KSMV-LD5	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s150078_h15_aa.png		
+US	16520.stations.xmltv.tvmedia.ca		Hope Channel (KSMV-LD6) Los Angeles, CA	KSMV-LD6|31-6	US	KSMV-LD6	Entertainment	False	False	False	False	Specialty			
+US	19471.stations.xmltv.tvmedia.ca		TBWTV (KSMV-LD7) Los Angeles, CA	KSMV-LD7|31-7	US	KSMV-LD7	Entertainment	False	False	False	False	Specialty			
+US	19472.stations.xmltv.tvmedia.ca		WCETV (KSMV-LD8) Los Angeles, CA	KSMV-LD8|31-8	US	KSMV-LD8	Entertainment	False	False	False	False	Specialty			
+US	16524.stations.xmltv.tvmedia.ca		CGTN (KSMV-LD9) Los Angeles, CA	KSMV-LD9|31-9	US	KSMV-LD9	Entertainment	False	False	False	False	Specialty			
+US	16505.stations.xmltv.tvmedia.ca		Tai Shan TV (KSMV-LD10) Los Angeles, CA	KSMV-LD10|31-10	US	KSMV-LD10	Entertainment	False	False	False	False	Specialty			
+US	2602.stations.xmltv.tvmedia.ca		UNI (KMEX) Los Angeles, CA	KMEX-DT|34-1	US	KMEX	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s11118_h15_ab.png		
+US	16527.stations.xmltv.tvmedia.ca		UniMás (KMEX-DT2) Los Angeles, CA	KMEX-DT2|34-2	US	KMEX-DT2	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s29058_h15_ab.png	www.kmex.com/	
+US	16529.stations.xmltv.tvmedia.ca		Bounce (KMEX-DT3) Los Angeles, CA	KMEX-DT3|34-3	US	KMEX-DT3	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v3/92056-2CF30.png	www.kmex.com/	
+US	30977.stations.xmltv.tvmedia.ca		True Crime Network (KMEX-DT4) Los Angeles, CA	KMEX-DT4|34-4	US	KMEX-DT4	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s91496_h15_ab.png		
+US	11200.stations.xmltv.tvmedia.ca		Almavision (KTAV-LD) Los Angeles, CA	KTAV-LD|35-1	US	KTAV-LD	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s45813_h9_aa.png		
+US	11201.stations.xmltv.tvmedia.ca		CBN News Channel (KTAV-LD2) Los Angeles, CA	KTAV-LD2|35-2	US	KTAV-LD2	News	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s109977_h15_aa.png		
+US	16530.stations.xmltv.tvmedia.ca		The Way TV (KTAV-LD3) Altadena, CA	KTAV-LD3|35-3	CA	KTAV-LD3	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s67676_h15_aa.png		
+US	13370.stations.xmltv.tvmedia.ca		SonLife Network (KTAV-LD4) Altadena, CA	KTAV-LD4|35-4	CA	KTAV-LD4	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s16604_h15_ab.png		
+US	13371.stations.xmltv.tvmedia.ca		Almavision (KTAV-LD5) Altadena, CA	KTAV-LD5|35-5	CA	KTAV-LD5	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s56032_h15_ac.png		
+US	13372.stations.xmltv.tvmedia.ca		Peace TV (KTAV-LD6) Altadena, CA	KTAV-LD6|35-6	CA	KTAV-LD6	Entertainment	False	False	False	False	Specialty		www.almavision.com	
+US	16531.stations.xmltv.tvmedia.ca		KTAV-LD7 Altadena, CA	KTAV-LD7|35-7	CA		Entertainment	False	False	False	False	Specialty			
+US	13458.stations.xmltv.tvmedia.ca		Court TV (KHIZ) Victorville, CA	KHIZ-LD|39-1	CA	KHIZ	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s159206_h15_aa.png		
+US	16532.stations.xmltv.tvmedia.ca		Laff (KHIZ-LD2) Los Angeles, CA	KHIZ-LD2|39-2	US	KHIZ-LD2	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s150571_h15_ab.png		
+US	31765.stations.xmltv.tvmedia.ca		Grit TV (KHIZ-LD3) Los Angeles, CA	KHIZ-LD3|39-3	US	KHIZ-LD3	Entertainment	False	False	False	False	Specialty			
+US	18604.stations.xmltv.tvmedia.ca		Infomercials (KHIZ-LD4) Los Angeles, CA	KHIZ-LD4|39-4	US	KHIZ-LD4	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s109977_h15_aa.png		
+US	31767.stations.xmltv.tvmedia.ca		Shop LC (KHIZ-LD5) Los Angeles, CA	KHIZ-LD5|39-5	US	KHIZ-LD5	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s56032_h15_ac.png		
+US	31768.stations.xmltv.tvmedia.ca		SSTN (KHIZ-LD6) Los Angeles, CA	KHIZ-LD6|39-6	US	KHIZ-LD6	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s82219_h9_aa.png		
+US	31769.stations.xmltv.tvmedia.ca		CBN News (KHIZ-LD7) Los Angeles, CA	KHIZ-LD7|39-7	US	KHIZ-LD7	News	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s150537_h15_aa.png		
+US	2633.stations.xmltv.tvmedia.ca		TBN (KTBN) Los Angeles, CA	KTBN-TV|40-1	US	KTBN	Entertainment	False	False	False	False	Specialty		www.tbn.org	
+US	11237.stations.xmltv.tvmedia.ca		Merit Street (KTBN-TV2) Santa Ana, CA	KTBN-TV2|40-2	CA	KTBN-TV2	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s155158_h15_ac.png	www.tbn.org	
+US	11239.stations.xmltv.tvmedia.ca		TBN Inspire (KTBN-TV3) Santa Ana, CA	KTBN-TV3|40-3	CA	KTBN-TV3	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s122276_h15_aa.png	www.tbn.org	
+US	11241.stations.xmltv.tvmedia.ca		ONTV4U (KTBN-TV4) Los Angeles, CA	KTBN-TV4|40-4	US	KTBN-TV4	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s49208_h15_ac.png	www.tbn.org	
+US	11243.stations.xmltv.tvmedia.ca		PosiTiV (KTBN-TV5) Los Angeles, CA	KTBN-TV5|40-5	US	KTBN-TV5	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s34169_h15_ad.png	www.tbn.org	
+US	2603.stations.xmltv.tvmedia.ca		Ethnic (KXLA) Los Angeles, CA	KXLA|44-1	US	KXLA	Entertainment	False	False	False	False	Specialty			
+US	11244.stations.xmltv.tvmedia.ca		KXLA-DT2, Los Angeles, CA	KXLA2|44-2	US		Entertainment	False	False	False	False	Specialty			
+US	11246.stations.xmltv.tvmedia.ca		Sky Link TV (KXLA-DT3) Los Angeles, CA	KXLA3|44-3	US	KXLA-DT3	Entertainment	False	False	False	False	Specialty			
+US	11248.stations.xmltv.tvmedia.ca		SKY-CAN (KXLA-DT4) Los Angeles, CA	KXLA4|44-4	US	KXLA-DT4	Entertainment	False	False	False	False	Specialty			
+US	11250.stations.xmltv.tvmedia.ca		ShopHQ (KXLA5) Los Angeles, CA	KXLA5|44-5	US	KXLA5	Entertainment	False	False	False	False	Specialty			
+US	11252.stations.xmltv.tvmedia.ca		SonLife Network (KXLA6) Los Angeles, CA	KXLA6|44-6	US	KXLA6	Entertainment	False	False	False	False	Specialty			
+US	11254.stations.xmltv.tvmedia.ca		New Tang Dynasty TV (KXLA-DT7) Los Angeles, CA	KXLA7|44-7	US	KXLA-DT7	Entertainment	False	False	False	False	Specialty			
+US	11257.stations.xmltv.tvmedia.ca		ICN TV (KXLA-DT8) Los Angeles, CA	KXLA8|44-8	US	KXLA-DT8	Entertainment	False	False	False	False	Specialty			
+US	11259.stations.xmltv.tvmedia.ca		Jewelry TV (KXLA10) Los Angeles, CA	KXLA10|44-9	US	KXLA10	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s82682_h15_ad.png		
+US	13329.stations.xmltv.tvmedia.ca		amga TV (KXLA10) Los Angeles, CA	KXLA10|44-10	US	KXLA10	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s82682_h15_ad.png		
+US	18318.stations.xmltv.tvmedia.ca		Infomercials (KXLA12) Los Angeles, CA	KXLA12|44-12	US	KXLA12	Entertainment	False	False	False	False	Specialty			
+US	34595.stations.xmltv.tvmedia.ca		beIN Sports Xtra (KSKJ-CD) Los Angeles, CA	KSKJ-CD|45-1	US	KSKJ-CD	Sports	False	False	False	False	Specialty		WWW.CAPITALBC.COM	
+US	18450.stations.xmltv.tvmedia.ca		SSTN (KSKJ-DT2) Los Angeles, CA	KSKJ-CD2|45-2	US	KSKJ-DT2	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s16604_h15_ab.png	WWW.CAPITALBC.COM	
+US	18451.stations.xmltv.tvmedia.ca		Infomercials (KSKJ-CD3) Los Angeles, CA	KSKJ-CD3|45-3	US	KSKJ-CD3	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s109977_h15_aa.png	WWW.CAPITALBC.COM	
+US	18452.stations.xmltv.tvmedia.ca		Infomercials (KSKJ-CD4) Los Angeles, CA	KSKJ-CD4|45-4	US	KSKJ-CD4	Entertainment	False	False	False	False	Specialty		WWW.CAPITALBC.COM	
+US	18449.stations.xmltv.tvmedia.ca		Defy (KSKJ-DT5) Los Angeles, CA	KSKJ-CD5|45-5	US	KSKJ-DT5	Entertainment	False	False	False	False	Specialty		WWW.CAPITALBC.COM	
+US	37719.stations.xmltv.tvmedia.ca		365BLK (KSKJ-CD6) Los Angeles, CA	KSKJ-CD6|45-6	US	KSKJ-CD6	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s150571_h15_ab.png	WWW.CAPITALBC.COM	
+US	37720.stations.xmltv.tvmedia.ca		Outlaw (KSKJ-CD7) Los Angeles, CA	KSKJ-CD7|45-7	US	KSKJ-CD7	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s150537_h15_aa.png		
+US	11261.stations.xmltv.tvmedia.ca		UniMás (KFTR) Ontario, CA	KFTR-DT|46-1	CA	KFTR	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s29058_h15_ab.png		
+US	11416.stations.xmltv.tvmedia.ca		GetTV (KFTR-DT2) Ontario, CA	KFTR-DT2|46-2	CA	KFTR-DT2	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s82563_h15_ab.png		
+US	16533.stations.xmltv.tvmedia.ca		ION Mystery (KFTR-DT3) Ontario, CA	KFTR-DT3|46-3	CA	KFTR-DT3	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s89923_h15_ad.png		
+US	16534.stations.xmltv.tvmedia.ca		Grit TV (KFTR-DT4) Ontario, CA	KFTR-DT4|46-4	CA	KFTR-DT4	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v3/90182-2C08C.png		
+US	33529.stations.xmltv.tvmedia.ca		Quest (KFTR-DT5) Ontario, CA	KFTR-DT5|46-5	CA	KFTR-DT5	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s106838_h9_ad.png		
+US	36542.stations.xmltv.tvmedia.ca		Digi TV (KFTR-DT6) Ontario, CA	KFTR-DT6|46-6	CA	KFTR-DT6	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s121327_h15_aa.png		
+US	2632.stations.xmltv.tvmedia.ca		PBS SoCal1 (KOCE) Huntington Beach, CA	KOCE-TV|50-1	CA	KOCE	Entertainment	True	False	False	False	PBS	http://cdn.tvpassport.com/image/station/76x28/v2/s32356_h15_ac.png		
+US	8844.stations.xmltv.tvmedia.ca		PBS SoCal2 (KOCE-TV2) Huntington Beach, CA	KOCE-TV2|50-2	CA	KOCE-TV2	Entertainment	True	False	False	False	PBS	http://cdn.tvpassport.com/image/station/76x28/v2/s11039_h15_ab.png		
+US	6522.stations.xmltv.tvmedia.ca		Daystar (KOCE-TV3) Los Angeles, CA	KOCE-TV3|50-3	US	KOCE-TV3	Entertainment	False	False	False	False	Specialty			
+US	13281.stations.xmltv.tvmedia.ca		PBS World (KOCE-TV4) Huntington Beach, CA	KOCE-TV4|50-4	CA	KOCE-TV4	Entertainment	True	False	False	False	PBS	http://cdn.tvpassport.com/image/station/76x28/v2/s56725_h15_ab.png		
+US	2611.stations.xmltv.tvmedia.ca		Telemundo (KVEA) Los Angeles, CA	KVEA|52-1	US	KVEA	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s10239_h15_ab.png	www.kvea.com	
+US	11218.stations.xmltv.tvmedia.ca		TeleXitos (KVEA2) Los Angeles, CA	KVEA2|52-2	US	KVEA2	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s74299_h15_ab.png	www.kvea.com	
+US	11219.stations.xmltv.tvmedia.ca		Canal SOI (KVEA-DT3) Los Angeles, CA	KVEA3|52-3	US	KVEA-DT3	Entertainment	False	False	False	False	Specialty		www.kvea.com	
+US	3247.stations.xmltv.tvmedia.ca		MeTV (KAZA) Los Angeles, CA	KAZA-TV|54-1	US	KAZA	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s70436_h15_ac.png		
+US	11232.stations.xmltv.tvmedia.ca		Story (KAZA2) Avalon, CA	KAZA2|54-2	CA	KAZA2	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s122968_h15_ac.png		
+US	11192.stations.xmltv.tvmedia.ca		MeTV Plus (KAZA-TV3) Avalon, CA	KAZA3|54-3	CA	KAZA-TV3	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s159817_h15_aa.png		
+US	17404.stations.xmltv.tvmedia.ca		Biz-TV (KAZA4) Avalon, CA	KAZA4|54-4	CA	KAZA4	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v3/72303-234DE.png		
+US	2631.stations.xmltv.tvmedia.ca		KDOC - Los Angeles, CA	KDOC-TV|56-1	US		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s62881_h15_aa.png		
+US	13325.stations.xmltv.tvmedia.ca		ESNE (KDOC-TV2) Los Angeles, CA	KDOC-TV2|56-2	US	KDOC-TV2	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s46421_h9_aa.png	WWW.KDOCTV.NET	
+US	11206.stations.xmltv.tvmedia.ca		MeTV (KDOC-TV3) Los Angeles, CA	KDOC-TV3|56-3	US	KDOC-TV3	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s70436_h15_ac.png		
+US	18013.stations.xmltv.tvmedia.ca		Comet TV (KDOC-TV4) Los Angeles, CA	KDOC-TV4|56-4	US	KDOC-TV4	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s97051_h15_ab.png	WWW.KDOC.NET	
+US	13327.stations.xmltv.tvmedia.ca		Majestadtv (KDOC-DT5) Los Angeles, CA	KDOC-TV5|56-5	US	KDOC-DT5	Entertainment	False	False	False	False	Specialty		WWW.KDOC.NET	
+US	18014.stations.xmltv.tvmedia.ca		CHARGE! (KDOC-DT6) Los Angeles, CA	KDOC-TV6|56-6	US	KDOC-DT6	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s102148_h15_ab.png		
+US	18016.stations.xmltv.tvmedia.ca		KDOC-DT7 Los Angeles, CA	KDOC-TV7|56-7	US		Entertainment	False	False	False	False	Specialty		WWW.KDOC.NET	
+US	16535.stations.xmltv.tvmedia.ca		Tele Vida Abundante (KDOC-TV8) Anaheim, CA	KDOC-TV8|56-8	CA	KDOC-TV8	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s102148_h15_ab.png	WWW.KDOCTV.NET	
+US	36895.stations.xmltv.tvmedia.ca		KDOC-DT9 Los Angeles, CA	KDOC-TV9|56-9	US		Entertainment	False	False	False	False	Specialty		WWW.KDOC.NET	
+US	36889.stations.xmltv.tvmedia.ca		KDOC-D10 Los Angeles, CA	KDOC-TV10|56-10	US		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s115253_h15_aa.png		
+US	39161.stations.xmltv.tvmedia.ca		JTV Espanol (KDOC-D11) Los Angeles, CA	KDOC-TV11|56-11	US	KDOC-D11	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s163702_h15_ab.png		
+US	2591.stations.xmltv.tvmedia.ca		Azteca (KJLA) Los Angeles, CA	KJLA|57-1	US	KJLA	Entertainment	False	False	False	False	Specialty			
+US	13308.stations.xmltv.tvmedia.ca		VietFace TV (KJLA-DT2) Los Angeles, CA	KJLA2|57-2	US	KJLA-DT2	Entertainment	False	False	False	False	Specialty		www.latv.com/	
+US	13310.stations.xmltv.tvmedia.ca		VNA TV (KJLA-DT3) Los Angeles, CA	KJLA3|57-3	US	KJLA-DT3	Entertainment	False	False	False	False	Specialty		www.latv.com/	
+US	13313.stations.xmltv.tvmedia.ca		SET (KJLA4) Los Angeles, CA	KJLA4|57-4	US	KJLA4	Entertainment	False	False	False	False	Specialty		www.latv.com/	
+US	13311.stations.xmltv.tvmedia.ca		SaigonTV (KJLA-DT5) Los Angeles, CA	KJLA5|57-5	US	KJLA-DT5	Entertainment	False	False	False	False	Specialty		www.latv.com/	
+US	13315.stations.xmltv.tvmedia.ca		VBS (KJLA-DT6) Los Angeles, CA	KJLA6|57-6	US	KJLA-DT6	Entertainment	False	False	False	False	Specialty		www.latv.com/	
+US	13317.stations.xmltv.tvmedia.ca		Little Saigon TV (KJLA-DT7) Los Angeles, CA	KJLA7|57-7	US	KJLA-DT7	Entertainment	False	False	False	False	Specialty		www.latv.com/	
+US	13319.stations.xmltv.tvmedia.ca		IBC-TV (KJLA-DT8) Los Angeles, CA	KJLA8|57-8	US	KJLA-DT8	Entertainment	False	False	False	False	Specialty		www.latv.com/	
+US	13321.stations.xmltv.tvmedia.ca		ZWTV (KJLA-DT9) Los Angeles, CA	KJLA9|57-9	US	KJLA-DT9	Entertainment	False	False	False	False	Specialty		www.latv.com/	
+US	2630.stations.xmltv.tvmedia.ca		PBS (KLCS) Los Angeles, CA	KLCS|58-1	US	KLCS	Entertainment	True	False	False	False	PBS	http://cdn.tvpassport.com/image/station/76x28/v2/s11039_h15_ab.png	www.lausd.k12.ca.us/lausd/offices/klcs/	
+US	5839.stations.xmltv.tvmedia.ca		PBS Kids (KLCS2) Los Angeles, CA	KLCS2|58-2	US	KLCS2	Kids	True	False	False	False	PBS		www.lausd.k12.ca.us/lausd/offices/klcs/	
+US	11230.stations.xmltv.tvmedia.ca		Create (KLCS3) Los Angeles CA	KLCS3|58-3	US	KLCS3	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s48990_h15_aa.png	www.lausd.k12.ca.us/lausd/offices/klcs/	
+US	11193.stations.xmltv.tvmedia.ca		FNX (KLCS4) Los Angeles, CA	KLCS4|58-4	US	KLCS4	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s82462_h9_aa.png	www.lausd.k12.ca.us/lausd/offices/klcs/	
+US	11195.stations.xmltv.tvmedia.ca		Estrella (KRCA) Los Angeles, CA	KRCA|62-1	US	KRCA	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s65064_h15_af.png	www.krca62.tv/	
+US	13294.stations.xmltv.tvmedia.ca		Estrella Games (KRCA 62.3) Los Angeles, CA	KRCA3|62-2	US	KRCA 62.3	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s65064_h15_af.png		
+US	35456.stations.xmltv.tvmedia.ca		Estrella TV News (KRCA2) Los Angeles, CA	KRCA2|62-3	US	KRCA2	News	False	False	False	False	Specialty			
+US	13297.stations.xmltv.tvmedia.ca		KRCA-DT4 Los Angeles, CA	KRCA4|62-4	US		Entertainment	False	False	False	False	Specialty			
+US	13306.stations.xmltv.tvmedia.ca		KRCA-DT6 Los Angeles, CA	KRCA6|62-6	US		Entertainment	False	False	False	False	Specialty			
+US	3246.stations.xmltv.tvmedia.ca		Canal de La Fe (KBEH) Los Angeles, CA	KBEH|63-1	US	KBEH	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s44019_h15_aa.png		
+US	37575.stations.xmltv.tvmedia.ca		Heartland (KBEH2) Los Angeles, CA	KBEH2|63-2	US	KBEH2	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s78584_h15_ab.png	watchtnn.com	
+US	11290.stations.xmltv.tvmedia.ca		Retro TV (KBEH3) Los Angeles, CA	KBEH3|63-3	US	KBEH3	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v3/67104-20C40.png		
+US	13285.stations.xmltv.tvmedia.ca		Tele Vida Abundante (KBEH-DT4) Oxnard, CA	KBEH4|63-4	CA	KBEH-DT4	Entertainment	False	False	False	False	Specialty			
+US	17414.stations.xmltv.tvmedia.ca		Latin TV (KBEH-DT5) Oxnard, CA	KBEH5|63-5	CA	KBEH-DT5	Entertainment	False	False	False	False	Specialty			
+US	17415.stations.xmltv.tvmedia.ca		Rede iTV (KBEH-DT6) Oxnard, CA	KBEH6|63-6	CA	KBEH-DT6	Entertainment	False	False	False	False	Specialty			
+US	2590.stations.xmltv.tvmedia.ca		Bounce (KILM) Los Angeles, CA	KILM|64-1	US	KILM	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s73067_h15_ab.png		
+US	18699.stations.xmltv.tvmedia.ca		Sino TV (KILM-DT2) Los Angeles, CA	KILM2|64-2	US	KILM-DT2	Entertainment	False	False	False	False	Specialty		www.khiztv.com	

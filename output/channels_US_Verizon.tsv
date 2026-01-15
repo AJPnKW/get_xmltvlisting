@@ -1,0 +1,745 @@
+provider	xmltv_id	channel_number	canonical_name	alt_names	country	region	category	edge_case	exclude	hd_flag	duplicate_flag	network_group	icon_url	url	notes
+US	1766.stations.xmltv.tvmedia.ca	2	CBS (WCBS) New York, NY	WCBS-TV|2	US	WCBS	Entertainment	False	False	False	False	US Network	http://cdn.tvpassport.com/image/station/76x28/v2/s10098_h15_ac.png	https://www.cbsnews.com/newyork/	
+US	5138.stations.xmltv.tvmedia.ca	3	MeTV (WJLP) New Jersey/New York	WJLP|3	US	WJLP	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s96311_h15_aa.png	www.njnn.tv	
+US	1767.stations.xmltv.tvmedia.ca	4	NBC (WNBC) New York, NY	WNBC|4	US	WNBC	Entertainment	False	False	False	False	US Network	http://cdn.tvpassport.com/image/station/76x28/v2/s10991_h15_ad.png		
+US	1638.stations.xmltv.tvmedia.ca	5	FOX (WNYW) New York, NY	WNYW|5	US	WNYW	Entertainment	False	False	False	False	US Network	http://cdn.tvpassport.com/image/station/76x28/v2/s10212_h15_ab.png	www.fox5ny.com/	
+US	4689.stations.xmltv.tvmedia.ca	6	Shop LC (WRNN) Kingston, NY	WRNN-TV|6	CA	WRNN	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s56032_h15_ac.png	www.rnntv.com/	
+US	1769.stations.xmltv.tvmedia.ca	7	ABC (WABC) New York, NY	WABC-TV|7	US	WABC	Entertainment	False	False	False	False	US Network	http://cdn.tvpassport.com/image/station/76x28/v2/s10003_h15_ac.png	www.abc7ny.com	
+US	65.stations.xmltv.tvmedia.ca	8	NewsNation - Eastern Feed	NEWSN-E|8	CA		News	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s91097_h15_af.png	www.wgntv.com/	
+US	1612.stations.xmltv.tvmedia.ca	9	MNT (WWOR) New York, NY	WWOR-TV|9	US	WWOR	Entertainment	False	False	False	False	Specialty		www.upn9.com	
+US	9574.stations.xmltv.tvmedia.ca	10	WLNY TV10/55, Riverhead, NY	WLNY-TV|10	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s31225_h9_aa.png		
+US	63.stations.xmltv.tvmedia.ca	11	WPIX New York (SUPERSTATION)	WPIX|11	US	SUPERSTATION	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s53098_h15_ac.png		
+US	1772.stations.xmltv.tvmedia.ca	12	Telemundo (WNJU) Teterboro, NJ	WNJU|12	CA	WNJU	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s10239_h15_ab.png	WWW.NOTICIERO47.NET	
+US	1774.stations.xmltv.tvmedia.ca	13	PBS (WNET) New York, NY	WNET|13	US	WNET	Entertainment	True	False	False	False	PBS	http://cdn.tvpassport.com/image/station/76x28/v2/s11039_h15_ab.png	www.wnet.org/	
+US	6239.stations.xmltv.tvmedia.ca	14	YouToo America (WVVH-CD) Wainscott, NY	WVVH-CD|14	CA	WVVH-CD	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s109820_h15_aa.png	www.wvvh.com	
+US	1962.stations.xmltv.tvmedia.ca	17	UNI (WFTY-DT2) New York, NY	WFTY-DT2|17	US	WFTY-DT2	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s29058_h15_ab.png	www.univision.com/content/channel.jhtml?chid=6&schid=1611	
+US	2561.stations.xmltv.tvmedia.ca	18	WMBC-Newton, NJ	WMBC-TV|18	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s65064_h15_af.png	www.wmbctv.com/	
+US	11337.stations.xmltv.tvmedia.ca	19	Story (WZME) Bridgeport, CT	WZME|19	CA	WZME	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s122968_h15_ac.png		
+US	11080.stations.xmltv.tvmedia.ca	20	América TeVé (WPXO-LD) East Orange, NJ	WPXO-LD|20	CA	WPXO-LD	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s93459_h9_aa.png		
+US	1775.stations.xmltv.tvmedia.ca	21	PBS (WLIW) Long Island, NY	WLIW|21	CA	WLIW	Entertainment	True	False	False	False	PBS	http://cdn.tvpassport.com/image/station/76x28/v2/s11039_h15_ab.png	www.wliw.org	
+US	7292.stations.xmltv.tvmedia.ca	23	NJ PBS (NJTV)	PBS|23	CA	NJTV	Entertainment	True	False	False	False	PBS	http://cdn.tvpassport.com/image/station/76x28/v2/s11723_h15_ab.png	www.njn.net/	
+US	10780.stations.xmltv.tvmedia.ca	24	P.E.G. Access	P.E.G.|24	CA		Entertainment	False	False	False	False	Specialty			
+US	10780.stations.xmltv.tvmedia.ca	26	P.E.G. Access	P.E.G.|26	CA		Entertainment	False	False	False	True	Specialty			Duplicate channel ID
+US	10780.stations.xmltv.tvmedia.ca	27	P.E.G. Access	P.E.G.|27	CA		Entertainment	False	False	False	True	Specialty			Duplicate channel ID
+US	10780.stations.xmltv.tvmedia.ca	28	P.E.G. Access	P.E.G.|28	CA		Entertainment	False	False	False	True	Specialty			Duplicate channel ID
+US	7289.stations.xmltv.tvmedia.ca	29	MHz Worldview (WNYJ-DT2) Milford, NJ	WNYJ-TV2|29	CA	WNYJ-DT2	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s49582_h9_aa.png	WWW.FAMILYRADIO.COM	
+US	10780.stations.xmltv.tvmedia.ca	30	P.E.G. Access	P.E.G.|30	CA		Entertainment	False	False	False	True	Specialty			Duplicate channel ID
+US	1778.stations.xmltv.tvmedia.ca	31	ION (WPXN) New York, NY	WPXN-TV|31	US	WPXN	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s18633_h15_ad.png	www.iontelevision.com	
+US	10780.stations.xmltv.tvmedia.ca	32	P.E.G. Access	P.E.G.|32	CA		Entertainment	False	False	False	True	Specialty			Duplicate channel ID
+US	1771.stations.xmltv.tvmedia.ca	41	UNI (WXTV) Teaneck, NJ	WXTV-DT|41	CA	WXTV	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s11118_h15_ab.png		
+US	10780.stations.xmltv.tvmedia.ca	42	P.E.G. Access	P.E.G.|42	CA		Entertainment	False	False	False	True	Specialty			Duplicate channel ID
+US	10780.stations.xmltv.tvmedia.ca	43	P.E.G. Access	P.E.G.|43	CA		Entertainment	False	False	False	True	Specialty			Duplicate channel ID
+US	10780.stations.xmltv.tvmedia.ca	44	P.E.G. Access	P.E.G.|44	CA		Entertainment	False	False	False	True	Specialty			Duplicate channel ID
+US	10780.stations.xmltv.tvmedia.ca	45	P.E.G. Access	P.E.G.|45	CA		Entertainment	False	False	False	True	Specialty			Duplicate channel ID
+US	10780.stations.xmltv.tvmedia.ca	46	P.E.G. Access	P.E.G.|46	CA		Entertainment	False	False	False	True	Specialty			Duplicate channel ID
+US	10780.stations.xmltv.tvmedia.ca	47	P.E.G. Access	P.E.G.|47	CA		Entertainment	False	False	False	True	Specialty			Duplicate channel ID
+US	12551.stations.xmltv.tvmedia.ca	49	Weatherscan	WSCAN|49	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s21586_h15_aa.png		
+US	640.stations.xmltv.tvmedia.ca	50	USA Network - East Feed	USA|50	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s11207_h15_af.png		
+US	347.stations.xmltv.tvmedia.ca	51	TNT - Eastern Feed	TNT|51	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s11164_h15_ac.png		
+US	61.stations.xmltv.tvmedia.ca	52	TBS - East	TBS|52	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s11867_h15_ac.png		
+US	652.stations.xmltv.tvmedia.ca	53	FX Networks East Coast	FX|53	CA		Entertainment	False	False	False	False	FX	http://cdn.tvpassport.com/image/station/76x28/v2/s14321_h15_aa.png		
+US	1030.stations.xmltv.tvmedia.ca	54	Paramount Network USA - Eastern Feed	PRMT|54	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s11163_h15_ac.png	www.spiketv.com	
+US	65.stations.xmltv.tvmedia.ca	68	NewsNation - Eastern Feed	NEWSN-E|68	CA		News	False	False	False	True	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s91097_h15_af.png	www.wgntv.com/	Duplicate channel ID
+US	594.stations.xmltv.tvmedia.ca	70	ESPN	ESPN|70	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s10179_h15_aa.png		
+US	1527.stations.xmltv.tvmedia.ca	72	ESPN News	ESPNN|72	CA		News	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s16485_h15_aa.png	espn.go.com	
+US	3331.stations.xmltv.tvmedia.ca	73	ESPN U	ESPNU|73	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s45654_h15_aa.png	www.espn.com	
+US	650.stations.xmltv.tvmedia.ca	74	ESPN2	ESPN2|74	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s12444_h15_ab.png		
+US	13711.stations.xmltv.tvmedia.ca	75	SEC Network	SEC|75	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s89535_h15_ab.png	www.secdigitalnetwork.com/	
+US	1953.stations.xmltv.tvmedia.ca	76	YES Network	YES|76	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s30017_h15_aa.png	www.yesnetworktv.com	
+US	4186.stations.xmltv.tvmedia.ca	77	SNY: SportsNet New York (Comcast)	SNY|77	US	Comcast	Sports	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s49603_h9_aa.png		
+US	1649.stations.xmltv.tvmedia.ca	78	MSG (Madison Square Gardens)	MSG|78	CA	Madison Square Gardens	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s10979_h15_ab.png	www.msgnetwork.com	
+US	31490.stations.xmltv.tvmedia.ca	79	MSG 2	MSG2|79	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s70283_h15_aa.png	www.msgnetwork.com	
+US	1088.stations.xmltv.tvmedia.ca	80	MSG Plus	MSG+|80	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s11105_h15_ac.png		
+US	12616.stations.xmltv.tvmedia.ca	81	MSG Plus - Syracuse	MSG+Z1|81	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s12605_h15_aa.png	foxsports.com/newyork	
+US	668.stations.xmltv.tvmedia.ca	83	Fox Sports 1	FS1|83	CA		Sports	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s82541_h15_ab.png	www.foxsports.com	
+US	2114.stations.xmltv.tvmedia.ca	84	Fox Sports 2	FS2|84	CA		Sports	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s33178_h15_ab.png	www.foxsports.com	
+US	4499.stations.xmltv.tvmedia.ca	85	Big Ten Network	B10|85	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s56783_h15_ab.png		
+US	6178.stations.xmltv.tvmedia.ca	86	MLB Network	MLB|86	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s62079_h15_aa.png		
+US	14156.stations.xmltv.tvmedia.ca	87	NHL Network USA	NHL|87	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s58570_h15_ab.png		
+US	3349.stations.xmltv.tvmedia.ca	88	NFL Network	NFLN|88	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s34710_h15_aa.png		
+US	3116.stations.xmltv.tvmedia.ca	89	NBA TV USA	NBA|89	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s32281_h15_ad.png		
+US	1386.stations.xmltv.tvmedia.ca	90	NBC Sports Network	NBCSN|90	CA		Sports	False	False	False	False	US Network			
+US	2086.stations.xmltv.tvmedia.ca	91	Olympic Channel	OLY|91	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s104186_h15_aa.png		
+US	2269.stations.xmltv.tvmedia.ca	92	The Tennis Channel	TENN|92	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s33395_h15_ac.png		
+US	193.stations.xmltv.tvmedia.ca	93	Golf Channel USA	GOLF|93	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v3/14899-7466.png	www.thegolfchannel.com	
+US	3115.stations.xmltv.tvmedia.ca	94	CBS Sports Network USA	CBSSN|94	CA		Sports	False	False	False	False	US Network	http://cdn.tvpassport.com/image/station/76x28/v2/s16365_h15_ae.png		
+US	1015.stations.xmltv.tvmedia.ca	97	New England Sports Network	NESN|97	CA		Sports	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s10996_h15_ac.png	www.nesn.com	
+US	70.stations.xmltv.tvmedia.ca	100	CNN	CNN|100	CA		Entertainment	True	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s10142_h15_aa.png		
+US	425.stations.xmltv.tvmedia.ca	101	HLN	HLN|101	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s10145_h15_ac.png	Turner.com	
+US	201.stations.xmltv.tvmedia.ca	102	CNBC USA	CNBC|102	CA		Entertainment	True	False	False	False	US Network	http://cdn.tvpassport.com/image/station/76x28/v3/10139-4F36.png		
+US	655.stations.xmltv.tvmedia.ca	103	MS NOW USA	MSNOW|103	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v3/16300-7F58.png	https://www.ms.now/	
+US	3008.stations.xmltv.tvmedia.ca	105	CNN International North America	CNNI|105	CA		Entertainment	True	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s10146_h15_ac.png	www.cnn.com	
+US	2664.stations.xmltv.tvmedia.ca	106	CNBC World	CNBCW|106	CA		Entertainment	True	False	False	False	US Network	http://cdn.tvpassport.com/image/station/76x28/v3/26849-D1C2.png	www.nbcmv.com/cnbc	
+US	527.stations.xmltv.tvmedia.ca	107	BBC News - North America	BBCW|107	CA		News	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s89542_h15_ab.png		
+US	11294.stations.xmltv.tvmedia.ca	108	Fusion	Fusion|108	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s83173_h15_ab.png		
+US	648.stations.xmltv.tvmedia.ca	109	C-SPAN	CSPAN|109	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s10161_h15_ad.png	www.c-span.org	
+US	1050.stations.xmltv.tvmedia.ca	110	C-SPAN 2	CSPAN2|110	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s10162_h15_ac.png	www.c-span.org	
+US	3423.stations.xmltv.tvmedia.ca	111	C-SPAN 3	CSPAN3|111	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s17665_h15_ac.png	www.c-span.org/	
+US	11549.stations.xmltv.tvmedia.ca	112	The Blaze	BLAZE|112	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s77361_h15_ab.png		
+US	5999.stations.xmltv.tvmedia.ca	113	Scripps News	NEWSY|113	CA		News	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s96827_h15_ad.png		
+US	16818.stations.xmltv.tvmedia.ca	115	NewsMax TV	NMTV|115	CA		News	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s87925_h15_ac.png		
+US	12614.stations.xmltv.tvmedia.ca	116	One America News Network	OANN|116	CA		News	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s82542_h15_ab.png	www.oneamericanews.com	
+US	4656.stations.xmltv.tvmedia.ca	117	Fox Business	FOXB|117	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s58649_h15_ac.png		
+US	1083.stations.xmltv.tvmedia.ca	118	Fox News	FNC|118	CA		News	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s16374_h15_ab.png		
+US	6140.stations.xmltv.tvmedia.ca	119	AccuWeather	AWTH|119	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s56193_h15_ab.png		
+US	649.stations.xmltv.tvmedia.ca	120	Discovery Channel (US) - Eastern Feed	DISC|120	CA	US	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s11150_h15_af.png		
+US	657.stations.xmltv.tvmedia.ca	121	National Geographic US - Eastern	NGEO|121	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s24959_h15_ab.png		
+US	1960.stations.xmltv.tvmedia.ca	122	Science	SCI|122	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s16616_h15_ab.png		
+US	2090.stations.xmltv.tvmedia.ca	123	Investigation Discovery USA - Eastern	ID|123	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s16615_h15_ad.png		
+US	2035.stations.xmltv.tvmedia.ca	125	American Heroes Channel	AHC|125	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s18284_h15_aa.png		
+US	5271.stations.xmltv.tvmedia.ca	126	Military History	MHC|126	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s48999_h15_ac.png		
+US	624.stations.xmltv.tvmedia.ca	127	VICE	VICE|127	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s18822_h15_ac.png		
+US	621.stations.xmltv.tvmedia.ca	128	History Channel US - Eastern Feed	HIST|128	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s14771_h15_af.png	www.HistoryChannel.com	
+US	1971.stations.xmltv.tvmedia.ca	129	FYI USA - Eastern	FYI|129	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s58988_h15_aa.png	www.fyi.tv	
+US	645.stations.xmltv.tvmedia.ca	130	Animal Planet US - East	ANPL|130	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s16331_h9_ad.png		
+US	7537.stations.xmltv.tvmedia.ca	132	National Geographic Wild	NGW|132	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s66804_h15_ab.png		
+US	4679.stations.xmltv.tvmedia.ca	134	Smithsonian Channel USA	SMITH|134	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s65799_h15_aa.png		
+US	5005.stations.xmltv.tvmedia.ca	139	TLC USA - Eastern	TLC|139	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s11158_h15_ad.png		
+US	654.stations.xmltv.tvmedia.ca	140	Lifetime Network US - Eastern Feed	LIFE|140	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s10918_h15_ac.png		
+US	1333.stations.xmltv.tvmedia.ca	141	Lifetime Movies - East	LifeMov|141	CA		Movies	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s18480_h15_ad.png	www.mylifetime.com/lmn	
+US	2707.stations.xmltv.tvmedia.ca	142	Lifetime Real Women East	LIFERW|142	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s29612_h15_aa.png	www.mylifetime.com	
+US	659.stations.xmltv.tvmedia.ca	144	Oxygen True Crime - Eastern Feed	OXY|144	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s21484_h15_ac.png		
+US	1159.stations.xmltv.tvmedia.ca	145	Oprah Winfrey Network USA Eastern	OWN|145	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s70387_h15_aa.png		
+US	664.stations.xmltv.tvmedia.ca	149	WE (Women's Entertainment) - Eastern	WE|149	CA	Women's Entertainment	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s16409_h15_ab.png		
+US	14683.stations.xmltv.tvmedia.ca	150	QVC	QVC|150	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s11069_h15_ad.png		
+US	14985.stations.xmltv.tvmedia.ca	151	HSN  - Home Shopping Network	HSN|151	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s10269_h15_ab.png	www.hsn.com	
+US	3000.stations.xmltv.tvmedia.ca	152	Jewelry Television	JTV|152	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s16604_h15_ab.png	www.jtv.com	
+US	13442.stations.xmltv.tvmedia.ca	153	QVC2	QVC2|153	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s82682_h15_ad.png	www.qvc.com	
+US	13495.stations.xmltv.tvmedia.ca	154	HSN 2	HSN2|154	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s10270_h15_ad.png		
+US	1523.stations.xmltv.tvmedia.ca	157	SHOPHQ	SHOPHQ|157	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s14948_h15_ae.png	www.vvtv.com	
+US	32612.stations.xmltv.tvmedia.ca	159	Shop LC (WLWT3) Cincinnati, OH	WLWT3|159	CA	WLWT3	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s56032_h15_ac.png	www.wlwt.com/	
+US	1273.stations.xmltv.tvmedia.ca	161	Discovery Life Channel	DLC|161	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s16125_h15_ac.png		
+US	4226.stations.xmltv.tvmedia.ca	163	The Cooking Channel	COOK|163	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s30156_h15_aa.png		
+US	1054.stations.xmltv.tvmedia.ca	164	Food Network USA - Eastern Feed	FOOD|164	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s12574_h15_ab.png		
+US	623.stations.xmltv.tvmedia.ca	165	HGTV USA - Eastern Feed	HGTV|165	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s14902_h15_ab.png		
+US	622.stations.xmltv.tvmedia.ca	167	Magnolia - East	MAGN|167	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s18544_h15_ad.png		
+US	2074.stations.xmltv.tvmedia.ca	168	Destination America	DEST|168	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s16617_h15_aa.png	www.destinationamerica.com	
+US	4451.stations.xmltv.tvmedia.ca	169	A Wealth of Entertainment	AWE|169	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s44895_h15_aa.png		
+US	662.stations.xmltv.tvmedia.ca	170	Travel US - East	TRAVEL|170	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s11180_h15_ac.png		
+US	14203.stations.xmltv.tvmedia.ca	173	Deals TV	DEAL|173	CA		Entertainment	False	False	False	False	Specialty			
+US	18811.stations.xmltv.tvmedia.ca	179	EPIC	EPIC|179	CA		Entertainment	False	False	False	False	Specialty			
+US	596.stations.xmltv.tvmedia.ca	180	Syfy - Eastern Feed	SYFY|180	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s11097_h15_ae.png		
+US	2.stations.xmltv.tvmedia.ca	181	A&E US - Eastern Feed	A&E|181	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s10035_h15_ab.png	www.AETV.com	
+US	5272.stations.xmltv.tvmedia.ca	182	Crime & Investigation Network USA	CIN|182	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s61469_h15_ab.png	www.aetninternational.com/build_ci.jsp	
+US	333.stations.xmltv.tvmedia.ca	183	truTV USA - Eastern	TRUTV|183	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s10153_h15_ad.png	www.trutv.com	
+US	329.stations.xmltv.tvmedia.ca	184	Game Show Network - East	GSN|184	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s14909_h15_ad.png		
+US	646.stations.xmltv.tvmedia.ca	185	Bravo USA - Eastern Feed	BRAVO|185	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s10057_h15_ab.png		
+US	14993.stations.xmltv.tvmedia.ca	186	Justice Central	JC|186	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s79670_h9_aa.png		
+US	2091.stations.xmltv.tvmedia.ca	187	LOGO - East	LOGO|187	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s46762_h15_aa.png		
+US	2267.stations.xmltv.tvmedia.ca	188	Ovation	OVA|188	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s15807_h15_ac.png		
+US	615.stations.xmltv.tvmedia.ca	189	BBC America - East	BBC|189	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s18332_h15_aa.png	www.bbcamerica.com	
+US	647.stations.xmltv.tvmedia.ca	190	Comedy Central (US) - Eastern Feed	COMC|190	CA	US	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s10149_h15_ab.png		
+US	1952.stations.xmltv.tvmedia.ca	191	FXX USA - Eastern	FXX|191	CA		Entertainment	False	False	False	False	FX	http://cdn.tvpassport.com/image/station/76x28/v2/s17927_h15_aa.png		
+US	10165.stations.xmltv.tvmedia.ca	194	POP - East	POP|194	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s74028_h6_aa.png		
+US	617.stations.xmltv.tvmedia.ca	196	E! Entertainment USA - Eastern Feed	E!|196	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s10989_h15_aa.png	www.eonline.com	
+US	11399.stations.xmltv.tvmedia.ca	198	El Rey Network	ELREY|198	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s124328_h15_ab.png		
+US	1011.stations.xmltv.tvmedia.ca	199	Freeform - East Feed	FREE|199	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s10093_h15_ae.png	www.freeform.go.com	
+US	656.stations.xmltv.tvmedia.ca	210	MTV USA - Eastern Feed	MTV|210	CA		Music	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s10986_h15_aa.png		
+US	1515.stations.xmltv.tvmedia.ca	211	MTV 2 - East	MTV2|211	CA		Music	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s16361_h15_aa.png		
+US	2701.stations.xmltv.tvmedia.ca	212	MTV U	MTVU|212	CA		Music	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s44228_h15_aa.png	www.mtv.com	
+US	2113.stations.xmltv.tvmedia.ca	213	BET Jams	BJAMS|213	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s30419_h15_ac.png	www.bet.com/shows	
+US	2112.stations.xmltv.tvmedia.ca	214	NickMusic	NickM|214	CA		Music	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s90209_h15_ac.png	www.cdr.cr	
+US	3972.stations.xmltv.tvmedia.ca	215	AXS TV North America	AXSTV|215	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s28506_h15_ab.png	www.axs.tv/	
+US	1486.stations.xmltv.tvmedia.ca	216	FUSE TV - Eastern feed	FUSE|216	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s14929_h15_ac.png		
+US	663.stations.xmltv.tvmedia.ca	217	VH1 - Eastern Feed	VH1|217	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s11218_h15_ac.png		
+US	2093.stations.xmltv.tvmedia.ca	218	MTV Classic - East	MTV-C|218	CA		Music	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s22561_h15_ad.png		
+US	3229.stations.xmltv.tvmedia.ca	219	BET Soul	Soul|219	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s18718_h15_ad.png		
+US	6837.stations.xmltv.tvmedia.ca	220	BET Her	BETHer|220	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s14897_h15_ac.png		
+US	1076.stations.xmltv.tvmedia.ca	221	CMT US - Eastern Feed	CMTUS|221	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s10138_h15_ab.png		
+US	2288.stations.xmltv.tvmedia.ca	222	CMT Music	CMTM|222	CA		Music	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s18717_h15_ab.png	www.cmt.com	
+US	6191.stations.xmltv.tvmedia.ca	225	BET Gospel	BETG|225	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s16484_h15_ab.png	WWW.BETNETWORKS.COM	
+US	176.stations.xmltv.tvmedia.ca	230	Turner Classic Movies USA	TCM|230	CA		Movies	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s12852_h15_ab.png	www.tcm.com	
+US	177.stations.xmltv.tvmedia.ca	231	AMC - Eastern Feed	AMC|231	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s10021_h15_ab.png		
+US	1308.stations.xmltv.tvmedia.ca	232	FX Movie Channel	FXM|232	CA		Movies	False	False	False	False	FX	http://cdn.tvpassport.com/image/station/76x28/v2/s70253_h15_aa.png	www.fxnetworks.com/fxm	
+US	1966.stations.xmltv.tvmedia.ca	234	Independent Film Channel US	IFC|234	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s14873_h15_ac.png		
+US	1848.stations.xmltv.tvmedia.ca	235	SundanceTV USA - East	SUND|235	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s16108_h9_aa.png		
+US	12618.stations.xmltv.tvmedia.ca	236	Cinémoi	CINEMUS|236	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s77407_h15_aa.png		
+US	5911.stations.xmltv.tvmedia.ca	238	UP	UP|238	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s44940_h15_ac.png		
+US	4453.stations.xmltv.tvmedia.ca	239	Hallmark Mystery - Eastern	HMYS|239	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s61522_h15_ab.png		
+US	1052.stations.xmltv.tvmedia.ca	240	Hallmark - Eastern Feed	HALL|240	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s11221_h15_aa.png		
+US	1252.stations.xmltv.tvmedia.ca	241	TV Land - Eastern	TVLAND|241	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s16123_h15_aa.png		
+US	14622.stations.xmltv.tvmedia.ca	245	FETV (Family Entertainment Television)	FETV|245	CA	Family Entertainment Television	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s73413_h15_ab.png		
+US	1629.stations.xmltv.tvmedia.ca	246	The Cowboy Channel	COWBOY|246	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s10188_h15_ab.png		
+US	595.stations.xmltv.tvmedia.ca	250	Disney - Eastern Feed	DISN|250	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s10171_h15_ae.png	www.disneychannel.com	
+US	1053.stations.xmltv.tvmedia.ca	251	Disney XD USA - Eastern Feed	DISNXD|251	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s18279_h15_aa.png	disneyxd.disney.com	
+US	658.stations.xmltv.tvmedia.ca	252	Nickelodeon USA - East Feed	NICK|252	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s11006_h15_ab.png		
+US	1198.stations.xmltv.tvmedia.ca	253	Nickelodeon USA - Pacific Feed	NICK|253	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s11006_h15_ab.png		
+US	2010.stations.xmltv.tvmedia.ca	254	Nicktoons - East	NICK|254	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s30420_h15_ab.png		
+US	1954.stations.xmltv.tvmedia.ca	255	TeenNick - Eastern	TNICK|255	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s59036_h15_ac.png		
+US	1969.stations.xmltv.tvmedia.ca	256	Nick Jr. - East	NICKJ|256	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s19211_h15_ac.png		
+US	661.stations.xmltv.tvmedia.ca	257	Cartoon Network USA - Eastern Feed	TOON|257	CA		Kids	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s12131_h15_aa.png		
+US	2268.stations.xmltv.tvmedia.ca	258	Boomerang	BOOM|258	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s21883_h15_ab.png		
+US	4225.stations.xmltv.tvmedia.ca	259	Discovery Family Channel	DFC|259	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s16618_h15_ab.png		
+US	6867.stations.xmltv.tvmedia.ca	260	Disney Junior USA - East	DISNJR|260	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s74796_h15_ad.png	www.disneyjunior.disney.com	
+US	4349.stations.xmltv.tvmedia.ca	263	Universal Kids	Ukids|263	CA		Kids	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s47540_h15_ad.png		
+US	323.stations.xmltv.tvmedia.ca	270	BET - Eastern Feed	BET|270	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s10051_h15_ad.png		
+US	2287.stations.xmltv.tvmedia.ca	271	TV One	TV1|271	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s35513_h15_ab.png		
+US	10760.stations.xmltv.tvmedia.ca	272	ASPiRE TV	ASPiRE|272	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s76126_h15_ad.png		
+US	3808.stations.xmltv.tvmedia.ca	273	MTV Tr3s - East	TR3S|273	CA		Music	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s18715_h15_ao.png	www.tr3s.com	
+US	1894.stations.xmltv.tvmedia.ca	274	Galavision - Eastern Feed	GALA|274	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s10222_h15_ac.png	www.galavision.com	
+US	1797.stations.xmltv.tvmedia.ca	275	NBC Universo - Eastern feed	NBCUN|275	CA		Entertainment	False	False	False	False	US Network	http://cdn.tvpassport.com/image/station/76x28/v2/s14791_h15_ab.png	www.holamun2.com/grid	
+US	10671.stations.xmltv.tvmedia.ca	277	CGTN (CCTV4)	CCTV News|277	CA	CCTV4	Entertainment	False	False	False	False	CTV	http://cdn.tvpassport.com/image/station/76x28/v2/s24248_h15_ac.png	WWW.CCTV-4.com	
+US	4543.stations.xmltv.tvmedia.ca	279	HITN	HITN|279	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s17142_h15_ac.png		
+US	620.stations.xmltv.tvmedia.ca	285	EWTN USA	EWTN|285	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s10183_h15_ab.png		
+US	1082.stations.xmltv.tvmedia.ca	286	INSP	INSP|286	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s11066_h15_ac.png		
+US	14962.stations.xmltv.tvmedia.ca	288	TBN Inspire (K64FT) Alexandria, LA	K64FT|288	CA	K64FT	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s122276_h15_aa.png		
+US	3332.stations.xmltv.tvmedia.ca	290	BYU (Brigham Young University)	BYU|290	CA	Brigham Young University	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s21855_h15_ab.png		
+US	19066.stations.xmltv.tvmedia.ca	291	Three Angels Broadcasting Network	3ABN|291	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s10002_h15_aa.png	www.3abn.org/	
+US	13473.stations.xmltv.tvmedia.ca	292	The Word Network	WORD|292	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v3/21781-AA2A.png	www.thewordnetwork.org	
+US	6828.stations.xmltv.tvmedia.ca	293	Daystar  - Network	DSTAR|293	CA		Entertainment	False	False	False	False	Specialty			
+US	5275.stations.xmltv.tvmedia.ca	294	Smile	SOAC|294	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s49208_h15_ac.png		
+US	1119.stations.xmltv.tvmedia.ca	295	TBN  - Trinity Broadcasting Network - East	TBN|295	CA		Entertainment	False	False	False	False	Specialty			
+US	6004.stations.xmltv.tvmedia.ca	296	Catholic Faith Network	CFNTV|296	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s62900_h15_aa.png	www.telecaretv.org	
+US	9388.stations.xmltv.tvmedia.ca	297	SonLife Network	SBN|297	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s67676_h15_aa.png		
+US	3352.stations.xmltv.tvmedia.ca	300	Stadium College Sports - Atlantic	SCS-A|300	CA		Sports	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s26077_h15_ac.png	www.foxsports.com	
+US	3351.stations.xmltv.tvmedia.ca	301	Stadium College Sports - Central	SCS-C|301	CA		Sports	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s26078_h15_ac.png	www.foxsports.com	
+US	3350.stations.xmltv.tvmedia.ca	302	Stadium College Sports - Pacific	SCS-P|302	CA		Sports	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s26079_h15_ac.png	www.foxsports.com	
+US	1077.stations.xmltv.tvmedia.ca	310	ESPN Classics USA	ESPNC|310	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s15451_h15_aa.png		
+US	1827.stations.xmltv.tvmedia.ca	311	Fox Deportes	FOXD|311	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s15377_h15_ab.png		
+US	14986.stations.xmltv.tvmedia.ca	315	FanDuel TV	TVG|315	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s103679_h15_ab.png	www.tvg.com	
+US	535.stations.xmltv.tvmedia.ca	316	FanDuel Racing	TVG2|316	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s32258_h15_ab.png	www.tvg.com	
+US	33964.stations.xmltv.tvmedia.ca	329	ACC Network	ACCN|329	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s111905_h15_ac.png		
+US	4499.stations.xmltv.tvmedia.ca	330	Big Ten Network	B10|330	CA		Entertainment	False	False	False	True	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s56783_h15_ab.png		Duplicate channel ID
+US	11580.stations.xmltv.tvmedia.ca	331	Big Ten Network - Alternate	B10|331	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s56783_h15_ab.png	www.bigtennetwork.com	
+US	13759.stations.xmltv.tvmedia.ca	332	SEC Network Alternate	SEC-A|332	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s89739_h15_aa.png	www.secdigitalnetwork.com/	
+US	6921.stations.xmltv.tvmedia.ca	335	NFL RedZone	NFLN|335	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s65024_h9_aa.png	www.nfl.com/ticket/	
+US	583.stations.xmltv.tvmedia.ca	340	Starz - Eastern	STARZ|340	CA		Movies	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s12719_h15_ac.png		
+US	1217.stations.xmltv.tvmedia.ca	341	Starz - Pacific	STARZ|341	CA		Movies	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s12719_h15_ac.png	www.starzencore.com	
+US	2120.stations.xmltv.tvmedia.ca	342	Starz Edge - Eastern	EDGE|342	CA		Movies	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s16311_h15_ab.png		
+US	2678.stations.xmltv.tvmedia.ca	343	Starz Edge - Pacific	EDGEP|343	CA		Movies	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s16311_h15_ab.png	www.starzsuperpak.com	
+US	1957.stations.xmltv.tvmedia.ca	344	Starz In Black - Eastern	BSTZ|344	CA		Movies	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s16833_h15_ac.png		
+US	1194.stations.xmltv.tvmedia.ca	345	Starz Kids & Family - Eastern	SRZK|345	CA		Movies	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s19635_h15_ab.png		
+US	2680.stations.xmltv.tvmedia.ca	346	Starz Cinema - Eastern	CINEMA|346	CA		Movies	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s19634_h15_ac.png		
+US	4223.stations.xmltv.tvmedia.ca	347	Starz Comedy - Eastern	SRZC|347	CA		Movies	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s34901_h15_ac.png		
+US	2340.stations.xmltv.tvmedia.ca	348	INDIEplex - Eastern	INDIE-E|348	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s49751_h15_ab.png	www.starzencore.com	
+US	2342.stations.xmltv.tvmedia.ca	349	RETROplex - Eastern	RETRO|349	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s49767_h15_aa.png		
+US	667.stations.xmltv.tvmedia.ca	350	Starz Encore - Eastern	STZENC|350	CA		Movies	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s10178_h15_ac.png		
+US	1218.stations.xmltv.tvmedia.ca	351	Starz Encore - Pacific	STZENw|351	CA		Movies	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s10178_h15_ac.png	www.encoremedia.com	
+US	2080.stations.xmltv.tvmedia.ca	352	Starz Encore Classic - Eastern	STZECL|352	CA		Movies	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s14764_h15_ac.png		
+US	2081.stations.xmltv.tvmedia.ca	353	Starz Encore Classic - Pacific	STZECw|353	CA		Movies	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s14764_h15_ac.png	www.encoremedia.com	
+US	1959.stations.xmltv.tvmedia.ca	354	Starz Encore Westerns - Eastern	STZEWS|354	CA		Movies	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s14765_h15_ac.png		
+US	2085.stations.xmltv.tvmedia.ca	355	Starz Encore Westerns - Pacific	STZEWw|355	CA		Movies	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s14765_h15_ac.png	www.encoremedia.com	
+US	1958.stations.xmltv.tvmedia.ca	356	Starz Encore Suspense - Eastern	STZESU|356	CA		Movies	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s14766_h15_ab.png		
+US	2084.stations.xmltv.tvmedia.ca	357	Starz Encore Suspense - Pacific	STZESw|357	CA		Movies	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s14766_h15_ab.png	www.encoremedia.com	
+US	4206.stations.xmltv.tvmedia.ca	358	Starz Encore Black - Eastern	STZEBK|358	CA		Movies	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s14870_h15_ac.png		
+US	4222.stations.xmltv.tvmedia.ca	359	Starz Encore Black - Pacific	STZEBw|359	CA		Movies	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s14870_h15_ac.png	www.encoremedia.com	
+US	2078.stations.xmltv.tvmedia.ca	360	Starz Encore Action - Eastern	STZEAC|360	CA		Movies	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s14871_h15_ab.png		
+US	2079.stations.xmltv.tvmedia.ca	361	Starz Encore Action - Pacific	STZEAw|361	CA		Movies	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s14871_h15_ab.png	www.encoremedia.com	
+US	2128.stations.xmltv.tvmedia.ca	362	Starz Encore Family - Eastern	STZEFM|362	CA		Movies	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s14886_h15_ab.png		
+US	10965.stations.xmltv.tvmedia.ca	363	Starz Encore Espanol	STZESP|363	CA		Movies	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s102905_h15_ab.png	www.encoremedia.com	
+US	665.stations.xmltv.tvmedia.ca	365	Paramount+ with Showtime - Eastern Feed	PARSHO|365	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s11115_h15_ad.png		
+US	10734.stations.xmltv.tvmedia.ca	366	Paramount+ with Showtime  West	PARSHOW|366	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s11115_h15_ad.png	https://www.paramountpluswithshowtime.com/	
+US	2077.stations.xmltv.tvmedia.ca	367	SHOXBET - Eastern	SHOBET|367	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s20622_h15_ad.png		
+US	2583.stations.xmltv.tvmedia.ca	368	SHOXBET - Pacific	SHOBET|368	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s20622_h15_ad.png	https://www.paramountpluswithshowtime.com/	
+US	1387.stations.xmltv.tvmedia.ca	369	Showtime 2 - Eastern	SHO2|369	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s11116_h15_aa.png		
+US	2596.stations.xmltv.tvmedia.ca	370	Showtime 2 - Pacific	SHO2|370	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s11116_h15_ac.png	https://www.paramountpluswithshowtime.com/	
+US	2271.stations.xmltv.tvmedia.ca	371	Showtime Showcase - Eastern	SHO3|371	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s16153_h15_aa.png		
+US	2585.stations.xmltv.tvmedia.ca	372	Showtime Showcase - Pacific	SHO3|372	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s16153_h15_ac.png	www.showtimeonline.com	
+US	1615.stations.xmltv.tvmedia.ca	373	Showtime Extreme - Eastern	SHOWEX|373	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s18086_h15_aa.png		
+US	2584.stations.xmltv.tvmedia.ca	374	Showtime Extreme - Pacific	SHOW|374	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s18086_h15_ac.png	https://www.paramountpluswithshowtime.com/	
+US	2273.stations.xmltv.tvmedia.ca	375	Showtime Women - Eastern	SHO-WE|375	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s25272_h15_ac.png		
+US	2598.stations.xmltv.tvmedia.ca	376	Showtime Women - Pacific	SHO-WP|376	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s25272_h15_ac.png	WWW.SHOWTIMEONLINE.COM	
+US	2272.stations.xmltv.tvmedia.ca	377	Showtime Next - Eastern	NEXT|377	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s25270_h15_ac.png	https://www.paramountpluswithshowtime.com/	
+US	2597.stations.xmltv.tvmedia.ca	378	Showtime Next - Pacific	NEXT|378	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s25270_h15_ac.png	WWW.SHOWTIMEONLINE.COM	
+US	1956.stations.xmltv.tvmedia.ca	379	Showtime Family Zone - Eastern	SHOFZ|379	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s25274_h15_ac.png		
+US	2599.stations.xmltv.tvmedia.ca	380	Showtime Family Zone - Pacific	SHOFZ|380	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s25274_h15_ac.png	WWW.SHOWTIMEONLINE.COM	
+US	666.stations.xmltv.tvmedia.ca	385	TMC (US) - Eastern Feed	TMC|385	CA	US	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s11160_h15_aa.png		
+US	1222.stations.xmltv.tvmedia.ca	386	TMC (US) - Pacific Feed	TMC|386	CA	US	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s11160_h15_aa.png	https://www.paramountpluswithshowtime.com/	
+US	4350.stations.xmltv.tvmedia.ca	387	TMC Xtra - Eastern	TMCX|387	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s17663_h15_aa.png		
+US	4351.stations.xmltv.tvmedia.ca	388	TMC Xtra - Pacific	TMCX|388	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s17663_h15_aa.png	https://www.paramountpluswithshowtime.com/	
+US	1399.stations.xmltv.tvmedia.ca	390	FLIX - Eastern	FLIX|390	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s10201_h15_aa.png		
+US	3387.stations.xmltv.tvmedia.ca	391	FLIX - Pacific	FLIX|391	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s10201_h15_aa.png		
+US	7609.stations.xmltv.tvmedia.ca	395	MGM+ - East	MGM|395	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s65669_h15_ae.png		
+US	614.stations.xmltv.tvmedia.ca	400	HBO - Eastern Feed	HBO|400	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s10240_h15_aa.png		
+US	1472.stations.xmltv.tvmedia.ca	401	HBO - Pacific Feed	HBOP|401	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s10240_h15_aa.png		
+US	626.stations.xmltv.tvmedia.ca	402	HBO Hits - Eastern Feed	HBOHIT|402	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v3/10241-5002.png		
+US	2205.stations.xmltv.tvmedia.ca	403	HBO 2 - Pacific Feed	HBO2P|403	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v3/10242-5004.png		
+US	1651.stations.xmltv.tvmedia.ca	404	HBO Drama (HBO 3) - Eastern	HBODRMA|404	CA	HBO 3	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v3/10243-5006.png		
+US	2580.stations.xmltv.tvmedia.ca	405	HBO Signature (HBO 3) - Pacific	HBO3|405	CA	HBO 3	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v3/16576-8180.png	www.hbo.com	
+US	628.stations.xmltv.tvmedia.ca	406	HBO Family - Eastern Feed	HBOF|406	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s16585_h15_aa.png		
+US	1216.stations.xmltv.tvmedia.ca	407	HBO Family - Pacific Feed	HBOFP|407	CA		Entertainment	False	False	False	False	Specialty			
+US	629.stations.xmltv.tvmedia.ca	408	HBO Comedy - East	HBOC|408	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s18429_h15_aa.png	www.hbo.com	
+US	2593.stations.xmltv.tvmedia.ca	409	HBO Comedy - Pacific	HBOC|409	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s18429_h15_aa.png	www.hbo.com	
+US	630.stations.xmltv.tvmedia.ca	410	HBO Movies - East	HBOMOV|410	CA		Movies	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v3/18431-8FFE.png	www.hbo.com	
+US	2594.stations.xmltv.tvmedia.ca	411	HBO Zone - Pacific	ZONE|411	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v3/18432-9000.png	www.hbo.com	
+US	631.stations.xmltv.tvmedia.ca	412	HBO Latino (HBO 7) - Eastern	HBOL|412	CA	HBO 7	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s24553_h9_ab.png	www.hbo.com	
+US	2579.stations.xmltv.tvmedia.ca	413	HBO Latino (HBO 7) - Pacific	HBOL|413	CA	HBO 7	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s24553_h9_ab.png	www.hbolatino.com	
+US	632.stations.xmltv.tvmedia.ca	420	Cinemax - Eastern Feed	MAX1|420	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s10120_h15_ab.png		
+US	1215.stations.xmltv.tvmedia.ca	421	Cinemax - Pacific Feed	MAX1|421	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s10120_h15_ab.png		
+US	634.stations.xmltv.tvmedia.ca	422	Cinemax Hits Eastern	MAXEHIT|422	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v3/10121-4F12.png		
+US	2581.stations.xmltv.tvmedia.ca	423	MoreMax - Pacific	MAX2|423	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v3/16620-81D8.png	www.cinemax.com	
+US	1377.stations.xmltv.tvmedia.ca	424	Cinemax Action - Eastern	MAXACT|424	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v3/18433-9002.png		
+US	2582.stations.xmltv.tvmedia.ca	425	ActionMax - Pacific	MAX3|425	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v3/18434-9004.png	www.cinemax.com	
+US	1652.stations.xmltv.tvmedia.ca	426	ThrillerMax - East	HBO4|426	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s18435_h15_ad.png		
+US	2595.stations.xmltv.tvmedia.ca	427	ThrillerMax - Pacific	HBO4|427	CA		Entertainment	False	False	False	False	Specialty		www.cinemax.com	
+US	639.stations.xmltv.tvmedia.ca	429	Cinemáx - East	@MAX|429	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s25623_h15_ad.png	WWW.CINEMAX.COM	
+US	636.stations.xmltv.tvmedia.ca	430	Cinemax Classics - Eastern	MAXCL|430	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v3/25620-C828.png		
+US	2270.stations.xmltv.tvmedia.ca	431	OuterMax - Eastern	MAX7|431	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s25622_h15_ab.png		
+US	10920.stations.xmltv.tvmedia.ca	460	Cozi TV (KNBC2) Los Angeles, CA	KNBC2|460	US	KNBC2	Entertainment	False	False	False	False	US Network	http://cdn.tvpassport.com/image/station/76x28/v2/s78851_h15_ab.png	WWW.NBC4LA.COM	
+US	2561.stations.xmltv.tvmedia.ca	461	WMBC-Newton, NJ	WMBC-TV|461	CA		Entertainment	False	False	False	True	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s65064_h15_af.png	www.wmbctv.com/	Duplicate channel ID
+US	11071.stations.xmltv.tvmedia.ca	462	Estrella (WASA-LD) Port Jervis, NY	WASA-LD|462	CA	WASA-LD	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s65064_h15_af.png		
+US	10749.stations.xmltv.tvmedia.ca	464	TeleXitos (WNJU2) Teterboro, NJ	WNJU2|464	CA	WNJU2	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s74299_h15_ab.png	WWW.NOTICIERO47.NET	
+US	10745.stations.xmltv.tvmedia.ca	465	Antenna (WPIX2) New York, NY	WPIX2|465	US	WPIX2	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v3/50777-18CB2.png	WWW.WB11.COM	
+US	5581.stations.xmltv.tvmedia.ca	466	Mega TV	MEGA|466	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s58698_h9_aa.png	www.mega.tv	
+US	10497.stations.xmltv.tvmedia.ca	467	Localish (WABC-DT2) New York, NY	WABC-TV2|467	US	WABC-DT2	Entertainment	False	False	False	False	US Network	http://cdn.tvpassport.com/image/station/76x28/v2/s70938_h15_ac.png	www.abc7ny.com	
+US	10497.stations.xmltv.tvmedia.ca	468	Localish (WABC-DT2) New York, NY	WABC-TV2|468	US	WABC-DT2	Entertainment	False	False	False	True	US Network	http://cdn.tvpassport.com/image/station/76x28/v2/s70938_h15_ac.png	www.abc7ny.com	Duplicate channel ID
+US	1775.stations.xmltv.tvmedia.ca	470	PBS (WLIW) Long Island, NY	WLIW|470	CA	WLIW	Entertainment	True	False	False	True	PBS	http://cdn.tvpassport.com/image/station/76x28/v2/s11039_h15_ab.png	www.wliw.org	Duplicate channel ID
+US	6202.stations.xmltv.tvmedia.ca	471	Create (WLIW2) Long Island, NY	WLIW2|471	CA	WLIW2	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s48990_h15_aa.png	www.wliw.org	
+US	2088.stations.xmltv.tvmedia.ca	472	PBS Kids (WNET-DT2) New York, NY	WNET2|472	US	WNET-DT2	Kids	True	False	False	False	PBS	http://cdn.tvpassport.com/image/station/76x28/v2/s101364_h15_ac.png		
+US	6203.stations.xmltv.tvmedia.ca	473	PBS World (WLIW3) Long Island, NY	WLIW3|473	CA	WLIW3	Entertainment	True	False	False	False	PBS	http://cdn.tvpassport.com/image/station/76x28/v2/s56725_h15_ab.png	www.wliw.org	
+US	7291.stations.xmltv.tvmedia.ca	474	V-Me (WNET-DT3) New York, NY	WNET3|474	US	WNET-DT3	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s55250_h15_ab.png	www.vmetv.com/horarios	
+US	10750.stations.xmltv.tvmedia.ca	476	Buzzr TV (WWOR-TV3) New York, NY	WWOR-TV3|476	US	WWOR-TV3	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s93430_h15_ab.png	WWW.UPN9.COM	
+US	11068.stations.xmltv.tvmedia.ca	477	SSTN (WDVB-CD2) Edison, NJ	WDVB-CD2|477	CA	WDVB-CD2	Entertainment	False	False	False	False	Specialty			
+US	15033.stations.xmltv.tvmedia.ca	478	New Tang Dynasty TV (WMBC-DT5) Newton, NJ	WMBC-TV5|478	CA	WMBC-DT5	Entertainment	False	False	False	False	Specialty		www.wmbctv.com/	
+US	5026.stations.xmltv.tvmedia.ca	480	LATV (KBNT-CD2) San Diego, CA	KBNT2|480	CA	KBNT-CD2	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s55578_h15_ab.png		
+US	13605.stations.xmltv.tvmedia.ca	481	Arise	Arise|481	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s44098_h15_aa.png	www.rnntv.com/	
+US	10748.stations.xmltv.tvmedia.ca	482	QVC2 (WRNN-DT5) Kingston, NY	WRNN-TV5|482	CA	WRNN-DT5	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s82682_h15_ad.png		
+US	9723.stations.xmltv.tvmedia.ca	490	Court TV (WPIX3) New York, NY	WPIX3|490	US	WPIX3	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v3/65092-1FC88.png		
+US	11076.stations.xmltv.tvmedia.ca	491	Bounce (WPXN-TV2) New York, NY	WPXN-TV2|491	US	WPXN-TV2	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s73067_h15_ab.png	www.iontelevision.com	
+US	11077.stations.xmltv.tvmedia.ca	492	ION Mystery (WPXN-TV3) New York, NY	WPXN-TV3|492	US	WPXN-TV3	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v3/55285-1AFEA.png	www.iontelevision.com	
+US	11048.stations.xmltv.tvmedia.ca	493	Movies! (WNYW2) New York, NY	WNYW2|493	US	WNYW2	Movies	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s81275_h15_ab.png		
+US	13521.stations.xmltv.tvmedia.ca	495	GetTV (WFTY-DT3) Los Angeles, CA	WFTY-DT3|495	US	WFTY-DT3	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s11118_h15_ab.png		
+US	4555.stations.xmltv.tvmedia.ca	502	CBS (WCBS) New York, NY HD	WCBS-HD|502	US	WCBS	Entertainment	False	False	True	False	US Network	http://cdn.tvpassport.com/image/station/76x28/v2/s10098_h15_ac.png	https://www.cbsnews.com/newyork/	
+US	19177.stations.xmltv.tvmedia.ca	503	MeTV (WJLP) New Jersey/New York HD	WJLP-HD|503	US	WJLP	Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s70436_h15_ac.png		
+US	4559.stations.xmltv.tvmedia.ca	504	NBC (WNBC) New York, NY HD	WNBC-HD|504	US	WNBC	Entertainment	False	False	True	False	US Network	http://cdn.tvpassport.com/image/station/76x28/v2/s10991_h15_ad.png		
+US	4557.stations.xmltv.tvmedia.ca	505	FOX (WNYW) New York, NY HD	WNYW-HD|505	US	WNYW	Entertainment	False	False	True	False	US Network	http://cdn.tvpassport.com/image/station/76x28/v2/s10212_h15_ab.png	www.fox5ny.com/	
+US	4553.stations.xmltv.tvmedia.ca	507	ABC (WABC) New York, NY HD	WABC-HD|507	US	WABC	Entertainment	False	False	True	False	US Network	http://cdn.tvpassport.com/image/station/76x28/v2/s10003_h15_ac.png	www.abc7ny.com	
+US	11336.stations.xmltv.tvmedia.ca	509	MNT (WWOR) New York, NY HD	WWOR-HD|509	US	WWOR	Entertainment	False	False	True	False	Specialty		www.upn9.com	
+US	10643.stations.xmltv.tvmedia.ca	510	WLNY TV10/55, Riverhead, NY HD	WLNYHD|510	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s12492_h9_aa.png	www.wlnytv.com	
+US	4794.stations.xmltv.tvmedia.ca	511	WPIX New York (SUPERSTATION) HD	WPIX-HD|511	US	SUPERSTATION	Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s11779_h15_aa.png		
+US	7307.stations.xmltv.tvmedia.ca	512	Telemundo (WNJU) Teterboro, NJ HD	WNJU-HD|512	CA	WNJU	Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s10239_h15_ab.png	WWW.NOTICIERO47.NET	
+US	11335.stations.xmltv.tvmedia.ca	513	PBS (WNET) New York, NY HD	WNET-HD|513	US	WNET	Entertainment	True	False	True	False	PBS	http://cdn.tvpassport.com/image/station/76x28/v2/s11039_h15_ab.png	www.wnet.org/	
+US	7310.stations.xmltv.tvmedia.ca	517	UniMás (WFTY) New York, NY HD	WFTY-HD|517	US	WFTY	Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s91496_h15_ab.png	www.univision.com/content/channel.jhtml?chid=6&schid=1611	
+US	7027.stations.xmltv.tvmedia.ca	523	NJ PBS (WNJT) Trenton, NJ HD	WNJT-HD|523	CA	WNJT	Entertainment	True	False	True	False	PBS	http://cdn.tvpassport.com/image/station/76x28/v2/s11725_h15_aa.png	www.njn.net/	
+US	12609.stations.xmltv.tvmedia.ca	531	ION (WPXN) New York, NY HD	WPXN-HD|531	US	WPXN	Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s18633_h15_ad.png	www.iontelevision.com	
+US	7305.stations.xmltv.tvmedia.ca	541	UNI (WXTV) Teaneck, NJ HD	WXTV-HD|541	CA	WXTV	Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s11118_h15_ab.png	WWW.UNIVISION.NET	
+US	5490.stations.xmltv.tvmedia.ca	550	USA Network HD - East	USA|550	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s58452_h15_af.png	www.usanetwork.com	
+US	3037.stations.xmltv.tvmedia.ca	551	TNT HD - East Feed	TNT-HD|551	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s42642_h15_ac.png	www.tntdrama.com	
+US	6090.stations.xmltv.tvmedia.ca	552	TBS - East HD	TBS|552	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s58515_h15_ac.png	www.tbssuperstation.com	
+US	6111.stations.xmltv.tvmedia.ca	553	FX Networks East Coast HD	FXHD|553	CA		Entertainment	False	False	True	False	FX	http://cdn.tvpassport.com/image/station/76x28/v2/s58574_h15_aa.png	www.fxnetworks.com/main.html	
+US	6334.stations.xmltv.tvmedia.ca	554	Paramount Network USA HD - Eastern Feed	PRMT-HD|554	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s59186_h15_ac.png	www.thenewtnn.com	
+US	18805.stations.xmltv.tvmedia.ca	558	ES.TV HD	ES.TV|558	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s76870_h6_aa.png		
+US	5882.stations.xmltv.tvmedia.ca	568	NewsNation HD - Eastern Feed	NEWSN-HD-E|568	CA		News	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s91096_h15_af.png	www.wgnamerica.com	
+US	20066.stations.xmltv.tvmedia.ca	569	AXS TV USA	AXSTV|569	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s28506_h15_ab.png		
+US	3036.stations.xmltv.tvmedia.ca	570	ESPN HD	ESPN-HD|570	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s32645_h15_ab.png	www.espn.com	
+US	9029.stations.xmltv.tvmedia.ca	571	ESPN Buzzer Beater HD	ESPNBB|571	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s70840_h15_aa.png		
+US	6246.stations.xmltv.tvmedia.ca	572	ESPN News HD	ESPNN-HD|572	CA		News	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s59976_h15_aa.png	espn.go.com	
+US	6245.stations.xmltv.tvmedia.ca	573	ESPN U HD	ESPNU-HD|573	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s60696_h15_aa.png	www.espn.com	
+US	3379.stations.xmltv.tvmedia.ca	574	ESPN2 HD	ESPN2-HD|574	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s45507_h15_aa.png	espn.go.com	
+US	13712.stations.xmltv.tvmedia.ca	575	SEC Network HD	SECHD|575	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s89714_h15_aa.png	www.secdigitalnetwork.com/	
+US	4696.stations.xmltv.tvmedia.ca	576	YES Network HD	YES-HD|576	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s46275_h15_aa.png	www.yesnetworktv.com	
+US	4713.stations.xmltv.tvmedia.ca	577	SNY: SportsNet New York HD	SNY|577	US		Sports	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s50038_h9_aa.png	www.yesnetworktv.com	
+US	4695.stations.xmltv.tvmedia.ca	578	MSG (Madison Square Gardens) HD	MSG-HD|578	CA	Madison Square Gardens	Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s35402_h15_ab.png		
+US	31491.stations.xmltv.tvmedia.ca	579	MSG 2 HD	MSG2HD|579	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s70283_h15_aa.png	www.msgnetwork.com	
+US	4792.stations.xmltv.tvmedia.ca	580	MSG Plus HD	MSG+HD|580	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s11105_h15_ac.png		
+US	11137.stations.xmltv.tvmedia.ca	583	Fox Sports 1 HD	FS1-HD|583	CA		Sports	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s82547_h15_aa.png	www.foxsports.com	
+US	10263.stations.xmltv.tvmedia.ca	584	Fox Sports 2 HD	FS2HD|584	CA		Sports	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s59305_h15_aa.png	www.foxsports.com	
+US	4500.stations.xmltv.tvmedia.ca	585	Big Ten Network HD	B10HD|585	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s56783_h15_ab.png		
+US	6218.stations.xmltv.tvmedia.ca	586	MLB Network HD	MLB|586	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s62081_h15_ab.png		
+US	14157.stations.xmltv.tvmedia.ca	587	NHL Network USA HD	NHL-HD|587	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s58690_h15_ac.png		
+US	3601.stations.xmltv.tvmedia.ca	588	NFL Network HD	NFLN-HD|588	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s45399_h15_aa.png	www.nfl.com/network	
+US	5645.stations.xmltv.tvmedia.ca	589	NBA TV USA HD	NBAH|589	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s45526_h15_ab.png		
+US	4710.stations.xmltv.tvmedia.ca	590	NBC Sports Network HD	NBCSNHD|590	CA		Sports	False	False	True	False	US Network			
+US	31948.stations.xmltv.tvmedia.ca	591	Olympic Channel HD	OLYHD|591	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s104089_h15_aa.png		
+US	7051.stations.xmltv.tvmedia.ca	592	The Tennis Channel HD	TENN|592	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s60316_h15_ab.png	www.thetennischannel.com	
+US	6039.stations.xmltv.tvmedia.ca	593	Golf Channel USA HD	GOLFHD|593	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v3/61854-1E33C.png	www.thegolfchannel.com	
+US	6985.stations.xmltv.tvmedia.ca	594	CBS Sports Network USA HD	CBSSN-HD|594	CA		Sports	False	False	True	False	US Network	http://cdn.tvpassport.com/image/station/76x28/v2/s59250_h15_ac.png		
+US	10854.stations.xmltv.tvmedia.ca	596	beIN Sport USA HD	beINSHD|596	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s76950_h15_ab.png		
+US	13469.stations.xmltv.tvmedia.ca	597	Next Level Sports HD	NXTLVL-HD|597	CA		Sports	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s87000_h15_ad.png	www.oneworldsports.com	
+US	18803.stations.xmltv.tvmedia.ca	599	Cars.TV HD	CARS.TV|599	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s81270_h6_aa.png	www.skyangel.com	
+US	4724.stations.xmltv.tvmedia.ca	600	CNN HD	CNN-HD|600	CA		Entertainment	True	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s58646_h15_ac.png	www.cnn.com	
+US	6119.stations.xmltv.tvmedia.ca	602	CNBC USA HD	CNBCH|602	CA		Entertainment	True	False	True	False	US Network	http://cdn.tvpassport.com/image/station/76x28/v3/58780-1CB38.png	www.cnbc.com	
+US	6995.stations.xmltv.tvmedia.ca	603	MS NOW HD	MSNOW-HD|603	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v3/64241-1F5E2.png	www.msnbc.com	
+US	6790.stations.xmltv.tvmedia.ca	605	Bloomberg TV USA HD	BLM-USHD|605	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s71799_h15_ab.png	www.bloomberg.com/tv	
+US	10294.stations.xmltv.tvmedia.ca	609	BBC News - North America HD	BBCWHD|609	CA		News	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s36844_h15_ad.png	www.bbcworld.com	
+US	5599.stations.xmltv.tvmedia.ca	611	The Weather Channel HD	WEA-HD|611	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s58812_h15_aa.png	www.weather.com	
+US	11552.stations.xmltv.tvmedia.ca	612	The Blaze HD	BLAZEHD|612	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s77361_h15_ab.png		
+US	16417.stations.xmltv.tvmedia.ca	613	Scripps News HD	NEWSY-HD|613	CA		News	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s96827_h15_ad.png		
+US	16819.stations.xmltv.tvmedia.ca	615	NewsMax TV HD`	NMTV|615	CA		News	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s97163_h15_ab.png		
+US	14994.stations.xmltv.tvmedia.ca	616	One America News Network HD	OANNHD|616	CA		News	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s83953_h9_aa.png	www.oneamericanews.com	
+US	5600.stations.xmltv.tvmedia.ca	617	Fox Business HD	FOXB|617	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s58718_h15_ac.png	www.foxbusiness.com	
+US	6207.stations.xmltv.tvmedia.ca	618	Fox News HD	FNC-HD|618	CA		News	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s60179_h15_ab.png	www.foxnews.com	
+US	7335.stations.xmltv.tvmedia.ca	619	AccuWeather HD	AWTH-HD|619	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s91994_h15_ab.png		
+US	4466.stations.xmltv.tvmedia.ca	620	Discovery HD (US) - Eastern	DISCHD|620	CA	US	Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s56905_h15_ad.png	www.discovery.com	
+US	4436.stations.xmltv.tvmedia.ca	621	National Geographic US HD - Eastern	NGHD|621	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s49438_h15_ab.png	channel.nationalgeographic.com	
+US	5828.stations.xmltv.tvmedia.ca	622	Science HD	SCI-HD|622	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s57390_h15_ac.png	www.sciencechannel.com/	
+US	6997.stations.xmltv.tvmedia.ca	623	Investigation Discovery USA HD - Eastern	ID-HD|623	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s65342_h15_ac.png	www.investigationdiscovery.com	
+US	16423.stations.xmltv.tvmedia.ca	624	Discovery Life Channel HD	DLCHD|624	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s92204_h15_aa.png	www.discoverylife.com	
+US	10881.stations.xmltv.tvmedia.ca	625	American Heroes Channel HD	AHC-HD|625	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s78808_h15_aa.png	www.ahctv.com	
+US	4660.stations.xmltv.tvmedia.ca	628	History Channel US HD - East	HIST-HD|628	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s57708_h15_ad.png	www.HistoryChannel.com	
+US	6211.stations.xmltv.tvmedia.ca	629	FYI USA HD - Eastern	FYI-HD|629	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s58988_h15_aa.png	www.fyi.tv	
+US	4537.stations.xmltv.tvmedia.ca	630	Animal Planet US HD - East	ANPL-HD|630	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s57394_h9_ad.png	Discovery.com	
+US	12597.stations.xmltv.tvmedia.ca	631	Motor Trend HD	MOTOR-HD|631	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v3/31046-F28C.png	www.motortrend.com	
+US	9579.stations.xmltv.tvmedia.ca	632	National Geographic Wild HD	NGWHD|632	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s67331_h15_ab.png	WWW.NATGEOCHANNEL.COM	
+US	18806.stations.xmltv.tvmedia.ca	633	Pets.TV HD	PETS.TV|633	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s81283_h6_aa.png	www.skyangel.com	
+US	6237.stations.xmltv.tvmedia.ca	634	Smithsonian Channel USA HD	SMITH-HD|634	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s58532_h15_aa.png		
+US	16159.stations.xmltv.tvmedia.ca	635	Great American Faith & Living HD	GLIV-HD|635	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s90858_h15_ae.png		
+US	5004.stations.xmltv.tvmedia.ca	639	TLC USA HD - Eastern	TLC-HD|639	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s57391_h15_ad.png		
+US	6333.stations.xmltv.tvmedia.ca	640	Lifetime Network US - Eastern Feed HD	LIFEHD|640	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s60150_h15_ad.png	www.mylifetime.com	
+US	4723.stations.xmltv.tvmedia.ca	641	Lifetime Movies HD - East	LifeM-HDE|641	CA		Movies	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s55887_h15_ag.png	www.mylifetime.com/lmn	
+US	6846.stations.xmltv.tvmedia.ca	644	Oxygen True Crime HD - Eastern	OXY|644	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s70522_h15_ac.png	www.oxygen.com	
+US	8587.stations.xmltv.tvmedia.ca	645	Oprah Winfrey Network USA Eastern HD	OWNHD|645	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s70388_h15_aa.png	www.health.discovery.com	
+US	6220.stations.xmltv.tvmedia.ca	649	WE HD	WE|649	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s59296_h15_ab.png	www.wetv.com	
+US	6115.stations.xmltv.tvmedia.ca	650	QVC HD	QVCHD|650	CA		Entertainment	False	False	True	False	Specialty		www.qvc.com	
+US	7237.stations.xmltv.tvmedia.ca	651	HSN  - Home Shopping Network HD	HSN-HD|651	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s62077_h15_ab.png		
+US	32841.stations.xmltv.tvmedia.ca	656	QVC3 HD	QVC3-HD|656	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s102337_h15_ab.png	www.qvc.com	
+US	11284.stations.xmltv.tvmedia.ca	657	SHOPHQ HD	SHOPHQ-HD|657	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s78601_h15_ad.png	www.evine.com	
+US	4546.stations.xmltv.tvmedia.ca	658	Gem Shopping Network	GEMS|658	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v3/26643-D026.png		
+US	31038.stations.xmltv.tvmedia.ca	659	Living Faith	LIVFAITH|659	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s58595_h15_ad.png	www.upliftv.com/	
+US	11450.stations.xmltv.tvmedia.ca	660	GAC Family - East HD	GACF-HD|660	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s82892_h15_ac.png	www.greatamericancountry.com	
+US	32345.stations.xmltv.tvmedia.ca	662	Zee Zest	FOODZ|662	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s100148_h9_aa.png		
+US	8113.stations.xmltv.tvmedia.ca	663	The Cooking Channel HD	COOKHD|663	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s68065_h15_aa.png		
+US	3438.stations.xmltv.tvmedia.ca	664	Food Network USA HD - Eastern Feed	FOOD-HD|664	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s50747_h15_ab.png	www.foodtv.com	
+US	3690.stations.xmltv.tvmedia.ca	665	HGTV USA HD - Eastern	HGTVHD|665	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s49788_h15_ab.png	www.hgtv.com	
+US	8114.stations.xmltv.tvmedia.ca	667	Magnolia HD - East	MAGN-HD|667	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s67375_h15_ad.png	www.diynetwork.com	
+US	5889.stations.xmltv.tvmedia.ca	668	Destination America HD	DEST-HD|668	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s60468_h15_aa.png	www.destinationamerica.com	
+US	32595.stations.xmltv.tvmedia.ca	669	A Wealth of Entertainment HD	WEALTH|669	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s45438_h15_aa.png	www.weatlhtv.net	
+US	6150.stations.xmltv.tvmedia.ca	670	Travel US HD - East	TRAVEL-HD|670	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s59303_h15_ac.png	www.discovery.com	
+US	20039.stations.xmltv.tvmedia.ca	674	MyDestination.TV HD	DEST|674	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s74559_h9_aa.png	www.skyangel.com	
+US	20038.stations.xmltv.tvmedia.ca	676	Recipe.TV HD	RECIPE|676	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s81289_h6_aa.png	www.skyangel.com	
+US	16175.stations.xmltv.tvmedia.ca	677	Justice Central HD	JC-HD|677	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s78850_h9_aa.png	www.es.tv	
+US	6216.stations.xmltv.tvmedia.ca	679	Crime & Investigation Network USA HD	CIN|679	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s61469_h15_ab.png	www.aetninternational.com/build_ci.jsp	
+US	5643.stations.xmltv.tvmedia.ca	680	Syfy HD - Eastern Feed	SYFY-HD|680	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s58623_h15_ae.png	www.scifi.com	
+US	17034.stations.xmltv.tvmedia.ca	681	A&E US HD - Eastern Feed	A&EHD|681	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s51529_h15_ab.png	www.AETV.com	
+US	6996.stations.xmltv.tvmedia.ca	683	truTV USA - East HD	TRUTV-HD|683	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s64490_h15_ac.png	www.courttv.com	
+US	7055.stations.xmltv.tvmedia.ca	684	Game Show Network - East HD	GSN|684	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s68827_h15_ab.png	www.gsn.com	
+US	6120.stations.xmltv.tvmedia.ca	685	Bravo USA HD - Eastern Feed	BRAVO|685	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s58625_h15_ab.png	www.bravotv.com	
+US	32944.stations.xmltv.tvmedia.ca	687	LOGO HD - East	LOGO|687	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s96971_h15_aa.png	www.mtv.com	
+US	8838.stations.xmltv.tvmedia.ca	688	Ovation HD	OVA|688	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s69061_h15_ac.png	www.ovationtv.com	
+US	11121.stations.xmltv.tvmedia.ca	689	BBC America - East HD	BBC-HD|689	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s64492_h15_aa.png	www.bbcamerica.com/servlet/Homelude	
+US	6957.stations.xmltv.tvmedia.ca	690	Comedy Central HD - Eastern Feed	COMC|690	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s62420_h15_ab.png	www.cc.com	
+US	7506.stations.xmltv.tvmedia.ca	691	FXX USA HD - Eastern	FXX-HD|691	CA		Entertainment	False	False	True	False	FX	http://cdn.tvpassport.com/image/station/76x28/v2/s66379_h9_aa.png	www.fxnetworks.com/fxx	
+US	8836.stations.xmltv.tvmedia.ca	692	ReelzChannel HD	REELZ|692	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v3/68385-21642.png		
+US	10370.stations.xmltv.tvmedia.ca	694	POP HD - East	POPHD|694	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s68796_h15_aa.png		
+US	18804.stations.xmltv.tvmedia.ca	695	Comedy.TV HD	COMEDY|695	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s82470_h9_aa.png	www.comedy.tv	
+US	6659.stations.xmltv.tvmedia.ca	696	E! Entertainment USA HD - East	E!-HD|696	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s61812_h15_aa.png	www.eonline.com	
+US	7300.stations.xmltv.tvmedia.ca	697	VICE HD	VICE-HD|697	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s104547_h9_ab.png	www.viceland.com	
+US	6110.stations.xmltv.tvmedia.ca	699	Freeform HD - East Feed	FREEHD|699	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s59615_h15_ae.png	www.freeform.go.com	
+US	4525.stations.xmltv.tvmedia.ca	710	MTV USA HD - Eastern	MTVHD|710	CA		Music	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s60964_h15_aa.png	www.mtv.com	
+US	10276.stations.xmltv.tvmedia.ca	711	MTV 2 East HD	MTV2-HD|711	CA		Music	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s75077_h15_ab.png	www.mtv.com	
+US	6080.stations.xmltv.tvmedia.ca	715	MTV Live	MTVL|715	CA		Music	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s66419_h15_aa.png		
+US	6221.stations.xmltv.tvmedia.ca	716	FUSE TV HD - Eastern	FUSE|716	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s59116_h15_ac.png	www.muchmusic.com/usa	
+US	6204.stations.xmltv.tvmedia.ca	717	VH1 HD - Eastern	VH1|717	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s60046_h15_aa.png	www.vh1.com	
+US	32002.stations.xmltv.tvmedia.ca	720	BET Her HD	BETHer-HD|720	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s63220_h15_ac.png	www.bet.com/atBET	
+US	6344.stations.xmltv.tvmedia.ca	721	CMT US - Eastern Feed HD	CMTUS-HD|721	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s59440_h15_ad.png	www.cmt.com	
+US	11302.stations.xmltv.tvmedia.ca	726	Revolt TV HD	REVOLTHD|726	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s83098_h15_ac.png	www.zeetvusa.com	
+US	6219.stations.xmltv.tvmedia.ca	731	AMC - Eastern Feed HD	AMC-HD|731	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s59337_h15_ab.png	www.amc.com	
+US	8463.stations.xmltv.tvmedia.ca	732	FX Movie Channel HD	FXMHD|732	CA		Movies	False	False	True	False	FX	http://cdn.tvpassport.com/image/station/76x28/v2/s70253_h15_aa.png	www.fxnetworks.com/fxm	
+US	6215.stations.xmltv.tvmedia.ca	734	Independent Film Channel US HD	IFC|734	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s59444_h15_ab.png	www.ifc.com	
+US	8264.stations.xmltv.tvmedia.ca	735	SundanceTV USA - East HD	SUND|735	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s71280_h15_aa.png	www.sundance.tv	
+US	7460.stations.xmltv.tvmedia.ca	738	UP HD	UPHD|738	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s66143_h15_ac.png	www.uptv.com	
+US	6214.stations.xmltv.tvmedia.ca	739	Hallmark Mystery Eastern - HD	HMYS-HD|739	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s46710_h15_ab.png	www.hallmarkmoviesandmysteries.com	
+US	1052.stations.xmltv.tvmedia.ca	740	Hallmark - Eastern Feed	HALL|740	CA		Entertainment	False	False	False	True	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s11221_h15_aa.png		Duplicate channel ID
+US	8815.stations.xmltv.tvmedia.ca	741	TV Land - Eastern HD	TVLAND-HD|741	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s73541_h15_aa.png	www.tvland.com	
+US	6107.stations.xmltv.tvmedia.ca	744	MGM HD (USA)	MGMHD|744	CA	USA	Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s58530_h15_aa.png		
+US	4267.stations.xmltv.tvmedia.ca	746	HDNet Movies	DHM|746	CA		Movies	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s33668_h15_ae.png		
+US	6342.stations.xmltv.tvmedia.ca	752	Nickelodeon USA - East Feed HD	NICKHD|752	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s59432_h15_ac.png	www.nick.com	
+US	11445.stations.xmltv.tvmedia.ca	754	Nicktoons HD - East	NICKHD|754	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s82654_h15_ac.png	www.nick.com	
+US	20031.stations.xmltv.tvmedia.ca	755	TeenNick - Eastern HD	TNICK|755	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s97047_h15_ac.png	www.teennick.com	
+US	11444.stations.xmltv.tvmedia.ca	756	Nick Jr. HD	NICKJHD|756	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s82649_h15_ad.png	www.nickjr.com	
+US	6917.stations.xmltv.tvmedia.ca	757	Cartoon Network USA HD - Eastern	TOON|757	CA		Kids	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s60048_h15_ac.png	www.cartoonnetwork.com	
+US	16414.stations.xmltv.tvmedia.ca	765	Baby First TV HD	BABY1HD|765	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s50338_h15_ab.png	www.babyfirsttv.com	
+US	6205.stations.xmltv.tvmedia.ca	770	BET HD - Eastern Feed	BET-HD|770	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s63236_h15_ac.png	www.bet.com	
+US	7082.stations.xmltv.tvmedia.ca	771	TV One HD	TV1|771	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s61960_h15_ab.png		
+US	10761.stations.xmltv.tvmedia.ca	772	ASPiRE TV HD	ASPiRE-HD|772	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s97409_h15_ad.png		
+US	16418.stations.xmltv.tvmedia.ca	775	NBC Universo HD - Eastern	NBCUNHD|775	CA		Entertainment	False	False	True	False	US Network	http://cdn.tvpassport.com/image/station/76x28/v2/s91588_h15_ab.png	www.holamun2.com/grid	
+US	6112.stations.xmltv.tvmedia.ca	780	Disney HD - Eastern	DISN|780	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s59684_h15_ae.png	www.disneychannel.com	
+US	6236.stations.xmltv.tvmedia.ca	781	Disney XD USA HD - Eastern Feed	DISNXD-HD|781	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s60006_h15_aa.png	disneyxd.disney.com/	
+US	11446.stations.xmltv.tvmedia.ca	786	INSP HD	INSPHD|786	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s82773_h15_ac.png	www.insp.com	
+US	8518.stations.xmltv.tvmedia.ca	789	Discovery Family Channel HD	DFC-HD|789	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s67749_h15_ab.png	kids.discovery.com	
+US	13634.stations.xmltv.tvmedia.ca	793	Daystar  - Network HD	DSTAR|793	CA		Entertainment	False	False	True	False	Specialty		www.daystar.com/satellite.pdf	
+US	16425.stations.xmltv.tvmedia.ca	797	SonLife Network HD	SBN-HD|797	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s91314_h15_aa.png		
+US	7298.stations.xmltv.tvmedia.ca	798	Jewish Life Television HD	JLT|798	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s60165_h15_ac.png		
+US	6217.stations.xmltv.tvmedia.ca	804	G4 USA HD	G4HD|804	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s121253_h15_ab.png		
+US	6444.stations.xmltv.tvmedia.ca	806	Willow Cricket HD	WLLO-HD|806	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s80621_h15_aa.png		
+US	6981.stations.xmltv.tvmedia.ca	810	RACER Network USA HD	RACERHD|810	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s61036_h15_ac.png	www.mavtv.com	
+US	14118.stations.xmltv.tvmedia.ca	820	The Nest	NEST|820	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s147367_h15_aa.png		
+US	9982.stations.xmltv.tvmedia.ca	821	ESPN College Extra 1	ESPNCSE1|821	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s20687_h15_aa.png	www.espn.go.com	
+US	15433.stations.xmltv.tvmedia.ca	822	ESPN College Extra 2	ESPNCSE2|822	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s20688_h15_aa.png	www.espn.go.com	
+US	15435.stations.xmltv.tvmedia.ca	823	ESPN College Extra 3	ESPNCSE3|823	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s20689_h15_aa.png	www.espn.go.com	
+US	15437.stations.xmltv.tvmedia.ca	824	ESPN College Extra 4	ESPNCSE4|824	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s20690_h15_aa.png	www.espn.go.com	
+US	15439.stations.xmltv.tvmedia.ca	825	ESPN College Extra 5	ESPNCSE5|825	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s20691_h15_aa.png	www.espn.go.com	
+US	15441.stations.xmltv.tvmedia.ca	826	ESPN College Extra 6	ESPNCSE6|826	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s20692_h15_aa.png	www.espn.go.com	
+US	15352.stations.xmltv.tvmedia.ca	827	ESPN College Extra 7	ESPNCSE7|827	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s73263_h15_aa.png	www.espn.go.com	
+US	15445.stations.xmltv.tvmedia.ca	828	ESPN College Extra 8	ESPNCSE8|828	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s73264_h15_aa.png	www.espn.go.com	
+US	33965.stations.xmltv.tvmedia.ca	829	ACC Network HD	ACCN-HD|829	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s111905_h15_ac.png		
+US	10321.stations.xmltv.tvmedia.ca	834	MLB Network Strike Zone HD	MLBSZ|834	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s75220_h6_aa.png		
+US	7536.stations.xmltv.tvmedia.ca	835	NFL RedZone HD	NFLN|835	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s65025_h9_aa.png	www.nfl.com/REDZONE	
+US	3388.stations.xmltv.tvmedia.ca	840	Starz HD - Eastern	STARZ-HD|840	CA		Movies	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s34941_h15_ac.png	www.starz.com	
+US	7089.stations.xmltv.tvmedia.ca	842	Starz Edge HD - Eastern	EDGE-HD|842	CA		Movies	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s57573_h15_ab.png	www.starz.com	
+US	7090.stations.xmltv.tvmedia.ca	844	Starz In Black HD - Eastern	BSTZ-HD|844	CA		Movies	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s67235_h15_ab.png	www.starz.com	
+US	7091.stations.xmltv.tvmedia.ca	845	Starz Kids & Family HD - Eastern	SRZK-HD|845	CA		Movies	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s57581_h15_ab.png	www.starz.com	
+US	7087.stations.xmltv.tvmedia.ca	846	Starz Cinema HD - Eastern	CINEMA-HD|846	CA		Movies	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s67236_h15_ac.png	www.starz.com	
+US	7088.stations.xmltv.tvmedia.ca	847	Starz Comedy HD - Eastern	SRZC-HD|847	CA		Movies	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s57569_h15_ac.png	www.starz.com	
+US	9026.stations.xmltv.tvmedia.ca	848	INDIEplex HD	INDIEHD|848	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s65795_h15_ab.png	www.starzencore.com	
+US	8837.stations.xmltv.tvmedia.ca	849	RETROplex HD	RETRO|849	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s65791_h15_aa.png	www.starzencore.com	
+US	6083.stations.xmltv.tvmedia.ca	850	Starz Encore HD - Eastern	STZENHD|850	CA		Movies	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s36225_h15_ac.png	www.starz.com	
+US	11435.stations.xmltv.tvmedia.ca	852	Starz Encore Classic HD - Eastern	STZCLH|852	CA		Movies	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s83404_h15_ab.png	www.encoremedia.com	
+US	11439.stations.xmltv.tvmedia.ca	854	Starz Encore Westerns HD - Eastern	STZEWH|854	CA		Movies	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s102906_h15_ab.png	www.starz.com	
+US	11437.stations.xmltv.tvmedia.ca	856	Starz Encore Suspense HD - Eastern	STZESH|856	CA		Movies	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s83076_h15_aa.png	www.encoremedia.com	
+US	10814.stations.xmltv.tvmedia.ca	858	Starz Encore Black HD - Eastern	STZEBH|858	CA		Movies	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s72014_h15_ab.png	www.starz.com	
+US	10812.stations.xmltv.tvmedia.ca	861	Starz Encore Action HD - Eastern	STZAH|861	CA		Movies	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s72015_h15_aa.png	www.starz.com	
+US	11441.stations.xmltv.tvmedia.ca	862	Starz Encore Family HD - Eastern	STZEFH|862	CA		Movies	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s102903_h15_aa.png	www.starz.com	
+US	10965.stations.xmltv.tvmedia.ca	863	Starz Encore Espanol	STZESP|863	CA		Movies	False	False	False	True	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s102905_h15_ab.png	www.encoremedia.com	Duplicate channel ID
+US	3034.stations.xmltv.tvmedia.ca	865	Paramount+ with Showtime - Eastern	PARSHO-HD|865	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s21868_h15_ad.png	https://www.paramountpluswithshowtime.com/	
+US	10735.stations.xmltv.tvmedia.ca	866	Paramount+ with Showtime  West HD	PARSHOWHD|866	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s11115_h15_ad.png	https://www.paramountpluswithshowtime.com/	
+US	7110.stations.xmltv.tvmedia.ca	867	SHOXBET HD - Eastern	SHOBET-HD|867	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s68340_h15_ab.png	https://www.paramountpluswithshowtime.com/	
+US	7568.stations.xmltv.tvmedia.ca	868	SHOXBET HD - Pacific	SHOBET-HD|868	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s20622_h15_ad.png	https://www.paramountpluswithshowtime.com/	
+US	7111.stations.xmltv.tvmedia.ca	869	Showtime 2 HD - Eastern	SHO2|869	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s58533_h15_ac.png	https://www.paramountpluswithshowtime.com/	
+US	7566.stations.xmltv.tvmedia.ca	870	Showtime 2 HD - Pacific	SHO2|870	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s58533_h15_ac.png	https://www.paramountpluswithshowtime.com/	
+US	7107.stations.xmltv.tvmedia.ca	873	Showtime Extreme HD - Eastern	SHOWEX|873	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s60947_h15_aa.png	https://www.paramountpluswithshowtime.com/	
+US	7569.stations.xmltv.tvmedia.ca	874	Showtime Extreme HD - Pacific	SHOWE|874	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s60947_h15_aa.png	https://www.paramountpluswithshowtime.com/	
+US	4352.stations.xmltv.tvmedia.ca	885	TMC HD - Eastern	TMCHD|885	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s35329_h15_aa.png	https://www.paramountpluswithshowtime.com/	
+US	7113.stations.xmltv.tvmedia.ca	887	TMC Xtra HD - Eastern	TMCX|887	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s60951_h15_aa.png	https://www.paramountpluswithshowtime.com/	
+US	7610.stations.xmltv.tvmedia.ca	895	MGM+ HD - East	MGM-HD|895	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s65687_h15_ag.png		
+US	11615.stations.xmltv.tvmedia.ca	896	MGM+ Hits HD - East	MGMT-HD|896	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s67929_h15_ad.png		
+US	627.stations.xmltv.tvmedia.ca	899	HBO HD - Eastern Feed	HBO-HD|899	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s19548_h15_aa.png		
+US	2629.stations.xmltv.tvmedia.ca	901	HBO HD - Pacific Feed	HBOP-HD|901	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s19548_h15_aa.png		
+US	6313.stations.xmltv.tvmedia.ca	902	HBO 2 - Eastern Feed HD	HBO2E-HD|902	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v3/59368-1CFD0.png	www.hbo.com	
+US	6314.stations.xmltv.tvmedia.ca	903	HBO 2 - Pacific Feed HD	HBO2P-HD|903	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v3/59355-1CFB6.png	www.hbo.com	
+US	7099.stations.xmltv.tvmedia.ca	904	HBO Signature (HBO 3) - Eastern HD	HBO3|904	CA	HBO 3	Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v3/59363-1CFC6.png	www.hbo.com	
+US	7711.stations.xmltv.tvmedia.ca	905	HBO Signature (HBO 3) - Pacific HD	HBO3-HD|905	CA	HBO 3	Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v3/59366-1CFCC.png	www.hbo.com	
+US	7104.stations.xmltv.tvmedia.ca	906	HBO Family - Eastern Feed HD	HBOF|906	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s59357_h15_aa.png	www.hbo.com	
+US	7105.stations.xmltv.tvmedia.ca	908	HBO Comedy HD - East	HBOC|908	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s59839_h15_aa.png	www.hbo.com	
+US	8469.stations.xmltv.tvmedia.ca	909	HBO Comedy HD - Pacific	HBOC|909	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s59839_h15_aa.png	www.hbo.com	
+US	7102.stations.xmltv.tvmedia.ca	910	HBO Zone HD - East	ZONE|910	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v3/59845-1D38A.png	www.hbo.com	
+US	8470.stations.xmltv.tvmedia.ca	911	HBO Zone HD - Pacific	ZONE|911	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v3/59847-1D38E.png	www.hbo.com	
+US	7096.stations.xmltv.tvmedia.ca	912	HBO Latino (HBO 7) HD - Eastern	HBOL|912	CA	HBO 7	Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s24553_h9_ab.png	www.hbo.com	
+US	8471.stations.xmltv.tvmedia.ca	913	HBO Latino (HBO 7) HD - Pacific	HBOL|913	CA	HBO 7	Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s24553_h9_ab.png	www.hbolatino.com	
+US	3567.stations.xmltv.tvmedia.ca	920	Cinemax - Eastern HD	MAX1HD|920	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s34933_h15_ab.png	www.cinemax.com	
+US	3568.stations.xmltv.tvmedia.ca	921	Cinemax - Pacific HD	MAX1HD|921	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s34933_h15_ab.png		
+US	7097.stations.xmltv.tvmedia.ca	922	MoreMax - Eastern HD	MAX2HD|922	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v3/59373-1CFDA.png	www.cinemax.com	
+US	8472.stations.xmltv.tvmedia.ca	923	MoreMax - Pacific HD	MAX2HD|923	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v3/59375-1CFDE.png	www.cinemax.com	
+US	7094.stations.xmltv.tvmedia.ca	924	ActionMax - Eastern HD	MAX3HD|924	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v3/59948-1D458.png	www.cinemax.com	
+US	7100.stations.xmltv.tvmedia.ca	926	ThrillerMax - East HD	HBO4HD|926	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s59954_h15_ab.png	www.cinemax.com	
+US	7092.stations.xmltv.tvmedia.ca	929	Cinemáx HD	@MAX|929	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s59965_h15_ab.png	WWW.CINEMAX.COM	
+US	7093.stations.xmltv.tvmedia.ca	930	5 Star Max HD - Eastern	MAX5HD|930	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v3/59961-1D472.png	WWW.CINEMAX.COM	
+US	2270.stations.xmltv.tvmedia.ca	931	OuterMax - Eastern	MAX7|931	CA		Entertainment	False	False	False	True	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s25622_h15_ab.png		Duplicate channel ID
+US	7538.stations.xmltv.tvmedia.ca	1009	FOX Soccer Plus	FSP|1009	CA		Entertainment	False	False	False	False	US Network	http://cdn.tvpassport.com/image/station/76x28/v2/s66879_h15_aa.png		
+US	11551.stations.xmltv.tvmedia.ca	1010	FOX Soccer Plus HD	FSPHD|1010	CA		Entertainment	False	False	True	False	US Network	http://cdn.tvpassport.com/image/station/76x28/v2/s66880_h15_aa.png	WWW.FOXNETWORK.COM/	
+US	15433.stations.xmltv.tvmedia.ca	1011	ESPN College Extra 2	ESPNCSE2|1011	CA		Entertainment	False	False	False	True	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s20688_h15_aa.png	www.espn.go.com	Duplicate channel ID
+US	15435.stations.xmltv.tvmedia.ca	1012	ESPN College Extra 3	ESPNCSE3|1012	CA		Entertainment	False	False	False	True	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s20689_h15_aa.png	www.espn.go.com	Duplicate channel ID
+US	15437.stations.xmltv.tvmedia.ca	1013	ESPN College Extra 4	ESPNCSE4|1013	CA		Entertainment	False	False	False	True	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s20690_h15_aa.png	www.espn.go.com	Duplicate channel ID
+US	15439.stations.xmltv.tvmedia.ca	1014	ESPN College Extra 5	ESPNCSE5|1014	CA		Entertainment	False	False	False	True	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s20691_h15_aa.png	www.espn.go.com	Duplicate channel ID
+US	15441.stations.xmltv.tvmedia.ca	1015	ESPN College Extra 6	ESPNCSE6|1015	CA		Entertainment	False	False	False	True	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s20692_h15_aa.png	www.espn.go.com	Duplicate channel ID
+US	7935.stations.xmltv.tvmedia.ca	1450	MLS Direct Kick 1 HD	TEAMHD01|1450	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s55597_h15_ad.png	WWW.PPV.COM	
+US	14492.stations.xmltv.tvmedia.ca	1451	MLS Direct Kick 2 HD	TEAMHD02|1451	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s55597_h15_ad.png	WWW.PPV.COM	
+US	14495.stations.xmltv.tvmedia.ca	1452	MLS Direct Kick 3 HD	TEAMHD03|1452	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s55597_h15_ad.png	WWW.PPV.COM	
+US	14497.stations.xmltv.tvmedia.ca	1453	MLS Direct Kick 4 HD	TEAMHD04|1453	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s55597_h15_ad.png	WWW.PPV.COM	
+US	14499.stations.xmltv.tvmedia.ca	1454	MLS Direct Kick 5 HD	TEAMHD05|1454	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s55597_h15_ad.png	WWW.PPV.COM	
+US	9617.stations.xmltv.tvmedia.ca	1466	MLB Extra Innings 1 HD	GMHD1|1466	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s55596_h15_aa.png	WWW.PPV.COM	
+US	9618.stations.xmltv.tvmedia.ca	1467	MLB Extra Innings 2 HD	GMHD2|1467	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s66112_h15_ad.png	WWW.PPV.COM	
+US	9619.stations.xmltv.tvmedia.ca	1468	MLB Extra Innings 3 HD	GMHD3|1468	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s72810_h15_ad.png	WWW.PPV.COM	
+US	9620.stations.xmltv.tvmedia.ca	1469	MLB Extra Innings 4 HD	GMHD4|1469	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s72824_h15_ad.png	WWW.PPV.COM	
+US	9621.stations.xmltv.tvmedia.ca	1470	MLB Extra Innings 5 HD	GMHD5|1470	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s72825_h15_ad.png	WWW.PPV.COM	
+US	9623.stations.xmltv.tvmedia.ca	1471	MLB Extra Innings 6 HD	GMHD6|1471	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s72826_h15_ad.png	WWW.PPV.COM	
+US	9622.stations.xmltv.tvmedia.ca	1472	MLB Extra Innings 7 HD	GMHD7|1472	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s72827_h15_ad.png	WWW.PPV.COM	
+US	9624.stations.xmltv.tvmedia.ca	1473	MLB Extra Innings 8 HD	GMHD8|1473	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s72828_h15_ad.png	WWW.PPV.COM	
+US	9625.stations.xmltv.tvmedia.ca	1474	MLB Extra Innings 9 HD	GMHD9|1474	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s72829_h15_ad.png	WWW.PPV.COM	
+US	2759.stations.xmltv.tvmedia.ca	1475	MLB Extra Innings 1	GM1|1475	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s26197_h15_ad.png	WWW.PPV.COM	
+US	2760.stations.xmltv.tvmedia.ca	1476	MLB Extra Innings 2	GM2|1476	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s26198_h15_ad.png	WWW.PPV.COM	
+US	2761.stations.xmltv.tvmedia.ca	1477	MLB Extra Innings 3	GM3|1477	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s26199_h15_ad.png	WWW.PPV.COM	
+US	2762.stations.xmltv.tvmedia.ca	1478	MLB Extra Innings 4	GM4|1478	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s26200_h15_ad.png	WWW.PPV.COM	
+US	2763.stations.xmltv.tvmedia.ca	1479	MLB Extra Innings 5	GM5|1479	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s26201_h15_ad.png	WWW.PPV.COM	
+US	2764.stations.xmltv.tvmedia.ca	1480	MLB Extra Innings 6	GM6|1480	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s26202_h15_ad.png	WWW.PPV.COM	
+US	2765.stations.xmltv.tvmedia.ca	1481	MLB Extra Innings 7	GM7|1481	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s26203_h15_ad.png	WWW.PPV.COM	
+US	2766.stations.xmltv.tvmedia.ca	1482	MLB Extra Innings 8	GM8|1482	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s26204_h15_ad.png	WWW.PPV.COM	
+US	2767.stations.xmltv.tvmedia.ca	1483	MLB Extra Innings 9	GM9|1483	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s29093_h15_ad.png		
+US	2768.stations.xmltv.tvmedia.ca	1484	MLB Extra Innings 10	GM10|1484	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s31250_h15_ad.png		
+US	6025.stations.xmltv.tvmedia.ca	1485	MLB Extra Innings 11	GM11|1485	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s53701_h15_ad.png		
+US	6024.stations.xmltv.tvmedia.ca	1486	MLB Extra Innings 12	GM12|1486	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s53704_h15_ad.png		
+US	6023.stations.xmltv.tvmedia.ca	1487	MLB Extra Innings 13	GM13|1487	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s53705_h15_ad.png		
+US	15403.stations.xmltv.tvmedia.ca	1488	MLB Extra Innings 14	GM14|1488	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s53708_h15_ad.png		
+US	7939.stations.xmltv.tvmedia.ca	1490	MLS Direct Kick 1	TEAM01|1490	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s50126_h15_aa.png	www.mlsnet.com/special/shootout.html	
+US	14493.stations.xmltv.tvmedia.ca	1491	MLS Direct Kick 2	TEAM02|1491	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s20811_h15_ad.png	WWW.PPV.COM	
+US	14494.stations.xmltv.tvmedia.ca	1492	MLS Direct Kick 3	TEAM03|1492	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s20812_h15_ad.png	WWW.PPV.COM	
+US	14496.stations.xmltv.tvmedia.ca	1493	MLS Direct Kick 4	TEAM04|1493	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s21044_h15_ad.png	WWW.PPV.COM	
+US	14498.stations.xmltv.tvmedia.ca	1494	MLS Direct Kick 5	TEAM05|1494	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s21045_h15_ad.png	WWW.PPV.COM	
+US	14500.stations.xmltv.tvmedia.ca	1495	MLS Direct Kick 6	TEAM06|1495	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s21046_h15_ad.png	WWW.PPV.COM	
+US	14502.stations.xmltv.tvmedia.ca	1496	MLS Direct Kick 7	TEAM07|1496	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s21047_h15_ad.png	WWW.PPV.COM	
+US	14504.stations.xmltv.tvmedia.ca	1497	MLS Direct Kick 8	TEAM08|1497	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s21048_h15_ad.png	WWW.PPV.COM	
+US	14506.stations.xmltv.tvmedia.ca	1498	MLS Direct Kick 9	TEAM09|1498	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s21049_h15_ad.png	WWW.PPV.COM	
+US	14490.stations.xmltv.tvmedia.ca	1499	MLS Direct Kick 10	TEAM10|1499	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s21115_h15_ad.png	WWW.NBA.COM	
+US	640.stations.xmltv.tvmedia.ca	1500	USA Network - East Feed	USA|1500	CA		Entertainment	False	False	False	True	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s11207_h15_af.png		Duplicate channel ID
+US	347.stations.xmltv.tvmedia.ca	1501	TNT - Eastern Feed	TNT|1501	CA		Entertainment	False	False	False	True	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s11164_h15_ac.png		Duplicate channel ID
+US	61.stations.xmltv.tvmedia.ca	1502	TBS - East	TBS|1502	CA		Entertainment	False	False	False	True	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s11867_h15_ac.png		Duplicate channel ID
+US	1894.stations.xmltv.tvmedia.ca	1503	Galavision - Eastern Feed	GALA|1503	CA		Entertainment	False	False	False	True	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s10222_h15_ac.png	www.galavision.com	Duplicate channel ID
+US	652.stations.xmltv.tvmedia.ca	1504	FX Networks East Coast	FX|1504	CA		Entertainment	False	False	False	True	FX	http://cdn.tvpassport.com/image/station/76x28/v2/s14321_h15_aa.png		Duplicate channel ID
+US	1030.stations.xmltv.tvmedia.ca	1505	Paramount Network USA - Eastern Feed	PRMT|1505	CA		Entertainment	False	False	False	True	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s11163_h15_ac.png	www.spiketv.com	Duplicate channel ID
+US	14996.stations.xmltv.tvmedia.ca	1506	Television Dominicana	TD|1506	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s49022_h15_ad.png	www.televisiondominicana.tv/	
+US	2103.stations.xmltv.tvmedia.ca	1507	Super Canal Caribe	SCANAL|1507	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s75380_h15_aa.png	www.supercanal.com/	
+US	4579.stations.xmltv.tvmedia.ca	1508	Wapa America	WA|1508	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s63389_h15_ac.png		
+US	7783.stations.xmltv.tvmedia.ca	1509	Tele El Salvador	TELS|1509	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s65809_h15_aa.png	www.Supercanal.com	
+US	4570.stations.xmltv.tvmedia.ca	1510	Sur Peru - Eastern	SP|1510	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s46753_h15_aa.png	www.canalsur.com	
+US	8896.stations.xmltv.tvmedia.ca	1511	Multimedios	MULT|1511	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s91505_h15_ab.png		
+US	14393.stations.xmltv.tvmedia.ca	1515	Antena 3 Internacional	ANT3|1515	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s16800_h9_ab.png	www.antena3tv.es/programacion	
+US	3132.stations.xmltv.tvmedia.ca	1516	Multimedios (XHNAT) Nuevo Laredo, Mexico	XHNAT|1516	CA	XHNAT	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s91505_h15_ab.png		
+US	2108.stations.xmltv.tvmedia.ca	1520	ESPN Deportes	ESPND|1520	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s25595_h15_aa.png		
+US	1827.stations.xmltv.tvmedia.ca	1521	Fox Deportes	FOXD|1521	CA		Entertainment	False	False	False	True	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s15377_h15_ab.png		Duplicate channel ID
+US	1952.stations.xmltv.tvmedia.ca	1522	FXX USA - Eastern	FXX|1522	CA		Entertainment	False	False	False	True	FX	http://cdn.tvpassport.com/image/station/76x28/v2/s17927_h15_aa.png		Duplicate channel ID
+US	1305.stations.xmltv.tvmedia.ca	1524	Univision - Eastern Feed	UNI|1524	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s11118_h15_ab.png	www.univision.com	
+US	1953.stations.xmltv.tvmedia.ca	1526	YES Network	YES|1526	CA		Entertainment	False	False	False	True	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s30017_h15_aa.png	www.yesnetworktv.com	Duplicate channel ID
+US	4186.stations.xmltv.tvmedia.ca	1527	SNY: SportsNet New York (Comcast)	SNY|1527	US	Comcast	Sports	False	False	False	True	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s49603_h9_aa.png		Duplicate channel ID
+US	1649.stations.xmltv.tvmedia.ca	1528	MSG (Madison Square Gardens)	MSG|1528	CA	Madison Square Gardens	Entertainment	False	False	False	True	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s10979_h15_ab.png	www.msgnetwork.com	Duplicate channel ID
+US	1088.stations.xmltv.tvmedia.ca	1529	MSG Plus	MSG+|1529	CA		Entertainment	False	False	False	True	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s11105_h15_ac.png		Duplicate channel ID
+US	6178.stations.xmltv.tvmedia.ca	1530	MLB Network	MLB|1530	CA		Entertainment	False	False	False	True	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s62079_h15_aa.png		Duplicate channel ID
+US	10502.stations.xmltv.tvmedia.ca	1534	Fox Deportes HD	FOXD|1534	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s15377_h15_ab.png	www.msn.foxsports.com/fse	
+US	7074.stations.xmltv.tvmedia.ca	1535	AYM Sports	AYM|1535	CA		Sports	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s34863_h15_ab.png	www.alternatv.us	
+US	4578.stations.xmltv.tvmedia.ca	1536	TyC Sports	TYC|1536	CA		Sports	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s16275_h15_aa.png	www.tycsports.com	
+US	10347.stations.xmltv.tvmedia.ca	1537	ESPN Deportes HD	ESPNDHD|1537	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s71914_h15_aa.png	www.espnmediazone3.com/us	
+US	10856.stations.xmltv.tvmedia.ca	1538	beIN Sport en Espanol HD	beINSHD|1538	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s76955_h15_aa.png		
+US	8136.stations.xmltv.tvmedia.ca	1539	Univision - Eastern Feed HD	UNI|1539	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s11118_h15_ab.png	www.univision.net	
+US	2096.stations.xmltv.tvmedia.ca	1540	CNN Español	CNNE|1540	CA		Entertainment	True	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s58631_h9_aa.png	WWW.turnertapkit.com	
+US	70.stations.xmltv.tvmedia.ca	1541	CNN	CNN|1541	CA		Entertainment	True	False	False	True	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s10142_h15_aa.png		Duplicate channel ID
+US	425.stations.xmltv.tvmedia.ca	1542	HLN	HLN|1542	CA		Entertainment	False	False	False	True	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s10145_h15_ac.png	Turner.com	Duplicate channel ID
+US	1083.stations.xmltv.tvmedia.ca	1543	Fox News	FNC|1543	CA		News	False	False	False	True	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s16374_h15_ab.png		Duplicate channel ID
+US	201.stations.xmltv.tvmedia.ca	1544	CNBC USA	CNBC|1544	CA		Entertainment	True	False	False	True	US Network	http://cdn.tvpassport.com/image/station/76x28/v3/10139-4F36.png		Duplicate channel ID
+US	655.stations.xmltv.tvmedia.ca	1545	MS NOW USA	MSNOW|1545	CA		Entertainment	False	False	False	True	Specialty	http://cdn.tvpassport.com/image/station/76x28/v3/16300-7F58.png	https://www.ms.now/	Duplicate channel ID
+US	648.stations.xmltv.tvmedia.ca	1546	C-SPAN	CSPAN|1546	CA		Entertainment	False	False	False	True	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s10161_h15_ad.png	www.c-span.org	Duplicate channel ID
+US	4656.stations.xmltv.tvmedia.ca	1547	Fox Business	FOXB|1547	CA		Entertainment	False	False	False	True	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s58649_h15_ac.png		Duplicate channel ID
+US	2100.stations.xmltv.tvmedia.ca	1549	Canal Sur	SUR|1549	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s12750_h15_aa.png		
+US	7726.stations.xmltv.tvmedia.ca	1550	Milenio	MLN|1550	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s61719_h15_ab.png		
+US	13637.stations.xmltv.tvmedia.ca	1551	FOROtv	FORO|1551	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s66635_h15_ac.png		
+US	11294.stations.xmltv.tvmedia.ca	1552	Fusion	Fusion|1552	CA		Entertainment	False	False	False	True	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s83173_h15_ab.png		Duplicate channel ID
+US	2073.stations.xmltv.tvmedia.ca	1558	Discovery en Espanol	DSCE|1558	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s19247_h15_ac.png	www.tudiscovery.com/	
+US	2095.stations.xmltv.tvmedia.ca	1560	TVE Internacional	TVE|1560	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s90320_h15_aa.png		
+US	3252.stations.xmltv.tvmedia.ca	1561	History Channel Espanol - Eastern	HCE|1561	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s105678_h15_ab.png	www.HistoryChannel.com	
+US	649.stations.xmltv.tvmedia.ca	1562	Discovery Channel (US) - Eastern Feed	DISC|1562	CA	US	Entertainment	False	False	False	True	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s11150_h15_af.png		Duplicate channel ID
+US	2073.stations.xmltv.tvmedia.ca	1563	Discovery en Espanol	DSCE|1563	CA		Entertainment	False	False	False	True	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s19247_h15_ac.png	www.tudiscovery.com/	Duplicate channel ID
+US	9577.stations.xmltv.tvmedia.ca	1564	National Geographic Mundo	NGM|1564	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s72449_h15_aa.png		
+US	645.stations.xmltv.tvmedia.ca	1565	Animal Planet US - East	ANPL|1565	CA		Entertainment	False	False	False	True	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s16331_h9_ad.png		Duplicate channel ID
+US	5005.stations.xmltv.tvmedia.ca	1566	TLC USA - Eastern	TLC|1566	CA		Entertainment	False	False	False	True	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s11158_h15_ad.png		Duplicate channel ID
+US	4507.stations.xmltv.tvmedia.ca	1567	Canal Once (Mexico)	OM|1567	CA	Mexico	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s116166_h15_aa.png		
+US	14997.stations.xmltv.tvmedia.ca	1570	Ultra Docu	DOCU|1570	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s79605_h15_aa.png		
+US	654.stations.xmltv.tvmedia.ca	1580	Lifetime Network US - Eastern Feed	LIFE|1580	CA		Entertainment	False	False	False	True	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s10918_h15_ac.png		Duplicate channel ID
+US	1333.stations.xmltv.tvmedia.ca	1581	Lifetime Movies - East	LifeMov|1581	CA		Movies	False	False	False	True	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s18480_h15_ad.png	www.mylifetime.com/lmn	Duplicate channel ID
+US	8889.stations.xmltv.tvmedia.ca	1583	Pasiones USA	PAS|1583	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s71621_h15_aa.png		
+US	15013.stations.xmltv.tvmedia.ca	1584	Univision Telenovelas	UNI-T|1584	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s74550_h15_ab.png	www.univision.net	
+US	15009.stations.xmltv.tvmedia.ca	1585	Ultra Luna	LUNA|1585	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s79693_h15_aa.png		
+US	14683.stations.xmltv.tvmedia.ca	1600	QVC	QVC|1600	CA		Entertainment	False	False	False	True	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s11069_h15_ad.png		Duplicate channel ID
+US	14985.stations.xmltv.tvmedia.ca	1601	HSN  - Home Shopping Network	HSN|1601	CA		Entertainment	False	False	False	True	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s10269_h15_ab.png	www.hsn.com	Duplicate channel ID
+US	1523.stations.xmltv.tvmedia.ca	1603	SHOPHQ	SHOPHQ|1603	CA		Entertainment	False	False	False	True	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s14948_h15_ae.png	www.vvtv.com	Duplicate channel ID
+US	13442.stations.xmltv.tvmedia.ca	1604	QVC2	QVC2|1604	CA		Entertainment	False	False	False	True	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s82682_h15_ad.png	www.qvc.com	Duplicate channel ID
+US	13495.stations.xmltv.tvmedia.ca	1605	HSN 2	HSN2|1605	CA		Entertainment	False	False	False	True	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s10270_h15_ad.png		Duplicate channel ID
+US	1054.stations.xmltv.tvmedia.ca	1621	Food Network USA - Eastern Feed	FOOD|1621	CA		Entertainment	False	False	False	True	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s12574_h15_ab.png		Duplicate channel ID
+US	623.stations.xmltv.tvmedia.ca	1622	HGTV USA - Eastern Feed	HGTV|1622	CA		Entertainment	False	False	False	True	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s14902_h15_ab.png		Duplicate channel ID
+US	662.stations.xmltv.tvmedia.ca	1623	Travel US - East	TRAVEL|1623	CA		Entertainment	False	False	False	True	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s11180_h15_ac.png		Duplicate channel ID
+US	1159.stations.xmltv.tvmedia.ca	1625	Oprah Winfrey Network USA Eastern	OWN|1625	CA		Entertainment	False	False	False	True	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s70387_h15_aa.png		Duplicate channel ID
+US	617.stations.xmltv.tvmedia.ca	1640	E! Entertainment USA - Eastern Feed	E!|1640	CA		Entertainment	False	False	False	True	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s10989_h15_aa.png	www.eonline.com	Duplicate channel ID
+US	2.stations.xmltv.tvmedia.ca	1641	A&E US - Eastern Feed	A&E|1641	CA		Entertainment	False	False	False	True	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s10035_h15_ab.png	www.AETV.com	Duplicate channel ID
+US	1486.stations.xmltv.tvmedia.ca	1642	FUSE TV - Eastern feed	FUSE|1642	CA		Entertainment	False	False	False	True	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s14929_h15_ac.png		Duplicate channel ID
+US	1797.stations.xmltv.tvmedia.ca	1643	NBC Universo - Eastern feed	NBCUN|1643	CA		Entertainment	False	False	False	True	US Network	http://cdn.tvpassport.com/image/station/76x28/v2/s14791_h15_ab.png	www.holamun2.com/grid	Duplicate channel ID
+US	647.stations.xmltv.tvmedia.ca	1644	Comedy Central (US) - Eastern Feed	COMC|1644	CA	US	Entertainment	False	False	False	True	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s10149_h15_ab.png		Duplicate channel ID
+US	596.stations.xmltv.tvmedia.ca	1645	Syfy - Eastern Feed	SYFY|1645	CA		Entertainment	False	False	False	True	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s11097_h15_ae.png		Duplicate channel ID
+US	4543.stations.xmltv.tvmedia.ca	1648	HITN	HITN|1648	CA		Entertainment	False	False	False	True	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s17142_h15_ac.png		Duplicate channel ID
+US	15010.stations.xmltv.tvmedia.ca	1650	Ultra Macho	MACHO|1650	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s79696_h15_aa.png		
+US	3808.stations.xmltv.tvmedia.ca	1660	MTV Tr3s - East	TR3S|1660	CA		Music	False	False	False	True	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s18715_h15_ao.png	www.tr3s.com	Duplicate channel ID
+US	1515.stations.xmltv.tvmedia.ca	1661	MTV 2 - East	MTV2|1661	CA		Music	False	False	False	True	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s16361_h15_aa.png		Duplicate channel ID
+US	6143.stations.xmltv.tvmedia.ca	1662	Telehit	THIT|1662	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s15211_h15_ac.png		
+US	4423.stations.xmltv.tvmedia.ca	1663	Bandamax	BAND|1663	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s18101_h15_ac.png		
+US	1076.stations.xmltv.tvmedia.ca	1665	CMT US - Eastern Feed	CMTUS|1665	CA		Entertainment	False	False	False	True	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s10138_h15_ab.png		Duplicate channel ID
+US	10236.stations.xmltv.tvmedia.ca	1666	Teleritmo	TELERITMO|1666	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s32749_h15_ab.png	www.cablevision.com.mx	
+US	15002.stations.xmltv.tvmedia.ca	1670	Ultra Fiesta	FIESTA|1670	CA		Entertainment	False	False	False	False	Specialty			
+US	4419.stations.xmltv.tvmedia.ca	1680	De Pelicula	PELIC|1680	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s16288_h15_ac.png		
+US	4420.stations.xmltv.tvmedia.ca	1681	De Pelicula Clasico	PELIC|1681	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s33628_h15_ac.png	www.televisanetworks.tv	
+US	4470.stations.xmltv.tvmedia.ca	1682	ViendoMovies	VM|1682	CA		Movies	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s52208_h15_aa.png	www.somostv.net	
+US	7076.stations.xmltv.tvmedia.ca	1683	Gran Cine	GRAN|1683	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s63703_h9_aa.png	www.grancine.tv/esp_home.htm	
+US	3081.stations.xmltv.tvmedia.ca	1685	Cinelatino USA	CINELAT|1685	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s15296_h9_ab.png		
+US	4469.stations.xmltv.tvmedia.ca	1686	Cine Mexicano	CM|1686	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s44714_h15_aa.png	www.cinemexicano.tv	
+US	6830.stations.xmltv.tvmedia.ca	1688	Cine Estelar	CIES|1688	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s62125_h15_aa.png	www.cinenostalgia.tv	
+US	15001.stations.xmltv.tvmedia.ca	1690	Ultra Cine	CINE|1690	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s79680_h15_aa.png		
+US	15004.stations.xmltv.tvmedia.ca	1691	Ultra Film	FILM|1691	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s79611_h15_aa.png		
+US	15011.stations.xmltv.tvmedia.ca	1692	Ultra Mex	MEX|1692	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s79692_h15_aa.png		
+US	15000.stations.xmltv.tvmedia.ca	1693	Ultra Clasico	Clasico|1693	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s178062_h15_aa.png	www.olympusat.com	
+US	1011.stations.xmltv.tvmedia.ca	1700	Freeform - East Feed	FREE|1700	CA		Entertainment	False	False	False	True	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s10093_h15_ae.png	www.freeform.go.com	Duplicate channel ID
+US	14528.stations.xmltv.tvmedia.ca	1701	Discovery Familia HD	DFAM|1701	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s99630_h15_ab.png	kids.discovery.com	
+US	6551.stations.xmltv.tvmedia.ca	1702	Discovery Familia	DFAM|1702	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s99630_h15_ab.png		
+US	6829.stations.xmltv.tvmedia.ca	1703	CentroAmérica TV	CATV|1703	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s44448_h15_ab.png	www.centroamericatv.tv	
+US	2102.stations.xmltv.tvmedia.ca	1704	TV Chile	TVCHIL|1704	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s16046_h15_ab.png	www.tvchile.cl/parilla.aspx	
+US	4615.stations.xmltv.tvmedia.ca	1705	RCN Nuestra Tele	RCNNT|1705	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s33431_h15_ad.png	www.tvcolombia.com	
+US	1252.stations.xmltv.tvmedia.ca	1707	TV Land - Eastern	TVLAND|1707	CA		Entertainment	False	False	False	True	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s16123_h15_aa.png		Duplicate channel ID
+US	4444.stations.xmltv.tvmedia.ca	1719	Baby First TV	BABY1|1719	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s50338_h15_ab.png	www.babyfirsttv.com	
+US	2107.stations.xmltv.tvmedia.ca	1720	¡Sorpresa!	SOPR|1720	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s56405_h15_aa.png	www.sorpresatv.com/programas.asp	
+US	16215.stations.xmltv.tvmedia.ca	1721	V-me Kids	VKIDS|1721	CA		Kids	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s70830_h15_aa.png	www.vmetv.com	
+US	1053.stations.xmltv.tvmedia.ca	1722	Disney XD USA - Eastern Feed	DISNXD|1722	CA		Entertainment	False	False	False	True	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s18279_h15_aa.png	disneyxd.disney.com	Duplicate channel ID
+US	9390.stations.xmltv.tvmedia.ca	1723	Semillitas TV	SEMTV|1723	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s68356_h15_aa.png	www.semillitas.tv/index.php	
+US	2268.stations.xmltv.tvmedia.ca	1725	Boomerang	BOOM|1725	CA		Entertainment	False	False	False	True	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s21883_h15_ab.png		Duplicate channel ID
+US	661.stations.xmltv.tvmedia.ca	1726	Cartoon Network USA - Eastern Feed	TOON|1726	CA		Kids	False	False	False	True	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s12131_h15_aa.png		Duplicate channel ID
+US	658.stations.xmltv.tvmedia.ca	1728	Nickelodeon USA - East Feed	NICK|1728	CA		Entertainment	False	False	False	True	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s11006_h15_ab.png		Duplicate channel ID
+US	595.stations.xmltv.tvmedia.ca	1729	Disney - Eastern Feed	DISN|1729	CA		Entertainment	False	False	False	True	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s10171_h15_ae.png	www.disneychannel.com	Duplicate channel ID
+US	15007.stations.xmltv.tvmedia.ca	1730	Ultra Kidz	UKIDZ|1730	CA		Entertainment	False	False	False	False	Specialty			
+US	3256.stations.xmltv.tvmedia.ca	1740	Enlace	TBNE|1740	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s30174_h15_ab.png		
+US	1878.stations.xmltv.tvmedia.ca	1741	EWTN Espanol	EWTNE|1741	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s52649_h15_ab.png	www.ewtn.com/spanish/	
+US	10295.stations.xmltv.tvmedia.ca	1750	ATN - Aapka Colors	ACTV|1750	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v3/85862-29ECC.png		
+US	3413.stations.xmltv.tvmedia.ca	1752	TV Asia	TVAS|1752	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s14763_h9_aa.png	www.tvasiausa.com	
+US	8907.stations.xmltv.tvmedia.ca	1753	Zee TV (India)	ZTV|1753	CA	India	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v3/19283-96A6.png	www.zeetvusa.com/zeetv/schedule/	
+US	4007.stations.xmltv.tvmedia.ca	1754	SET (Sony Entertainment Television Asia)	SET|1754	CA	Sony Entertainment Television Asia	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/set-sony.png		
+US	9604.stations.xmltv.tvmedia.ca	1755	TFC - The Filipino Channel	TFC|1755	CA		Entertainment	False	False	False	False	Specialty			
+US	6954.stations.xmltv.tvmedia.ca	1756	GMA/Pinoy TV	GMA-PINOY|1756	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s46463_h9_aa.png	www.igma.tv/schedule.php	
+US	8683.stations.xmltv.tvmedia.ca	1757	Jus Punjabi	JUS|1757	CA		Entertainment	False	False	False	False	Specialty			
+US	15014.stations.xmltv.tvmedia.ca	1759	MBC Drama (Korean)	MBC-Drama|1759	CA	Korean	Entertainment	False	False	False	False	Specialty			
+US	14771.stations.xmltv.tvmedia.ca	1760	MBC America (Korean)	MBC-Amer|1760	CA	Korean	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s50270_h9_aa.png	mbcamerica.tv	
+US	8675.stations.xmltv.tvmedia.ca	1762	SBS (Korean)	SBS|1762	CA	Korean	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s34085_h15_aa.png	tv.sbs.co.kr	
+US	8980.stations.xmltv.tvmedia.ca	1764	RTPi America	RTPi|1764	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s15717_h15_ad.png	www.rtp.pt/rtpi/	
+US	2937.stations.xmltv.tvmedia.ca	1765	VGNTV (Saigon Broadcasting Television Network)	VGNTV|1765	CA	Saigon Broadcasting Television Network	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s88484_h9_aa.png		
+US	4018.stations.xmltv.tvmedia.ca	1768	Globo Internacional	GINT|1768	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s42206_h15_cc.png	www.redeglobo.com.br	
+US	10507.stations.xmltv.tvmedia.ca	1769	TV Japan HD	NIPP|1769	CA		Entertainment	False	False	True	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s73554_h6_aa.png	www.tvjapan.net	
+US	23.stations.xmltv.tvmedia.ca	1771	TV5 International - East	TV5|1771	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s11185_h15_aa.png		
+US	5263.stations.xmltv.tvmedia.ca	1774	RTN+ - Russian Television Network	RTNP|1774	CA		Entertainment	False	False	False	False	Specialty			
+US	8680.stations.xmltv.tvmedia.ca	1775	RTR Planeta	RTR|1775	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s43389_h15_ab.png		
+US	2828.stations.xmltv.tvmedia.ca	1776	TV Polonia	TVPO|1776	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s19134_h15_ae.png	www.tvpolonia.com	
+US	2287.stations.xmltv.tvmedia.ca	1778	TV One	TV1|1778	CA		Entertainment	False	False	False	True	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s35513_h15_ab.png		Duplicate channel ID
+US	14219.stations.xmltv.tvmedia.ca	1780	ART Cable (Arabic)	ARTC|1780	CA	Arabic	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s18741_h15_aa.png		
+US	2425.stations.xmltv.tvmedia.ca	1782	The Israeli Network	TIN|1782	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s27549_h15_ab.png	www.theisraelinetwork.com	
+US	10208.stations.xmltv.tvmedia.ca	1787	DW Amerika (German)	DWA|1787	CA	German	Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s120691_h15_aa.png		
+US	4216.stations.xmltv.tvmedia.ca	1795	CCTV-4 America	CCTV4|1795	CA		Entertainment	False	False	False	False	CTV	http://cdn.tvpassport.com/image/station/76x28/v2/s24248_h15_ac.png	WWW.CCTV-4.com	
+US	3258.stations.xmltv.tvmedia.ca	1796	CTI-Zhong Tian Channel	CITZTC|1796	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s20655_h9_aa.png	www.internationalnetworks.com/24hourpaychannels/chinese/default.aspx	
+US	14566.stations.xmltv.tvmedia.ca	1800	MC - Hit List	MC|1800	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s19313_h15_aa.png	WWW.MUSICCHOICE.COM	
+US	15017.stations.xmltv.tvmedia.ca	1801	MC - Pop Rhythmic	MC|1801	CA		Entertainment	False	False	False	False	Specialty			
+US	14596.stations.xmltv.tvmedia.ca	1802	MC - Dance/EDM	MC|1802	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s76302_h15_aa.png		
+US	14577.stations.xmltv.tvmedia.ca	1804	MC - Hip-Hop and R&B	MC|1804	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s26230_h15_aa.png	WWW.MUSICCHOICE.COM	
+US	14597.stations.xmltv.tvmedia.ca	1805	MC - Rap	MC|1805	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s24378_h15_aa.png	WWW.MUSICCHOICE.COM	
+US	14598.stations.xmltv.tvmedia.ca	1806	MC - Hip-Hop Classics	MC|1806	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s19339_h15_aa.png	WWW.MUSICCHOICE.COM	
+US	14599.stations.xmltv.tvmedia.ca	1807	MC - Throwback Jamz	MC|1807	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s26232_h15_aa.png	www.musicchoice.com	
+US	14600.stations.xmltv.tvmedia.ca	1808	MC - R&B Classics	MC|1808	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s19344_h15_aa.png	WWW.MUSICCHOICE.COM	
+US	14601.stations.xmltv.tvmedia.ca	1809	MC - R&B Soul	MC|1809	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s26250_h15_aa.png	www.musicchoice.com	
+US	14557.stations.xmltv.tvmedia.ca	1810	MC - Gospel	MC|1810	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s26229_h15_aa.png	WWW.MUSICCHOICE.COM	
+US	14558.stations.xmltv.tvmedia.ca	1811	MC - Reggae	MC|1811	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s26221_h15_aa.png	WWW.DMXMUSIC.COM	
+US	14561.stations.xmltv.tvmedia.ca	1812	MC - Rock	MC|1812	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s19312_h15_aa.png	WWW.MUSICCHOICE.COM	
+US	14562.stations.xmltv.tvmedia.ca	1813	MC - Metal	MC|1813	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s31030_h15_aa.png	WWW.MUSICCHOICE.COM	
+US	14563.stations.xmltv.tvmedia.ca	1814	MC - Alternative	MC|1814	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s19310_h15_aa.png	WWW.MUSICCHOICE.COM	
+US	14564.stations.xmltv.tvmedia.ca	1815	MC - Adult Alternative	MC|1815	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s19142_h15_aa.png	WWW.MUSICCHOICE.COM	
+US	14560.stations.xmltv.tvmedia.ca	1816	MC - Rock Hits	MC|1816	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s31029_h15_aa.png	WWW.MUSICCHOICE.COM	
+US	14559.stations.xmltv.tvmedia.ca	1817	MC - Classic Rock	MC|1817	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s19311_h15_aa.png	WWW.MUSICCHOICE.COM	
+US	14565.stations.xmltv.tvmedia.ca	1818	MC - Soft Rock	MC|1818	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s19315_h15_aa.png	WWW.MUSICCHOICE.COM	
+US	15019.stations.xmltv.tvmedia.ca	1819	MC - Love Songs	MC|1819	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s19314_h15_aa.png	WWW.MUSICCHOICE.COM	
+US	14567.stations.xmltv.tvmedia.ca	1820	MC - Pop Hits	MC|1820	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s43335_h15_aa.png	WWW.MUSICCHOICE.COM	
+US	14572.stations.xmltv.tvmedia.ca	1821	MC - Party Favorites	MC|1821	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s19328_h15_aa.png	WWW.MUSICCHOICE.COM	
+US	15021.stations.xmltv.tvmedia.ca	1822	MC - Teen Beats	MC|1822	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s19327_h15_aa.png	WWW.MUSICCHOICE.COM	
+US	14574.stations.xmltv.tvmedia.ca	1823	MC - Kidz Only!	MC|1823	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s19330_h15_aa.png	WWW.MUSICCHOICE.COM	
+US	14575.stations.xmltv.tvmedia.ca	1824	MC - Toddler Tunes	MC|1824	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s19329_h15_aa.png	WWW.MUSICCHOICE.COM	
+US	15020.stations.xmltv.tvmedia.ca	1825	MC - Y2K	MC|1825	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s26228_h15_aa.png	WWW.MUSICCHOICE.COM	
+US	14568.stations.xmltv.tvmedia.ca	1826	MC - 90's	MC|1826	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s19336_h15_aa.png	WWW.MUSICCHOICE.COM	
+US	14569.stations.xmltv.tvmedia.ca	1827	MC - 80's	MC|1827	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s24405_h15_aa.png	WWW.MUSICCHOICE.COM	
+US	14570.stations.xmltv.tvmedia.ca	1828	MC - 70's	MC|1828	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s19326_h15_aa.png	WWW.MUSICCHOICE.COM	
+US	14571.stations.xmltv.tvmedia.ca	1829	MC - Solid Gold Oldies	MC|1829	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s44059_h15_aa.png	WWW.MUSICCHOICE.COM	
+US	15022.stations.xmltv.tvmedia.ca	1830	MC - Pop Country	MC|1830	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s19325_h15_aa.png	WWW.MUSICCHOICE.COM	
+US	14576.stations.xmltv.tvmedia.ca	1831	MC - Today's Country	MC|1831	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s26248_h15_aa.png	WWW.DMXMUSIC.COM	
+US	14578.stations.xmltv.tvmedia.ca	1832	MC - Country Hits	MC|1832	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s19342_h15_aa.png	WWW.MUSICCHOICE.COM	
+US	14579.stations.xmltv.tvmedia.ca	1833	MC - Classic Country	MC|1833	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s19319_h15_aa.png	WWW.MUSICCHOICE.COM	
+US	14580.stations.xmltv.tvmedia.ca	1834	MC - Contemporary Christian	MC|1834	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s19324_h15_aa.png	WWW.MUSICCHOICE.COM	
+US	14592.stations.xmltv.tvmedia.ca	1835	MC - Pop Latino	MC|1835	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s24380_h15_aa.png	WWW.MUSICCHOICE.COM	
+US	14591.stations.xmltv.tvmedia.ca	1836	MC - Music Urbana	MC|1836	CA		Music	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s24382_h15_aa.png	WWW.DMXMUSIC.COM	
+US	14594.stations.xmltv.tvmedia.ca	1837	MC - Mexicana	MC|1837	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s19320_h15_aa.png	WWW.MUSICCHOICE.COM	
+US	14593.stations.xmltv.tvmedia.ca	1838	MC - Tropicales	MC|1838	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s19335_h15_aa.png	WWW.MUSICCHOICE.COM	
+US	14595.stations.xmltv.tvmedia.ca	1839	MC - Romances	MC|1839	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s19316_h15_aa.png	WWW.MUSICCHOICE.COM	
+US	14581.stations.xmltv.tvmedia.ca	1840	MC - Sounds of The Seasons	MC|1840	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s19317_h15_aa.png	WWW.MUSICCHOICE.COM	
+US	14573.stations.xmltv.tvmedia.ca	1841	MC - Stage & Screen	MC|1841	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s19358_h15_aa.png	WWW.MUSICCHOICE.COM	
+US	14582.stations.xmltv.tvmedia.ca	1842	MC - Soundscapes	MC|1842	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s31028_h15_aa.png	WWW.MUSICCHOICE.COM	
+US	14583.stations.xmltv.tvmedia.ca	1843	MC - Smooth Jazz	MC|1843	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s19362_h15_aa.png	WWW.MUSICCHOICE.COM	
+US	14584.stations.xmltv.tvmedia.ca	1844	MC - Jazz	MC|1844	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s19357_h15_aa.png	WWW.MUSICCHOICE.COM	
+US	14585.stations.xmltv.tvmedia.ca	1845	MC - Blues	MC-Blues|1845	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s19341_h15_ab.png	WWW.MUSICCHOICE.COM	
+US	14586.stations.xmltv.tvmedia.ca	1846	MC - Singers & Swing	MC|1846	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s83184_h15_aa.png	WWW.MUSICCHOICE.COM	
+US	14587.stations.xmltv.tvmedia.ca	1847	MC - Easy Listening	MC|1847	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s83186_h15_aa.png	WWW.MUSICCHOICE.COM	
+US	14589.stations.xmltv.tvmedia.ca	1848	MC - Classical Masterpieces	MC|1848	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s83194_h15_aa.png	WWW.MUSICCHOICE.COM	
+US	14590.stations.xmltv.tvmedia.ca	1849	MC - Light Classical	MC|1849	CA		Entertainment	False	False	False	False	Specialty	http://cdn.tvpassport.com/image/station/76x28/v2/s19317_h15_aa.png	WWW.MUSICCHOICE.COM	

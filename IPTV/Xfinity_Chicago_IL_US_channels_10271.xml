@@ -1,0 +1,2035 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tv SYSTEM "xmltv.dtd">
+<tv date="01/15/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
+  <channel id="1830.stations.xmltv.tvmedia.ca">
+    <display-name>CBS (WBBM) Chicago, IL</display-name>
+    <display-name>WBBM-TV</display-name>
+    <display-name>2</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s10098_h15_ac.png"/>
+    <url>www.cbs2chicago.com/</url>
+  </channel>
+  <channel id="1831.stations.xmltv.tvmedia.ca">
+    <display-name>NBC (WMAQ) Chicago, IL</display-name>
+    <display-name>WMAQ-TV</display-name>
+    <display-name>5</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s11670_h9_aa.png"/>
+    <url>www.nbc5.com/</url>
+  </channel>
+  <channel id="1838.stations.xmltv.tvmedia.ca">
+    <display-name>UNI (WGBO) Chicago, IL</display-name>
+    <display-name>WGBO-DT</display-name>
+    <display-name>6</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s11118_h15_ab.png"/>
+  </channel>
+  <channel id="1608.stations.xmltv.tvmedia.ca">
+    <display-name>ABC (WLS) Chicago, IL</display-name>
+    <display-name>WLS-TV</display-name>
+    <display-name>7</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s10003_h15_ac.png"/>
+    <url>www.abc7chicago.com/</url>
+  </channel>
+  <channel id="1915.stations.xmltv.tvmedia.ca">
+    <display-name>WGN Chicago (LOCAL)</display-name>
+    <display-name>WGN-TV</display-name>
+    <display-name>9</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s51306_h15_ac.png"/>
+    <url>WWW.WGNTV.COM</url>
+  </channel>
+  <channel id="1832.stations.xmltv.tvmedia.ca">
+    <display-name>PBS (WTTW) Chicago, IL</display-name>
+    <display-name>WTTW</display-name>
+    <display-name>11</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s11039_h15_ab.png"/>
+    <url>www.networkchicago.com/wttw/</url>
+  </channel>
+  <channel id="1606.stations.xmltv.tvmedia.ca">
+    <display-name>FOX (WFLD) Chicago, IL</display-name>
+    <display-name>WFLD</display-name>
+    <display-name>12</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s10212_h15_ab.png"/>
+  </channel>
+  <channel id="1834.stations.xmltv.tvmedia.ca">
+    <display-name>CW26 (WCIU)  Chicago IL</display-name>
+    <display-name>WCIU-TV</display-name>
+    <display-name>13</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s11347_h15_ac.png"/>
+  </channel>
+  <channel id="1837.stations.xmltv.tvmedia.ca">
+    <display-name>PBS (WYIN) Indiana</display-name>
+    <display-name>WYIN</display-name>
+    <display-name>17</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s32356_h15_ac.png"/>
+  </channel>
+  <channel id="4308.stations.xmltv.tvmedia.ca">
+    <display-name>WJYS "The Way" Chicago, IL</display-name>
+    <display-name>WJYS</display-name>
+    <display-name>18</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s31486_h6_aa.png"/>
+  </channel>
+  <channel id="347.stations.xmltv.tvmedia.ca">
+    <display-name>TNT - Eastern Feed</display-name>
+    <display-name>TNT</display-name>
+    <display-name>32</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s11164_h15_ac.png"/>
+  </channel>
+  <channel id="61.stations.xmltv.tvmedia.ca">
+    <display-name>TBS - East</display-name>
+    <display-name>TBS</display-name>
+    <display-name>33</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s11867_h15_ac.png"/>
+  </channel>
+  <channel id="1922.stations.xmltv.tvmedia.ca">
+    <display-name>ION (WCPX) Chicago, IL</display-name>
+    <display-name>WCPX-TV</display-name>
+    <display-name>38</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s18633_h15_ad.png"/>
+    <url>www.iontelevision.com</url>
+  </channel>
+  <channel id="177.stations.xmltv.tvmedia.ca">
+    <display-name>AMC - Eastern Feed</display-name>
+    <display-name>AMC</display-name>
+    <display-name>43</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s10021_h15_ab.png"/>
+  </channel>
+  <channel id="646.stations.xmltv.tvmedia.ca">
+    <display-name>Bravo USA - Eastern Feed</display-name>
+    <display-name>BRAVO</display-name>
+    <display-name>44</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s10057_h15_ab.png"/>
+  </channel>
+  <channel id="645.stations.xmltv.tvmedia.ca">
+    <display-name>Animal Planet US - East</display-name>
+    <display-name>ANPL</display-name>
+    <display-name>45</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s16331_h9_ad.png"/>
+  </channel>
+  <channel id="649.stations.xmltv.tvmedia.ca">
+    <display-name>Discovery Channel (US) - Eastern Feed</display-name>
+    <display-name>DISC</display-name>
+    <display-name>46</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s11150_h15_af.png"/>
+  </channel>
+  <channel id="1386.stations.xmltv.tvmedia.ca">
+    <display-name>NBC Sports Network</display-name>
+    <display-name>NBCSN</display-name>
+    <display-name>48</display-name>
+  </channel>
+  <channel id="595.stations.xmltv.tvmedia.ca">
+    <display-name>Disney - Eastern Feed</display-name>
+    <display-name>DISN</display-name>
+    <display-name>55</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s10171_h15_ae.png"/>
+    <url>www.disneychannel.com</url>
+  </channel>
+  <channel id="661.stations.xmltv.tvmedia.ca">
+    <display-name>Cartoon Network USA - Eastern Feed</display-name>
+    <display-name>TOON</display-name>
+    <display-name>56</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s12131_h15_aa.png"/>
+  </channel>
+  <channel id="70.stations.xmltv.tvmedia.ca">
+    <display-name>CNN</display-name>
+    <display-name>CNN</display-name>
+    <display-name>57</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s10142_h15_aa.png"/>
+  </channel>
+  <channel id="201.stations.xmltv.tvmedia.ca">
+    <display-name>CNBC USA</display-name>
+    <display-name>CNBC</display-name>
+    <display-name>58</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/10139-4F36.png"/>
+  </channel>
+  <channel id="655.stations.xmltv.tvmedia.ca">
+    <display-name>MS NOW USA</display-name>
+    <display-name>MSNOW</display-name>
+    <display-name>59</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/16300-7F58.png"/>
+    <url>https://www.ms.now/</url>
+  </channel>
+  <channel id="425.stations.xmltv.tvmedia.ca">
+    <display-name>HLN</display-name>
+    <display-name>HLN</display-name>
+    <display-name>61</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s10145_h15_ac.png"/>
+    <url>Turner.com</url>
+  </channel>
+  <channel id="1856.stations.xmltv.tvmedia.ca">
+    <display-name>Bloomberg TV USA</display-name>
+    <display-name>BLM-US</display-name>
+    <display-name>62</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s14755_h15_ab.png"/>
+    <url>www.bloomberg.com/tv</url>
+  </channel>
+  <channel id="623.stations.xmltv.tvmedia.ca">
+    <display-name>HGTV USA - Eastern Feed</display-name>
+    <display-name>HGTV</display-name>
+    <display-name>63</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s14902_h15_ab.png"/>
+  </channel>
+  <channel id="2.stations.xmltv.tvmedia.ca">
+    <display-name>A&amp;E US - Eastern Feed</display-name>
+    <display-name>A&amp;E</display-name>
+    <display-name>64</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s10035_h15_ab.png"/>
+    <url>www.AETV.com</url>
+  </channel>
+  <channel id="621.stations.xmltv.tvmedia.ca">
+    <display-name>History Channel US - Eastern Feed</display-name>
+    <display-name>HIST</display-name>
+    <display-name>65</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s14771_h15_af.png"/>
+    <url>www.HistoryChannel.com</url>
+  </channel>
+  <channel id="659.stations.xmltv.tvmedia.ca">
+    <display-name>Oxygen True Crime - Eastern Feed</display-name>
+    <display-name>OXY</display-name>
+    <display-name>66</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s21484_h15_ac.png"/>
+  </channel>
+  <channel id="5005.stations.xmltv.tvmedia.ca">
+    <display-name>TLC USA - Eastern</display-name>
+    <display-name>TLC</display-name>
+    <display-name>69</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s11158_h15_ad.png"/>
+  </channel>
+  <channel id="1054.stations.xmltv.tvmedia.ca">
+    <display-name>Food Network USA - Eastern Feed</display-name>
+    <display-name>FOOD</display-name>
+    <display-name>70</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s12574_h15_ab.png"/>
+  </channel>
+  <channel id="617.stations.xmltv.tvmedia.ca">
+    <display-name>E! Entertainment USA - Eastern Feed</display-name>
+    <display-name>E!</display-name>
+    <display-name>71</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s10989_h15_aa.png"/>
+    <url>www.eonline.com</url>
+  </channel>
+  <channel id="647.stations.xmltv.tvmedia.ca">
+    <display-name>Comedy Central (US) - Eastern Feed</display-name>
+    <display-name>COMC</display-name>
+    <display-name>72</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s10149_h15_ab.png"/>
+  </channel>
+  <channel id="663.stations.xmltv.tvmedia.ca">
+    <display-name>VH1 - Eastern Feed</display-name>
+    <display-name>VH1</display-name>
+    <display-name>74</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s11218_h15_ac.png"/>
+  </channel>
+  <channel id="656.stations.xmltv.tvmedia.ca">
+    <display-name>MTV USA - Eastern Feed</display-name>
+    <display-name>MTV</display-name>
+    <display-name>76</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s10986_h15_aa.png"/>
+  </channel>
+  <channel id="7537.stations.xmltv.tvmedia.ca">
+    <display-name>National Geographic Wild</display-name>
+    <display-name>NGW</display-name>
+    <display-name>108</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s66804_h15_ab.png"/>
+  </channel>
+  <channel id="1053.stations.xmltv.tvmedia.ca">
+    <display-name>Disney XD USA - Eastern Feed</display-name>
+    <display-name>DISNXD</display-name>
+    <display-name>122</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s18279_h15_aa.png"/>
+    <url>disneyxd.disney.com</url>
+  </channel>
+  <channel id="4226.stations.xmltv.tvmedia.ca">
+    <display-name>The Cooking Channel</display-name>
+    <display-name>COOK</display-name>
+    <display-name>124</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s30156_h15_aa.png"/>
+  </channel>
+  <channel id="4225.stations.xmltv.tvmedia.ca">
+    <display-name>Discovery Family Channel</display-name>
+    <display-name>DFC</display-name>
+    <display-name>130</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s16618_h15_ab.png"/>
+  </channel>
+  <channel id="1515.stations.xmltv.tvmedia.ca">
+    <display-name>MTV 2 - East</display-name>
+    <display-name>MTV2</display-name>
+    <display-name>135</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s16361_h15_aa.png"/>
+  </channel>
+  <channel id="3808.stations.xmltv.tvmedia.ca">
+    <display-name>MTV Tr3s - East</display-name>
+    <display-name>TR3S</display-name>
+    <display-name>141</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s18715_h15_ao.png"/>
+    <url>www.tr3s.com</url>
+  </channel>
+  <channel id="2091.stations.xmltv.tvmedia.ca">
+    <display-name>LOGO - East</display-name>
+    <display-name>LOGO</display-name>
+    <display-name>143</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s46762_h15_aa.png"/>
+  </channel>
+  <channel id="1076.stations.xmltv.tvmedia.ca">
+    <display-name>CMT US - Eastern Feed</display-name>
+    <display-name>CMTUS</display-name>
+    <display-name>146</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s10138_h15_ab.png"/>
+  </channel>
+  <channel id="4679.stations.xmltv.tvmedia.ca">
+    <display-name>Smithsonian Channel USA</display-name>
+    <display-name>SMITH</display-name>
+    <display-name>153</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s65799_h15_aa.png"/>
+  </channel>
+  <channel id="527.stations.xmltv.tvmedia.ca">
+    <display-name>BBC News - North America</display-name>
+    <display-name>BBCW</display-name>
+    <display-name>154</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s89542_h15_ab.png"/>
+  </channel>
+  <channel id="596.stations.xmltv.tvmedia.ca">
+    <display-name>Syfy - Eastern Feed</display-name>
+    <display-name>SYFY</display-name>
+    <display-name>160</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s11097_h15_ae.png"/>
+  </channel>
+  <channel id="615.stations.xmltv.tvmedia.ca">
+    <display-name>BBC America - East</display-name>
+    <display-name>BBC</display-name>
+    <display-name>162</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s18332_h15_aa.png"/>
+    <url>www.bbcamerica.com</url>
+  </channel>
+  <channel id="1252.stations.xmltv.tvmedia.ca">
+    <display-name>TV Land - Eastern</display-name>
+    <display-name>TVLAND</display-name>
+    <display-name>163</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s16123_h15_aa.png"/>
+  </channel>
+  <channel id="35317.stations.xmltv.tvmedia.ca">
+    <display-name>AMC+</display-name>
+    <display-name>AMC+</display-name>
+    <display-name>170</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s114759_h15_aa.png"/>
+  </channel>
+  <channel id="6219.stations.xmltv.tvmedia.ca">
+    <display-name>AMC - Eastern Feed HD</display-name>
+    <display-name>AMC-HD</display-name>
+    <display-name>171</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s59337_h15_ab.png"/>
+    <url>www.amc.com</url>
+  </channel>
+  <channel id="4660.stations.xmltv.tvmedia.ca">
+    <display-name>History Channel US HD - East</display-name>
+    <display-name>HIST-HD</display-name>
+    <display-name>175</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s57708_h15_ad.png"/>
+    <url>www.HistoryChannel.com</url>
+  </channel>
+  <channel id="5004.stations.xmltv.tvmedia.ca">
+    <display-name>TLC USA HD - Eastern</display-name>
+    <display-name>TLC-HD</display-name>
+    <display-name>176</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s57391_h15_ad.png"/>
+  </channel>
+  <channel id="5643.stations.xmltv.tvmedia.ca">
+    <display-name>Syfy HD - Eastern Feed</display-name>
+    <display-name>SYFY-HD</display-name>
+    <display-name>177</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s58623_h15_ae.png"/>
+    <url>www.scifi.com</url>
+  </channel>
+  <channel id="3690.stations.xmltv.tvmedia.ca">
+    <display-name>HGTV USA HD - Eastern</display-name>
+    <display-name>HGTVHD</display-name>
+    <display-name>179</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s49788_h15_ab.png"/>
+    <url>www.hgtv.com</url>
+  </channel>
+  <channel id="3438.stations.xmltv.tvmedia.ca">
+    <display-name>Food Network USA HD - Eastern Feed</display-name>
+    <display-name>FOOD-HD</display-name>
+    <display-name>181</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s50747_h15_ab.png"/>
+    <url>www.foodtv.com</url>
+  </channel>
+  <channel id="8582.stations.xmltv.tvmedia.ca">
+    <display-name>CW26 (WCIU)  Chicago IL HD</display-name>
+    <display-name>WCIU-HD</display-name>
+    <display-name>183</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s11347_h15_ac.png"/>
+  </channel>
+  <channel id="3034.stations.xmltv.tvmedia.ca">
+    <display-name>Paramount+ with Showtime - Eastern</display-name>
+    <display-name>PARSHO-HD</display-name>
+    <display-name>185</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s21868_h15_ad.png"/>
+    <url>https://www.paramountpluswithshowtime.com/</url>
+  </channel>
+  <channel id="627.stations.xmltv.tvmedia.ca">
+    <display-name>HBO HD - Eastern Feed</display-name>
+    <display-name>HBO-HD</display-name>
+    <display-name>186</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s19548_h15_aa.png"/>
+  </channel>
+  <channel id="5714.stations.xmltv.tvmedia.ca">
+    <display-name>ABC (WLS) Chicago, IL HD</display-name>
+    <display-name>WLS-HD</display-name>
+    <display-name>187</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s10003_h15_ac.png"/>
+    <url>www.abc7chicago.com/</url>
+  </channel>
+  <channel id="6492.stations.xmltv.tvmedia.ca">
+    <display-name>NBC (WMAQ) Chicago, IL HD</display-name>
+    <display-name>WMAQ-HD</display-name>
+    <display-name>188</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s11670_h9_aa.png"/>
+    <url>www.nbc5.com/</url>
+  </channel>
+  <channel id="6566.stations.xmltv.tvmedia.ca">
+    <display-name>CBS (WBBM) Chicago, IL HD</display-name>
+    <display-name>WBBM-HD</display-name>
+    <display-name>189</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s10098_h15_ac.png"/>
+    <url>www.cbs2chicago.com/</url>
+  </channel>
+  <channel id="8583.stations.xmltv.tvmedia.ca">
+    <display-name>FOX (WFLD) Chicago, IL HD</display-name>
+    <display-name>WFLD-HD</display-name>
+    <display-name>190</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s10212_h15_ab.png"/>
+  </channel>
+  <channel id="8584.stations.xmltv.tvmedia.ca">
+    <display-name>PBS (WTTW) Chicago, IL HD</display-name>
+    <display-name>WTTW-HD</display-name>
+    <display-name>191</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s11039_h15_ab.png"/>
+    <url>www.networkchicago.com/wttw/</url>
+  </channel>
+  <channel id="5881.stations.xmltv.tvmedia.ca">
+    <display-name>WGN Chicago (LOCAL) HD</display-name>
+    <display-name>CW-TVHD</display-name>
+    <display-name>192</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s51306_h15_ac.png"/>
+    <url>WWW.WGNTV.COM</url>
+  </channel>
+  <channel id="3567.stations.xmltv.tvmedia.ca">
+    <display-name>Cinemax - Eastern HD</display-name>
+    <display-name>MAX1HD</display-name>
+    <display-name>195</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s34933_h15_ab.png"/>
+    <url>www.cinemax.com</url>
+  </channel>
+  <channel id="3388.stations.xmltv.tvmedia.ca">
+    <display-name>Starz HD - Eastern</display-name>
+    <display-name>STARZ-HD</display-name>
+    <display-name>196</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s34941_h15_ac.png"/>
+    <url>www.starz.com</url>
+  </channel>
+  <channel id="6112.stations.xmltv.tvmedia.ca">
+    <display-name>Disney HD - Eastern</display-name>
+    <display-name>DISN</display-name>
+    <display-name>197</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s59684_h15_ae.png"/>
+    <url>www.disneychannel.com</url>
+  </channel>
+  <channel id="3037.stations.xmltv.tvmedia.ca">
+    <display-name>TNT HD - East Feed</display-name>
+    <display-name>TNT-HD</display-name>
+    <display-name>204</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s42642_h15_ac.png"/>
+    <url>www.tntdrama.com</url>
+  </channel>
+  <channel id="4436.stations.xmltv.tvmedia.ca">
+    <display-name>National Geographic US HD - Eastern</display-name>
+    <display-name>NGHD</display-name>
+    <display-name>206</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s49438_h15_ab.png"/>
+    <url>channel.nationalgeographic.com</url>
+  </channel>
+  <channel id="17034.stations.xmltv.tvmedia.ca">
+    <display-name>A&amp;E US HD - Eastern Feed</display-name>
+    <display-name>A&amp;EHD</display-name>
+    <display-name>208</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s51529_h15_ab.png"/>
+    <url>www.AETV.com</url>
+  </channel>
+  <channel id="6080.stations.xmltv.tvmedia.ca">
+    <display-name>MTV Live</display-name>
+    <display-name>MTVL</display-name>
+    <display-name>209</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s66419_h15_aa.png"/>
+  </channel>
+  <channel id="5828.stations.xmltv.tvmedia.ca">
+    <display-name>Science HD</display-name>
+    <display-name>SCI-HD</display-name>
+    <display-name>212</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s57390_h15_ac.png"/>
+    <url>www.sciencechannel.com/</url>
+  </channel>
+  <channel id="4724.stations.xmltv.tvmedia.ca">
+    <display-name>CNN HD</display-name>
+    <display-name>CNN-HD</display-name>
+    <display-name>216</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s58646_h15_ac.png"/>
+    <url>www.cnn.com</url>
+  </channel>
+  <channel id="4466.stations.xmltv.tvmedia.ca">
+    <display-name>Discovery HD (US) - Eastern</display-name>
+    <display-name>DISCHD</display-name>
+    <display-name>218</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s56905_h15_ad.png"/>
+    <url>www.discovery.com</url>
+  </channel>
+  <channel id="6090.stations.xmltv.tvmedia.ca">
+    <display-name>TBS - East HD</display-name>
+    <display-name>TBS</display-name>
+    <display-name>219</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s58515_h15_ac.png"/>
+    <url>www.tbssuperstation.com</url>
+  </channel>
+  <channel id="1273.stations.xmltv.tvmedia.ca">
+    <display-name>Discovery Life Channel</display-name>
+    <display-name>DLC</display-name>
+    <display-name>222</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s16125_h15_ac.png"/>
+  </channel>
+  <channel id="4537.stations.xmltv.tvmedia.ca">
+    <display-name>Animal Planet US HD - East</display-name>
+    <display-name>ANPL-HD</display-name>
+    <display-name>224</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s57394_h9_ad.png"/>
+    <url>Discovery.com</url>
+  </channel>
+  <channel id="6917.stations.xmltv.tvmedia.ca">
+    <display-name>Cartoon Network USA HD - Eastern</display-name>
+    <display-name>TOON</display-name>
+    <display-name>226</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s60048_h15_ac.png"/>
+    <url>www.cartoonnetwork.com</url>
+  </channel>
+  <channel id="6542.stations.xmltv.tvmedia.ca">
+    <display-name>ION (WCPX) Chicago, IL HD</display-name>
+    <display-name>WCPX-HD</display-name>
+    <display-name>238</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s18633_h15_ad.png"/>
+    <url>www.iontelevision.com</url>
+  </channel>
+  <channel id="11339.stations.xmltv.tvmedia.ca">
+    <display-name>PBS (WYIN) Indiana HD</display-name>
+    <display-name>WYIN-HD</display-name>
+    <display-name>239</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s32356_h15_ac.png"/>
+  </channel>
+  <channel id="8113.stations.xmltv.tvmedia.ca">
+    <display-name>The Cooking Channel HD</display-name>
+    <display-name>COOKHD</display-name>
+    <display-name>250</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s68065_h15_aa.png"/>
+  </channel>
+  <channel id="6659.stations.xmltv.tvmedia.ca">
+    <display-name>E! Entertainment USA HD - East</display-name>
+    <display-name>E!-HD</display-name>
+    <display-name>262</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s61812_h15_aa.png"/>
+    <url>www.eonline.com</url>
+  </channel>
+  <channel id="6083.stations.xmltv.tvmedia.ca">
+    <display-name>Starz Encore HD - Eastern</display-name>
+    <display-name>STZENHD</display-name>
+    <display-name>263</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s36225_h15_ac.png"/>
+    <url>www.starz.com</url>
+  </channel>
+  <channel id="6119.stations.xmltv.tvmedia.ca">
+    <display-name>CNBC USA HD</display-name>
+    <display-name>CNBCH</display-name>
+    <display-name>266</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/58780-1CB38.png"/>
+    <url>www.cnbc.com</url>
+  </channel>
+  <channel id="6111.stations.xmltv.tvmedia.ca">
+    <display-name>FX Networks East Coast HD</display-name>
+    <display-name>FXHD</display-name>
+    <display-name>267</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s58574_h15_aa.png"/>
+    <url>www.fxnetworks.com/main.html</url>
+  </channel>
+  <channel id="2090.stations.xmltv.tvmedia.ca">
+    <display-name>Investigation Discovery USA - Eastern</display-name>
+    <display-name>ID</display-name>
+    <display-name>271</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s16615_h15_ad.png"/>
+  </channel>
+  <channel id="1960.stations.xmltv.tvmedia.ca">
+    <display-name>Science</display-name>
+    <display-name>SCI</display-name>
+    <display-name>272</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s16616_h15_ab.png"/>
+  </channel>
+  <channel id="657.stations.xmltv.tvmedia.ca">
+    <display-name>National Geographic US - Eastern</display-name>
+    <display-name>NGEO</display-name>
+    <display-name>273</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s24959_h15_ab.png"/>
+  </channel>
+  <channel id="624.stations.xmltv.tvmedia.ca">
+    <display-name>VICE</display-name>
+    <display-name>VICE</display-name>
+    <display-name>276</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s18822_h15_ac.png"/>
+  </channel>
+  <channel id="6120.stations.xmltv.tvmedia.ca">
+    <display-name>Bravo USA HD - Eastern Feed</display-name>
+    <display-name>BRAVO</display-name>
+    <display-name>278</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s58625_h15_ab.png"/>
+    <url>www.bravotv.com</url>
+  </channel>
+  <channel id="6236.stations.xmltv.tvmedia.ca">
+    <display-name>Disney XD USA HD - Eastern Feed</display-name>
+    <display-name>DISNXD-HD</display-name>
+    <display-name>283</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s60006_h15_aa.png"/>
+    <url>disneyxd.disney.com/</url>
+  </channel>
+  <channel id="6334.stations.xmltv.tvmedia.ca">
+    <display-name>Paramount Network USA HD - Eastern Feed</display-name>
+    <display-name>PRMT-HD</display-name>
+    <display-name>290</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s59186_h15_ac.png"/>
+    <url>www.thenewtnn.com</url>
+  </channel>
+  <channel id="6957.stations.xmltv.tvmedia.ca">
+    <display-name>Comedy Central HD - Eastern Feed</display-name>
+    <display-name>COMC</display-name>
+    <display-name>294</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s62420_h15_ab.png"/>
+    <url>www.cc.com</url>
+  </channel>
+  <channel id="4525.stations.xmltv.tvmedia.ca">
+    <display-name>MTV USA HD - Eastern</display-name>
+    <display-name>MTVHD</display-name>
+    <display-name>296</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s60964_h15_aa.png"/>
+    <url>www.mtv.com</url>
+  </channel>
+  <channel id="6204.stations.xmltv.tvmedia.ca">
+    <display-name>VH1 HD - Eastern</display-name>
+    <display-name>VH1</display-name>
+    <display-name>297</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s60046_h15_aa.png"/>
+    <url>www.vh1.com</url>
+  </channel>
+  <channel id="6344.stations.xmltv.tvmedia.ca">
+    <display-name>CMT US - Eastern Feed HD</display-name>
+    <display-name>CMTUS-HD</display-name>
+    <display-name>298</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s59440_h15_ad.png"/>
+    <url>www.cmt.com</url>
+  </channel>
+  <channel id="6313.stations.xmltv.tvmedia.ca">
+    <display-name>HBO 2 - Eastern Feed HD</display-name>
+    <display-name>HBO2E-HD</display-name>
+    <display-name>300</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/59368-1CFD0.png"/>
+    <url>www.hbo.com</url>
+  </channel>
+  <channel id="7102.stations.xmltv.tvmedia.ca">
+    <display-name>HBO Zone HD - East</display-name>
+    <display-name>ZONE</display-name>
+    <display-name>304</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/59845-1D38A.png"/>
+    <url>www.hbo.com</url>
+  </channel>
+  <channel id="7610.stations.xmltv.tvmedia.ca">
+    <display-name>MGM+ HD - East</display-name>
+    <display-name>MGM-HD</display-name>
+    <display-name>307</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s65687_h15_ag.png"/>
+  </channel>
+  <channel id="7609.stations.xmltv.tvmedia.ca">
+    <display-name>MGM+ - East</display-name>
+    <display-name>MGM</display-name>
+    <display-name>308</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s65669_h15_ae.png"/>
+  </channel>
+  <channel id="4352.stations.xmltv.tvmedia.ca">
+    <display-name>TMC HD - Eastern</display-name>
+    <display-name>TMCHD</display-name>
+    <display-name>314</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s35329_h15_aa.png"/>
+    <url>https://www.paramountpluswithshowtime.com/</url>
+  </channel>
+  <channel id="6846.stations.xmltv.tvmedia.ca">
+    <display-name>Oxygen True Crime HD - Eastern</display-name>
+    <display-name>OXY</display-name>
+    <display-name>315</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s70522_h15_ac.png"/>
+    <url>www.oxygen.com</url>
+  </channel>
+  <channel id="6995.stations.xmltv.tvmedia.ca">
+    <display-name>MS NOW HD</display-name>
+    <display-name>MSNOW-HD</display-name>
+    <display-name>317</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/64241-1F5E2.png"/>
+    <url>www.msnbc.com</url>
+  </channel>
+  <channel id="7300.stations.xmltv.tvmedia.ca">
+    <display-name>VICE HD</display-name>
+    <display-name>VICE-HD</display-name>
+    <display-name>323</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s104547_h9_ab.png"/>
+    <url>www.viceland.com</url>
+  </channel>
+  <channel id="6997.stations.xmltv.tvmedia.ca">
+    <display-name>Investigation Discovery USA HD - Eastern</display-name>
+    <display-name>ID-HD</display-name>
+    <display-name>324</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s65342_h15_ac.png"/>
+    <url>www.investigationdiscovery.com</url>
+  </channel>
+  <channel id="6216.stations.xmltv.tvmedia.ca">
+    <display-name>Crime &amp; Investigation Network USA HD</display-name>
+    <display-name>CIN</display-name>
+    <display-name>325</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s61469_h15_ab.png"/>
+    <url>www.aetninternational.com/build_ci.jsp</url>
+  </channel>
+  <channel id="11121.stations.xmltv.tvmedia.ca">
+    <display-name>BBC America - East HD</display-name>
+    <display-name>BBC-HD</display-name>
+    <display-name>326</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s64492_h15_aa.png"/>
+    <url>www.bbcamerica.com/servlet/Homelude</url>
+  </channel>
+  <channel id="34150.stations.xmltv.tvmedia.ca">
+    <display-name>DABL (WBBM-TV3) Chicago, IL</display-name>
+    <display-name>WBBM-TV3</display-name>
+    <display-name>339</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s112157_h15_ab.png"/>
+  </channel>
+  <channel id="14443.stations.xmltv.tvmedia.ca">
+    <display-name>Court TV (WGN-TV3) Chicago, IL</display-name>
+    <display-name>WGN-TV3</display-name>
+    <display-name>354</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/83118-2895C.png"/>
+    <url>WWW.WGNTV.COM</url>
+  </channel>
+  <channel id="12015.stations.xmltv.tvmedia.ca">
+    <display-name>Bounce (WCPX-TV2) Chicago, IL</display-name>
+    <display-name>WCPX-TV2</display-name>
+    <display-name>355</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s73067_h15_ab.png"/>
+    <url>https://www.iontelevision.com/</url>
+  </channel>
+  <channel id="32800.stations.xmltv.tvmedia.ca">
+    <display-name>Movies! (WFLD2) Chicago, IL</display-name>
+    <display-name>WFLD2</display-name>
+    <display-name>363</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s81275_h15_ab.png"/>
+  </channel>
+  <channel id="36439.stations.xmltv.tvmedia.ca">
+    <display-name>PBS (WTTW2) Chicago, IL Prime HD</display-name>
+    <display-name>WTTW2-HD</display-name>
+    <display-name>367</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s32356_h15_ac.png"/>
+  </channel>
+  <channel id="8589.stations.xmltv.tvmedia.ca">
+    <display-name>PBS (WTTW2) Chicago, IL Prime</display-name>
+    <display-name>WTTW2</display-name>
+    <display-name>370</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s32356_h15_ac.png"/>
+  </channel>
+  <channel id="31997.stations.xmltv.tvmedia.ca">
+    <display-name>FNX (WYCC) Chicago, IL HD</display-name>
+    <display-name>WYCC-HD</display-name>
+    <display-name>372</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s49582_h9_aa.png"/>
+    <url>www.ccc.edu/wycc</url>
+  </channel>
+  <channel id="14446.stations.xmltv.tvmedia.ca">
+    <display-name>ONTV4U (WWTO-TV3) Chicago, IL</display-name>
+    <display-name>WWTO-TV3</display-name>
+    <display-name>384</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s49208_h15_ac.png"/>
+  </channel>
+  <channel id="12458.stations.xmltv.tvmedia.ca">
+    <display-name>CGTN (WOCK-DT5) Chicago, IL</display-name>
+    <display-name>WOCK-CD5</display-name>
+    <display-name>390</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s79547_h9_aa.png"/>
+  </channel>
+  <channel id="14451.stations.xmltv.tvmedia.ca">
+    <display-name>KBS World (WOCK-DT2) Chicago, IL</display-name>
+    <display-name>WOCK-CD2</display-name>
+    <display-name>391</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s66417_h9_aa.png"/>
+  </channel>
+  <channel id="1952.stations.xmltv.tvmedia.ca">
+    <display-name>FXX USA - Eastern</display-name>
+    <display-name>FXX</display-name>
+    <display-name>401</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s17927_h15_aa.png"/>
+  </channel>
+  <channel id="2093.stations.xmltv.tvmedia.ca">
+    <display-name>MTV Classic - East</display-name>
+    <display-name>MTV-C</display-name>
+    <display-name>473</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s22561_h15_ad.png"/>
+  </channel>
+  <channel id="5272.stations.xmltv.tvmedia.ca">
+    <display-name>Crime &amp; Investigation Network USA</display-name>
+    <display-name>CIN</display-name>
+    <display-name>490</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s61469_h15_ab.png"/>
+    <url>www.aetninternational.com/build_ci.jsp</url>
+  </channel>
+  <channel id="176.stations.xmltv.tvmedia.ca">
+    <display-name>Turner Classic Movies USA</display-name>
+    <display-name>TCM</display-name>
+    <display-name>501</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s12852_h15_ab.png"/>
+    <url>www.tcm.com</url>
+  </channel>
+  <channel id="1848.stations.xmltv.tvmedia.ca">
+    <display-name>SundanceTV USA - East</display-name>
+    <display-name>SUND</display-name>
+    <display-name>505</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s16108_h9_aa.png"/>
+  </channel>
+  <channel id="1308.stations.xmltv.tvmedia.ca">
+    <display-name>FX Movie Channel</display-name>
+    <display-name>FXM</display-name>
+    <display-name>506</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s70253_h15_aa.png"/>
+    <url>www.fxnetworks.com/fxm</url>
+  </channel>
+  <channel id="667.stations.xmltv.tvmedia.ca">
+    <display-name>Starz Encore - Eastern</display-name>
+    <display-name>STZENC</display-name>
+    <display-name>517</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s10178_h15_ac.png"/>
+  </channel>
+  <channel id="34659.stations.xmltv.tvmedia.ca">
+    <display-name>ScreenPix</display-name>
+    <display-name>PIX</display-name>
+    <display-name>519</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s113001_h15_aa.png"/>
+  </channel>
+  <channel id="2078.stations.xmltv.tvmedia.ca">
+    <display-name>Starz Encore Action - Eastern</display-name>
+    <display-name>STZEAC</display-name>
+    <display-name>529</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s14871_h15_ab.png"/>
+  </channel>
+  <channel id="583.stations.xmltv.tvmedia.ca">
+    <display-name>Starz - Eastern</display-name>
+    <display-name>STARZ</display-name>
+    <display-name>533</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s12719_h15_ac.png"/>
+  </channel>
+  <channel id="7610.stations.xmltv.tvmedia.ca">
+    <display-name>MGM+ HD - East</display-name>
+    <display-name>MGM-HD</display-name>
+    <display-name>535</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s65687_h15_ag.png"/>
+  </channel>
+  <channel id="7609.stations.xmltv.tvmedia.ca">
+    <display-name>MGM+ - East</display-name>
+    <display-name>MGM</display-name>
+    <display-name>536</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s65669_h15_ae.png"/>
+  </channel>
+  <channel id="11485.stations.xmltv.tvmedia.ca">
+    <display-name>MGM+ Hits- East</display-name>
+    <display-name>MGMHIT</display-name>
+    <display-name>537</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s73075_h15_ad.png"/>
+  </channel>
+  <channel id="11486.stations.xmltv.tvmedia.ca">
+    <display-name>MGM+ Marquee</display-name>
+    <display-name>MGMMAR</display-name>
+    <display-name>538</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s74320_h15_ac.png"/>
+  </channel>
+  <channel id="11487.stations.xmltv.tvmedia.ca">
+    <display-name>MGM+ Drive-In</display-name>
+    <display-name>MGMDRV</display-name>
+    <display-name>539</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s68409_h15_ad.png"/>
+  </channel>
+  <channel id="614.stations.xmltv.tvmedia.ca">
+    <display-name>HBO - Eastern Feed</display-name>
+    <display-name>HBO</display-name>
+    <display-name>550</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s10240_h15_aa.png"/>
+  </channel>
+  <channel id="1472.stations.xmltv.tvmedia.ca">
+    <display-name>HBO - Pacific Feed</display-name>
+    <display-name>HBOP</display-name>
+    <display-name>551</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s10240_h15_aa.png"/>
+  </channel>
+  <channel id="626.stations.xmltv.tvmedia.ca">
+    <display-name>HBO Hits - Eastern Feed</display-name>
+    <display-name>HBOHIT</display-name>
+    <display-name>552</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/10241-5002.png"/>
+  </channel>
+  <channel id="1651.stations.xmltv.tvmedia.ca">
+    <display-name>HBO Drama (HBO 3) - Eastern</display-name>
+    <display-name>HBODRMA</display-name>
+    <display-name>554</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/10243-5006.png"/>
+  </channel>
+  <channel id="629.stations.xmltv.tvmedia.ca">
+    <display-name>HBO Comedy - East</display-name>
+    <display-name>HBOC</display-name>
+    <display-name>559</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s18429_h15_aa.png"/>
+    <url>www.hbo.com</url>
+  </channel>
+  <channel id="630.stations.xmltv.tvmedia.ca">
+    <display-name>HBO Movies - East</display-name>
+    <display-name>HBOMOV</display-name>
+    <display-name>560</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/18431-8FFE.png"/>
+    <url>www.hbo.com</url>
+  </channel>
+  <channel id="1215.stations.xmltv.tvmedia.ca">
+    <display-name>Cinemax - Pacific Feed</display-name>
+    <display-name>MAX1</display-name>
+    <display-name>561</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s10120_h15_ab.png"/>
+  </channel>
+  <channel id="632.stations.xmltv.tvmedia.ca">
+    <display-name>Cinemax - Eastern Feed</display-name>
+    <display-name>MAX1</display-name>
+    <display-name>562</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s10120_h15_ab.png"/>
+  </channel>
+  <channel id="634.stations.xmltv.tvmedia.ca">
+    <display-name>Cinemax Hits Eastern</display-name>
+    <display-name>MAXEHIT</display-name>
+    <display-name>564</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/10121-4F12.png"/>
+  </channel>
+  <channel id="665.stations.xmltv.tvmedia.ca">
+    <display-name>Paramount+ with Showtime - Eastern Feed</display-name>
+    <display-name>PARSHO</display-name>
+    <display-name>575</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s11115_h15_ad.png"/>
+  </channel>
+  <channel id="1387.stations.xmltv.tvmedia.ca">
+    <display-name>Showtime 2 - Eastern</display-name>
+    <display-name>SHO2</display-name>
+    <display-name>577</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s11116_h15_aa.png"/>
+  </channel>
+  <channel id="2077.stations.xmltv.tvmedia.ca">
+    <display-name>SHOXBET - Eastern</display-name>
+    <display-name>SHOBET</display-name>
+    <display-name>579</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s20622_h15_ad.png"/>
+  </channel>
+  <channel id="1615.stations.xmltv.tvmedia.ca">
+    <display-name>Showtime Extreme - Eastern</display-name>
+    <display-name>SHOWEX</display-name>
+    <display-name>581</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s18086_h15_aa.png"/>
+  </channel>
+  <channel id="2272.stations.xmltv.tvmedia.ca">
+    <display-name>Showtime Next - Eastern</display-name>
+    <display-name>NEXT</display-name>
+    <display-name>583</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s25270_h15_ac.png"/>
+    <url>https://www.paramountpluswithshowtime.com/</url>
+  </channel>
+  <channel id="1956.stations.xmltv.tvmedia.ca">
+    <display-name>Showtime Family Zone - Eastern</display-name>
+    <display-name>SHOFZ</display-name>
+    <display-name>584</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s25274_h15_ac.png"/>
+  </channel>
+  <channel id="2273.stations.xmltv.tvmedia.ca">
+    <display-name>Showtime Women - Eastern</display-name>
+    <display-name>SHO-WE</display-name>
+    <display-name>585</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s25272_h15_ac.png"/>
+  </channel>
+  <channel id="666.stations.xmltv.tvmedia.ca">
+    <display-name>TMC (US) - Eastern Feed</display-name>
+    <display-name>TMC</display-name>
+    <display-name>590</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s11160_h15_aa.png"/>
+  </channel>
+  <channel id="4350.stations.xmltv.tvmedia.ca">
+    <display-name>TMC Xtra - Eastern</display-name>
+    <display-name>TMCX</display-name>
+    <display-name>592</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s17663_h15_aa.png"/>
+  </channel>
+  <channel id="1306.stations.xmltv.tvmedia.ca">
+    <display-name>Univision - Pacific Feed</display-name>
+    <display-name>UNI</display-name>
+    <display-name>639</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s11118_h15_ab.png"/>
+    <url>www.univision.com</url>
+  </channel>
+  <channel id="6566.stations.xmltv.tvmedia.ca">
+    <display-name>CBS (WBBM) Chicago, IL HD</display-name>
+    <display-name>WBBM-HD</display-name>
+    <display-name>1002</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s10098_h15_ac.png"/>
+    <url>www.cbs2chicago.com/</url>
+  </channel>
+  <channel id="6492.stations.xmltv.tvmedia.ca">
+    <display-name>NBC (WMAQ) Chicago, IL HD</display-name>
+    <display-name>WMAQ-HD</display-name>
+    <display-name>1005</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s11670_h9_aa.png"/>
+    <url>www.nbc5.com/</url>
+  </channel>
+  <channel id="5714.stations.xmltv.tvmedia.ca">
+    <display-name>ABC (WLS) Chicago, IL HD</display-name>
+    <display-name>WLS-HD</display-name>
+    <display-name>1007</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s10003_h15_ac.png"/>
+    <url>www.abc7chicago.com/</url>
+  </channel>
+  <channel id="5881.stations.xmltv.tvmedia.ca">
+    <display-name>WGN Chicago (LOCAL) HD</display-name>
+    <display-name>CW-TVHD</display-name>
+    <display-name>1009</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s51306_h15_ac.png"/>
+    <url>WWW.WGNTV.COM</url>
+  </channel>
+  <channel id="8584.stations.xmltv.tvmedia.ca">
+    <display-name>PBS (WTTW) Chicago, IL HD</display-name>
+    <display-name>WTTW-HD</display-name>
+    <display-name>1011</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s11039_h15_ab.png"/>
+    <url>www.networkchicago.com/wttw/</url>
+  </channel>
+  <channel id="7237.stations.xmltv.tvmedia.ca">
+    <display-name>HSN  - Home Shopping Network HD</display-name>
+    <display-name>HSN-HD</display-name>
+    <display-name>1015</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s62077_h15_ab.png"/>
+  </channel>
+  <channel id="31997.stations.xmltv.tvmedia.ca">
+    <display-name>FNX (WYCC) Chicago, IL HD</display-name>
+    <display-name>WYCC-HD</display-name>
+    <display-name>1020</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s49582_h9_aa.png"/>
+    <url>www.ccc.edu/wycc</url>
+  </channel>
+  <channel id="8582.stations.xmltv.tvmedia.ca">
+    <display-name>CW26 (WCIU)  Chicago IL HD</display-name>
+    <display-name>WCIU-HD</display-name>
+    <display-name>1026</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s11347_h15_ac.png"/>
+  </channel>
+  <channel id="8583.stations.xmltv.tvmedia.ca">
+    <display-name>FOX (WFLD) Chicago, IL HD</display-name>
+    <display-name>WFLD-HD</display-name>
+    <display-name>1032</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s10212_h15_ab.png"/>
+  </channel>
+  <channel id="4633.stations.xmltv.tvmedia.ca">
+    <display-name>TBN (WWTO) Chicago, IL</display-name>
+    <display-name>WWTO-TV</display-name>
+    <display-name>1035</display-name>
+    <url>WWW.TBN.ORG</url>
+  </channel>
+  <channel id="6542.stations.xmltv.tvmedia.ca">
+    <display-name>ION (WCPX) Chicago, IL HD</display-name>
+    <display-name>WCPX-HD</display-name>
+    <display-name>1038</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s18633_h15_ad.png"/>
+    <url>www.iontelevision.com</url>
+  </channel>
+  <channel id="11339.stations.xmltv.tvmedia.ca">
+    <display-name>PBS (WYIN) Indiana HD</display-name>
+    <display-name>WYIN-HD</display-name>
+    <display-name>1056</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s32356_h15_ac.png"/>
+  </channel>
+  <channel id="8581.stations.xmltv.tvmedia.ca">
+    <display-name>UNI (WGBO) Chicago, IL HD</display-name>
+    <display-name>WGBO-HD</display-name>
+    <display-name>1066</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s11118_h15_ab.png"/>
+    <url>WWW.UNIVISION.NET</url>
+  </channel>
+  <channel id="4724.stations.xmltv.tvmedia.ca">
+    <display-name>CNN HD</display-name>
+    <display-name>CNN-HD</display-name>
+    <display-name>1111</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s58646_h15_ac.png"/>
+    <url>www.cnn.com</url>
+  </channel>
+  <channel id="6994.stations.xmltv.tvmedia.ca">
+    <display-name>HLN HD</display-name>
+    <display-name>HLN-HD</display-name>
+    <display-name>1112</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s64549_h15_ac.png"/>
+    <url>www.cnn.com/QUICKNEWS/</url>
+  </channel>
+  <channel id="6995.stations.xmltv.tvmedia.ca">
+    <display-name>MS NOW HD</display-name>
+    <display-name>MSNOW-HD</display-name>
+    <display-name>1113</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/64241-1F5E2.png"/>
+    <url>www.msnbc.com</url>
+  </channel>
+  <channel id="10294.stations.xmltv.tvmedia.ca">
+    <display-name>BBC News - North America HD</display-name>
+    <display-name>BBCWHD</display-name>
+    <display-name>1117</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s36844_h15_ad.png"/>
+    <url>www.bbcworld.com</url>
+  </channel>
+  <channel id="6119.stations.xmltv.tvmedia.ca">
+    <display-name>CNBC USA HD</display-name>
+    <display-name>CNBCH</display-name>
+    <display-name>1121</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/58780-1CB38.png"/>
+    <url>www.cnbc.com</url>
+  </channel>
+  <channel id="6790.stations.xmltv.tvmedia.ca">
+    <display-name>Bloomberg TV USA HD</display-name>
+    <display-name>BLM-USHD</display-name>
+    <display-name>1122</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s71799_h15_ab.png"/>
+    <url>www.bloomberg.com/tv</url>
+  </channel>
+  <channel id="36439.stations.xmltv.tvmedia.ca">
+    <display-name>PBS (WTTW2) Chicago, IL Prime HD</display-name>
+    <display-name>WTTW2-HD</display-name>
+    <display-name>1150</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s32356_h15_ac.png"/>
+  </channel>
+  <channel id="8589.stations.xmltv.tvmedia.ca">
+    <display-name>PBS (WTTW2) Chicago, IL Prime</display-name>
+    <display-name>WTTW2</display-name>
+    <display-name>1153</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s32356_h15_ac.png"/>
+  </channel>
+  <channel id="17034.stations.xmltv.tvmedia.ca">
+    <display-name>A&amp;E US HD - Eastern Feed</display-name>
+    <display-name>A&amp;EHD</display-name>
+    <display-name>1402</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s51529_h15_ab.png"/>
+    <url>www.AETV.com</url>
+  </channel>
+  <channel id="3037.stations.xmltv.tvmedia.ca">
+    <display-name>TNT HD - East Feed</display-name>
+    <display-name>TNT-HD</display-name>
+    <display-name>1404</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s42642_h15_ac.png"/>
+    <url>www.tntdrama.com</url>
+  </channel>
+  <channel id="6219.stations.xmltv.tvmedia.ca">
+    <display-name>AMC - Eastern Feed HD</display-name>
+    <display-name>AMC-HD</display-name>
+    <display-name>1405</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s59337_h15_ab.png"/>
+    <url>www.amc.com</url>
+  </channel>
+  <channel id="35317.stations.xmltv.tvmedia.ca">
+    <display-name>AMC+</display-name>
+    <display-name>AMC+</display-name>
+    <display-name>1406</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s114759_h15_aa.png"/>
+  </channel>
+  <channel id="6111.stations.xmltv.tvmedia.ca">
+    <display-name>FX Networks East Coast HD</display-name>
+    <display-name>FXHD</display-name>
+    <display-name>1409</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s58574_h15_aa.png"/>
+    <url>www.fxnetworks.com/main.html</url>
+  </channel>
+  <channel id="7506.stations.xmltv.tvmedia.ca">
+    <display-name>FXX USA HD - Eastern</display-name>
+    <display-name>FXX-HD</display-name>
+    <display-name>1410</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s66379_h9_aa.png"/>
+    <url>www.fxnetworks.com/fxx</url>
+  </channel>
+  <channel id="5643.stations.xmltv.tvmedia.ca">
+    <display-name>Syfy HD - Eastern Feed</display-name>
+    <display-name>SYFY-HD</display-name>
+    <display-name>1411</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s58623_h15_ae.png"/>
+    <url>www.scifi.com</url>
+  </channel>
+  <channel id="6334.stations.xmltv.tvmedia.ca">
+    <display-name>Paramount Network USA HD - Eastern Feed</display-name>
+    <display-name>PRMT-HD</display-name>
+    <display-name>1412</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s59186_h15_ac.png"/>
+    <url>www.thenewtnn.com</url>
+  </channel>
+  <channel id="11121.stations.xmltv.tvmedia.ca">
+    <display-name>BBC America - East HD</display-name>
+    <display-name>BBC-HD</display-name>
+    <display-name>1418</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s64492_h15_aa.png"/>
+    <url>www.bbcamerica.com/servlet/Homelude</url>
+  </channel>
+  <channel id="8815.stations.xmltv.tvmedia.ca">
+    <display-name>TV Land - Eastern HD</display-name>
+    <display-name>TVLAND-HD</display-name>
+    <display-name>1426</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s73541_h15_aa.png"/>
+    <url>www.tvland.com</url>
+  </channel>
+  <channel id="6090.stations.xmltv.tvmedia.ca">
+    <display-name>TBS - East HD</display-name>
+    <display-name>TBS</display-name>
+    <display-name>1434</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s58515_h15_ac.png"/>
+    <url>www.tbssuperstation.com</url>
+  </channel>
+  <channel id="6957.stations.xmltv.tvmedia.ca">
+    <display-name>Comedy Central HD - Eastern Feed</display-name>
+    <display-name>COMC</display-name>
+    <display-name>1435</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s62420_h15_ab.png"/>
+    <url>www.cc.com</url>
+  </channel>
+  <channel id="7300.stations.xmltv.tvmedia.ca">
+    <display-name>VICE HD</display-name>
+    <display-name>VICE-HD</display-name>
+    <display-name>1436</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s104547_h9_ab.png"/>
+    <url>www.viceland.com</url>
+  </channel>
+  <channel id="18804.stations.xmltv.tvmedia.ca">
+    <display-name>Comedy.TV HD</display-name>
+    <display-name>COMEDY</display-name>
+    <display-name>1437</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s82470_h9_aa.png"/>
+    <url>www.comedy.tv</url>
+  </channel>
+  <channel id="6215.stations.xmltv.tvmedia.ca">
+    <display-name>Independent Film Channel US HD</display-name>
+    <display-name>IFC</display-name>
+    <display-name>1438</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s59444_h15_ab.png"/>
+    <url>www.ifc.com</url>
+  </channel>
+  <channel id="32944.stations.xmltv.tvmedia.ca">
+    <display-name>LOGO HD - East</display-name>
+    <display-name>LOGO</display-name>
+    <display-name>1439</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s96971_h15_aa.png"/>
+    <url>www.mtv.com</url>
+  </channel>
+  <channel id="8264.stations.xmltv.tvmedia.ca">
+    <display-name>SundanceTV USA - East HD</display-name>
+    <display-name>SUND</display-name>
+    <display-name>1440</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s71280_h15_aa.png"/>
+    <url>www.sundance.tv</url>
+  </channel>
+  <channel id="6997.stations.xmltv.tvmedia.ca">
+    <display-name>Investigation Discovery USA HD - Eastern</display-name>
+    <display-name>ID-HD</display-name>
+    <display-name>1444</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s65342_h15_ac.png"/>
+    <url>www.investigationdiscovery.com</url>
+  </channel>
+  <channel id="6216.stations.xmltv.tvmedia.ca">
+    <display-name>Crime &amp; Investigation Network USA HD</display-name>
+    <display-name>CIN</display-name>
+    <display-name>1445</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s61469_h15_ab.png"/>
+    <url>www.aetninternational.com/build_ci.jsp</url>
+  </channel>
+  <channel id="4466.stations.xmltv.tvmedia.ca">
+    <display-name>Discovery HD (US) - Eastern</display-name>
+    <display-name>DISCHD</display-name>
+    <display-name>1449</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s56905_h15_ad.png"/>
+    <url>www.discovery.com</url>
+  </channel>
+  <channel id="5004.stations.xmltv.tvmedia.ca">
+    <display-name>TLC USA HD - Eastern</display-name>
+    <display-name>TLC-HD</display-name>
+    <display-name>1450</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s57391_h15_ad.png"/>
+  </channel>
+  <channel id="5828.stations.xmltv.tvmedia.ca">
+    <display-name>Science HD</display-name>
+    <display-name>SCI-HD</display-name>
+    <display-name>1451</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s57390_h15_ac.png"/>
+    <url>www.sciencechannel.com/</url>
+  </channel>
+  <channel id="6120.stations.xmltv.tvmedia.ca">
+    <display-name>Bravo USA HD - Eastern Feed</display-name>
+    <display-name>BRAVO</display-name>
+    <display-name>1463</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s58625_h15_ab.png"/>
+    <url>www.bravotv.com</url>
+  </channel>
+  <channel id="8587.stations.xmltv.tvmedia.ca">
+    <display-name>Oprah Winfrey Network USA Eastern HD</display-name>
+    <display-name>OWNHD</display-name>
+    <display-name>1464</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s70388_h15_aa.png"/>
+    <url>www.health.discovery.com</url>
+  </channel>
+  <channel id="6846.stations.xmltv.tvmedia.ca">
+    <display-name>Oxygen True Crime HD - Eastern</display-name>
+    <display-name>OXY</display-name>
+    <display-name>1465</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s70522_h15_ac.png"/>
+    <url>www.oxygen.com</url>
+  </channel>
+  <channel id="6659.stations.xmltv.tvmedia.ca">
+    <display-name>E! Entertainment USA HD - East</display-name>
+    <display-name>E!-HD</display-name>
+    <display-name>1466</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s61812_h15_aa.png"/>
+    <url>www.eonline.com</url>
+  </channel>
+  <channel id="4537.stations.xmltv.tvmedia.ca">
+    <display-name>Animal Planet US HD - East</display-name>
+    <display-name>ANPL-HD</display-name>
+    <display-name>1471</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s57394_h9_ad.png"/>
+    <url>Discovery.com</url>
+  </channel>
+  <channel id="9579.stations.xmltv.tvmedia.ca">
+    <display-name>National Geographic Wild HD</display-name>
+    <display-name>NGWHD</display-name>
+    <display-name>1472</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s67331_h15_ab.png"/>
+    <url>WWW.NATGEOCHANNEL.COM</url>
+  </channel>
+  <channel id="4436.stations.xmltv.tvmedia.ca">
+    <display-name>National Geographic US HD - Eastern</display-name>
+    <display-name>NGHD</display-name>
+    <display-name>1473</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s49438_h15_ab.png"/>
+    <url>channel.nationalgeographic.com</url>
+  </channel>
+  <channel id="6237.stations.xmltv.tvmedia.ca">
+    <display-name>Smithsonian Channel USA HD</display-name>
+    <display-name>SMITH-HD</display-name>
+    <display-name>1477</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s58532_h15_aa.png"/>
+  </channel>
+  <channel id="4660.stations.xmltv.tvmedia.ca">
+    <display-name>History Channel US HD - East</display-name>
+    <display-name>HIST-HD</display-name>
+    <display-name>1478</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s57708_h15_ad.png"/>
+    <url>www.HistoryChannel.com</url>
+  </channel>
+  <channel id="5271.stations.xmltv.tvmedia.ca">
+    <display-name>Military History</display-name>
+    <display-name>MHC</display-name>
+    <display-name>1479</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s48999_h15_ac.png"/>
+  </channel>
+  <channel id="10881.stations.xmltv.tvmedia.ca">
+    <display-name>American Heroes Channel HD</display-name>
+    <display-name>AHC-HD</display-name>
+    <display-name>1480</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s78808_h15_aa.png"/>
+    <url>www.ahctv.com</url>
+  </channel>
+  <channel id="3438.stations.xmltv.tvmedia.ca">
+    <display-name>Food Network USA HD - Eastern Feed</display-name>
+    <display-name>FOOD-HD</display-name>
+    <display-name>1484</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s50747_h15_ab.png"/>
+    <url>www.foodtv.com</url>
+  </channel>
+  <channel id="8113.stations.xmltv.tvmedia.ca">
+    <display-name>The Cooking Channel HD</display-name>
+    <display-name>COOKHD</display-name>
+    <display-name>1485</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s68065_h15_aa.png"/>
+  </channel>
+  <channel id="3690.stations.xmltv.tvmedia.ca">
+    <display-name>HGTV USA HD - Eastern</display-name>
+    <display-name>HGTVHD</display-name>
+    <display-name>1492</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s49788_h15_ab.png"/>
+    <url>www.hgtv.com</url>
+  </channel>
+  <channel id="16423.stations.xmltv.tvmedia.ca">
+    <display-name>Discovery Life Channel HD</display-name>
+    <display-name>DLCHD</display-name>
+    <display-name>1497</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s92204_h15_aa.png"/>
+    <url>www.discoverylife.com</url>
+  </channel>
+  <channel id="4525.stations.xmltv.tvmedia.ca">
+    <display-name>MTV USA HD - Eastern</display-name>
+    <display-name>MTVHD</display-name>
+    <display-name>1606</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s60964_h15_aa.png"/>
+    <url>www.mtv.com</url>
+  </channel>
+  <channel id="6204.stations.xmltv.tvmedia.ca">
+    <display-name>VH1 HD - Eastern</display-name>
+    <display-name>VH1</display-name>
+    <display-name>1607</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s60046_h15_aa.png"/>
+    <url>www.vh1.com</url>
+  </channel>
+  <channel id="6344.stations.xmltv.tvmedia.ca">
+    <display-name>CMT US - Eastern Feed HD</display-name>
+    <display-name>CMTUS-HD</display-name>
+    <display-name>1608</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s59440_h15_ad.png"/>
+    <url>www.cmt.com</url>
+  </channel>
+  <channel id="6080.stations.xmltv.tvmedia.ca">
+    <display-name>MTV Live</display-name>
+    <display-name>MTVL</display-name>
+    <display-name>1612</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s66419_h15_aa.png"/>
+  </channel>
+  <channel id="2093.stations.xmltv.tvmedia.ca">
+    <display-name>MTV Classic - East</display-name>
+    <display-name>MTV-C</display-name>
+    <display-name>1614</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s22561_h15_ad.png"/>
+  </channel>
+  <channel id="2288.stations.xmltv.tvmedia.ca">
+    <display-name>CMT Music</display-name>
+    <display-name>CMTM</display-name>
+    <display-name>1619</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s18717_h15_ab.png"/>
+    <url>www.cmt.com</url>
+  </channel>
+  <channel id="10276.stations.xmltv.tvmedia.ca">
+    <display-name>MTV 2 East HD</display-name>
+    <display-name>MTV2-HD</display-name>
+    <display-name>1639</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s75077_h15_ab.png"/>
+    <url>www.mtv.com</url>
+  </channel>
+  <channel id="6112.stations.xmltv.tvmedia.ca">
+    <display-name>Disney HD - Eastern</display-name>
+    <display-name>DISN</display-name>
+    <display-name>1715</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s59684_h15_ae.png"/>
+    <url>www.disneychannel.com</url>
+  </channel>
+  <channel id="6236.stations.xmltv.tvmedia.ca">
+    <display-name>Disney XD USA HD - Eastern Feed</display-name>
+    <display-name>DISNXD-HD</display-name>
+    <display-name>1716</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s60006_h15_aa.png"/>
+    <url>disneyxd.disney.com/</url>
+  </channel>
+  <channel id="6917.stations.xmltv.tvmedia.ca">
+    <display-name>Cartoon Network USA HD - Eastern</display-name>
+    <display-name>TOON</display-name>
+    <display-name>1734</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s60048_h15_ac.png"/>
+    <url>www.cartoonnetwork.com</url>
+  </channel>
+  <channel id="7049.stations.xmltv.tvmedia.ca">
+    <display-name>Turner Classic Movies USA HD</display-name>
+    <display-name>TCM-HD</display-name>
+    <display-name>1755</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s64312_h15_ab.png"/>
+    <url>www.tcm.com</url>
+  </channel>
+  <channel id="8463.stations.xmltv.tvmedia.ca">
+    <display-name>FX Movie Channel HD</display-name>
+    <display-name>FXMHD</display-name>
+    <display-name>1766</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s70253_h15_aa.png"/>
+    <url>www.fxnetworks.com/fxm</url>
+  </channel>
+  <channel id="6482.stations.xmltv.tvmedia.ca">
+    <display-name>FLIX HD - Eastern</display-name>
+    <display-name>FLIX-HD</display-name>
+    <display-name>1771</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s10201_h15_aa.png"/>
+    <url>https://www.paramountpluswithshowtime.com/</url>
+  </channel>
+  <channel id="6083.stations.xmltv.tvmedia.ca">
+    <display-name>Starz Encore HD - Eastern</display-name>
+    <display-name>STZENHD</display-name>
+    <display-name>1773</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s36225_h15_ac.png"/>
+    <url>www.starz.com</url>
+  </channel>
+  <channel id="2078.stations.xmltv.tvmedia.ca">
+    <display-name>Starz Encore Action - Eastern</display-name>
+    <display-name>STZEAC</display-name>
+    <display-name>1775</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s14871_h15_ab.png"/>
+  </channel>
+  <channel id="4206.stations.xmltv.tvmedia.ca">
+    <display-name>Starz Encore Black - Eastern</display-name>
+    <display-name>STZEBK</display-name>
+    <display-name>1777</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s14870_h15_ac.png"/>
+  </channel>
+  <channel id="1959.stations.xmltv.tvmedia.ca">
+    <display-name>Starz Encore Westerns - Eastern</display-name>
+    <display-name>STZEWS</display-name>
+    <display-name>1784</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s14765_h15_ac.png"/>
+  </channel>
+  <channel id="34659.stations.xmltv.tvmedia.ca">
+    <display-name>ScreenPix</display-name>
+    <display-name>PIX</display-name>
+    <display-name>1786</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s113001_h15_aa.png"/>
+  </channel>
+  <channel id="34660.stations.xmltv.tvmedia.ca">
+    <display-name>ScreenPix: Action</display-name>
+    <display-name>PIX-ACT</display-name>
+    <display-name>1787</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s113003_h15_aa.png"/>
+  </channel>
+  <channel id="34662.stations.xmltv.tvmedia.ca">
+    <display-name>ScreenPix: Voices</display-name>
+    <display-name>PIX-VOIC</display-name>
+    <display-name>1788</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s113004_h15_aa.png"/>
+  </channel>
+  <channel id="34661.stations.xmltv.tvmedia.ca">
+    <display-name>ScreenPix: Westerns</display-name>
+    <display-name>PIX-WEST</display-name>
+    <display-name>1789</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s113002_h15_aa.png"/>
+  </channel>
+  <channel id="7610.stations.xmltv.tvmedia.ca">
+    <display-name>MGM+ HD - East</display-name>
+    <display-name>MGM-HD</display-name>
+    <display-name>1790</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s65687_h15_ag.png"/>
+  </channel>
+  <channel id="627.stations.xmltv.tvmedia.ca">
+    <display-name>HBO HD - Eastern Feed</display-name>
+    <display-name>HBO-HD</display-name>
+    <display-name>1802</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s19548_h15_aa.png"/>
+  </channel>
+  <channel id="1472.stations.xmltv.tvmedia.ca">
+    <display-name>HBO - Pacific Feed</display-name>
+    <display-name>HBOP</display-name>
+    <display-name>1803</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s10240_h15_aa.png"/>
+  </channel>
+  <channel id="6313.stations.xmltv.tvmedia.ca">
+    <display-name>HBO 2 - Eastern Feed HD</display-name>
+    <display-name>HBO2E-HD</display-name>
+    <display-name>1804</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/59368-1CFD0.png"/>
+    <url>www.hbo.com</url>
+  </channel>
+  <channel id="7099.stations.xmltv.tvmedia.ca">
+    <display-name>HBO Signature (HBO 3) - Eastern HD</display-name>
+    <display-name>HBO3</display-name>
+    <display-name>1806</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/59363-1CFC6.png"/>
+    <url>www.hbo.com</url>
+  </channel>
+  <channel id="629.stations.xmltv.tvmedia.ca">
+    <display-name>HBO Comedy - East</display-name>
+    <display-name>HBOC</display-name>
+    <display-name>1810</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s18429_h15_aa.png"/>
+    <url>www.hbo.com</url>
+  </channel>
+  <channel id="7102.stations.xmltv.tvmedia.ca">
+    <display-name>HBO Zone HD - East</display-name>
+    <display-name>ZONE</display-name>
+    <display-name>1812</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/59845-1D38A.png"/>
+    <url>www.hbo.com</url>
+  </channel>
+  <channel id="35317.stations.xmltv.tvmedia.ca">
+    <display-name>AMC+</display-name>
+    <display-name>AMC+</display-name>
+    <display-name>1816</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s114759_h15_aa.png"/>
+  </channel>
+  <channel id="3567.stations.xmltv.tvmedia.ca">
+    <display-name>Cinemax - Eastern HD</display-name>
+    <display-name>MAX1HD</display-name>
+    <display-name>1820</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s34933_h15_ab.png"/>
+    <url>www.cinemax.com</url>
+  </channel>
+  <channel id="1215.stations.xmltv.tvmedia.ca">
+    <display-name>Cinemax - Pacific Feed</display-name>
+    <display-name>MAX1</display-name>
+    <display-name>1821</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s10120_h15_ab.png"/>
+  </channel>
+  <channel id="7097.stations.xmltv.tvmedia.ca">
+    <display-name>MoreMax - Eastern HD</display-name>
+    <display-name>MAX2HD</display-name>
+    <display-name>1822</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/59373-1CFDA.png"/>
+    <url>www.cinemax.com</url>
+  </channel>
+  <channel id="1377.stations.xmltv.tvmedia.ca">
+    <display-name>Cinemax Action - Eastern</display-name>
+    <display-name>MAXACT</display-name>
+    <display-name>1824</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/18433-9002.png"/>
+  </channel>
+  <channel id="636.stations.xmltv.tvmedia.ca">
+    <display-name>Cinemax Classics - Eastern</display-name>
+    <display-name>MAXCL</display-name>
+    <display-name>1830</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/25620-C828.png"/>
+  </channel>
+  <channel id="3034.stations.xmltv.tvmedia.ca">
+    <display-name>Paramount+ with Showtime - Eastern</display-name>
+    <display-name>PARSHO-HD</display-name>
+    <display-name>1840</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s21868_h15_ad.png"/>
+    <url>https://www.paramountpluswithshowtime.com/</url>
+  </channel>
+  <channel id="1387.stations.xmltv.tvmedia.ca">
+    <display-name>Showtime 2 - Eastern</display-name>
+    <display-name>SHO2</display-name>
+    <display-name>1842</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s11116_h15_aa.png"/>
+  </channel>
+  <channel id="2271.stations.xmltv.tvmedia.ca">
+    <display-name>Showtime Showcase - Eastern</display-name>
+    <display-name>SHO3</display-name>
+    <display-name>1846</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s16153_h15_aa.png"/>
+  </channel>
+  <channel id="1615.stations.xmltv.tvmedia.ca">
+    <display-name>Showtime Extreme - Eastern</display-name>
+    <display-name>SHOWEX</display-name>
+    <display-name>1848</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s18086_h15_aa.png"/>
+  </channel>
+  <channel id="2272.stations.xmltv.tvmedia.ca">
+    <display-name>Showtime Next - Eastern</display-name>
+    <display-name>NEXT</display-name>
+    <display-name>1854</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s25270_h15_ac.png"/>
+    <url>https://www.paramountpluswithshowtime.com/</url>
+  </channel>
+  <channel id="4352.stations.xmltv.tvmedia.ca">
+    <display-name>TMC HD - Eastern</display-name>
+    <display-name>TMCHD</display-name>
+    <display-name>1860</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s35329_h15_aa.png"/>
+    <url>https://www.paramountpluswithshowtime.com/</url>
+  </channel>
+  <channel id="4350.stations.xmltv.tvmedia.ca">
+    <display-name>TMC Xtra - Eastern</display-name>
+    <display-name>TMCX</display-name>
+    <display-name>1862</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s17663_h15_aa.png"/>
+  </channel>
+  <channel id="3388.stations.xmltv.tvmedia.ca">
+    <display-name>Starz HD - Eastern</display-name>
+    <display-name>STARZ-HD</display-name>
+    <display-name>1868</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s34941_h15_ac.png"/>
+    <url>www.starz.com</url>
+  </channel>
+  <channel id="7610.stations.xmltv.tvmedia.ca">
+    <display-name>MGM+ HD - East</display-name>
+    <display-name>MGM-HD</display-name>
+    <display-name>1871</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s65687_h15_ag.png"/>
+  </channel>
+  <channel id="11615.stations.xmltv.tvmedia.ca">
+    <display-name>MGM+ Hits HD - East</display-name>
+    <display-name>MGMT-HD</display-name>
+    <display-name>1873</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s67929_h15_ad.png"/>
+  </channel>
+  <channel id="11616.stations.xmltv.tvmedia.ca">
+    <display-name>MGM+ Marquee HD</display-name>
+    <display-name>MGMMRHD</display-name>
+    <display-name>1874</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s74073_h15_ad.png"/>
+  </channel>
+  <channel id="33934.stations.xmltv.tvmedia.ca">
+    <display-name>MGM+ Drive-In HD</display-name>
+    <display-name>MGMDR-HD</display-name>
+    <display-name>1875</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s103828_h15_ad.png"/>
+  </channel>
+  <channel id="8137.stations.xmltv.tvmedia.ca">
+    <display-name>Univision - Pacific Feed HD</display-name>
+    <display-name>UNI</display-name>
+    <display-name>3311</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s11118_h15_ab.png"/>
+    <url>www.univision.net</url>
+  </channel>
+  <channel id="1306.stations.xmltv.tvmedia.ca">
+    <display-name>Univision - Pacific Feed</display-name>
+    <display-name>UNI</display-name>
+    <display-name>3489</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s11118_h15_ab.png"/>
+    <url>www.univision.com</url>
+  </channel>
+  <channel id="6207.stations.xmltv.tvmedia.ca">
+    <display-name>Fox News HD</display-name>
+    <display-name>FNC-HD</display-name>
+    <display-name>20600</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s60179_h15_ab.png"/>
+    <url>www.foxnews.com</url>
+  </channel>
+  <channel id="4724.stations.xmltv.tvmedia.ca">
+    <display-name>CNN HD</display-name>
+    <display-name>CNN-HD</display-name>
+    <display-name>20700</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s58646_h15_ac.png"/>
+    <url>www.cnn.com</url>
+  </channel>
+  <channel id="6994.stations.xmltv.tvmedia.ca">
+    <display-name>HLN HD</display-name>
+    <display-name>HLN-HD</display-name>
+    <display-name>20800</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s64549_h15_ac.png"/>
+    <url>www.cnn.com/QUICKNEWS/</url>
+  </channel>
+  <channel id="6995.stations.xmltv.tvmedia.ca">
+    <display-name>MS NOW HD</display-name>
+    <display-name>MSNOW-HD</display-name>
+    <display-name>20900</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/64241-1F5E2.png"/>
+    <url>www.msnbc.com</url>
+  </channel>
+  <channel id="527.stations.xmltv.tvmedia.ca">
+    <display-name>BBC News - North America</display-name>
+    <display-name>BBCW</display-name>
+    <display-name>21000</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s89542_h15_ab.png"/>
+  </channel>
+  <channel id="6119.stations.xmltv.tvmedia.ca">
+    <display-name>CNBC USA HD</display-name>
+    <display-name>CNBCH</display-name>
+    <display-name>21100</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/58780-1CB38.png"/>
+    <url>www.cnbc.com</url>
+  </channel>
+  <channel id="6790.stations.xmltv.tvmedia.ca">
+    <display-name>Bloomberg TV USA HD</display-name>
+    <display-name>BLM-USHD</display-name>
+    <display-name>21150</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s71799_h15_ab.png"/>
+    <url>www.bloomberg.com/tv</url>
+  </channel>
+  <channel id="6112.stations.xmltv.tvmedia.ca">
+    <display-name>Disney HD - Eastern</display-name>
+    <display-name>DISN</display-name>
+    <display-name>25800</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s59684_h15_ae.png"/>
+    <url>www.disneychannel.com</url>
+  </channel>
+  <channel id="6236.stations.xmltv.tvmedia.ca">
+    <display-name>Disney XD USA HD - Eastern Feed</display-name>
+    <display-name>DISNXD-HD</display-name>
+    <display-name>25900</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s60006_h15_aa.png"/>
+    <url>disneyxd.disney.com/</url>
+  </channel>
+  <channel id="661.stations.xmltv.tvmedia.ca">
+    <display-name>Cartoon Network USA - Eastern Feed</display-name>
+    <display-name>TOON</display-name>
+    <display-name>26800</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s12131_h15_aa.png"/>
+  </channel>
+  <channel id="10611.stations.xmltv.tvmedia.ca">
+    <display-name>Cartoon Network - Adult Swim</display-name>
+    <display-name></display-name>
+    <display-name>26850</display-name>
+  </channel>
+  <channel id="2.stations.xmltv.tvmedia.ca">
+    <display-name>A&amp;E US - Eastern Feed</display-name>
+    <display-name>A&amp;E</display-name>
+    <display-name>26900</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s10035_h15_ab.png"/>
+    <url>www.AETV.com</url>
+  </channel>
+  <channel id="5490.stations.xmltv.tvmedia.ca">
+    <display-name>USA Network HD - East</display-name>
+    <display-name>USA</display-name>
+    <display-name>27000</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s58452_h15_af.png"/>
+    <url>www.usanetwork.com</url>
+  </channel>
+  <channel id="3037.stations.xmltv.tvmedia.ca">
+    <display-name>TNT HD - East Feed</display-name>
+    <display-name>TNT-HD</display-name>
+    <display-name>27100</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s42642_h15_ac.png"/>
+    <url>www.tntdrama.com</url>
+  </channel>
+  <channel id="6219.stations.xmltv.tvmedia.ca">
+    <display-name>AMC - Eastern Feed HD</display-name>
+    <display-name>AMC-HD</display-name>
+    <display-name>27200</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s59337_h15_ab.png"/>
+    <url>www.amc.com</url>
+  </channel>
+  <channel id="6111.stations.xmltv.tvmedia.ca">
+    <display-name>FX Networks East Coast HD</display-name>
+    <display-name>FXHD</display-name>
+    <display-name>27300</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s58574_h15_aa.png"/>
+    <url>www.fxnetworks.com/main.html</url>
+  </channel>
+  <channel id="7506.stations.xmltv.tvmedia.ca">
+    <display-name>FXX USA HD - Eastern</display-name>
+    <display-name>FXX-HD</display-name>
+    <display-name>27400</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s66379_h9_aa.png"/>
+    <url>www.fxnetworks.com/fxx</url>
+  </channel>
+  <channel id="8463.stations.xmltv.tvmedia.ca">
+    <display-name>FX Movie Channel HD</display-name>
+    <display-name>FXMHD</display-name>
+    <display-name>27450</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s70253_h15_aa.png"/>
+    <url>www.fxnetworks.com/fxm</url>
+  </channel>
+  <channel id="5643.stations.xmltv.tvmedia.ca">
+    <display-name>Syfy HD - Eastern Feed</display-name>
+    <display-name>SYFY-HD</display-name>
+    <display-name>27500</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s58623_h15_ae.png"/>
+    <url>www.scifi.com</url>
+  </channel>
+  <channel id="6334.stations.xmltv.tvmedia.ca">
+    <display-name>Paramount Network USA HD - Eastern Feed</display-name>
+    <display-name>PRMT-HD</display-name>
+    <display-name>27600</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s59186_h15_ac.png"/>
+    <url>www.thenewtnn.com</url>
+  </channel>
+  <channel id="11121.stations.xmltv.tvmedia.ca">
+    <display-name>BBC America - East HD</display-name>
+    <display-name>BBC-HD</display-name>
+    <display-name>27700</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s64492_h15_aa.png"/>
+    <url>www.bbcamerica.com/servlet/Homelude</url>
+  </channel>
+  <channel id="8815.stations.xmltv.tvmedia.ca">
+    <display-name>TV Land - Eastern HD</display-name>
+    <display-name>TVLAND-HD</display-name>
+    <display-name>27900</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s73541_h15_aa.png"/>
+    <url>www.tvland.com</url>
+  </channel>
+  <channel id="6090.stations.xmltv.tvmedia.ca">
+    <display-name>TBS - East HD</display-name>
+    <display-name>TBS</display-name>
+    <display-name>28400</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s58515_h15_ac.png"/>
+    <url>www.tbssuperstation.com</url>
+  </channel>
+  <channel id="6957.stations.xmltv.tvmedia.ca">
+    <display-name>Comedy Central HD - Eastern Feed</display-name>
+    <display-name>COMC</display-name>
+    <display-name>28500</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s62420_h15_ab.png"/>
+    <url>www.cc.com</url>
+  </channel>
+  <channel id="7300.stations.xmltv.tvmedia.ca">
+    <display-name>VICE HD</display-name>
+    <display-name>VICE-HD</display-name>
+    <display-name>28600</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s104547_h9_ab.png"/>
+    <url>www.viceland.com</url>
+  </channel>
+  <channel id="18804.stations.xmltv.tvmedia.ca">
+    <display-name>Comedy.TV HD</display-name>
+    <display-name>COMEDY</display-name>
+    <display-name>28650</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s82470_h9_aa.png"/>
+    <url>www.comedy.tv</url>
+  </channel>
+  <channel id="32944.stations.xmltv.tvmedia.ca">
+    <display-name>LOGO HD - East</display-name>
+    <display-name>LOGO</display-name>
+    <display-name>28750</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s96971_h15_aa.png"/>
+    <url>www.mtv.com</url>
+  </channel>
+  <channel id="8264.stations.xmltv.tvmedia.ca">
+    <display-name>SundanceTV USA - East HD</display-name>
+    <display-name>SUND</display-name>
+    <display-name>28800</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s71280_h15_aa.png"/>
+    <url>www.sundance.tv</url>
+  </channel>
+  <channel id="6997.stations.xmltv.tvmedia.ca">
+    <display-name>Investigation Discovery USA HD - Eastern</display-name>
+    <display-name>ID-HD</display-name>
+    <display-name>28900</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s65342_h15_ac.png"/>
+    <url>www.investigationdiscovery.com</url>
+  </channel>
+  <channel id="6216.stations.xmltv.tvmedia.ca">
+    <display-name>Crime &amp; Investigation Network USA HD</display-name>
+    <display-name>CIN</display-name>
+    <display-name>28925</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s61469_h15_ab.png"/>
+    <url>www.aetninternational.com/build_ci.jsp</url>
+  </channel>
+  <channel id="4466.stations.xmltv.tvmedia.ca">
+    <display-name>Discovery HD (US) - Eastern</display-name>
+    <display-name>DISCHD</display-name>
+    <display-name>29100</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s56905_h15_ad.png"/>
+    <url>www.discovery.com</url>
+  </channel>
+  <channel id="5828.stations.xmltv.tvmedia.ca">
+    <display-name>Science HD</display-name>
+    <display-name>SCI-HD</display-name>
+    <display-name>29400</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s57390_h15_ac.png"/>
+    <url>www.sciencechannel.com/</url>
+  </channel>
+  <channel id="6120.stations.xmltv.tvmedia.ca">
+    <display-name>Bravo USA HD - Eastern Feed</display-name>
+    <display-name>BRAVO</display-name>
+    <display-name>30100</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s58625_h15_ab.png"/>
+    <url>www.bravotv.com</url>
+  </channel>
+  <channel id="8587.stations.xmltv.tvmedia.ca">
+    <display-name>Oprah Winfrey Network USA Eastern HD</display-name>
+    <display-name>OWNHD</display-name>
+    <display-name>30200</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s70388_h15_aa.png"/>
+    <url>www.health.discovery.com</url>
+  </channel>
+  <channel id="6846.stations.xmltv.tvmedia.ca">
+    <display-name>Oxygen True Crime HD - Eastern</display-name>
+    <display-name>OXY</display-name>
+    <display-name>30300</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s70522_h15_ac.png"/>
+    <url>www.oxygen.com</url>
+  </channel>
+  <channel id="6659.stations.xmltv.tvmedia.ca">
+    <display-name>E! Entertainment USA HD - East</display-name>
+    <display-name>E!-HD</display-name>
+    <display-name>30400</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s61812_h15_aa.png"/>
+    <url>www.eonline.com</url>
+  </channel>
+  <channel id="4537.stations.xmltv.tvmedia.ca">
+    <display-name>Animal Planet US HD - East</display-name>
+    <display-name>ANPL-HD</display-name>
+    <display-name>30500</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s57394_h9_ad.png"/>
+    <url>Discovery.com</url>
+  </channel>
+  <channel id="4436.stations.xmltv.tvmedia.ca">
+    <display-name>National Geographic US HD - Eastern</display-name>
+    <display-name>NGHD</display-name>
+    <display-name>30600</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s49438_h15_ab.png"/>
+    <url>channel.nationalgeographic.com</url>
+  </channel>
+  <channel id="9579.stations.xmltv.tvmedia.ca">
+    <display-name>National Geographic Wild HD</display-name>
+    <display-name>NGWHD</display-name>
+    <display-name>30700</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s67331_h15_ab.png"/>
+    <url>WWW.NATGEOCHANNEL.COM</url>
+  </channel>
+  <channel id="6237.stations.xmltv.tvmedia.ca">
+    <display-name>Smithsonian Channel USA HD</display-name>
+    <display-name>SMITH-HD</display-name>
+    <display-name>30750</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s58532_h15_aa.png"/>
+  </channel>
+  <channel id="4660.stations.xmltv.tvmedia.ca">
+    <display-name>History Channel US HD - East</display-name>
+    <display-name>HIST-HD</display-name>
+    <display-name>30800</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s57708_h15_ad.png"/>
+    <url>www.HistoryChannel.com</url>
+  </channel>
+  <channel id="5271.stations.xmltv.tvmedia.ca">
+    <display-name>Military History</display-name>
+    <display-name>MHC</display-name>
+    <display-name>30850</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s48999_h15_ac.png"/>
+  </channel>
+  <channel id="20038.stations.xmltv.tvmedia.ca">
+    <display-name>Recipe.TV HD</display-name>
+    <display-name>RECIPE</display-name>
+    <display-name>30950</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s81289_h6_aa.png"/>
+    <url>www.skyangel.com</url>
+  </channel>
+  <channel id="3438.stations.xmltv.tvmedia.ca">
+    <display-name>Food Network USA HD - Eastern Feed</display-name>
+    <display-name>FOOD-HD</display-name>
+    <display-name>31000</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s50747_h15_ab.png"/>
+    <url>www.foodtv.com</url>
+  </channel>
+  <channel id="8113.stations.xmltv.tvmedia.ca">
+    <display-name>The Cooking Channel HD</display-name>
+    <display-name>COOKHD</display-name>
+    <display-name>31100</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s68065_h15_aa.png"/>
+  </channel>
+  <channel id="3690.stations.xmltv.tvmedia.ca">
+    <display-name>HGTV USA HD - Eastern</display-name>
+    <display-name>HGTVHD</display-name>
+    <display-name>31500</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s49788_h15_ab.png"/>
+    <url>www.hgtv.com</url>
+  </channel>
+  <channel id="8114.stations.xmltv.tvmedia.ca">
+    <display-name>Magnolia HD - East</display-name>
+    <display-name>MAGN-HD</display-name>
+    <display-name>31600</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s67375_h15_ad.png"/>
+    <url>www.diynetwork.com</url>
+  </channel>
+  <channel id="16423.stations.xmltv.tvmedia.ca">
+    <display-name>Discovery Life Channel HD</display-name>
+    <display-name>DLCHD</display-name>
+    <display-name>31650</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s92204_h15_aa.png"/>
+    <url>www.discoverylife.com</url>
+  </channel>
+  <channel id="4525.stations.xmltv.tvmedia.ca">
+    <display-name>MTV USA HD - Eastern</display-name>
+    <display-name>MTVHD</display-name>
+    <display-name>31700</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s60964_h15_aa.png"/>
+    <url>www.mtv.com</url>
+  </channel>
+  <channel id="6204.stations.xmltv.tvmedia.ca">
+    <display-name>VH1 HD - Eastern</display-name>
+    <display-name>VH1</display-name>
+    <display-name>31800</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s60046_h15_aa.png"/>
+    <url>www.vh1.com</url>
+  </channel>
+  <channel id="6344.stations.xmltv.tvmedia.ca">
+    <display-name>CMT US - Eastern Feed HD</display-name>
+    <display-name>CMTUS-HD</display-name>
+    <display-name>31850</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s59440_h15_ad.png"/>
+    <url>www.cmt.com</url>
+  </channel>
+</tv>
