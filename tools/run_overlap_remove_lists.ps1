@@ -1,0 +1,28 @@
+#requires -Version 5.1
+Set-StrictMode -Version Latest
+$ErrorActionPreference = "Stop"
+
+function Write-Log {
+  param([string]$Msg)
+  $ts = (Get-Date).ToString("yyyy-MM-dd HH:mm:ss")
+  Write-Host "[$ts] $Msg"
+}
+
+$repo = Split-Path -Parent $PSScriptRoot
+Set-Location $repo
+
+try {
+  Write-Log "START overlap remove-lists"
+  $python = (Get-Command python -ErrorAction Stop).Path
+  Write-Log "Python = $python"
+  & $python (Join-Path $repo "tools\build_channel_overlap_remove_lists.py")
+  if ($LASTEXITCODE -ne 0) { throw "Generator failed ($LASTEXITCODE)" }
+  Write-Log "DONE"
+}
+catch {
+  Write-Log "ERROR: $($_.Exception.Message)"
+  throw
+}
+finally {
+  Read-Host "Press Enter to close"
+}
