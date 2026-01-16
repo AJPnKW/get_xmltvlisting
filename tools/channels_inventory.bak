@@ -145,12 +145,15 @@ def write_txt(path: Path, headers: list[str], rows: list[list[str]]) -> None:
             colw[i] = max(colw[i], len(v))
     def fmt_row(r):
         return " | ".join((r[i].ljust(colw[i]) for i in range(len(headers))))
-    with path.open("w", encoding="utf-8", newline="") as f:
-
-        f.write(fmt_row(headers) + "")
-        f.write("-+-".join(("-" * w for w in colw)) + "")
+    with path.open("w", encoding="utf-8", newline="
+") as f:
+        f.write(fmt_row(headers) + "
+")
+        f.write("-+-".join(("-" * w for w in colw)) + "
+")
         for r in rows:
-            f.write(fmt_row(r) + "")
+            f.write(fmt_row(r) + "
+")
 
 
 def write_csv(path: Path, headers: list[str], rows: list[list[str]]) -> None:
