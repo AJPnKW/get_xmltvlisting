@@ -3,54 +3,35 @@
 """
 channels_inventory.py
 
-Version: 0.6.4
+Version: 0.6.2
 
-Inputs (strict)
+Behavior (strict)
 - Uses ONLY channels-only files in repo/IPTV:
     DirecTV[US]-channels-9329.xml
     Spectrum_NY[US]-channels-9330.xml
     Bell_Fibe[CA]-channels-9331.xml
+- Will NOT fall back to listings files.
+- Produces one table (CSV + TXT) showing which lineup includes each channel.
 
-Outputs (two locations)
-1) Timestamped reports:
-   - out/reports/<timestamp>/channels_inventory.csv
-   - out/reports/<timestamp>/channels_inventory.txt
-   - out/reports/<timestamp>/channels.json
-2) Publish (stable, current collection):
-   - IPTV/channels.json
-
-channels.json schema (per channel_id)
-{
-  "channel_id": "...",
-  "display_names": ["...", "...", "..."],
-  "full_name": "...",
-  "call_sign": "...",
-  "channel_number": "...",
-  "url": "...",
-  "icon_src": "...",
-  "present_in": ["DirecTV[US]", "Spectrum_NY[US]"]
-}
+Outputs
+- out/reports/<timestamp>/channels_inventory.csv
+- out/reports/<timestamp>/channels_inventory.txt
 """
 
 from __future__ import annotations
 
 import csv
 import datetime as dt
-import json
-import re
 from pathlib import Path
 import xml.etree.ElementTree as ET
 
-__version__ = "0.6.4"
+__version__ = "0.6.2"
 
 LINEUPS = [
     ("9329", "DirecTV[US]"),
     ("9330", "Spectrum_NY[US]"),
     ("9331", "Bell_Fibe[CA]"),
 ]
-
-RE_CALLSIGN = re.compile(r"^[A-Z0-9]{2,8}([\-\.][A-Z0-9]{1,6})?$")
-RE_CHNUM = re.compile(r"^\d{1,4}(\.\d{1,3})?$")
 
 
 def now_stamp() -> str:
@@ -61,56 +42,19 @@ def repo_root_from_script() -> Path:
     return Path(__file__).resolve().parents[1]
 
 
-def parse_channels(xml_path: Path) -> dict[str, dict]:
-    out: dict[str, dict] = {}
+def parse_channels(xml_path: Path) -> dict[str, str]:
+    d: dict[str, str] = {}
     root = ET.parse(xml_path).getroot()
     for ch in root.findall("channel"):
         cid = (ch.attrib.get("id") or "").strip()
         if not cid:
             continue
-
-        dns = []
-        for dn_el in ch.findall("display-name"):
-            t = (dn_el.text or "").strip()
-            if t and t not in dns:
-                dns.append(t)
-
-        url = ""
-        url_el = ch.find("url")
-        if url_el is not None and (url_el.text or "").strip():
-            url = (url_el.text or "").strip()
-
-        icon_src = ""
-        icon_el = ch.find("icon")
-        if icon_el is not None:
-            icon_src = (icon_el.attrib.get("src") or "").strip()
-
-        out[cid] = {
-            "display_names": dns,
-            "url": url,
-            "icon_src": icon_src,
-        }
-    return out
-
-
-def choose_full_name(display_names: list[str]) -> str:
-    return display_names[0] if display_names else ""
-
-
-def choose_call_sign(display_names: list[str]) -> str:
-    for s in display_names:
-        if RE_CHNUM.match(s):
-            continue
-        if RE_CALLSIGN.match(s) and s.upper() == s:
-            return s
-    return ""
-
-
-def choose_channel_number(display_names: list[str]) -> str:
-    for s in display_names:
-        if RE_CHNUM.match(s):
-            return s
-    return ""
+        dn = ""
+        dn_el = ch.find("display-name")
+        if dn_el is not None and (dn_el.text or "").strip():
+            dn = (dn_el.text or "").strip()
+        d[cid] = dn
+    return d
 
 
 def write_txt(path: Path, headers: list[str], rows: list[list[str]]) -> None:
@@ -132,7 +76,7 @@ def main() -> int:
     repo = repo_root_from_script()
     iptv = repo / "IPTV"
 
-    per: dict[tuple[str, str], dict[str, dict]] = {}
+    per: dict[tuple[str, str], dict[str, str]] = {}
     missing = []
 
     for lid, label in LINEUPS:
@@ -151,44 +95,16 @@ def main() -> int:
     all_ids = sorted({cid for d in per.values() for cid in d.keys()})
 
     rows: list[list[str]] = []
-    channels_json = []
-
     for cid in all_ids:
-        display_names: list[str] = []
-        url = ""
-        icon_src = ""
-        present_in: list[str] = []
-
-        for (_lid, label), d in per.items():
-            if cid in d:
-                present_in.append(label)
-                for dn in d[cid]["display_names"]:
-                    if dn and dn not in display_names:
-                        display_names.append(dn)
-                if not url and d[cid]["url"]:
-                    url = d[cid]["url"]
-                if not icon_src and d[cid]["icon_src"]:
-                    icon_src = d[cid]["icon_src"]
-
-        full_name = choose_full_name(display_names)
-        call_sign = choose_call_sign(display_names)
-        chnum = choose_channel_number(display_names)
-
+        dn = ""
+        for (_lid, _label), d in per.items():
+            if cid in d and d[cid]:
+                dn = d[cid]
+                break
         flags = []
         for lid, label in LINEUPS:
             flags.append("Y" if cid in per[(lid, label)] else "")
-        rows.append([cid, full_name, *flags])
-
-        channels_json.append({
-            "channel_id": cid,
-            "display_names": display_names,
-            "full_name": full_name,
-            "call_sign": call_sign,
-            "channel_number": chnum,
-            "url": url,
-            "icon_src": icon_src,
-            "present_in": present_in,
-        })
+        rows.append([cid, dn, *flags])
 
     stamp = now_stamp()
     out_dir = repo / "out" / "reports" / stamp
@@ -196,8 +112,6 @@ def main() -> int:
 
     csv_path = out_dir / "channels_inventory.csv"
     txt_path = out_dir / "channels_inventory.txt"
-    json_path = out_dir / "channels.json"
-    publish_json_path = iptv / "channels.json"
 
     headers = ["channel_id", "display_name"] + [label for _lid, label in LINEUPS]
 
@@ -208,19 +122,8 @@ def main() -> int:
 
     write_txt(txt_path, headers, rows)
 
-    # timestamped JSON
-    with json_path.open("w", encoding="utf-8", newline="\n") as f:
-        json.dump(channels_json, f, ensure_ascii=False, indent=2)
-
-    # publish JSON (stable)
-    iptv.mkdir(parents=True, exist_ok=True)
-    with publish_json_path.open("w", encoding="utf-8", newline="\n") as f:
-        json.dump(channels_json, f, ensure_ascii=False, indent=2)
-
     print("Wrote:", csv_path)
     print("Wrote:", txt_path)
-    print("Wrote:", json_path)
-    print("Wrote:", publish_json_path)
     return 0
 
 
