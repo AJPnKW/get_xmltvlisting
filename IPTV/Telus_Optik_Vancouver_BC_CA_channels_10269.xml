@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tv SYSTEM "xmltv.dtd">
-<tv date="01/15/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
+<tv date="01/16/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
   <channel id="6257.stations.xmltv.tvmedia.ca">
     <display-name>CBC (CBUT) Vancouver, BC HD</display-name>
     <display-name>CBUT-HD</display-name>
@@ -8,30 +8,11 @@
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s10084_h15_ab.png"/>
     <url>www.vancouver.cbc.ca/</url>
   </channel>
-  <channel id="3905.stations.xmltv.tvmedia.ca">
-    <display-name>CTV Vancouver, BC HD</display-name>
-    <display-name>CIVTHD</display-name>
-    <display-name>101</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s44786_h15_aa.png"/>
-  </channel>
   <channel id="9699.stations.xmltv.tvmedia.ca">
     <display-name>CTV2  - Network HD</display-name>
     <display-name>CTV2</display-name>
     <display-name>102</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s110838_h15_aa.png"/>
-  </channel>
-  <channel id="4194.stations.xmltv.tvmedia.ca">
-    <display-name>Global BC HD</display-name>
-    <display-name>CHANHD</display-name>
-    <display-name>104</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s60121_h15_ab.png"/>
-  </channel>
-  <channel id="187.stations.xmltv.tvmedia.ca">
-    <display-name>CITY Vancouver, BC</display-name>
-    <display-name>CKVU</display-name>
-    <display-name>106</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s10136_h15_aa.png"/>
-    <url>www.citytv.com/vancouver</url>
   </channel>
   <channel id="9689.stations.xmltv.tvmedia.ca">
     <display-name>CHEK Vancouver Island, BC HD</display-name>
@@ -39,41 +20,6 @@
     <display-name>121</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s72765_h15_ab.png"/>
     <url>www.chektv.com/</url>
-  </channel>
-  <channel id="2829.stations.xmltv.tvmedia.ca">
-    <display-name>ABC (KOMO) Seattle, WA HD</display-name>
-    <display-name>KOMO-HD</display-name>
-    <display-name>131</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s10003_h15_ac.png"/>
-    <url>www.komotv.com/</url>
-  </channel>
-  <channel id="2830.stations.xmltv.tvmedia.ca">
-    <display-name>CBS (KIRO) Seattle, WA HD</display-name>
-    <display-name>KIRO-HD</display-name>
-    <display-name>133</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s28711_h15_ab.png"/>
-    <url>www.kiro7.com</url>
-  </channel>
-  <channel id="2831.stations.xmltv.tvmedia.ca">
-    <display-name>NBC (KING) Seattle, WA HD</display-name>
-    <display-name>KING-HD</display-name>
-    <display-name>135</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s28717_h15_ad.png"/>
-    <url>WWW.KING5.COM</url>
-  </channel>
-  <channel id="2832.stations.xmltv.tvmedia.ca">
-    <display-name>FOX (KCPQ) Tacoma, WA HD - Canada</display-name>
-    <display-name>KCPQ-HD</display-name>
-    <display-name>137</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s10212_h15_ab.png"/>
-    <url>q13.trb.com</url>
-  </channel>
-  <channel id="10686.stations.xmltv.tvmedia.ca">
-    <display-name>PBS (KCTS) Seattle, WA HD</display-name>
-    <display-name>KCTS-HD</display-name>
-    <display-name>139</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s11039_h15_ab.png"/>
-    <url>www.kcts.org/</url>
   </channel>
   <channel id="8499.stations.xmltv.tvmedia.ca">
     <display-name>PBS (KSPS) Spokane, WA HD</display-name>
@@ -94,25 +40,11 @@
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s10705_h15_aa.png"/>
     <url>www.kstw.com</url>
   </channel>
-  <channel id="5682.stations.xmltv.tvmedia.ca">
-    <display-name>KTLA Los Angeles, CA HD</display-name>
-    <display-name>KTLA-HD</display-name>
-    <display-name>145</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s53098_h15_ac.png"/>
-    <url>www.ktla.com</url>
-  </channel>
   <channel id="6805.stations.xmltv.tvmedia.ca">
     <display-name>CBC (CBHT) Halifax, NS HD</display-name>
     <display-name>CBHT-HD</display-name>
     <display-name>200</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s14724_h15_aa.png"/>
-    <url>www.ais.cbc.ca/ais/owa/html.putloginpage</url>
-  </channel>
-  <channel id="2826.stations.xmltv.tvmedia.ca">
-    <display-name>CBC (CBLT) Toronto, ON HD</display-name>
-    <display-name>CBLT-HD</display-name>
-    <display-name>201</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s10084_h15_ab.png"/>
     <url>www.ais.cbc.ca/ais/owa/html.putloginpage</url>
   </channel>
   <channel id="6810.stations.xmltv.tvmedia.ca">
@@ -128,13 +60,6 @@
     <display-name>204</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s15939_h15_ab.png"/>
     <url>www.cbc.ca</url>
-  </channel>
-  <channel id="6257.stations.xmltv.tvmedia.ca">
-    <display-name>CBC (CBUT) Vancouver, BC HD</display-name>
-    <display-name>CBUT-HD</display-name>
-    <display-name>205</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s10084_h15_ab.png"/>
-    <url>www.vancouver.cbc.ca/</url>
   </channel>
   <channel id="6787.stations.xmltv.tvmedia.ca">
     <display-name>CBC On Demand</display-name>
@@ -161,13 +86,6 @@
     <display-name>210</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s10108_h15_ab.png"/>
     <url>WWW.ATV.CA</url>
-  </channel>
-  <channel id="2814.stations.xmltv.tvmedia.ca">
-    <display-name>CTV (CFTO) Toronto, ON HD</display-name>
-    <display-name>CFTO-HD</display-name>
-    <display-name>211</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s10108_h15_ab.png"/>
-    <url>WWW.CKCO-TV.COM</url>
   </channel>
   <channel id="6454.stations.xmltv.tvmedia.ca">
     <display-name>CTV (CFCN) Calgary, AB HD</display-name>
@@ -203,20 +121,6 @@
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s15976_h15_aa.png"/>
     <url>www.canada.com/globaltv/calgary</url>
   </channel>
-  <channel id="31.stations.xmltv.tvmedia.ca">
-    <display-name>Global BC</display-name>
-    <display-name>CHAN</display-name>
-    <display-name>224</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s10050_h15_ac.png"/>
-    <url>www.canwest.com</url>
-  </channel>
-  <channel id="2825.stations.xmltv.tvmedia.ca">
-    <display-name>CITY Toronto, ON HD</display-name>
-    <display-name>CITYHD</display-name>
-    <display-name>230</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s10125_h15_ab.png"/>
-    <url>WWW.CITYTV.COM</url>
-  </channel>
   <channel id="2813.stations.xmltv.tvmedia.ca">
     <display-name>CITY Edmonton, AB HD</display-name>
     <display-name>CKEMHD</display-name>
@@ -230,13 +134,6 @@
     <display-name>232</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s10125_h15_ab.png"/>
     <url>www.a-channel.com</url>
-  </channel>
-  <channel id="3936.stations.xmltv.tvmedia.ca">
-    <display-name>CITY Vancouver, BC HD</display-name>
-    <display-name>CKVUHD</display-name>
-    <display-name>233</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s10136_h15_aa.png"/>
-    <url>www.citytv.com/vancouver</url>
   </channel>
   <channel id="10811.stations.xmltv.tvmedia.ca">
     <display-name>CITY On Demand</display-name>
@@ -290,120 +187,6 @@
     <display-name>275</display-name>
     <url>www.upn9.com</url>
   </channel>
-  <channel id="3662.stations.xmltv.tvmedia.ca">
-    <display-name>WSBK (TV-38) Boston HD</display-name>
-    <display-name>WSBK-HD</display-name>
-    <display-name>280</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s32723_h9_ab.png"/>
-  </channel>
-  <channel id="4794.stations.xmltv.tvmedia.ca">
-    <display-name>WPIX New York (SUPERSTATION) HD</display-name>
-    <display-name>WPIX-HD</display-name>
-    <display-name>286</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s11779_h15_aa.png"/>
-  </channel>
-  <channel id="3886.stations.xmltv.tvmedia.ca">
-    <display-name>A&amp;E Canada HD</display-name>
-    <display-name>A&amp;E-HD</display-name>
-    <display-name>300</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s55097_h9_aa.png"/>
-    <url>WWW.AETV.COM</url>
-  </channel>
-  <channel id="4161.stations.xmltv.tvmedia.ca">
-    <display-name>Showcase Canada HD</display-name>
-    <display-name>SHOWHD</display-name>
-    <display-name>301</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s53711_h15_aa.png"/>
-    <url>www.showcase.ca/</url>
-  </channel>
-  <channel id="6797.stations.xmltv.tvmedia.ca">
-    <display-name>CTV Drama HD</display-name>
-    <display-name>CTVDR-HD</display-name>
-    <display-name>302</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s73549_h15_ab.png"/>
-    <url>www.bravo.ca</url>
-  </channel>
-  <channel id="8368.stations.xmltv.tvmedia.ca">
-    <display-name>AMC - Canada HD</display-name>
-    <display-name>AMC-HD</display-name>
-    <display-name>303</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s64831_h15_ac.png"/>
-  </channel>
-  <channel id="6779.stations.xmltv.tvmedia.ca">
-    <display-name>TLC Canada HD</display-name>
-    <display-name>TLCHD</display-name>
-    <display-name>304</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s60645_h15_ac.png"/>
-    <url>tlc.discovery.com</url>
-  </channel>
-  <channel id="8793.stations.xmltv.tvmedia.ca">
-    <display-name>Home Network HD</display-name>
-    <display-name>HOME-HD</display-name>
-    <display-name>306</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s70676_h15_ad.png"/>
-    <url>https://www.homenetwork.ca/?redirect=home</url>
-  </channel>
-  <channel id="8389.stations.xmltv.tvmedia.ca">
-    <display-name>Flavour Network HD</display-name>
-    <display-name>FLAV-HD</display-name>
-    <display-name>313</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s73467_h15_ae.png"/>
-    <url>https://www.flavournetwork.ca/?redirect=flavour/</url>
-  </channel>
-  <channel id="11293.stations.xmltv.tvmedia.ca">
-    <display-name>CTV Life HD</display-name>
-    <display-name>CTVLife HD</display-name>
-    <display-name>315</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s82984_h15_ab.png"/>
-    <url>www.gustotv.com</url>
-  </channel>
-  <channel id="9652.stations.xmltv.tvmedia.ca">
-    <display-name>W (WTN) - East HD</display-name>
-    <display-name>W-HD</display-name>
-    <display-name>329</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s15024_h15_ab.png"/>
-    <url>www.wnetwork.com</url>
-  </channel>
-  <channel id="9632.stations.xmltv.tvmedia.ca">
-    <display-name>Slice HD</display-name>
-    <display-name>SLICE</display-name>
-    <display-name>331</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s81282_h15_ab.png"/>
-    <url>www.lifenetwork.ca</url>
-  </channel>
-  <channel id="8558.stations.xmltv.tvmedia.ca">
-    <display-name>E! Canada HD</display-name>
-    <display-name>E!-HD</display-name>
-    <display-name>333</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s76792_h15_aa.png"/>
-    <url>www.star-tv.com</url>
-  </channel>
-  <channel id="9309.stations.xmltv.tvmedia.ca">
-    <display-name>OUTtv HD</display-name>
-    <display-name>OUT</display-name>
-    <display-name>347</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s78648_h15_ab.png"/>
-  </channel>
-  <channel id="3958.stations.xmltv.tvmedia.ca">
-    <display-name>ONE TV HD</display-name>
-    <display-name>ONE-HD</display-name>
-    <display-name>349</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s102175_h15_ac.png"/>
-    <url>www.onetv.ca/</url>
-  </channel>
-  <channel id="6791.stations.xmltv.tvmedia.ca">
-    <display-name>Cottage Life HD</display-name>
-    <display-name>COTTAGEHD</display-name>
-    <display-name>355</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s68012_h15_aa.png"/>
-    <url>www.cbccountrycanada.ca/</url>
-  </channel>
-  <channel id="9505.stations.xmltv.tvmedia.ca">
-    <display-name>Bravo Canada HD</display-name>
-    <display-name>BRAVOC-HD</display-name>
-    <display-name>357</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/72517-2368A.png"/>
-  </channel>
   <channel id="8458.stations.xmltv.tvmedia.ca">
     <display-name>Oxygen True Crime Canada HD</display-name>
     <display-name>OXYHD</display-name>
@@ -418,44 +201,10 @@
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s26773_h15_ab.png"/>
     <url>www.canwest.com</url>
   </channel>
-  <channel id="11044.stations.xmltv.tvmedia.ca">
-    <display-name>Lifetime TV - Canada HD</display-name>
-    <display-name>LIFE</display-name>
-    <display-name>386</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s81202_h15_af.png"/>
-    <url>www.showcase.ca/diva</url>
-  </channel>
-  <channel id="10042.stations.xmltv.tvmedia.ca">
-    <display-name>CTV Sci-Fi HD</display-name>
-    <display-name>CTVSc-HD</display-name>
-    <display-name>392</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s72484_h15_ac.png"/>
-    <url>WWW.SPACECAST.COM</url>
-  </channel>
-  <channel id="10027.stations.xmltv.tvmedia.ca">
-    <display-name>FX Networks Canada HD</display-name>
-    <display-name>FXHD</display-name>
-    <display-name>393</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s73682_h15_aa.png"/>
-    <url>www.fxcanada.ca</url>
-  </channel>
-  <channel id="13401.stations.xmltv.tvmedia.ca">
-    <display-name>FXX Canada HD</display-name>
-    <display-name>FXX-HD</display-name>
-    <display-name>394</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s87894_h15_aa.png"/>
-  </channel>
   <channel id="4230.stations.xmltv.tvmedia.ca">
     <display-name>HBO1 HD</display-name>
     <display-name>HBO1HD</display-name>
     <display-name>400</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s61568_h15_ab.png"/>
-    <url>www.crave.ca</url>
-  </channel>
-  <channel id="4230.stations.xmltv.tvmedia.ca">
-    <display-name>HBO1 HD</display-name>
-    <display-name>HBO1HD</display-name>
-    <display-name>401</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s61568_h15_ab.png"/>
     <url>www.crave.ca</url>
   </channel>
@@ -479,41 +228,6 @@
     <display-name>408</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s12223_h15_ac.png"/>
     <url>www.crave.ca</url>
-  </channel>
-  <channel id="2820.stations.xmltv.tvmedia.ca">
-    <display-name>Crave1 - East HD</display-name>
-    <display-name>CRVM1HD</display-name>
-    <display-name>409</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s33382_h15_ac.png"/>
-    <url>www.themovienetwork.ca</url>
-  </channel>
-  <channel id="4838.stations.xmltv.tvmedia.ca">
-    <display-name>Super Channel Fuse HD</display-name>
-    <display-name>SCHUSE-HD</display-name>
-    <display-name>417</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s58882_h15_ab.png"/>
-    <url>www.superchannel.ca</url>
-  </channel>
-  <channel id="4839.stations.xmltv.tvmedia.ca">
-    <display-name>Super Channel Heart &amp; Home	 HD</display-name>
-    <display-name>SCHD2</display-name>
-    <display-name>418</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s58890_h15_ab.png"/>
-    <url>www.superchannel.ca</url>
-  </channel>
-  <channel id="4835.stations.xmltv.tvmedia.ca">
-    <display-name>Super Channel Vault</display-name>
-    <display-name>VAULT</display-name>
-    <display-name>419</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s58884_h15_ac.png"/>
-    <url>www.superchannel.ca</url>
-  </channel>
-  <channel id="10894.stations.xmltv.tvmedia.ca">
-    <display-name>Super Channel Quest HD</display-name>
-    <display-name>SCGNX</display-name>
-    <display-name>420</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s80168_h15_ad.png"/>
-    <url>www.superchannel.ca</url>
   </channel>
   <channel id="10884.stations.xmltv.tvmedia.ca">
     <display-name>Super Channel on Demand HD</display-name>
@@ -567,12 +281,6 @@
     <display-name>433</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s113127_h15_aa.png"/>
   </channel>
-  <channel id="464.stations.xmltv.tvmedia.ca">
-    <display-name>MovieTime</display-name>
-    <display-name>MOVTI</display-name>
-    <display-name>445</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s27125_h15_aa.png"/>
-  </channel>
   <channel id="33513.stations.xmltv.tvmedia.ca">
     <display-name>Adult Swim - West</display-name>
     <display-name>ADSM</display-name>
@@ -585,40 +293,6 @@
     <display-name>457</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s82181_h15_aa.png"/>
     <url>www.watchrewind.com/</url>
-  </channel>
-  <channel id="2115.stations.xmltv.tvmedia.ca">
-    <display-name>Silver Screen Classics</display-name>
-    <display-name>SILVSC</display-name>
-    <display-name>460</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s34290_h15_aa.png"/>
-    <url>www.silverscreenclassics.com/</url>
-  </channel>
-  <channel id="7050.stations.xmltv.tvmedia.ca">
-    <display-name>Turner Classic Movies Canada HD</display-name>
-    <display-name>TCM</display-name>
-    <display-name>462</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s67405_h15_ab.png"/>
-    <url>www.turnerclassicmovies.com</url>
-  </channel>
-  <channel id="10771.stations.xmltv.tvmedia.ca">
-    <display-name>CTV Comedy - East HD</display-name>
-    <display-name>CTVCom-HD</display-name>
-    <display-name>500</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s76863_h15_ab.png"/>
-    <url>THECOMEDYNETWORK.CA/PROG.ASP</url>
-  </channel>
-  <channel id="3969.stations.xmltv.tvmedia.ca">
-    <display-name>DTOUR HD</display-name>
-    <display-name>DTOUR</display-name>
-    <display-name>504</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s82747_h15_ab.png"/>
-    <url>www.globaltvmedia.com</url>
-  </channel>
-  <channel id="3906.stations.xmltv.tvmedia.ca">
-    <display-name>BBC First HD</display-name>
-    <display-name>HIFI</display-name>
-    <display-name>505</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s53120_h15_ab.png"/>
   </channel>
   <channel id="33446.stations.xmltv.tvmedia.ca">
     <display-name>Deja View HD</display-name>
@@ -645,32 +319,6 @@
     <display-name>555</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s80176_h15_ac.png"/>
     <url>www.cmtcanada.com</url>
-  </channel>
-  <channel id="9396.stations.xmltv.tvmedia.ca">
-    <display-name>Much Music HD</display-name>
-    <display-name>MM</display-name>
-    <display-name>557</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/72139-23396.png"/>
-    <url>www.muchmusic.com</url>
-  </channel>
-  <channel id="478.stations.xmltv.tvmedia.ca">
-    <display-name>MTV 2 Canada</display-name>
-    <display-name>MTV2</display-name>
-    <display-name>562</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s26775_h15_aa.png"/>
-  </channel>
-  <channel id="8777.stations.xmltv.tvmedia.ca">
-    <display-name>Family Channel Canada - East HD</display-name>
-    <display-name>FAM-HD</display-name>
-    <display-name>604</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s70520_h15_aa.png"/>
-    <url>www.family.ca/</url>
-  </channel>
-  <channel id="1018.stations.xmltv.tvmedia.ca">
-    <display-name>Family Channel Canada - West</display-name>
-    <display-name>FAMW</display-name>
-    <display-name>605</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s13264_h15_aa.png"/>
   </channel>
   <channel id="16832.stations.xmltv.tvmedia.ca">
     <display-name>Disney Channel Canada HD - West</display-name>
@@ -705,19 +353,6 @@
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s76222_h15_ad.png"/>
     <url>www.teletoon.com</url>
   </channel>
-  <channel id="4162.stations.xmltv.tvmedia.ca">
-    <display-name>National Geographic Canada HD</display-name>
-    <display-name>NGEOHD</display-name>
-    <display-name>700</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s54743_h15_ab.png"/>
-  </channel>
-  <channel id="8451.stations.xmltv.tvmedia.ca">
-    <display-name>USA Network (CAN) HD</display-name>
-    <display-name>USA-HD</display-name>
-    <display-name>701</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s15098_h15_ac.png"/>
-    <url>https://www.ctv.ca/usa-network</url>
-  </channel>
   <channel id="10769.stations.xmltv.tvmedia.ca">
     <display-name>CTV Nature Canada HD</display-name>
     <display-name>NATHD</display-name>
@@ -728,13 +363,6 @@
     <display-name>History Canada HD West</display-name>
     <display-name>HIST</display-name>
     <display-name>704</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s65619_h15_ab.png"/>
-    <url>WWW.HISTORYCHANNEL.COM</url>
-  </channel>
-  <channel id="6822.stations.xmltv.tvmedia.ca">
-    <display-name>History Canada HD East</display-name>
-    <display-name>HIST</display-name>
-    <display-name>705</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s65619_h15_ab.png"/>
     <url>WWW.HISTORYCHANNEL.COM</url>
   </channel>
@@ -750,25 +378,12 @@
     <display-name>713</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s52745_h15_ac.png"/>
   </channel>
-  <channel id="3907.stations.xmltv.tvmedia.ca">
-    <display-name>Love Nature</display-name>
-    <display-name>NATUR</display-name>
-    <display-name>714</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s52745_h15_ac.png"/>
-  </channel>
   <channel id="11405.stations.xmltv.tvmedia.ca">
     <display-name>Smithsonian Channel Canada HD</display-name>
     <display-name>SMITHHD</display-name>
     <display-name>715</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s53121_h15_aa.png"/>
     <url>www.smithsonianchannel.ca/</url>
-  </channel>
-  <channel id="9631.stations.xmltv.tvmedia.ca">
-    <display-name>T+E Totally Entertaining HD</display-name>
-    <display-name>T+E-HD</display-name>
-    <display-name>717</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s74863_h15_ab.png"/>
-    <url>www.tandetv.com</url>
   </channel>
   <channel id="10044.stations.xmltv.tvmedia.ca">
     <display-name>CTV Wild Canada HD</display-name>
@@ -784,19 +399,6 @@
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s75451_h15_ad.png"/>
     <url>WWW.NATGEOCHANNEL.COM</url>
   </channel>
-  <channel id="3908.stations.xmltv.tvmedia.ca">
-    <display-name>BBC Earth HD</display-name>
-    <display-name>BBCEHD</display-name>
-    <display-name>725</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s53128_h15_ac.png"/>
-  </channel>
-  <channel id="9116.stations.xmltv.tvmedia.ca">
-    <display-name>Documentary Channel (Canada) HD</display-name>
-    <display-name>DOCU-HD</display-name>
-    <display-name>731</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s26784_h15_aa.png"/>
-    <url>www.cbc.ca/documentarychannel</url>
-  </channel>
   <channel id="13504.stations.xmltv.tvmedia.ca">
     <display-name>CCTV9 Documentary (English)</display-name>
     <display-name>CCTV9-EN</display-name>
@@ -804,25 +406,11 @@
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s79952_h9_aa.png"/>
     <url>cctv.cntv.cn/documentary/</url>
   </channel>
-  <channel id="6421.stations.xmltv.tvmedia.ca">
-    <display-name>CBC News Network HD</display-name>
-    <display-name>NWHD</display-name>
-    <display-name>800</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s75971_h15_ac.png"/>
-    <url>www.cbc.ca/television/</url>
-  </channel>
   <channel id="10770.stations.xmltv.tvmedia.ca">
     <display-name>CTV News Channel HD</display-name>
     <display-name>CTVN-HD</display-name>
     <display-name>801</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s76921_h9_ac.png"/>
-  </channel>
-  <channel id="4724.stations.xmltv.tvmedia.ca">
-    <display-name>CNN HD</display-name>
-    <display-name>CNN-HD</display-name>
-    <display-name>802</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s58646_h15_ac.png"/>
-    <url>www.cnn.com</url>
   </channel>
   <channel id="1850.stations.xmltv.tvmedia.ca">
     <display-name>MS NOW</display-name>
@@ -830,12 +418,6 @@
     <display-name>804</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/99663-30A9E.png"/>
     <url>https://www.ms.now/</url>
-  </channel>
-  <channel id="3561.stations.xmltv.tvmedia.ca">
-    <display-name>CNBC Canada</display-name>
-    <display-name>CNBC</display-name>
-    <display-name>806</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/18141-8DBA.png"/>
   </channel>
   <channel id="10043.stations.xmltv.tvmedia.ca">
     <display-name>BNN Bloomberg HD</display-name>
@@ -848,20 +430,6 @@
     <display-name>BBCW</display-name>
     <display-name>821</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s89542_h15_ab.png"/>
-  </channel>
-  <channel id="3008.stations.xmltv.tvmedia.ca">
-    <display-name>CNN International North America</display-name>
-    <display-name>CNNI</display-name>
-    <display-name>827</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s10146_h15_ac.png"/>
-    <url>www.cnn.com</url>
-  </channel>
-  <channel id="10671.stations.xmltv.tvmedia.ca">
-    <display-name>CGTN (CCTV4)</display-name>
-    <display-name>CCTV News</display-name>
-    <display-name>834</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s24248_h15_ac.png"/>
-    <url>WWW.CCTV-4.com</url>
   </channel>
   <channel id="10980.stations.xmltv.tvmedia.ca">
     <display-name>Global News: BC1</display-name>
@@ -876,36 +444,11 @@
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s72727_h9_aa.png"/>
     <url>www.miraclechannel.ca</url>
   </channel>
-  <channel id="306.stations.xmltv.tvmedia.ca">
-    <display-name>MAX</display-name>
-    <display-name>MAX</display-name>
-    <display-name>2041</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s17591_h15_aa.png"/>
-  </channel>
   <channel id="115.stations.xmltv.tvmedia.ca">
     <display-name>Global (CIHF) Dartmouth</display-name>
     <display-name>CIHF</display-name>
     <display-name>9220</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s110839_h15_aa.png"/>
     <url>www.canada.com/globaltv/maritimes.html</url>
-  </channel>
-  <channel id="1023.stations.xmltv.tvmedia.ca">
-    <display-name>W (WTN) - Pacific</display-name>
-    <display-name>W</display-name>
-    <display-name>9329</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s15024_h15_ab.png"/>
-  </channel>
-  <channel id="1019.stations.xmltv.tvmedia.ca">
-    <display-name>CTV Comedy - West</display-name>
-    <display-name>CTVComW</display-name>
-    <display-name>9500</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s17595_h15_ab.png"/>
-    <url>WWW.COMCENTRAL.COM</url>
-  </channel>
-  <channel id="1021.stations.xmltv.tvmedia.ca">
-    <display-name>YTV (Youth Television) - Pacific</display-name>
-    <display-name>YTV-P</display-name>
-    <display-name>9600</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s16320_h9_ab.png"/>
   </channel>
 </tv>

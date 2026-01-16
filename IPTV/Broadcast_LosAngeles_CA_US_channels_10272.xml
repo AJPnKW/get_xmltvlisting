@@ -1,30 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tv SYSTEM "xmltv.dtd">
-<tv date="01/15/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
+<tv date="01/16/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
   <channel id="2172.stations.xmltv.tvmedia.ca">
     <display-name>CBS (KCBS) Los Angeles, CA</display-name>
     <display-name>KCBS-TV</display-name>
     <display-name>2-1</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s28711_h15_ab.png"/>
-  </channel>
-  <channel id="17242.stations.xmltv.tvmedia.ca">
-    <display-name>Start TV (KCBS-TV2) Los Angeles, CA</display-name>
-    <display-name>KCBS-TV2</display-name>
-    <display-name>2-2</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s109454_h15_ab.png"/>
-    <url>WWW.CHANNEL2000.COM</url>
-  </channel>
-  <channel id="34149.stations.xmltv.tvmedia.ca">
-    <display-name>DABL (KCBS-TV3) Los Angeles, CA</display-name>
-    <display-name>KCBS-TV3</display-name>
-    <display-name>2-3</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s112157_h15_ab.png"/>
-  </channel>
-  <channel id="35863.stations.xmltv.tvmedia.ca">
-    <display-name>FAVE TV (KCBS-TV4) Los Angeles, CA</display-name>
-    <display-name>KCBS-TV4</display-name>
-    <display-name>2-4</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s117058_h15_aa.png"/>
   </channel>
   <channel id="2588.stations.xmltv.tvmedia.ca">
     <display-name>NBC (KNBC) Los Angeles, CA</display-name>
@@ -32,26 +13,6 @@
     <display-name>4-1</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s10991_h15_ad.png"/>
     <url>www.nbc4.tv</url>
-  </channel>
-  <channel id="10920.stations.xmltv.tvmedia.ca">
-    <display-name>Cozi TV (KNBC2) Los Angeles, CA</display-name>
-    <display-name>KNBC2</display-name>
-    <display-name>4-2</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s78851_h15_ab.png"/>
-    <url>WWW.NBC4LA.COM</url>
-  </channel>
-  <channel id="35026.stations.xmltv.tvmedia.ca">
-    <display-name>LX Network (KNBC-DT3) Los Angeles, CA</display-name>
-    <display-name>KNBC3</display-name>
-    <display-name>4-3</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/114892-38198.png"/>
-  </channel>
-  <channel id="37110.stations.xmltv.tvmedia.ca">
-    <display-name>Oxygen (KNBC-DT4) Los Angeles, CA</display-name>
-    <display-name>KNBC4</display-name>
-    <display-name>4-4</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s21484_h15_ac.png"/>
-    <url>WWW.OXYGEN.COM</url>
   </channel>
   <channel id="90.stations.xmltv.tvmedia.ca">
     <display-name>KTLA Los Angeles, CA</display-name>
@@ -67,33 +28,6 @@
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/63335-1EECE.png"/>
     <url>WWW.KTLA.COM</url>
   </channel>
-  <channel id="11205.stations.xmltv.tvmedia.ca">
-    <display-name>GritTV (KTLA3) Los Angeles, CA</display-name>
-    <display-name>KTLA3</display-name>
-    <display-name>5-3</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/70319-2255E.png"/>
-    <url>WWW.KTLA.COM</url>
-  </channel>
-  <channel id="33679.stations.xmltv.tvmedia.ca">
-    <display-name>Shop LC (KTLA4) Los Angeles, CA</display-name>
-    <display-name>KTLA4</display-name>
-    <display-name>5-4</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s56032_h15_ac.png"/>
-    <url>WWW.KTLA.COM</url>
-  </channel>
-  <channel id="36477.stations.xmltv.tvmedia.ca">
-    <display-name>Rewind TV US (KTLA5) Los Angeles, CA</display-name>
-    <display-name>KTLA5</display-name>
-    <display-name>5-5</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s119814_h15_ab.png"/>
-    <url>www.ktla.com/</url>
-  </channel>
-  <channel id="13348.stations.xmltv.tvmedia.ca">
-    <display-name>MeTV Plus (KHTV) Los Angeles, CA</display-name>
-    <display-name>KHTV-CD</display-name>
-    <display-name>6-1</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s119266_h15_aa.png"/>
-  </channel>
   <channel id="13349.stations.xmltv.tvmedia.ca">
     <display-name>KHTV-DT2 "Mana" - Los Angeles, CA</display-name>
     <display-name>KHTV-CD2</display-name>
@@ -105,17 +39,6 @@
     <display-name>6-3</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s10270_h15_ad.png"/>
   </channel>
-  <channel id="13350.stations.xmltv.tvmedia.ca">
-    <display-name>Jewelry TV (KHTV-CD4) Los Angeles, CA</display-name>
-    <display-name>KHTV-CD4</display-name>
-    <display-name>6-4</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s16604_h15_ab.png"/>
-  </channel>
-  <channel id="18110.stations.xmltv.tvmedia.ca">
-    <display-name>Al Karma TV (KHTV-CD5) Los Angeles, CA</display-name>
-    <display-name>KHTV-CD5</display-name>
-    <display-name>6-5</display-name>
-  </channel>
   <channel id="2589.stations.xmltv.tvmedia.ca">
     <display-name>ABC (KABC) Los Angeles, CA</display-name>
     <display-name>KABC-TV</display-name>
@@ -123,124 +46,11 @@
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s28708_h15_ac.png"/>
     <url>WWW.ABC7.COM</url>
   </channel>
-  <channel id="6543.stations.xmltv.tvmedia.ca">
-    <display-name>Localish (KABC-TV2) HD Los Angeles, CA</display-name>
-    <display-name>KABC-TV2</display-name>
-    <display-name>7-2</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s70938_h15_ac.png"/>
-    <url>WWW.ABC7.COM</url>
-  </channel>
-  <channel id="9092.stations.xmltv.tvmedia.ca">
-    <display-name>Charge! (KABC-TV3) Los Angeles, CA</display-name>
-    <display-name>KABC-TV3</display-name>
-    <display-name>7-3</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s102148_h15_ab.png"/>
-    <url>WWW.ABC7.COM</url>
-  </channel>
-  <channel id="11210.stations.xmltv.tvmedia.ca">
-    <display-name>Newsmax2 (KFLA) Los Angeles, CA</display-name>
-    <display-name>KFLA-LD</display-name>
-    <display-name>8-1</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s153592_h9_aa.png"/>
-  </channel>
-  <channel id="11213.stations.xmltv.tvmedia.ca">
-    <display-name>OAN (KFLA-LD9) Los Angeles, CA</display-name>
-    <display-name>KFLA-LD9</display-name>
-    <display-name>8-2</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s82542_h15_ab.png"/>
-    <url>www.oneamericanews.com</url>
-  </channel>
-  <channel id="36911.stations.xmltv.tvmedia.ca">
-    <display-name>America's Voice (KFLA-LD2) Los Angeles, CA</display-name>
-    <display-name>KFLA-LD2</display-name>
-    <display-name>8-2</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s102475_h6_aa.png"/>
-    <url>www.kfla.tv</url>
-  </channel>
-  <channel id="11215.stations.xmltv.tvmedia.ca">
-    <display-name>Ace TV (KFLA-LD3) Los Angeles, CA</display-name>
-    <display-name>KFLA-LD3</display-name>
-    <display-name>8-3</display-name>
-    <url>www.kfla.tv</url>
-  </channel>
-  <channel id="11216.stations.xmltv.tvmedia.ca">
-    <display-name>Biz-TV (KFLA-LD4) Los Angeles, CA</display-name>
-    <display-name>KFLA-LD4</display-name>
-    <display-name>8-4</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s66281_h15_ab.png"/>
-    <url>www.kfla.tv</url>
-  </channel>
-  <channel id="11785.stations.xmltv.tvmedia.ca">
-    <display-name>Shop LC (KFLA-LD5) Los Angeles, CA</display-name>
-    <display-name>KFLA-LD5</display-name>
-    <display-name>8-5</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s56032_h15_ac.png"/>
-  </channel>
-  <channel id="16475.stations.xmltv.tvmedia.ca">
-    <display-name>AWE Plus (KFLA-LD6) Los Angeles, CA</display-name>
-    <display-name>KFLA-LD6</display-name>
-    <display-name>8-6</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s141933_h15_aa.png"/>
-    <url>www.kfla.tv</url>
-  </channel>
-  <channel id="36874.stations.xmltv.tvmedia.ca">
-    <display-name>NewsNet (KFLA-LD7) Los Angeles, CA</display-name>
-    <display-name>KFLA-LD7</display-name>
-    <display-name>8-7</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s110428_h15_ab.png"/>
-    <url>www.yournewsnet.com</url>
-  </channel>
-  <channel id="36875.stations.xmltv.tvmedia.ca">
-    <display-name>DIYA TV (KFLA-LD8) Los Angeles, CA</display-name>
-    <display-name>KFLA-LD8</display-name>
-    <display-name>8-8</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s86867_h15_aa.png"/>
-  </channel>
   <channel id="1826.stations.xmltv.tvmedia.ca">
     <display-name>KCAL Los Angeles</display-name>
     <display-name>KCAL-TV</display-name>
     <display-name>9-1</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s10362_h9_ab.png"/>
-  </channel>
-  <channel id="34480.stations.xmltv.tvmedia.ca">
-    <display-name>The Nest (KCAL-TV2) Los Angeles, CA</display-name>
-    <display-name>KCAL-TV2</display-name>
-    <display-name>9-2</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s147367_h15_aa.png"/>
-  </channel>
-  <channel id="34508.stations.xmltv.tvmedia.ca">
-    <display-name>Circle (KCAL-TV3) Los Angeles, CA</display-name>
-    <display-name>KCAL-TV3</display-name>
-    <display-name>9-3</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s97051_h15_ab.png"/>
-  </channel>
-  <channel id="35864.stations.xmltv.tvmedia.ca">
-    <display-name>HSN (KCAL-TV4) Los Angeles, CA</display-name>
-    <display-name>KCAL-TV4</display-name>
-    <display-name>9-4</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s10269_h15_ab.png"/>
-    <url>https://losangeles.cbslocal.com/</url>
-  </channel>
-  <channel id="35865.stations.xmltv.tvmedia.ca">
-    <display-name>QVC (KCAL-TV5) Los Angeles, CA</display-name>
-    <display-name>KCAL-TV5</display-name>
-    <display-name>9-5</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s11069_h15_ad.png"/>
-  </channel>
-  <channel id="11156.stations.xmltv.tvmedia.ca">
-    <display-name>US Armenia (KIIO-LD) Los Angeles, CA</display-name>
-    <display-name>KIIO-LD</display-name>
-    <display-name>10-1</display-name>
-  </channel>
-  <channel id="11889.stations.xmltv.tvmedia.ca">
-    <display-name>ARTN (KIIO-LD2) Los Angeles, CA</display-name>
-    <display-name>KIIO-LD2</display-name>
-    <display-name>10-2</display-name>
-  </channel>
-  <channel id="18785.stations.xmltv.tvmedia.ca">
-    <display-name>amga TV (KIIO-LD6) Los Angeles, CA</display-name>
-    <display-name>KIIO-LD6</display-name>
-    <display-name>10-6</display-name>
   </channel>
   <channel id="1949.stations.xmltv.tvmedia.ca">
     <display-name>FOX (KTTV) Los Angeles, CA</display-name>
@@ -248,12 +58,6 @@
     <display-name>11-1</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s10212_h15_ab.png"/>
     <url>www.myfoxla.com</url>
-  </channel>
-  <channel id="38510.stations.xmltv.tvmedia.ca">
-    <display-name>Fox Weather (KTTV2) Los Angeles, CA</display-name>
-    <display-name>KTTV2</display-name>
-    <display-name>11-2</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/66342-2064C.png"/>
   </channel>
   <channel id="31502.stations.xmltv.tvmedia.ca">
     <display-name>TBD (KTTV3) Los Angeles, CA</display-name>
@@ -267,19 +71,6 @@
     <display-name>11-4</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s91415_h15_ab.png"/>
   </channel>
-  <channel id="1811.stations.xmltv.tvmedia.ca">
-    <display-name>MNT (KCOP) Los Angeles, CA</display-name>
-    <display-name>KCOP-TV</display-name>
-    <display-name>13-1</display-name>
-    <url>WWW.UPN13.COM</url>
-  </channel>
-  <channel id="11269.stations.xmltv.tvmedia.ca">
-    <display-name>Buzzr TV (KCOP-TV2) Los Angeles, CA</display-name>
-    <display-name>KCOP-TV2</display-name>
-    <display-name>13-2</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s93430_h15_ab.png"/>
-    <url>WWW.UPN13.COM</url>
-  </channel>
   <channel id="11234.stations.xmltv.tvmedia.ca">
     <display-name>Movies! (KCOP-TV3) Los Angeles, CA</display-name>
     <display-name>KCOP-TV3</display-name>
@@ -287,101 +78,12 @@
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s81275_h15_ab.png"/>
     <url>WWW.UPN13.COM</url>
   </channel>
-  <channel id="16479.stations.xmltv.tvmedia.ca">
-    <display-name>H&amp;I (KCOP-TV4) Los Angeles, CA</display-name>
-    <display-name>KCOP-TV4</display-name>
-    <display-name>13-4</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s90401_h15_ad.png"/>
-    <url>WWW.UPN13.COM</url>
-  </channel>
-  <channel id="2606.stations.xmltv.tvmedia.ca">
-    <display-name>ShopHQ (KSCI) Los Angeles, CA</display-name>
-    <display-name>KSCI</display-name>
-    <display-name>18-1</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s56032_h15_ac.png"/>
-    <url>www.kscitv.com</url>
-  </channel>
-  <channel id="11168.stations.xmltv.tvmedia.ca">
-    <display-name>SBS (KSCI-DT2) Long Beach, CA</display-name>
-    <display-name>KSCI2</display-name>
-    <display-name>18-2</display-name>
-  </channel>
-  <channel id="11164.stations.xmltv.tvmedia.ca">
-    <display-name>MBC-D (KSCI-DT3)</display-name>
-    <display-name>KSCI3</display-name>
-    <display-name>18-3</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s70622_h15_aa.png"/>
-    <url>www.kscitv.com</url>
-  </channel>
-  <channel id="11163.stations.xmltv.tvmedia.ca">
-    <display-name>CGN (KSCI-DT4) Los Angeles, CA</display-name>
-    <display-name>KSCI4</display-name>
-    <display-name>18-4</display-name>
-  </channel>
-  <channel id="10352.stations.xmltv.tvmedia.ca">
-    <display-name>US Armenia (KSCI-DT5) Los Angeles</display-name>
-    <display-name>KSCI5</display-name>
-    <display-name>18-5</display-name>
-    <url>www.kscitv.com</url>
-  </channel>
-  <channel id="10349.stations.xmltv.tvmedia.ca">
-    <display-name>ARTN (KSCI7) Los Angeles, CA</display-name>
-    <display-name>KSCI7</display-name>
-    <display-name>18-7</display-name>
-    <url>www.kscitv.com</url>
-  </channel>
   <channel id="11167.stations.xmltv.tvmedia.ca">
     <display-name>LA 18.8 (KSCI-DT8)</display-name>
     <display-name>KSCI8</display-name>
     <display-name>18-8</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s14948_h15_ae.png"/>
     <url>www.vvtv.com</url>
-  </channel>
-  <channel id="11166.stations.xmltv.tvmedia.ca">
-    <display-name>South Korean (KSCI-DT9)</display-name>
-    <display-name>KSCI9</display-name>
-    <display-name>18-9</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s67676_h15_aa.png"/>
-  </channel>
-  <channel id="11169.stations.xmltv.tvmedia.ca">
-    <display-name>SonLife Network (KNLA) Los Angeles, CA</display-name>
-    <display-name>KNLA-CD</display-name>
-    <display-name>20-1</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s67676_h15_aa.png"/>
-  </channel>
-  <channel id="11181.stations.xmltv.tvmedia.ca">
-    <display-name>CEN (KNLA-CD2) Los Angeles, CA</display-name>
-    <display-name>KNLA-CD2</display-name>
-    <display-name>20-2</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s183094_h9_aa.png"/>
-  </channel>
-  <channel id="11183.stations.xmltv.tvmedia.ca">
-    <display-name>DIYA TV (KNLA-CD3) Los Angeles, CA</display-name>
-    <display-name>KNLA-CD3</display-name>
-    <display-name>20-3</display-name>
-  </channel>
-  <channel id="18590.stations.xmltv.tvmedia.ca">
-    <display-name>US Armenia (KNLA-DT5) Los Angeles, CA</display-name>
-    <display-name>KNLA-CD5</display-name>
-    <display-name>20-5</display-name>
-  </channel>
-  <channel id="18591.stations.xmltv.tvmedia.ca">
-    <display-name>LA 18.8 (KNLA-DT6) Los Angeles, CA</display-name>
-    <display-name>KNLA-CD6</display-name>
-    <display-name>20-6</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s56032_h15_ac.png"/>
-  </channel>
-  <channel id="10693.stations.xmltv.tvmedia.ca">
-    <display-name>Canal 22 (KWHY-TV) Los Angeles, CA</display-name>
-    <display-name>KWHY-TV</display-name>
-    <display-name>22-1</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s10820_h15_ac.png"/>
-  </channel>
-  <channel id="11173.stations.xmltv.tvmedia.ca">
-    <display-name>Heartland (KWHY-TV2) Los Angeles, CA</display-name>
-    <display-name>KWHY-TV2</display-name>
-    <display-name>22-2</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s33652_h15_aa.png"/>
   </channel>
   <channel id="18325.stations.xmltv.tvmedia.ca">
     <display-name>KWHY-DT3 Los Angeles, CA</display-name>
@@ -393,12 +95,6 @@
     <display-name>KWHY-TV4 Los Angeles, CA</display-name>
     <display-name>KWHY-TV4</display-name>
     <display-name>22-4</display-name>
-    <url>WWW.KWHY.COM</url>
-  </channel>
-  <channel id="16487.stations.xmltv.tvmedia.ca">
-    <display-name>Majestadtv (KWHY-DT5) Los Angeles, CA</display-name>
-    <display-name>KWHY-TV5</display-name>
-    <display-name>22-5</display-name>
     <url>WWW.KWHY.COM</url>
   </channel>
   <channel id="18327.stations.xmltv.tvmedia.ca">
@@ -431,13 +127,6 @@
     <display-name>24-3</display-name>
     <url>www.kvcr.org/</url>
   </channel>
-  <channel id="11224.stations.xmltv.tvmedia.ca">
-    <display-name>Create (KVCR-DT4) San Bernardino, CA</display-name>
-    <display-name>KVCR-DT4</display-name>
-    <display-name>24-4</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s48990_h15_aa.png"/>
-    <url>www.kvcr.org/</url>
-  </channel>
   <channel id="11184.stations.xmltv.tvmedia.ca">
     <display-name>HSN (KNET) Los Angeles, CA</display-name>
     <display-name>KNET-CD</display-name>
@@ -450,70 +139,17 @@
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s175506_h15_aa.png"/>
     <url>WWW.WORLDTELEVISION.COM</url>
   </channel>
-  <channel id="11226.stations.xmltv.tvmedia.ca">
-    <display-name>DIYA TV (KNET-CD11) Los Angeles, CA</display-name>
-    <display-name>KNET-CD11</display-name>
-    <display-name>25-11</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s86867_h15_aa.png"/>
-  </channel>
-  <channel id="18599.stations.xmltv.tvmedia.ca">
-    <display-name>US Armenia (KNET-DT12) Los Angles, CA</display-name>
-    <display-name>KNET-CD12</display-name>
-    <display-name>25-12</display-name>
-  </channel>
-  <channel id="18459.stations.xmltv.tvmedia.ca">
-    <display-name>Jewelry TV (KSFV) Los Angeles, CA</display-name>
-    <display-name>KSFV-CD</display-name>
-    <display-name>27-1</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s159817_h15_aa.png"/>
-  </channel>
-  <channel id="18460.stations.xmltv.tvmedia.ca">
-    <display-name>Corner Store (KSFV-CD3) Los Angeles, CA</display-name>
-    <display-name>KSFV-CD3</display-name>
-    <display-name>27-3</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s16604_h15_ab.png"/>
-  </channel>
   <channel id="16473.stations.xmltv.tvmedia.ca">
     <display-name>H&amp;I (KSFV-CD2) Los Angeles, CA</display-name>
     <display-name>KSFV-CD2</display-name>
     <display-name>27-4</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/87005-2A7BA.png"/>
   </channel>
-  <channel id="18461.stations.xmltv.tvmedia.ca">
-    <display-name>Al Karma TV (KSFV-CD5) Los Angeles, CA</display-name>
-    <display-name>KSFV-CD5</display-name>
-    <display-name>27-5</display-name>
-  </channel>
-  <channel id="18460.stations.xmltv.tvmedia.ca">
-    <display-name>Corner Store (KSFV-CD3) Los Angeles, CA</display-name>
-    <display-name>KSFV-CD3</display-name>
-    <display-name>27-6</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s16604_h15_ab.png"/>
-  </channel>
   <channel id="2310.stations.xmltv.tvmedia.ca">
     <display-name>KCET Los Angeles, CA</display-name>
     <display-name>KCET</display-name>
     <display-name>28-1</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s10373_h15_aa.png"/>
-  </channel>
-  <channel id="11266.stations.xmltv.tvmedia.ca">
-    <display-name>Create (KCET2) Los Angeles, CA</display-name>
-    <display-name>KCET2</display-name>
-    <display-name>28-2</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s48990_h15_aa.png"/>
-  </channel>
-  <channel id="11202.stations.xmltv.tvmedia.ca">
-    <display-name>NHK World (KCET-DT3) Los Angeles, CA</display-name>
-    <display-name>KCET3</display-name>
-    <display-name>28-3</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s59155_h15_aa.png"/>
-  </channel>
-  <channel id="11276.stations.xmltv.tvmedia.ca">
-    <display-name>NHK World (KCET-DT4) Los Angeles, CA</display-name>
-    <display-name>KCET4</display-name>
-    <display-name>28-4</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s59155_h15_aa.png"/>
-    <url>www.nhk.jn.co.jp</url>
   </channel>
   <channel id="2587.stations.xmltv.tvmedia.ca">
     <display-name>ION (KPXN) Los Angeles, CA</display-name>
@@ -522,39 +158,12 @@
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s18633_h15_ad.png"/>
     <url>www.iontelevision.com</url>
   </channel>
-  <channel id="11175.stations.xmltv.tvmedia.ca">
-    <display-name>Court TV (KPXN-TV2) Los Angeles, CA</display-name>
-    <display-name>KPXN-TV2</display-name>
-    <display-name>30-2</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s111043_h15_aa.png"/>
-    <url>https://iontelevision.com/</url>
-  </channel>
   <channel id="11177.stations.xmltv.tvmedia.ca">
     <display-name>ION Plus (KPXN-TV3) Los Angeles, CA</display-name>
     <display-name>KPXN-TV3</display-name>
     <display-name>30-3</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s55241_h15_ad.png"/>
     <url>https://iontelevision.com/</url>
-  </channel>
-  <channel id="11180.stations.xmltv.tvmedia.ca">
-    <display-name>Laff (KPXN-TV4) Los Angeles, CA</display-name>
-    <display-name>KPXN-TV4</display-name>
-    <display-name>30-4</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/49819-18536.png"/>
-    <url>https://iontelevision.com/</url>
-  </channel>
-  <channel id="12267.stations.xmltv.tvmedia.ca">
-    <display-name>Game Show Central (KPXN-TV5) Los Angeles, CA</display-name>
-    <display-name>KPXN-TV5</display-name>
-    <display-name>30-5</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s116474_h15_aa.png"/>
-  </channel>
-  <channel id="11666.stations.xmltv.tvmedia.ca">
-    <display-name>Busted (KPXN-TV6) Los Angeles, CA</display-name>
-    <display-name>KPXN-TV6</display-name>
-    <display-name>30-6</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s175331_h15_aa.png"/>
-    <url>https://www.tvbusted.com/</url>
   </channel>
   <channel id="19470.stations.xmltv.tvmedia.ca">
     <display-name>KSMV - Los Angeles, CA</display-name>
@@ -567,26 +176,10 @@
     <display-name>KSMV-LD2</display-name>
     <display-name>31-2</display-name>
   </channel>
-  <channel id="16510.stations.xmltv.tvmedia.ca">
-    <display-name>Fil Am TV (KSMV-LD3) Los Angeles, CA</display-name>
-    <display-name>KSMV-LD3</display-name>
-    <display-name>31-3</display-name>
-  </channel>
   <channel id="19468.stations.xmltv.tvmedia.ca">
     <display-name>GDTV (KSMV-LD4) Los Angeles, CA</display-name>
     <display-name>KSMV-LD4</display-name>
     <display-name>31-4</display-name>
-  </channel>
-  <channel id="16519.stations.xmltv.tvmedia.ca">
-    <display-name>Creation TV (KSMV-LD5) Los Angeles, CA</display-name>
-    <display-name>KSMV-LD5</display-name>
-    <display-name>31-5</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s150078_h15_aa.png"/>
-  </channel>
-  <channel id="16520.stations.xmltv.tvmedia.ca">
-    <display-name>Hope Channel (KSMV-LD6) Los Angeles, CA</display-name>
-    <display-name>KSMV-LD6</display-name>
-    <display-name>31-6</display-name>
   </channel>
   <channel id="19471.stations.xmltv.tvmedia.ca">
     <display-name>TBWTV (KSMV-LD7) Los Angeles, CA</display-name>
@@ -603,290 +196,27 @@
     <display-name>KSMV-LD9</display-name>
     <display-name>31-9</display-name>
   </channel>
-  <channel id="16505.stations.xmltv.tvmedia.ca">
-    <display-name>Tai Shan TV (KSMV-LD10) Los Angeles, CA</display-name>
-    <display-name>KSMV-LD10</display-name>
-    <display-name>31-10</display-name>
-  </channel>
-  <channel id="2602.stations.xmltv.tvmedia.ca">
-    <display-name>UNI (KMEX) Los Angeles, CA</display-name>
-    <display-name>KMEX-DT</display-name>
-    <display-name>34-1</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s11118_h15_ab.png"/>
-  </channel>
-  <channel id="16527.stations.xmltv.tvmedia.ca">
-    <display-name>UniMás (KMEX-DT2) Los Angeles, CA</display-name>
-    <display-name>KMEX-DT2</display-name>
-    <display-name>34-2</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s29058_h15_ab.png"/>
-    <url>www.kmex.com/</url>
-  </channel>
-  <channel id="16529.stations.xmltv.tvmedia.ca">
-    <display-name>Bounce (KMEX-DT3) Los Angeles, CA</display-name>
-    <display-name>KMEX-DT3</display-name>
-    <display-name>34-3</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/92056-2CF30.png"/>
-    <url>www.kmex.com/</url>
-  </channel>
   <channel id="30977.stations.xmltv.tvmedia.ca">
     <display-name>True Crime Network (KMEX-DT4) Los Angeles, CA</display-name>
     <display-name>KMEX-DT4</display-name>
     <display-name>34-4</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s91496_h15_ab.png"/>
   </channel>
-  <channel id="11200.stations.xmltv.tvmedia.ca">
-    <display-name>Almavision (KTAV-LD) Los Angeles, CA</display-name>
-    <display-name>KTAV-LD</display-name>
-    <display-name>35-1</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s45813_h9_aa.png"/>
-  </channel>
-  <channel id="11201.stations.xmltv.tvmedia.ca">
-    <display-name>CBN News Channel (KTAV-LD2) Los Angeles, CA</display-name>
-    <display-name>KTAV-LD2</display-name>
-    <display-name>35-2</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s109977_h15_aa.png"/>
-  </channel>
-  <channel id="16530.stations.xmltv.tvmedia.ca">
-    <display-name>The Way TV (KTAV-LD3) Altadena, CA</display-name>
-    <display-name>KTAV-LD3</display-name>
-    <display-name>35-3</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s67676_h15_aa.png"/>
-  </channel>
-  <channel id="13370.stations.xmltv.tvmedia.ca">
-    <display-name>SonLife Network (KTAV-LD4) Altadena, CA</display-name>
-    <display-name>KTAV-LD4</display-name>
-    <display-name>35-4</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s16604_h15_ab.png"/>
-  </channel>
-  <channel id="13371.stations.xmltv.tvmedia.ca">
-    <display-name>Almavision (KTAV-LD5) Altadena, CA</display-name>
-    <display-name>KTAV-LD5</display-name>
-    <display-name>35-5</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s56032_h15_ac.png"/>
-  </channel>
-  <channel id="13372.stations.xmltv.tvmedia.ca">
-    <display-name>Peace TV (KTAV-LD6) Altadena, CA</display-name>
-    <display-name>KTAV-LD6</display-name>
-    <display-name>35-6</display-name>
-    <url>www.almavision.com</url>
-  </channel>
   <channel id="16531.stations.xmltv.tvmedia.ca">
     <display-name>KTAV-LD7 Altadena, CA</display-name>
     <display-name>KTAV-LD7</display-name>
     <display-name>35-7</display-name>
-  </channel>
-  <channel id="13458.stations.xmltv.tvmedia.ca">
-    <display-name>Court TV (KHIZ) Victorville, CA</display-name>
-    <display-name>KHIZ-LD</display-name>
-    <display-name>39-1</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s159206_h15_aa.png"/>
-  </channel>
-  <channel id="16532.stations.xmltv.tvmedia.ca">
-    <display-name>Laff (KHIZ-LD2) Los Angeles, CA</display-name>
-    <display-name>KHIZ-LD2</display-name>
-    <display-name>39-2</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s150571_h15_ab.png"/>
-  </channel>
-  <channel id="31765.stations.xmltv.tvmedia.ca">
-    <display-name>Grit TV (KHIZ-LD3) Los Angeles, CA</display-name>
-    <display-name>KHIZ-LD3</display-name>
-    <display-name>39-3</display-name>
-  </channel>
-  <channel id="18604.stations.xmltv.tvmedia.ca">
-    <display-name>Infomercials (KHIZ-LD4) Los Angeles, CA</display-name>
-    <display-name>KHIZ-LD4</display-name>
-    <display-name>39-4</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s109977_h15_aa.png"/>
-  </channel>
-  <channel id="31767.stations.xmltv.tvmedia.ca">
-    <display-name>Shop LC (KHIZ-LD5) Los Angeles, CA</display-name>
-    <display-name>KHIZ-LD5</display-name>
-    <display-name>39-5</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s56032_h15_ac.png"/>
-  </channel>
-  <channel id="31768.stations.xmltv.tvmedia.ca">
-    <display-name>SSTN (KHIZ-LD6) Los Angeles, CA</display-name>
-    <display-name>KHIZ-LD6</display-name>
-    <display-name>39-6</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s82219_h9_aa.png"/>
-  </channel>
-  <channel id="31769.stations.xmltv.tvmedia.ca">
-    <display-name>CBN News (KHIZ-LD7) Los Angeles, CA</display-name>
-    <display-name>KHIZ-LD7</display-name>
-    <display-name>39-7</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s150537_h15_aa.png"/>
-  </channel>
-  <channel id="2633.stations.xmltv.tvmedia.ca">
-    <display-name>TBN (KTBN) Los Angeles, CA</display-name>
-    <display-name>KTBN-TV</display-name>
-    <display-name>40-1</display-name>
-    <url>www.tbn.org</url>
-  </channel>
-  <channel id="11237.stations.xmltv.tvmedia.ca">
-    <display-name>Merit Street (KTBN-TV2) Santa Ana, CA</display-name>
-    <display-name>KTBN-TV2</display-name>
-    <display-name>40-2</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s155158_h15_ac.png"/>
-    <url>www.tbn.org</url>
-  </channel>
-  <channel id="11239.stations.xmltv.tvmedia.ca">
-    <display-name>TBN Inspire (KTBN-TV3) Santa Ana, CA</display-name>
-    <display-name>KTBN-TV3</display-name>
-    <display-name>40-3</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s122276_h15_aa.png"/>
-    <url>www.tbn.org</url>
-  </channel>
-  <channel id="11241.stations.xmltv.tvmedia.ca">
-    <display-name>ONTV4U (KTBN-TV4) Los Angeles, CA</display-name>
-    <display-name>KTBN-TV4</display-name>
-    <display-name>40-4</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s49208_h15_ac.png"/>
-    <url>www.tbn.org</url>
-  </channel>
-  <channel id="11243.stations.xmltv.tvmedia.ca">
-    <display-name>PosiTiV (KTBN-TV5) Los Angeles, CA</display-name>
-    <display-name>KTBN-TV5</display-name>
-    <display-name>40-5</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s34169_h15_ad.png"/>
-    <url>www.tbn.org</url>
-  </channel>
-  <channel id="2603.stations.xmltv.tvmedia.ca">
-    <display-name>Ethnic (KXLA) Los Angeles, CA</display-name>
-    <display-name>KXLA</display-name>
-    <display-name>44-1</display-name>
   </channel>
   <channel id="11244.stations.xmltv.tvmedia.ca">
     <display-name>KXLA-DT2, Los Angeles, CA</display-name>
     <display-name>KXLA2</display-name>
     <display-name>44-2</display-name>
   </channel>
-  <channel id="11246.stations.xmltv.tvmedia.ca">
-    <display-name>Sky Link TV (KXLA-DT3) Los Angeles, CA</display-name>
-    <display-name>KXLA3</display-name>
-    <display-name>44-3</display-name>
-  </channel>
-  <channel id="11248.stations.xmltv.tvmedia.ca">
-    <display-name>SKY-CAN (KXLA-DT4) Los Angeles, CA</display-name>
-    <display-name>KXLA4</display-name>
-    <display-name>44-4</display-name>
-  </channel>
-  <channel id="11250.stations.xmltv.tvmedia.ca">
-    <display-name>ShopHQ (KXLA5) Los Angeles, CA</display-name>
-    <display-name>KXLA5</display-name>
-    <display-name>44-5</display-name>
-  </channel>
-  <channel id="11252.stations.xmltv.tvmedia.ca">
-    <display-name>SonLife Network (KXLA6) Los Angeles, CA</display-name>
-    <display-name>KXLA6</display-name>
-    <display-name>44-6</display-name>
-  </channel>
-  <channel id="11254.stations.xmltv.tvmedia.ca">
-    <display-name>New Tang Dynasty TV (KXLA-DT7) Los Angeles, CA</display-name>
-    <display-name>KXLA7</display-name>
-    <display-name>44-7</display-name>
-  </channel>
-  <channel id="11257.stations.xmltv.tvmedia.ca">
-    <display-name>ICN TV (KXLA-DT8) Los Angeles, CA</display-name>
-    <display-name>KXLA8</display-name>
-    <display-name>44-8</display-name>
-  </channel>
-  <channel id="11259.stations.xmltv.tvmedia.ca">
-    <display-name>Jewelry TV (KXLA10) Los Angeles, CA</display-name>
-    <display-name>KXLA10</display-name>
-    <display-name>44-9</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s82682_h15_ad.png"/>
-  </channel>
-  <channel id="13329.stations.xmltv.tvmedia.ca">
-    <display-name>amga TV (KXLA10) Los Angeles, CA</display-name>
-    <display-name>KXLA10</display-name>
-    <display-name>44-10</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s82682_h15_ad.png"/>
-  </channel>
-  <channel id="18318.stations.xmltv.tvmedia.ca">
-    <display-name>Infomercials (KXLA12) Los Angeles, CA</display-name>
-    <display-name>KXLA12</display-name>
-    <display-name>44-12</display-name>
-  </channel>
-  <channel id="34595.stations.xmltv.tvmedia.ca">
-    <display-name>beIN Sports Xtra (KSKJ-CD) Los Angeles, CA</display-name>
-    <display-name>KSKJ-CD</display-name>
-    <display-name>45-1</display-name>
-    <url>WWW.CAPITALBC.COM</url>
-  </channel>
-  <channel id="18450.stations.xmltv.tvmedia.ca">
-    <display-name>SSTN (KSKJ-DT2) Los Angeles, CA</display-name>
-    <display-name>KSKJ-CD2</display-name>
-    <display-name>45-2</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s16604_h15_ab.png"/>
-    <url>WWW.CAPITALBC.COM</url>
-  </channel>
-  <channel id="18451.stations.xmltv.tvmedia.ca">
-    <display-name>Infomercials (KSKJ-CD3) Los Angeles, CA</display-name>
-    <display-name>KSKJ-CD3</display-name>
-    <display-name>45-3</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s109977_h15_aa.png"/>
-    <url>WWW.CAPITALBC.COM</url>
-  </channel>
-  <channel id="18452.stations.xmltv.tvmedia.ca">
-    <display-name>Infomercials (KSKJ-CD4) Los Angeles, CA</display-name>
-    <display-name>KSKJ-CD4</display-name>
-    <display-name>45-4</display-name>
-    <url>WWW.CAPITALBC.COM</url>
-  </channel>
-  <channel id="18449.stations.xmltv.tvmedia.ca">
-    <display-name>Defy (KSKJ-DT5) Los Angeles, CA</display-name>
-    <display-name>KSKJ-CD5</display-name>
-    <display-name>45-5</display-name>
-    <url>WWW.CAPITALBC.COM</url>
-  </channel>
-  <channel id="37719.stations.xmltv.tvmedia.ca">
-    <display-name>365BLK (KSKJ-CD6) Los Angeles, CA</display-name>
-    <display-name>KSKJ-CD6</display-name>
-    <display-name>45-6</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s150571_h15_ab.png"/>
-    <url>WWW.CAPITALBC.COM</url>
-  </channel>
-  <channel id="37720.stations.xmltv.tvmedia.ca">
-    <display-name>Outlaw (KSKJ-CD7) Los Angeles, CA</display-name>
-    <display-name>KSKJ-CD7</display-name>
-    <display-name>45-7</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s150537_h15_aa.png"/>
-  </channel>
-  <channel id="11261.stations.xmltv.tvmedia.ca">
-    <display-name>UniMás (KFTR) Ontario, CA</display-name>
-    <display-name>KFTR-DT</display-name>
-    <display-name>46-1</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s29058_h15_ab.png"/>
-  </channel>
-  <channel id="11416.stations.xmltv.tvmedia.ca">
-    <display-name>GetTV (KFTR-DT2) Ontario, CA</display-name>
-    <display-name>KFTR-DT2</display-name>
-    <display-name>46-2</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s82563_h15_ab.png"/>
-  </channel>
   <channel id="16533.stations.xmltv.tvmedia.ca">
     <display-name>ION Mystery (KFTR-DT3) Ontario, CA</display-name>
     <display-name>KFTR-DT3</display-name>
     <display-name>46-3</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s89923_h15_ad.png"/>
-  </channel>
-  <channel id="16534.stations.xmltv.tvmedia.ca">
-    <display-name>Grit TV (KFTR-DT4) Ontario, CA</display-name>
-    <display-name>KFTR-DT4</display-name>
-    <display-name>46-4</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/90182-2C08C.png"/>
-  </channel>
-  <channel id="33529.stations.xmltv.tvmedia.ca">
-    <display-name>Quest (KFTR-DT5) Ontario, CA</display-name>
-    <display-name>KFTR-DT5</display-name>
-    <display-name>46-5</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s106838_h9_ad.png"/>
-  </channel>
-  <channel id="36542.stations.xmltv.tvmedia.ca">
-    <display-name>Digi TV (KFTR-DT6) Ontario, CA</display-name>
-    <display-name>KFTR-DT6</display-name>
-    <display-name>46-6</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s121327_h15_aa.png"/>
   </channel>
   <channel id="2632.stations.xmltv.tvmedia.ca">
     <display-name>PBS SoCal1 (KOCE) Huntington Beach, CA</display-name>
@@ -900,60 +230,11 @@
     <display-name>50-2</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s11039_h15_ab.png"/>
   </channel>
-  <channel id="6522.stations.xmltv.tvmedia.ca">
-    <display-name>Daystar (KOCE-TV3) Los Angeles, CA</display-name>
-    <display-name>KOCE-TV3</display-name>
-    <display-name>50-3</display-name>
-  </channel>
   <channel id="13281.stations.xmltv.tvmedia.ca">
     <display-name>PBS World (KOCE-TV4) Huntington Beach, CA</display-name>
     <display-name>KOCE-TV4</display-name>
     <display-name>50-4</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s56725_h15_ab.png"/>
-  </channel>
-  <channel id="2611.stations.xmltv.tvmedia.ca">
-    <display-name>Telemundo (KVEA) Los Angeles, CA</display-name>
-    <display-name>KVEA</display-name>
-    <display-name>52-1</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s10239_h15_ab.png"/>
-    <url>www.kvea.com</url>
-  </channel>
-  <channel id="11218.stations.xmltv.tvmedia.ca">
-    <display-name>TeleXitos (KVEA2) Los Angeles, CA</display-name>
-    <display-name>KVEA2</display-name>
-    <display-name>52-2</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s74299_h15_ab.png"/>
-    <url>www.kvea.com</url>
-  </channel>
-  <channel id="11219.stations.xmltv.tvmedia.ca">
-    <display-name>Canal SOI (KVEA-DT3) Los Angeles, CA</display-name>
-    <display-name>KVEA3</display-name>
-    <display-name>52-3</display-name>
-    <url>www.kvea.com</url>
-  </channel>
-  <channel id="3247.stations.xmltv.tvmedia.ca">
-    <display-name>MeTV (KAZA) Los Angeles, CA</display-name>
-    <display-name>KAZA-TV</display-name>
-    <display-name>54-1</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s70436_h15_ac.png"/>
-  </channel>
-  <channel id="11232.stations.xmltv.tvmedia.ca">
-    <display-name>Story (KAZA2) Avalon, CA</display-name>
-    <display-name>KAZA2</display-name>
-    <display-name>54-2</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s122968_h15_ac.png"/>
-  </channel>
-  <channel id="11192.stations.xmltv.tvmedia.ca">
-    <display-name>MeTV Plus (KAZA-TV3) Avalon, CA</display-name>
-    <display-name>KAZA3</display-name>
-    <display-name>54-3</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s159817_h15_aa.png"/>
-  </channel>
-  <channel id="17404.stations.xmltv.tvmedia.ca">
-    <display-name>Biz-TV (KAZA4) Avalon, CA</display-name>
-    <display-name>KAZA4</display-name>
-    <display-name>54-4</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/72303-234DE.png"/>
   </channel>
   <channel id="2631.stations.xmltv.tvmedia.ca">
     <display-name>KDOC - Los Angeles, CA</display-name>
@@ -968,43 +249,11 @@
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s46421_h9_aa.png"/>
     <url>WWW.KDOCTV.NET</url>
   </channel>
-  <channel id="11206.stations.xmltv.tvmedia.ca">
-    <display-name>MeTV (KDOC-TV3) Los Angeles, CA</display-name>
-    <display-name>KDOC-TV3</display-name>
-    <display-name>56-3</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s70436_h15_ac.png"/>
-  </channel>
-  <channel id="18013.stations.xmltv.tvmedia.ca">
-    <display-name>Comet TV (KDOC-TV4) Los Angeles, CA</display-name>
-    <display-name>KDOC-TV4</display-name>
-    <display-name>56-4</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s97051_h15_ab.png"/>
-    <url>WWW.KDOC.NET</url>
-  </channel>
-  <channel id="13327.stations.xmltv.tvmedia.ca">
-    <display-name>Majestadtv (KDOC-DT5) Los Angeles, CA</display-name>
-    <display-name>KDOC-TV5</display-name>
-    <display-name>56-5</display-name>
-    <url>WWW.KDOC.NET</url>
-  </channel>
-  <channel id="18014.stations.xmltv.tvmedia.ca">
-    <display-name>CHARGE! (KDOC-DT6) Los Angeles, CA</display-name>
-    <display-name>KDOC-TV6</display-name>
-    <display-name>56-6</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s102148_h15_ab.png"/>
-  </channel>
   <channel id="18016.stations.xmltv.tvmedia.ca">
     <display-name>KDOC-DT7 Los Angeles, CA</display-name>
     <display-name>KDOC-TV7</display-name>
     <display-name>56-7</display-name>
     <url>WWW.KDOC.NET</url>
-  </channel>
-  <channel id="16535.stations.xmltv.tvmedia.ca">
-    <display-name>Tele Vida Abundante (KDOC-TV8) Anaheim, CA</display-name>
-    <display-name>KDOC-TV8</display-name>
-    <display-name>56-8</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s102148_h15_ab.png"/>
-    <url>WWW.KDOCTV.NET</url>
   </channel>
   <channel id="36895.stations.xmltv.tvmedia.ca">
     <display-name>KDOC-DT9 Los Angeles, CA</display-name>
@@ -1018,83 +267,11 @@
     <display-name>56-10</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s115253_h15_aa.png"/>
   </channel>
-  <channel id="39161.stations.xmltv.tvmedia.ca">
-    <display-name>JTV Espanol (KDOC-D11) Los Angeles, CA</display-name>
-    <display-name>KDOC-TV11</display-name>
-    <display-name>56-11</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s163702_h15_ab.png"/>
-  </channel>
-  <channel id="2591.stations.xmltv.tvmedia.ca">
-    <display-name>Azteca (KJLA) Los Angeles, CA</display-name>
-    <display-name>KJLA</display-name>
-    <display-name>57-1</display-name>
-  </channel>
-  <channel id="13308.stations.xmltv.tvmedia.ca">
-    <display-name>VietFace TV (KJLA-DT2) Los Angeles, CA</display-name>
-    <display-name>KJLA2</display-name>
-    <display-name>57-2</display-name>
-    <url>www.latv.com/</url>
-  </channel>
-  <channel id="13310.stations.xmltv.tvmedia.ca">
-    <display-name>VNA TV (KJLA-DT3) Los Angeles, CA</display-name>
-    <display-name>KJLA3</display-name>
-    <display-name>57-3</display-name>
-    <url>www.latv.com/</url>
-  </channel>
-  <channel id="13313.stations.xmltv.tvmedia.ca">
-    <display-name>SET (KJLA4) Los Angeles, CA</display-name>
-    <display-name>KJLA4</display-name>
-    <display-name>57-4</display-name>
-    <url>www.latv.com/</url>
-  </channel>
-  <channel id="13311.stations.xmltv.tvmedia.ca">
-    <display-name>SaigonTV (KJLA-DT5) Los Angeles, CA</display-name>
-    <display-name>KJLA5</display-name>
-    <display-name>57-5</display-name>
-    <url>www.latv.com/</url>
-  </channel>
-  <channel id="13315.stations.xmltv.tvmedia.ca">
-    <display-name>VBS (KJLA-DT6) Los Angeles, CA</display-name>
-    <display-name>KJLA6</display-name>
-    <display-name>57-6</display-name>
-    <url>www.latv.com/</url>
-  </channel>
-  <channel id="13317.stations.xmltv.tvmedia.ca">
-    <display-name>Little Saigon TV (KJLA-DT7) Los Angeles, CA</display-name>
-    <display-name>KJLA7</display-name>
-    <display-name>57-7</display-name>
-    <url>www.latv.com/</url>
-  </channel>
-  <channel id="13319.stations.xmltv.tvmedia.ca">
-    <display-name>IBC-TV (KJLA-DT8) Los Angeles, CA</display-name>
-    <display-name>KJLA8</display-name>
-    <display-name>57-8</display-name>
-    <url>www.latv.com/</url>
-  </channel>
-  <channel id="13321.stations.xmltv.tvmedia.ca">
-    <display-name>ZWTV (KJLA-DT9) Los Angeles, CA</display-name>
-    <display-name>KJLA9</display-name>
-    <display-name>57-9</display-name>
-    <url>www.latv.com/</url>
-  </channel>
   <channel id="2630.stations.xmltv.tvmedia.ca">
     <display-name>PBS (KLCS) Los Angeles, CA</display-name>
     <display-name>KLCS</display-name>
     <display-name>58-1</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s11039_h15_ab.png"/>
-    <url>www.lausd.k12.ca.us/lausd/offices/klcs/</url>
-  </channel>
-  <channel id="5839.stations.xmltv.tvmedia.ca">
-    <display-name>PBS Kids (KLCS2) Los Angeles, CA</display-name>
-    <display-name>KLCS2</display-name>
-    <display-name>58-2</display-name>
-    <url>www.lausd.k12.ca.us/lausd/offices/klcs/</url>
-  </channel>
-  <channel id="11230.stations.xmltv.tvmedia.ca">
-    <display-name>Create (KLCS3) Los Angeles CA</display-name>
-    <display-name>KLCS3</display-name>
-    <display-name>58-3</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s48990_h15_aa.png"/>
     <url>www.lausd.k12.ca.us/lausd/offices/klcs/</url>
   </channel>
   <channel id="11193.stations.xmltv.tvmedia.ca">
@@ -1103,24 +280,6 @@
     <display-name>58-4</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s82462_h9_aa.png"/>
     <url>www.lausd.k12.ca.us/lausd/offices/klcs/</url>
-  </channel>
-  <channel id="11195.stations.xmltv.tvmedia.ca">
-    <display-name>Estrella (KRCA) Los Angeles, CA</display-name>
-    <display-name>KRCA</display-name>
-    <display-name>62-1</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s65064_h15_af.png"/>
-    <url>www.krca62.tv/</url>
-  </channel>
-  <channel id="13294.stations.xmltv.tvmedia.ca">
-    <display-name>Estrella Games (KRCA 62.3) Los Angeles, CA</display-name>
-    <display-name>KRCA3</display-name>
-    <display-name>62-2</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s65064_h15_af.png"/>
-  </channel>
-  <channel id="35456.stations.xmltv.tvmedia.ca">
-    <display-name>Estrella TV News (KRCA2) Los Angeles, CA</display-name>
-    <display-name>KRCA2</display-name>
-    <display-name>62-3</display-name>
   </channel>
   <channel id="13297.stations.xmltv.tvmedia.ca">
     <display-name>KRCA-DT4 Los Angeles, CA</display-name>
@@ -1132,50 +291,10 @@
     <display-name>KRCA6</display-name>
     <display-name>62-6</display-name>
   </channel>
-  <channel id="3246.stations.xmltv.tvmedia.ca">
-    <display-name>Canal de La Fe (KBEH) Los Angeles, CA</display-name>
-    <display-name>KBEH</display-name>
-    <display-name>63-1</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s44019_h15_aa.png"/>
-  </channel>
-  <channel id="37575.stations.xmltv.tvmedia.ca">
-    <display-name>Heartland (KBEH2) Los Angeles, CA</display-name>
-    <display-name>KBEH2</display-name>
-    <display-name>63-2</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s78584_h15_ab.png"/>
-    <url>watchtnn.com</url>
-  </channel>
-  <channel id="11290.stations.xmltv.tvmedia.ca">
-    <display-name>Retro TV (KBEH3) Los Angeles, CA</display-name>
-    <display-name>KBEH3</display-name>
-    <display-name>63-3</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/67104-20C40.png"/>
-  </channel>
-  <channel id="13285.stations.xmltv.tvmedia.ca">
-    <display-name>Tele Vida Abundante (KBEH-DT4) Oxnard, CA</display-name>
-    <display-name>KBEH4</display-name>
-    <display-name>63-4</display-name>
-  </channel>
-  <channel id="17414.stations.xmltv.tvmedia.ca">
-    <display-name>Latin TV (KBEH-DT5) Oxnard, CA</display-name>
-    <display-name>KBEH5</display-name>
-    <display-name>63-5</display-name>
-  </channel>
-  <channel id="17415.stations.xmltv.tvmedia.ca">
-    <display-name>Rede iTV (KBEH-DT6) Oxnard, CA</display-name>
-    <display-name>KBEH6</display-name>
-    <display-name>63-6</display-name>
-  </channel>
   <channel id="2590.stations.xmltv.tvmedia.ca">
     <display-name>Bounce (KILM) Los Angeles, CA</display-name>
     <display-name>KILM</display-name>
     <display-name>64-1</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s73067_h15_ab.png"/>
-  </channel>
-  <channel id="18699.stations.xmltv.tvmedia.ca">
-    <display-name>Sino TV (KILM-DT2) Los Angeles, CA</display-name>
-    <display-name>KILM2</display-name>
-    <display-name>64-2</display-name>
-    <url>www.khiztv.com</url>
   </channel>
 </tv>
