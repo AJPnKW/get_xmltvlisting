@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tv SYSTEM "xmltv.dtd">
-<tv date="01/16/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
+<tv date="01/17/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
   <channel id="6257.stations.xmltv.tvmedia.ca">
     <display-name>CBC (CBUT) Vancouver, BC HD</display-name>
     <display-name>CBUT-HD</display-name>
@@ -60,11 +60,6 @@
     <display-name>204</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s15939_h15_ab.png"/>
     <url>www.cbc.ca</url>
-  </channel>
-  <channel id="6787.stations.xmltv.tvmedia.ca">
-    <display-name>CBC On Demand</display-name>
-    <display-name>CBCOD</display-name>
-    <display-name>206</display-name>
   </channel>
   <channel id="7950.stations.xmltv.tvmedia.ca">
     <display-name>CTV (CKY) Winnipeg, MB HD</display-name>
@@ -134,11 +129,6 @@
     <display-name>232</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s10125_h15_ab.png"/>
     <url>www.a-channel.com</url>
-  </channel>
-  <channel id="10811.stations.xmltv.tvmedia.ca">
-    <display-name>CITY On Demand</display-name>
-    <display-name>CITOD</display-name>
-    <display-name>234</display-name>
   </channel>
   <channel id="199.stations.xmltv.tvmedia.ca">
     <display-name>CJON (NTV) St-John, NL</display-name>
@@ -229,12 +219,6 @@
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s12223_h15_ac.png"/>
     <url>www.crave.ca</url>
   </channel>
-  <channel id="10884.stations.xmltv.tvmedia.ca">
-    <display-name>Super Channel on Demand HD</display-name>
-    <display-name>SCODHD</display-name>
-    <display-name>421</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s72782_h15_aa.png"/>
-  </channel>
   <channel id="20017.stations.xmltv.tvmedia.ca">
     <display-name>Hollywood Suite 70s+ HD</display-name>
     <display-name>HS70s-HD</display-name>
@@ -274,12 +258,6 @@
     <display-name>432</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s77045_h15_ac.png"/>
     <url>www.moviecentral.ca</url>
-  </channel>
-  <channel id="8206.stations.xmltv.tvmedia.ca">
-    <display-name>Starz On Demand HD</display-name>
-    <display-name>STRZ</display-name>
-    <display-name>433</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s113127_h15_aa.png"/>
   </channel>
   <channel id="33513.stations.xmltv.tvmedia.ca">
     <display-name>Adult Swim - West</display-name>

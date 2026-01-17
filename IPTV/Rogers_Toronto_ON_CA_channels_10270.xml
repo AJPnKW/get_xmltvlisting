@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tv SYSTEM "xmltv.dtd">
-<tv date="01/16/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
+<tv date="01/17/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
   <channel id="13887.stations.xmltv.tvmedia.ca">
     <display-name>TVO (CICA-DT) Toronto, ON</display-name>
     <display-name>CICA-DT</display-name>
@@ -377,23 +377,6 @@
     <display-name>89</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s26829_h15_ab.png"/>
   </channel>
-  <channel id="4335.stations.xmltv.tvmedia.ca">
-    <display-name>HGTV Canada On Demand</display-name>
-    <display-name>HGTOD</display-name>
-    <display-name>92</display-name>
-  </channel>
-  <channel id="4336.stations.xmltv.tvmedia.ca">
-    <display-name>Food Network Canada On Demand</display-name>
-    <display-name>FNOD</display-name>
-    <display-name>93</display-name>
-  </channel>
-  <channel id="8267.stations.xmltv.tvmedia.ca">
-    <display-name>National Geographic HD On Demand</display-name>
-    <display-name>NGCOD</display-name>
-    <display-name>94</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s24959_h15_ab.png"/>
-    <url>WWW.NATGEOCHANNEL.COM</url>
-  </channel>
   <channel id="10026.stations.xmltv.tvmedia.ca">
     <display-name>FX Networks Canada</display-name>
     <display-name>FX</display-name>
@@ -737,23 +720,6 @@
     <display-name>194</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s89542_h15_ab.png"/>
   </channel>
-  <channel id="359.stations.xmltv.tvmedia.ca">
-    <display-name>TSC</display-name>
-    <display-name>TSC</display-name>
-    <display-name>202</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s15997_h15_ac.png"/>
-  </channel>
-  <channel id="2463.stations.xmltv.tvmedia.ca">
-    <display-name>YTV On Demand</display-name>
-    <display-name>YTVOD</display-name>
-    <display-name>211</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s69112_h9_aa.png"/>
-  </channel>
-  <channel id="16771.stations.xmltv.tvmedia.ca">
-    <display-name>Disney Channel Canada On Demand</display-name>
-    <display-name>DISNCOD</display-name>
-    <display-name>219</display-name>
-  </channel>
   <channel id="16682.stations.xmltv.tvmedia.ca">
     <display-name>Disney Channel Canada - East</display-name>
     <display-name>DISNC</display-name>
@@ -1045,11 +1011,6 @@
     <display-name>295</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s61998_h15_ac.png"/>
   </channel>
-  <channel id="3988.stations.xmltv.tvmedia.ca">
-    <display-name>Too Much! On Demand</display-name>
-    <display-name>TMOD</display-name>
-    <display-name>298</display-name>
-  </channel>
   <channel id="14204.stations.xmltv.tvmedia.ca">
     <display-name>Deals TV HD</display-name>
     <display-name>DEAL</display-name>
@@ -1107,21 +1068,6 @@
     <display-name>308</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s24804_h15_ac.png"/>
     <url>www.starz.ca</url>
-  </channel>
-  <channel id="2746.stations.xmltv.tvmedia.ca">
-    <display-name>Crave Movies &amp; HBO on Demand</display-name>
-    <display-name>CRVMD</display-name>
-    <display-name>309</display-name>
-  </channel>
-  <channel id="4180.stations.xmltv.tvmedia.ca">
-    <display-name>Starz1 onDemand</display-name>
-    <display-name>STZ1OD</display-name>
-    <display-name>310</display-name>
-  </channel>
-  <channel id="8252.stations.xmltv.tvmedia.ca">
-    <display-name>HBO Canada East On Demand</display-name>
-    <display-name>HBOOD</display-name>
-    <display-name>311</display-name>
   </channel>
   <channel id="2820.stations.xmltv.tvmedia.ca">
     <display-name>Crave1 - East HD</display-name>
@@ -1184,12 +1130,6 @@
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s92160_h15_ac.png"/>
     <url>www.showcase.ca/action</url>
   </channel>
-  <channel id="1148.stations.xmltv.tvmedia.ca">
-    <display-name>Lifetime TV - Canada</display-name>
-    <display-name>LIFE</display-name>
-    <display-name>322</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s26768_h15_ae.png"/>
-  </channel>
   <channel id="4161.stations.xmltv.tvmedia.ca">
     <display-name>Showcase Canada HD</display-name>
     <display-name>SHOWHD</display-name>
@@ -1222,12 +1162,6 @@
     <display-name>AMC</display-name>
     <display-name>328</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s52247_h15_aa.png"/>
-  </channel>
-  <channel id="1149.stations.xmltv.tvmedia.ca">
-    <display-name>Rewind</display-name>
-    <display-name>REW</display-name>
-    <display-name>332</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s27126_h15_aa.png"/>
   </channel>
   <channel id="464.stations.xmltv.tvmedia.ca">
     <display-name>MovieTime</display-name>
@@ -1262,12 +1196,6 @@
     <display-name>337</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s58885_h15_ad.png"/>
     <url>www.superchannel.ca</url>
-  </channel>
-  <channel id="5598.stations.xmltv.tvmedia.ca">
-    <display-name>Super Channel on Demand</display-name>
-    <display-name>SCOD</display-name>
-    <display-name>338</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s72782_h15_aa.png"/>
   </channel>
   <channel id="4838.stations.xmltv.tvmedia.ca">
     <display-name>Super Channel Fuse HD</display-name>
@@ -1347,12 +1275,6 @@
     <display-name>484</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s53711_h15_aa.png"/>
     <url>www.showcase.ca/</url>
-  </channel>
-  <channel id="11320.stations.xmltv.tvmedia.ca">
-    <display-name>Hollywood Suite On Demand</display-name>
-    <display-name>HSOD</display-name>
-    <display-name>485</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/73572-23EC8.png"/>
   </channel>
   <channel id="10310.stations.xmltv.tvmedia.ca">
     <display-name>Hollywood Suite 70s+</display-name>
@@ -1511,13 +1433,6 @@
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s55097_h9_aa.png"/>
     <url>WWW.AETV.COM</url>
   </channel>
-  <channel id="3887.stations.xmltv.tvmedia.ca">
-    <display-name>CTV Speed HD</display-name>
-    <display-name>CTVSPD-HD</display-name>
-    <display-name>534</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s44794_h15_ab.png"/>
-    <url>https://www.ctv.ca/speed</url>
-  </channel>
   <channel id="4162.stations.xmltv.tvmedia.ca">
     <display-name>National Geographic Canada HD</display-name>
     <display-name>NGEOHD</display-name>
@@ -1530,13 +1445,6 @@
     <display-name>536</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s60645_h15_ac.png"/>
     <url>tlc.discovery.com</url>
-  </channel>
-  <channel id="9631.stations.xmltv.tvmedia.ca">
-    <display-name>T+E Totally Entertaining HD</display-name>
-    <display-name>T+E-HD</display-name>
-    <display-name>537</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s74863_h15_ab.png"/>
-    <url>www.tandetv.com</url>
   </channel>
   <channel id="3906.stations.xmltv.tvmedia.ca">
     <display-name>BBC First HD</display-name>
@@ -1779,19 +1687,6 @@
     <display-name>583</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s10136_h15_aa.png"/>
     <url>www.citytv.com/vancouver</url>
-  </channel>
-  <channel id="12662.stations.xmltv.tvmedia.ca">
-    <display-name>TSC HD</display-name>
-    <display-name>TSC-HD</display-name>
-    <display-name>585</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s90941_h15_ab.png"/>
-  </channel>
-  <channel id="9440.stations.xmltv.tvmedia.ca">
-    <display-name>Weather Network HD</display-name>
-    <display-name>TWNHD</display-name>
-    <display-name>586</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s10170_h15_aa.png"/>
-    <url>www.theweathernetwork.com/ca</url>
   </channel>
   <channel id="9116.stations.xmltv.tvmedia.ca">
     <display-name>Documentary Channel (Canada) HD</display-name>
