@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tv SYSTEM "xmltv.dtd">
-<tv date="01/20/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
+<tv date="01/21/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
   <channel id="1766.stations.xmltv.tvmedia.ca">
     <display-name>CBS (WCBS) New York, NY</display-name>
     <display-name>WCBS-TV</display-name>
@@ -712,7 +712,7 @@
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/10243-5006.png"/>
   </channel>
   <channel id="2580.stations.xmltv.tvmedia.ca">
-    <display-name>HBO Signature (HBO 3) - Pacific</display-name>
+    <display-name>HBO Drama (HBO 3) - Pacific</display-name>
     <display-name>HBO3</display-name>
     <display-name>405</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/16576-8180.png"/>
@@ -765,7 +765,7 @@
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/10121-4F12.png"/>
   </channel>
   <channel id="2581.stations.xmltv.tvmedia.ca">
-    <display-name>MoreMax - Pacific</display-name>
+    <display-name>Cinemax Hits - Pacific</display-name>
     <display-name>MAX2</display-name>
     <display-name>423</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/16620-81D8.png"/>
@@ -778,7 +778,7 @@
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/18433-9002.png"/>
   </channel>
   <channel id="2582.stations.xmltv.tvmedia.ca">
-    <display-name>ActionMax - Pacific</display-name>
+    <display-name>Cinemax Action - Pacific</display-name>
     <display-name>MAX3</display-name>
     <display-name>425</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/18434-9004.png"/>
@@ -797,7 +797,7 @@
     <url>www.cinemax.com</url>
   </channel>
   <channel id="639.stations.xmltv.tvmedia.ca">
-    <display-name>Cinemáx - East</display-name>
+    <display-name>Cinemax Spanish - East</display-name>
     <display-name>@MAX</display-name>
     <display-name>429</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s25623_h15_ad.png"/>
@@ -1420,14 +1420,14 @@
     <url>www.hbo.com</url>
   </channel>
   <channel id="7099.stations.xmltv.tvmedia.ca">
-    <display-name>HBO Signature (HBO 3) - Eastern HD</display-name>
+    <display-name>HBO Drama (HBO 3) - Eastern HD</display-name>
     <display-name>HBO3</display-name>
     <display-name>904</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/59363-1CFC6.png"/>
     <url>www.hbo.com</url>
   </channel>
   <channel id="7711.stations.xmltv.tvmedia.ca">
-    <display-name>HBO Signature (HBO 3) - Pacific HD</display-name>
+    <display-name>HBO Drama (HBO 3) - Pacific HD</display-name>
     <display-name>HBO3-HD</display-name>
     <display-name>905</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/59366-1CFCC.png"/>
@@ -1475,21 +1475,21 @@
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s34933_h15_ab.png"/>
   </channel>
   <channel id="7097.stations.xmltv.tvmedia.ca">
-    <display-name>MoreMax - Eastern HD</display-name>
+    <display-name>Cinemax Hits - Eastern HD</display-name>
     <display-name>MAX2HD</display-name>
     <display-name>922</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/59373-1CFDA.png"/>
     <url>www.cinemax.com</url>
   </channel>
   <channel id="8472.stations.xmltv.tvmedia.ca">
-    <display-name>MoreMax - Pacific HD</display-name>
+    <display-name>Cinemax Hits - Pacific HD</display-name>
     <display-name>MAX2HD</display-name>
     <display-name>923</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/59375-1CFDE.png"/>
     <url>www.cinemax.com</url>
   </channel>
   <channel id="7094.stations.xmltv.tvmedia.ca">
-    <display-name>ActionMax - Eastern HD</display-name>
+    <display-name>Cinemax Action - Eastern HD</display-name>
     <display-name>MAX3HD</display-name>
     <display-name>924</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/59948-1D458.png"/>
@@ -1503,14 +1503,14 @@
     <url>www.cinemax.com</url>
   </channel>
   <channel id="7092.stations.xmltv.tvmedia.ca">
-    <display-name>Cinemáx HD</display-name>
+    <display-name>Cinemax Spanish HD</display-name>
     <display-name>@MAX</display-name>
     <display-name>929</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s59965_h15_ab.png"/>
     <url>WWW.CINEMAX.COM</url>
   </channel>
   <channel id="7093.stations.xmltv.tvmedia.ca">
-    <display-name>5 Star Max HD - Eastern</display-name>
+    <display-name>Cinemax Classics HD - Eastern</display-name>
     <display-name>MAX5HD</display-name>
     <display-name>930</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/59961-1D472.png"/>

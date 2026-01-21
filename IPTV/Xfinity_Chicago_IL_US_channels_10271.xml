@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tv SYSTEM "xmltv.dtd">
-<tv date="01/20/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
+<tv date="01/21/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
   <channel id="1830.stations.xmltv.tvmedia.ca">
     <display-name>CBS (WBBM) Chicago, IL</display-name>
     <display-name>WBBM-TV</display-name>
@@ -1534,7 +1534,7 @@
     <url>www.hbo.com</url>
   </channel>
   <channel id="7099.stations.xmltv.tvmedia.ca">
-    <display-name>HBO Signature (HBO 3) - Eastern HD</display-name>
+    <display-name>HBO Drama (HBO 3) - Eastern HD</display-name>
     <display-name>HBO3</display-name>
     <display-name>1806</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/59363-1CFC6.png"/>
@@ -1574,7 +1574,7 @@
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s10120_h15_ab.png"/>
   </channel>
   <channel id="7097.stations.xmltv.tvmedia.ca">
-    <display-name>MoreMax - Eastern HD</display-name>
+    <display-name>Cinemax Hits - Eastern HD</display-name>
     <display-name>MAX2HD</display-name>
     <display-name>1822</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/59373-1CFDA.png"/>
