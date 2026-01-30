@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tv SYSTEM "xmltv.dtd">
-<tv date="01/29/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
+<tv date="01/30/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
   <channel id="1830.stations.xmltv.tvmedia.ca">
     <display-name>CBS (WBBM) Chicago, IL</display-name>
     <display-name>WBBM-TV</display-name>
@@ -113,6 +113,7 @@
     <display-name>NBC Sports Network</display-name>
     <display-name>NBCSN</display-name>
     <display-name>48</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/194412-5EED8.png"/>
   </channel>
   <channel id="595.stations.xmltv.tvmedia.ca">
     <display-name>Disney - Eastern Feed</display-name>
