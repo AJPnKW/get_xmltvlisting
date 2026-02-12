@@ -10,3 +10,6 @@ venv/
 
 # patch artifacts (per your standard process)
 .ai_downloads/
+.my_notes/
+
+sample_download_XML.TV.Listings/
