@@ -1,0 +1,27 @@
+﻿#EXTM3U x-tvg-url="CBC_Canada.xml"
+#EXTINF:-1 tvg-id="cbc.canada.cblt-dt" tvg-name="CBC Toronto (CBLT-DT)" tvg-logo="http://cdn.tvpassport.com/image/station/76x28/v2/s10084_h15_ab.png" group-title="CBC Canada",CBC Toronto (CBLT-DT)
+http://goldenpro.xyz:80/51GYZ3Q/G0N5T14/796349
+#EXTINF:-1 tvg-id="cbc.canada.cblt-dt" tvg-name="CBC Toronto (CBLT-DT) ALT-1" tvg-logo="http://cdn.tvpassport.com/image/station/76x28/v2/s10084_h15_ab.png" group-title="CBC Canada",CBC Toronto (CBLT-DT) ALT-1
+http://goldenpro.xyz:80/51GYZ3Q/G0N5T14/30518
+#EXTINF:-1 tvg-id="cbc.canada.cblt-dt" tvg-name="CBC Toronto (CBLT-DT) ALT-2" tvg-logo="http://cdn.tvpassport.com/image/station/76x28/v2/s10084_h15_ab.png" group-title="CBC Canada",CBC Toronto (CBLT-DT) ALT-2
+http://goldenpro.xyz:80/51GYZ3Q/G0N5T14/515325
+#EXTINF:-1 tvg-id="cbc.canada.cbut-dt" tvg-name="CBC Vancouver (CBUT-DT)" tvg-logo="http://cdn.tvpassport.com/image/station/76x28/v2/s10084_h15_ab.png" group-title="CBC Canada",CBC Vancouver (CBUT-DT)
+http://goldenpro.xyz:80/51GYZ3Q/G0N5T14/796350
+#EXTINF:-1 tvg-id="cbc.canada.cbut-dt" tvg-name="CBC Vancouver (CBUT-DT) ALT-1" tvg-logo="http://cdn.tvpassport.com/image/station/76x28/v2/s10084_h15_ab.png" group-title="CBC Canada",CBC Vancouver (CBUT-DT) ALT-1
+http://goldenpro.xyz:80/51GYZ3Q/G0N5T14/30517
+#EXTINF:-1 tvg-id="cbc.canada.cbut-dt" tvg-name="CBC Vancouver (CBUT-DT) ALT-2" tvg-logo="http://cdn.tvpassport.com/image/station/76x28/v2/s10084_h15_ab.png" group-title="CBC Canada",CBC Vancouver (CBUT-DT) ALT-2
+http://goldenpro.xyz:80/51GYZ3Q/G0N5T14/515326
+#EXTINF:-1 tvg-id="cbc.canada.cbht-dt" tvg-name="CBC Halifax (CBHT-DT)" tvg-logo="http://cdn.tvpassport.com/image/station/76x28/v2/s14724_h15_aa.png" group-title="CBC Canada",CBC Halifax (CBHT-DT)
+http://goldenpro.xyz:80/51GYZ3Q/G0N5T14/796241
+#EXTINF:-1 tvg-id="cbc.canada.cbht-dt" tvg-name="CBC Halifax (CBHT-DT) ALT-1" tvg-logo="http://cdn.tvpassport.com/image/station/76x28/v2/s14724_h15_aa.png" group-title="CBC Canada",CBC Halifax (CBHT-DT) ALT-1
+http://goldenpro.xyz:80/51GYZ3Q/G0N5T14/515331
+#EXTINF:-1 tvg-id="cbc.canada.cbwt-dt" tvg-name="CBC Winnipeg (CBWT-DT)" tvg-logo="http://cdn.tvpassport.com/image/station/76x28/v2/s10084_h15_ab.png" group-title="CBC Canada",CBC Winnipeg (CBWT-DT)
+http://goldenpro.xyz:80/51GYZ3Q/G0N5T14/302941
+#EXTINF:-1 tvg-id="cbc.canada.cbwt-dt" tvg-name="CBC Winnipeg (CBWT-DT) ALT-1" tvg-logo="http://cdn.tvpassport.com/image/station/76x28/v2/s10084_h15_ab.png" group-title="CBC Canada",CBC Winnipeg (CBWT-DT) ALT-1
+http://goldenpro.xyz:80/51GYZ3Q/G0N5T14/515327
+#EXTINF:-1 tvg-id="cbc.canada.cbrt-dt" tvg-name="CBC Calgary (CBRT-DT)" tvg-logo="http://cdn.tvpassport.com/image/station/76x28/v2/s15939_h15_ab.png" group-title="CBC Canada",CBC Calgary (CBRT-DT)
+http://goldenpro.xyz:80/51GYZ3Q/G0N5T14/796365
+#EXTINF:-1 tvg-id="cbc.canada.cbrt-dt" tvg-name="CBC Calgary (CBRT-DT) ALT-1" tvg-logo="http://cdn.tvpassport.com/image/station/76x28/v2/s15939_h15_ab.png" group-title="CBC Canada",CBC Calgary (CBRT-DT) ALT-1
+http://goldenpro.xyz:80/51GYZ3Q/G0N5T14/43893
+#EXTINF:-1 tvg-id="cbc.canada.cbrt-dt" tvg-name="CBC Calgary (CBRT-DT) ALT-2" tvg-logo="http://cdn.tvpassport.com/image/station/76x28/v2/s15939_h15_ab.png" group-title="CBC Canada",CBC Calgary (CBRT-DT) ALT-2
+http://goldenpro.xyz:80/51GYZ3Q/G0N5T14/515318
