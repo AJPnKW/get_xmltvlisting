@@ -13,3 +13,8 @@ venv/
 .my_notes/
 
 sample_download_XML.TV.Listings/
+
+# CBC handoff artifacts (local)
+IPTV/CBC_Pack.zip
+IPTV/CBC_Channels_for_VLC.txt
+

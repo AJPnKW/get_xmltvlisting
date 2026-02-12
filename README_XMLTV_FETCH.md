@@ -1,30 +1,42 @@
-# get_xmltvlisting — XMLTVListings fetch + publish
+# get_xmltvlisting — Fetch + CBC Canada EPG build
 
 ## What this does
-- Fetches XMLTV listings for 3 lineups: 9329, 9330, 9331
-- Writes 3 copies (atomic writes; existing files preserved if limit/error occurs):
-  - Audit (timestamped): out/downloads/<timestamp>/...
-  - Local device folder: C:\X1_Share\Tivimate\iptv_lineup\...
-  - Repo publish folder: IPTV/iptv_lineup/... (push to GitHub for web access)
+- Fetches source lineup XMLTV files into `IPTV/`.
+- Builds a standalone CBC-only XMLTV file from these two fetched sources:
+  - `IPTV/Rogers_Toronto_ON_CA_xmltv_10270.xml`
+  - `IPTV/Telus_Optik_Vancouver_BC_CA_xmltv_10269.xml`
+- Produces:
+  - `IPTV/CBC_Canada.xml`
 
-## Human-friendly filenames (stable)
-- DirecTV[US]-xmltv-9329.xml
-- Spectrum_NY[US]-xmltv-9330.xml
-- Bell_Fibe[CA]-xmltv-9331.xml
+## CBC allow-list used by the builder
+- `CBLT-DT`
+- `CBUT-DT`
+- `CBHT-DT`
+- `CBWT-DT`
+- `CBRT-DT`
 
 ## Run locally
-PowerShell:
-- tools/run_fetch_listings.ps1
+1. Fetch source lineup XMLTV files:
+   - `tools/run_fetch_listings.ps1`
 
-Environment:
-- API_XMLTVLISTING_KEY (required)
-- IPTV_LINEUP_DIR (optional override of local device folder)
+2. Build CBC-only EPG (EPG-only; no M3U dependency):
+   - `python tools/build_cbc_canada_epg.py`
+
+### Output
+- `IPTV/CBC_Canada.xml`
+
+### Notes
+- Allow-list: CBLT-DT, CBUT-DT, CBHT-DT, CBWT-DT, CBRT-DT
+- If any allow-list callsign is missing from both source XML files, the build fails fast and prints the missing callsigns.
+
+## Files produced
+- Fetched source files in `IPTV/` (including the two CBC source inputs above).
+- Derived CBC output:
+  - `IPTV/CBC_Canada.xml`
 
 ## GitHub Actions
-- .github/workflows/fetch_xmltv_listings.yml
-- Runs daily at 12:00 UTC (~07:00 Toronto winter)
-- Requires repo secret: API_XMLTVLISTING_KEY
-
-## What happens if the daily limit is reached?
-- The script detects the provider message and SKIPS overwriting files.
-- Your previously published XML files remain intact, so clients can still load yesterday’s data.
+- Workflow: `.github/workflows/fetch_xmltv_listings.yml`
+- Sequence:
+  1. fetch channels
+  2. fetch listings
+  3. run `tools/build_cbc_canada_epg.py`
