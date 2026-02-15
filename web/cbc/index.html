@@ -1,0 +1,123 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <title>CBC Olympics Hub</title>
+  <link rel="stylesheet" href="../css/cbc.css" />
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="topbar" data-nav>
+    <div class="brand">
+      <div class="brand-mark" aria-hidden="true"><img src="../../assets/cbc/cbc_logo.svg" alt="" /></div>
+      <div class="brand-text">
+        <div class="brand-title">CBC Olympics Hub</div>
+        <div class="brand-sub">Live channels, TV guide, and Canada Olympics highlights</div>
+      </div>
+    </div>
+    <nav class="tabs" aria-label="Sections">
+      <button class="tab is-active" data-tab="watch" data-dpad="item" type="button">Watch</button>
+      <button class="tab" data-tab="schedule" data-dpad="item" type="button">Schedule</button>
+      <button class="tab" data-tab="downloads" data-dpad="item" type="button">Downloads</button>
+      <button class="tab" data-tab="help" data-dpad="item" type="button">Help</button>
+    </nav>
+  </header>
+
+  <main id="main" class="main" data-nav>
+    <section class="panel is-active" data-panel="watch" id="panel-watch" aria-label="Watch">
+      <div class="grid watch-grid">
+        <div class="card">
+          <div class="card-h">
+            <div class="card-title">Channels</div>
+            <div class="card-note" id="channelsMeta">Loading…</div>
+          </div>
+          <div class="toolbar">
+            <input id="q" class="input" type="search" placeholder="Search city or callsign" autocomplete="off" data-dpad="item" />
+            <button id="btnRefresh" class="btn" type="button" data-dpad="item">Refresh</button>
+          </div>
+          <div id="channels" class="channels" aria-live="polite"></div>
+        </div>
+
+        <div class="card">
+          <div class="card-h">
+            <div class="card-title">Now Playing</div>
+            <div class="card-note" id="watchHintTop">Pick a channel to start</div>
+          </div>
+
+          <div class="player-wrap">
+            <video id="streamPlayer" class="player" controls playsinline preload="none"></video>
+          </div>
+
+          <div class="now" id="now">
+            <div class="now-channel" id="nowChannel">—</div>
+            <div class="now-title" id="nowTitle">—</div>
+            <div class="now-time" id="nowMeta">—</div>
+            <div class="now-desc" id="nowDesc">—</div>
+
+            <div class="actions">
+              <button id="btnPlay" class="btn btn-big primary" type="button" data-dpad="item" disabled>Play</button>
+              <button id="btnOpenTab" class="btn secondary" type="button" data-dpad="item" disabled>Open in new tab</button>
+              <button id="btnCopyStream" class="btn" type="button" data-dpad="item" disabled>Copy Stream Link</button>
+              <button id="btnCopyWeb" class="btn" type="button" data-dpad="item" disabled>Copy Web Link</button>
+              <button id="btnOpenWeb" class="btn" type="button" data-dpad="item" disabled>Open Web Link</button>
+            </div>
+
+            <div id="playbackHint" class="hint hint-warn hidden">
+              This stream may not play in browser. Use VLC or an IPTV app.
+              <div class="actions" style="margin-top:8px">
+                <button id="btnFallbackCopy" class="btn" type="button" data-dpad="item">Open in VLC / IPTV app</button>
+                <button id="btnFallbackTab" class="btn" type="button" data-dpad="item">Open in new tab</button>
+              </div>
+            </div>
+
+            <div class="mini">
+              <div class="mini-h">Next Up (6)</div>
+              <div id="upNext" class="mini-list"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card olympics-card">
+          <div class="card-h">
+            <div class="card-title">Olympics for Canada</div>
+            <div class="card-note" id="olympicsTz">Loading…</div>
+          </div>
+          <div id="olympicsList" class="olympics-list"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel" data-panel="schedule" id="panel-schedule" aria-label="Schedule">
+      <div class="card">
+        <div class="card-h">
+          <div class="card-title">TV Guide</div>
+          <div class="card-note" id="guideMeta">3-hour window</div>
+        </div>
+
+        <div class="guide-controls">
+          <div class="toolbar">
+            <select id="channelPick" class="select" data-dpad="item"></select>
+            <select id="dayPick" class="select" data-dpad="item"></select>
+            <input id="scheduleSearch" class="input input-small" type="search" placeholder="Filter title or description" data-dpad="item" />
+            <button id="btnNow" class="btn" type="button" data-dpad="item">Jump to Now</button>
+          </div>
+
+          <div class="toolbar">
+            <button id="btnPrevWindow" class="btn" type="button" data-dpad="item">- 30 min</button>
+            <button id="btnNextWindow" class="btn" type="button" data-dpad="item">+ 30 min</button>
+            <div class="window-range-wrap">
+              <label for="windowRange">Time window</label>
+              <input id="windowRange" class="range" type="range" min="0" max="1260" step="30" value="0" data-dpad="item" />
+            </div>
+            <div class="guide-time-readout" id="windowLabel">00:00 - 03:00</div>
+          </div>
+        </div>
+
+        <div id="guideScroll" class="guide-scroll" tabindex="0" aria-label="TV guide grid">
+          <div id="guideCanvas" class="guide-canvas" aria-live="polite"></div>
+        </div>
+      </div>
+    </section>

@@ -1,0 +1,10 @@
+=== Milano–Cortina 2026 Asset Harvester (API ONLY) Started ===
+[API] https://api.olympics.com/en/content/v1/sports/biathlon
+[ERR] Failed to fetch API https://api.olympics.com/en/content/v1/sports/biathlon: HTTPSConnectionPool(host='api.olympics.com', port=443): Max retries exceeded with url: /en/content/v1/sports/biathlon (Caused by NewConnectionError("HTTPSConnection(host='api.olympics.com', port=443): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+[API] https://api.olympics.com/en/content/v1/sports/alpine-skiing
+[ERR] Failed to fetch API https://api.olympics.com/en/content/v1/sports/alpine-skiing: HTTPSConnectionPool(host='api.olympics.com', port=443): Max retries exceeded with url: /en/content/v1/sports/alpine-skiing (Caused by NewConnectionError("HTTPSConnection(host='api.olympics.com', port=443): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+[API] https://api.olympics.com/en/content/v1/sports/curling
+[ERR] Failed to fetch API https://api.olympics.com/en/content/v1/sports/curling: HTTPSConnectionPool(host='api.olympics.com', port=443): Max retries exceeded with url: /en/content/v1/sports/curling (Caused by NewConnectionError("HTTPSConnection(host='api.olympics.com', port=443): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+[API] https://api.olympics.com/en/content/v1/sports/ice-hockey
+[ERR] Failed to fetch API https://api.olympics.com/en/content/v1/sports/ice-hockey: HTTPSConnectionPool(host='api.olympics.com', port=443): Max retries exceeded with url: /en/content/v1/sports/ice-hockey (Caused by NewConnectionError("HTTPSConnection(host='api.olympics.com', port=443): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+[API] https://api.olympics.com/en/content/v1/sports/figure-skating

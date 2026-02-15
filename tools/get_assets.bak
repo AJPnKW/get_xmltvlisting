@@ -1,0 +1,165 @@
+import re
+import os
+from urllib.parse import urljoin, urlparse
+
+import requests
+from bs4 import BeautifulSoup
+
+SESSION = requests.Session()
+SESSION.headers.update({
+    "User-Agent": "Mozilla/5.0 (compatible; MilanoCortina2026-AssetHarvester/1.0)"
+})
+
+ALLOWED_HOSTS = {
+    "img.olympics.com",
+    "stillmed.olympics.com",
+    "www.olympics.com",
+    "olympics.com",
+    "olympic.ca",
+}
+
+TARGET_PAGES = [
+    # Winter sports (sample – extend to full list)
+    "https://www.olympics.com/en/sports/biathlon",
+    "https://www.olympics.com/en/sports/alpine-skiing",
+    "https://www.olympics.com/en/sports/curling",
+    "https://www.olympics.com/en/sports/ice-hockey",
+    "https://www.olympics.com/en/sports/figure-skating",
+    "https://www.olympics.com/en/sports/short-track-speed-skating",
+    "https://www.olympics.com/en/sports/skeleton",
+    "https://www.olympics.com/en/sports/luge",
+    "https://www.olympics.com/en/sports/cross-country-skiing",
+    "https://www.olympics.com/en/sports/ski-jumping",
+    "https://www.olympics.com/en/sports/freestyle-skiing",
+    "https://www.olympics.com/en/sports/snowboard",
+    "https://www.olympics.com/en/sports/nordic-combined",
+    "https://www.olympics.com/en/sports/ski-mountaineering",
+    # Brand / guidelines
+    "https://www.olympics.com/ioc/olympic-brand-book",
+    "https://olympic.ca/brand-use/",
+    "https://www.olympics.com/ioc/olympic-brand",
+]
+
+BRAND_PDFS = [
+    "https://stillmed.olympics.com/media/Documents/International-Olympic-Committee/Olympic-brand/Olympic-Brand-Guidelines.pdf",
+]
+
+BG_URL_RE = re.compile(r'url\(([^)]+)\)', re.IGNORECASE)
+
+
+def is_allowed_asset(url: str) -> bool:
+    try:
+        parsed = urlparse(url)
+    except Exception:
+        return False
+    if not parsed.scheme.startswith("http"):
+        return False
+    if parsed.hostname not in ALLOWED_HOSTS:
+        return False
+    # Optional: tighten further if you want only certain paths
+    return True
+
+
+def extract_urls_from_srcset(srcset: str, base_url: str):
+    urls = []
+    for part in srcset.split(","):
+        part = part.strip()
+        if not part:
+            continue
+        url_only = part.split()[0]
+        urls.append(urljoin(base_url, url_only))
+    return urls
+
+
+def extract_assets_from_page(page_url: str):
+    print(f"[PAGE] {page_url}")
+    try:
+        resp = SESSION.get(page_url, timeout=20)
+        resp.raise_for_status()
+    except Exception as e:
+        print(f"  -> ERROR fetching page: {e}")
+        return set()
+
+    soup = BeautifulSoup(resp.text, "html.parser")
+    found = set()
+
+    # <img src> and srcset
+    for img in soup.find_all("img"):
+        src = img.get("src")
+        if src:
+            abs_url = urljoin(page_url, src)
+            if is_allowed_asset(abs_url):
+                found.add(abs_url)
+        srcset = img.get("srcset")
+        if srcset:
+            for u in extract_urls_from_srcset(srcset, page_url):
+                if is_allowed_asset(u):
+                    found.add(u)
+
+    # <source srcset> in <picture>
+    for source in soup.find_all("source"):
+        srcset = source.get("srcset")
+        if srcset:
+            for u in extract_urls_from_srcset(srcset, page_url):
+                if is_allowed_asset(u):
+                    found.add(u)
+
+    # inline styles with background-image
+    for tag in soup.find_all(style=True):
+        style = tag["style"]
+        for match in BG_URL_RE.findall(style):
+            url = match.strip(" '\"")
+            abs_url = urljoin(page_url, url)
+            if is_allowed_asset(abs_url):
+                found.add(abs_url)
+
+    print(f"  -> found {len(found)} CDN-ish assets")
+    return found
+
+
+def download_file(url: str, out_dir: str):
+    os.makedirs(out_dir, exist_ok=True)
+    filename = os.path.basename(urlparse(url).path) or "asset"
+    out_path = os.path.join(out_dir, filename)
+    try:
+        r = SESSION.get(url, stream=True, timeout=30)
+        r.raise_for_status()
+        with open(out_path, "wb") as f:
+            for chunk in r.iter_content(8192):
+                f.write(chunk)
+        print(f"[DL] {url} -> {out_path}")
+    except Exception as e:
+        print(f"[ERR] download {url}: {e}")
+
+
+def main():
+    print("=== Milano–Cortina 2026 Asset Harvester (sports + brand, CDN hosts) Started ===")
+
+    all_assets = set()
+
+    # HTML pages
+    for page in TARGET_PAGES:
+        all_assets |= extract_assets_from_page(page)
+
+    # Brand PDFs (direct)
+    for pdf in BRAND_PDFS:
+        if is_allowed_asset(pdf):
+            all_assets.add(pdf)
+
+    print(f"Total unique assets discovered: {len(all_assets)}")
+
+    if not all_assets:
+        print("No assets downloaded; manifest not created.")
+        return
+
+    out_dir = os.path.join("assets", "milano-cortina-2026")
+    for url in sorted(all_assets):
+        download_file(url, out_dir)
+
+    # You can add manifest.csv/json writing here if you want.
+
+    print("=== Completed ===")
+
+
+if __name__ == "__main__":
+    main()

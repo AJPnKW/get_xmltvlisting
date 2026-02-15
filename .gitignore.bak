@@ -1,0 +1,12 @@
+# generated outputs
+out/
+__pycache__/
+*.pyc
+
+# local venvs
+.venv/
+.venv_*/
+venv/
+
+# patch artifacts (per your standard process)
+.ai_downloads/
