@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tv SYSTEM "xmltv.dtd">
-<tv date="02/15/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
+<tv date="02/16/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
   <channel id="cbc.canada.cblt-dt">
     <display-name>CBC Toronto (CBLT-DT)</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s10084_h15_ab.png" />
@@ -21,61 +21,6 @@
     <display-name>CBC Calgary (CBRT-DT)</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s15939_h15_ab.png" />
   </channel>
-  <programme start="20260215050000 +0000" stop="20260215080000 +0000" channel="cbc.canada.cbht-dt">
-    <title lang="en">Milano Cortina Olympics 2026</title>
-    <sub-title lang="en">Pacific Primetime</sub-title>
-    <desc lang="en">Various sports from Milano Cortina, Italy.</desc>
-    <category lang="en">Sports</category>
-    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p31372159_st_v8_ab.jpg" />
-    <video>
-      <colour>yes</colour>
-    </video>
-    <new />
-  </programme>
-  <programme start="20260215080000 +0000" stop="20260215110000 +0000" channel="cbc.canada.cbht-dt">
-    <title lang="en">Milano Cortina Olympics 2026</title>
-    <sub-title lang="en">Overnight</sub-title>
-    <desc lang="en">Various sports from Milano Cortina, Italy.</desc>
-    <category lang="en">Sports</category>
-    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p31372159_st_v8_ab.jpg" />
-    <video>
-      <colour>yes</colour>
-    </video>
-    <new />
-  </programme>
-  <programme start="20260215110000 +0000" stop="20260215170000 +0000" channel="cbc.canada.cbht-dt">
-    <title lang="en">Milano Cortina Olympics 2026</title>
-    <sub-title lang="en">Morning</sub-title>
-    <desc lang="en">Various sports from Milano Cortina, Italy.</desc>
-    <category lang="en">Sports</category>
-    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p31372159_st_v8_ab.jpg" />
-    <video>
-      <colour>yes</colour>
-    </video>
-    <new />
-  </programme>
-  <programme start="20260215170000 +0000" stop="20260215230000 +0000" channel="cbc.canada.cbht-dt">
-    <title lang="en">Milano Cortina Olympics 2026</title>
-    <sub-title lang="en">Daytime</sub-title>
-    <desc lang="en">Various sports from Milano Cortina, Italy.</desc>
-    <category lang="en">Sports</category>
-    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p31372159_st_v8_ab.jpg" />
-    <video>
-      <colour>yes</colour>
-    </video>
-    <new />
-  </programme>
-  <programme start="20260215230000 +0000" stop="20260216040000 +0000" channel="cbc.canada.cbht-dt">
-    <title lang="en">Milano Cortina Olympics 2026</title>
-    <sub-title lang="en">Primetime</sub-title>
-    <desc lang="en">Various sports from Milano Cortina, Italy.</desc>
-    <category lang="en">Sports</category>
-    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p31372159_st_v8_ab.jpg" />
-    <video>
-      <colour>yes</colour>
-    </video>
-    <new />
-  </programme>
   <programme start="20260216040000 +0000" stop="20260216050000 +0000" channel="cbc.canada.cbht-dt">
     <title lang="en">The National</title>
     <desc lang="en">CBC's flagship nightly news program, featuring the day's top stories with in-depth and original journalism; Adrienne Arsenault and Ian Hanomansing anchor.</desc>
@@ -629,18 +574,17 @@
       <colour>yes</colour>
     </video>
   </programme>
-  <programme start="20260215050000 +0000" stop="20260215080000 +0000" channel="cbc.canada.cblt-dt">
+  <programme start="20260222050000 +0000" stop="20260222080000 +0000" channel="cbc.canada.cbht-dt">
     <title lang="en">Milano Cortina Olympics 2026</title>
-    <sub-title lang="en">Pacific Primetime</sub-title>
+    <sub-title lang="en">Pacific Prime</sub-title>
     <desc lang="en">Various sports from Milano Cortina, Italy.</desc>
     <category lang="en">Sports</category>
     <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p31372159_st_v8_ab.jpg" />
     <video>
       <colour>yes</colour>
     </video>
-    <new />
   </programme>
-  <programme start="20260215080000 +0000" stop="20260215110000 +0000" channel="cbc.canada.cblt-dt">
+  <programme start="20260222080000 +0000" stop="20260222110000 +0000" channel="cbc.canada.cbht-dt">
     <title lang="en">Milano Cortina Olympics 2026</title>
     <sub-title lang="en">Overnight</sub-title>
     <desc lang="en">Various sports from Milano Cortina, Italy.</desc>
@@ -649,9 +593,8 @@
     <video>
       <colour>yes</colour>
     </video>
-    <new />
   </programme>
-  <programme start="20260215110000 +0000" stop="20260215170000 +0000" channel="cbc.canada.cblt-dt">
+  <programme start="20260222110000 +0000" stop="20260222170000 +0000" channel="cbc.canada.cbht-dt">
     <title lang="en">Milano Cortina Olympics 2026</title>
     <sub-title lang="en">Morning</sub-title>
     <desc lang="en">Various sports from Milano Cortina, Italy.</desc>
@@ -662,7 +605,7 @@
     </video>
     <new />
   </programme>
-  <programme start="20260215170000 +0000" stop="20260215230000 +0000" channel="cbc.canada.cblt-dt">
+  <programme start="20260222170000 +0000" stop="20260222190000 +0000" channel="cbc.canada.cbht-dt">
     <title lang="en">Milano Cortina Olympics 2026</title>
     <sub-title lang="en">Daytime</sub-title>
     <desc lang="en">Various sports from Milano Cortina, Italy.</desc>
@@ -673,7 +616,28 @@
     </video>
     <new />
   </programme>
-  <programme start="20260215230000 +0000" stop="20260216040000 +0000" channel="cbc.canada.cblt-dt">
+  <programme start="20260222190000 +0000" stop="20260222193000 +0000" channel="cbc.canada.cbht-dt">
+    <title lang="en">Milano Cortina Olympics 2026: Countdown to Closing Ceremony</title>
+    <desc lang="en">A countdown to the closing ceremonies from the Milano Cortina Olympics.</desc>
+    <category lang="en">Specials</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p32276567_st_v8_aa.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <new />
+  </programme>
+  <programme start="20260222193000 +0000" stop="20260222220000 +0000" channel="cbc.canada.cbht-dt">
+    <title lang="en">Milano Cortina Olympics 2026</title>
+    <sub-title lang="en">Closing Ceremony</sub-title>
+    <desc lang="en">From Verona Olympic Arena in Verona, Italy.</desc>
+    <category lang="en">Sports</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p31372159_st_v8_ab.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <new />
+  </programme>
+  <programme start="20260222220000 +0000" stop="20260223000000 +0000" channel="cbc.canada.cbht-dt">
     <title lang="en">Milano Cortina Olympics 2026</title>
     <sub-title lang="en">Primetime</sub-title>
     <desc lang="en">Various sports from Milano Cortina, Italy.</desc>
@@ -1237,18 +1201,17 @@
       <colour>yes</colour>
     </video>
   </programme>
-  <programme start="20260215050000 +0000" stop="20260215080000 +0000" channel="cbc.canada.cbrt-dt">
+  <programme start="20260222050000 +0000" stop="20260222080000 +0000" channel="cbc.canada.cblt-dt">
     <title lang="en">Milano Cortina Olympics 2026</title>
-    <sub-title lang="en">Pacific Primetime</sub-title>
+    <sub-title lang="en">Pacific Prime</sub-title>
     <desc lang="en">Various sports from Milano Cortina, Italy.</desc>
     <category lang="en">Sports</category>
     <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p31372159_st_v8_ab.jpg" />
     <video>
       <colour>yes</colour>
     </video>
-    <new />
   </programme>
-  <programme start="20260215080000 +0000" stop="20260215110000 +0000" channel="cbc.canada.cbrt-dt">
+  <programme start="20260222080000 +0000" stop="20260222110000 +0000" channel="cbc.canada.cblt-dt">
     <title lang="en">Milano Cortina Olympics 2026</title>
     <sub-title lang="en">Overnight</sub-title>
     <desc lang="en">Various sports from Milano Cortina, Italy.</desc>
@@ -1257,9 +1220,8 @@
     <video>
       <colour>yes</colour>
     </video>
-    <new />
   </programme>
-  <programme start="20260215110000 +0000" stop="20260215170000 +0000" channel="cbc.canada.cbrt-dt">
+  <programme start="20260222110000 +0000" stop="20260222170000 +0000" channel="cbc.canada.cblt-dt">
     <title lang="en">Milano Cortina Olympics 2026</title>
     <sub-title lang="en">Morning</sub-title>
     <desc lang="en">Various sports from Milano Cortina, Italy.</desc>
@@ -1270,7 +1232,7 @@
     </video>
     <new />
   </programme>
-  <programme start="20260215170000 +0000" stop="20260215230000 +0000" channel="cbc.canada.cbrt-dt">
+  <programme start="20260222170000 +0000" stop="20260222190000 +0000" channel="cbc.canada.cblt-dt">
     <title lang="en">Milano Cortina Olympics 2026</title>
     <sub-title lang="en">Daytime</sub-title>
     <desc lang="en">Various sports from Milano Cortina, Italy.</desc>
@@ -1281,7 +1243,28 @@
     </video>
     <new />
   </programme>
-  <programme start="20260215230000 +0000" stop="20260216040000 +0000" channel="cbc.canada.cbrt-dt">
+  <programme start="20260222190000 +0000" stop="20260222193000 +0000" channel="cbc.canada.cblt-dt">
+    <title lang="en">Milano Cortina Olympics 2026: Countdown to Closing Ceremony</title>
+    <desc lang="en">A countdown to the closing ceremonies from the Milano Cortina Olympics.</desc>
+    <category lang="en">Specials</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p32276567_st_v8_aa.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <new />
+  </programme>
+  <programme start="20260222193000 +0000" stop="20260222220000 +0000" channel="cbc.canada.cblt-dt">
+    <title lang="en">Milano Cortina Olympics 2026</title>
+    <sub-title lang="en">Closing Ceremony</sub-title>
+    <desc lang="en">From Verona Olympic Arena in Verona, Italy.</desc>
+    <category lang="en">Sports</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p31372159_st_v8_ab.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <new />
+  </programme>
+  <programme start="20260222220000 +0000" stop="20260223000000 +0000" channel="cbc.canada.cblt-dt">
     <title lang="en">Milano Cortina Olympics 2026</title>
     <sub-title lang="en">Primetime</sub-title>
     <desc lang="en">Various sports from Milano Cortina, Italy.</desc>
@@ -1744,18 +1727,17 @@
       <colour>yes</colour>
     </video>
   </programme>
-  <programme start="20260215050000 +0000" stop="20260215080000 +0000" channel="cbc.canada.cbut-dt">
+  <programme start="20260222050000 +0000" stop="20260222080000 +0000" channel="cbc.canada.cbrt-dt">
     <title lang="en">Milano Cortina Olympics 2026</title>
-    <sub-title lang="en">Pacific Primetime</sub-title>
+    <sub-title lang="en">Pacific Prime</sub-title>
     <desc lang="en">Various sports from Milano Cortina, Italy.</desc>
     <category lang="en">Sports</category>
     <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p31372159_st_v8_ab.jpg" />
     <video>
       <colour>yes</colour>
     </video>
-    <new />
   </programme>
-  <programme start="20260215080000 +0000" stop="20260215110000 +0000" channel="cbc.canada.cbut-dt">
+  <programme start="20260222080000 +0000" stop="20260222110000 +0000" channel="cbc.canada.cbrt-dt">
     <title lang="en">Milano Cortina Olympics 2026</title>
     <sub-title lang="en">Overnight</sub-title>
     <desc lang="en">Various sports from Milano Cortina, Italy.</desc>
@@ -1764,9 +1746,8 @@
     <video>
       <colour>yes</colour>
     </video>
-    <new />
   </programme>
-  <programme start="20260215110000 +0000" stop="20260215170000 +0000" channel="cbc.canada.cbut-dt">
+  <programme start="20260222110000 +0000" stop="20260222170000 +0000" channel="cbc.canada.cbrt-dt">
     <title lang="en">Milano Cortina Olympics 2026</title>
     <sub-title lang="en">Morning</sub-title>
     <desc lang="en">Various sports from Milano Cortina, Italy.</desc>
@@ -1777,7 +1758,7 @@
     </video>
     <new />
   </programme>
-  <programme start="20260215170000 +0000" stop="20260215230000 +0000" channel="cbc.canada.cbut-dt">
+  <programme start="20260222170000 +0000" stop="20260222190000 +0000" channel="cbc.canada.cbrt-dt">
     <title lang="en">Milano Cortina Olympics 2026</title>
     <sub-title lang="en">Daytime</sub-title>
     <desc lang="en">Various sports from Milano Cortina, Italy.</desc>
@@ -1788,7 +1769,28 @@
     </video>
     <new />
   </programme>
-  <programme start="20260215230000 +0000" stop="20260216040000 +0000" channel="cbc.canada.cbut-dt">
+  <programme start="20260222190000 +0000" stop="20260222193000 +0000" channel="cbc.canada.cbrt-dt">
+    <title lang="en">Milano Cortina Olympics 2026: Countdown to Closing Ceremony</title>
+    <desc lang="en">A countdown to the closing ceremonies from the Milano Cortina Olympics.</desc>
+    <category lang="en">Specials</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p32276567_st_v8_aa.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <new />
+  </programme>
+  <programme start="20260222193000 +0000" stop="20260222220000 +0000" channel="cbc.canada.cbrt-dt">
+    <title lang="en">Milano Cortina Olympics 2026</title>
+    <sub-title lang="en">Closing Ceremony</sub-title>
+    <desc lang="en">From Verona Olympic Arena in Verona, Italy.</desc>
+    <category lang="en">Sports</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p31372159_st_v8_ab.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <new />
+  </programme>
+  <programme start="20260222220000 +0000" stop="20260223000000 +0000" channel="cbc.canada.cbrt-dt">
     <title lang="en">Milano Cortina Olympics 2026</title>
     <sub-title lang="en">Primetime</sub-title>
     <desc lang="en">Various sports from Milano Cortina, Italy.</desc>
@@ -2351,18 +2353,17 @@
       <colour>yes</colour>
     </video>
   </programme>
-  <programme start="20260215050000 +0000" stop="20260215080000 +0000" channel="cbc.canada.cbwt-dt">
+  <programme start="20260222050000 +0000" stop="20260222080000 +0000" channel="cbc.canada.cbut-dt">
     <title lang="en">Milano Cortina Olympics 2026</title>
-    <sub-title lang="en">Pacific Primetime</sub-title>
+    <sub-title lang="en">Pacific Prime</sub-title>
     <desc lang="en">Various sports from Milano Cortina, Italy.</desc>
     <category lang="en">Sports</category>
     <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p31372159_st_v8_ab.jpg" />
     <video>
       <colour>yes</colour>
     </video>
-    <new />
   </programme>
-  <programme start="20260215080000 +0000" stop="20260215110000 +0000" channel="cbc.canada.cbwt-dt">
+  <programme start="20260222080000 +0000" stop="20260222110000 +0000" channel="cbc.canada.cbut-dt">
     <title lang="en">Milano Cortina Olympics 2026</title>
     <sub-title lang="en">Overnight</sub-title>
     <desc lang="en">Various sports from Milano Cortina, Italy.</desc>
@@ -2371,9 +2372,8 @@
     <video>
       <colour>yes</colour>
     </video>
-    <new />
   </programme>
-  <programme start="20260215110000 +0000" stop="20260215170000 +0000" channel="cbc.canada.cbwt-dt">
+  <programme start="20260222110000 +0000" stop="20260222170000 +0000" channel="cbc.canada.cbut-dt">
     <title lang="en">Milano Cortina Olympics 2026</title>
     <sub-title lang="en">Morning</sub-title>
     <desc lang="en">Various sports from Milano Cortina, Italy.</desc>
@@ -2384,7 +2384,7 @@
     </video>
     <new />
   </programme>
-  <programme start="20260215170000 +0000" stop="20260215230000 +0000" channel="cbc.canada.cbwt-dt">
+  <programme start="20260222170000 +0000" stop="20260222190000 +0000" channel="cbc.canada.cbut-dt">
     <title lang="en">Milano Cortina Olympics 2026</title>
     <sub-title lang="en">Daytime</sub-title>
     <desc lang="en">Various sports from Milano Cortina, Italy.</desc>
@@ -2395,7 +2395,28 @@
     </video>
     <new />
   </programme>
-  <programme start="20260215230000 +0000" stop="20260216040000 +0000" channel="cbc.canada.cbwt-dt">
+  <programme start="20260222190000 +0000" stop="20260222193000 +0000" channel="cbc.canada.cbut-dt">
+    <title lang="en">Milano Cortina Olympics 2026: Countdown to Closing Ceremony</title>
+    <desc lang="en">A countdown to the closing ceremonies from the Milano Cortina Olympics.</desc>
+    <category lang="en">Specials</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p32276567_st_v8_aa.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <new />
+  </programme>
+  <programme start="20260222193000 +0000" stop="20260222220000 +0000" channel="cbc.canada.cbut-dt">
+    <title lang="en">Milano Cortina Olympics 2026</title>
+    <sub-title lang="en">Closing Ceremony</sub-title>
+    <desc lang="en">From Verona Olympic Arena in Verona, Italy.</desc>
+    <category lang="en">Sports</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p31372159_st_v8_ab.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <new />
+  </programme>
+  <programme start="20260222220000 +0000" stop="20260223000000 +0000" channel="cbc.canada.cbut-dt">
     <title lang="en">Milano Cortina Olympics 2026</title>
     <sub-title lang="en">Primetime</sub-title>
     <desc lang="en">Various sports from Milano Cortina, Italy.</desc>
@@ -2961,5 +2982,79 @@
     <video>
       <colour>yes</colour>
     </video>
+  </programme>
+  <programme start="20260222050000 +0000" stop="20260222080000 +0000" channel="cbc.canada.cbwt-dt">
+    <title lang="en">Milano Cortina Olympics 2026</title>
+    <sub-title lang="en">Pacific Prime</sub-title>
+    <desc lang="en">Various sports from Milano Cortina, Italy.</desc>
+    <category lang="en">Sports</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p31372159_st_v8_ab.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+  </programme>
+  <programme start="20260222080000 +0000" stop="20260222110000 +0000" channel="cbc.canada.cbwt-dt">
+    <title lang="en">Milano Cortina Olympics 2026</title>
+    <sub-title lang="en">Overnight</sub-title>
+    <desc lang="en">Various sports from Milano Cortina, Italy.</desc>
+    <category lang="en">Sports</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p31372159_st_v8_ab.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+  </programme>
+  <programme start="20260222110000 +0000" stop="20260222170000 +0000" channel="cbc.canada.cbwt-dt">
+    <title lang="en">Milano Cortina Olympics 2026</title>
+    <sub-title lang="en">Morning</sub-title>
+    <desc lang="en">Various sports from Milano Cortina, Italy.</desc>
+    <category lang="en">Sports</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p31372159_st_v8_ab.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <new />
+  </programme>
+  <programme start="20260222170000 +0000" stop="20260222190000 +0000" channel="cbc.canada.cbwt-dt">
+    <title lang="en">Milano Cortina Olympics 2026</title>
+    <sub-title lang="en">Daytime</sub-title>
+    <desc lang="en">Various sports from Milano Cortina, Italy.</desc>
+    <category lang="en">Sports</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p31372159_st_v8_ab.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <new />
+  </programme>
+  <programme start="20260222190000 +0000" stop="20260222193000 +0000" channel="cbc.canada.cbwt-dt">
+    <title lang="en">Milano Cortina Olympics 2026: Countdown to Closing Ceremony</title>
+    <desc lang="en">A countdown to the closing ceremonies from the Milano Cortina Olympics.</desc>
+    <category lang="en">Specials</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p32276567_st_v8_aa.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <new />
+  </programme>
+  <programme start="20260222193000 +0000" stop="20260222220000 +0000" channel="cbc.canada.cbwt-dt">
+    <title lang="en">Milano Cortina Olympics 2026</title>
+    <sub-title lang="en">Closing Ceremony</sub-title>
+    <desc lang="en">From Verona Olympic Arena in Verona, Italy.</desc>
+    <category lang="en">Sports</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p31372159_st_v8_ab.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <new />
+  </programme>
+  <programme start="20260222220000 +0000" stop="20260223000000 +0000" channel="cbc.canada.cbwt-dt">
+    <title lang="en">Milano Cortina Olympics 2026</title>
+    <sub-title lang="en">Primetime</sub-title>
+    <desc lang="en">Various sports from Milano Cortina, Italy.</desc>
+    <category lang="en">Sports</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p31372159_st_v8_ab.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <new />
   </programme>
 </tv>
