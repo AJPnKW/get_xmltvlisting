@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tv SYSTEM "xmltv.dtd">
-<tv date="02/16/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
+<tv date="02/17/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
   <channel id="cbc.canada.cblt-dt">
     <display-name>CBC Toronto (CBLT-DT)</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s10084_h15_ab.png" />
@@ -21,91 +21,6 @@
     <display-name>CBC Calgary (CBRT-DT)</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s15939_h15_ab.png" />
   </channel>
-  <programme start="20260216040000 +0000" stop="20260216050000 +0000" channel="cbc.canada.cbht-dt">
-    <title lang="en">The National</title>
-    <desc lang="en">CBC's flagship nightly news program, featuring the day's top stories with in-depth and original journalism; Adrienne Arsenault and Ian Hanomansing anchor.</desc>
-    <category lang="en">News</category>
-    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p191966_b_v12_aa.jpg" />
-    <video>
-      <colour>yes</colour>
-    </video>
-    <new />
-  </programme>
-  <programme start="20260216050000 +0000" stop="20260216080000 +0000" channel="cbc.canada.cbht-dt">
-    <title lang="en">Milano Cortina Olympics 2026</title>
-    <sub-title lang="en">Pacific Primetime</sub-title>
-    <desc lang="en">Various sports from Milano Cortina, Italy.</desc>
-    <category lang="en">Sports</category>
-    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p31372159_st_v8_ab.jpg" />
-    <video>
-      <colour>yes</colour>
-    </video>
-    <new />
-  </programme>
-  <programme start="20260216080000 +0000" stop="20260216110000 +0000" channel="cbc.canada.cbht-dt">
-    <title lang="en">Milano Cortina Olympics 2026</title>
-    <sub-title lang="en">Overnight</sub-title>
-    <desc lang="en">Various sports from Milano Cortina, Italy.</desc>
-    <category lang="en">Sports</category>
-    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p31372159_st_v8_ab.jpg" />
-    <video>
-      <colour>yes</colour>
-    </video>
-    <new />
-  </programme>
-  <programme start="20260216110000 +0000" stop="20260216170000 +0000" channel="cbc.canada.cbht-dt">
-    <title lang="en">Milano Cortina Olympics 2026</title>
-    <sub-title lang="en">Morning</sub-title>
-    <desc lang="en">Various sports from Milano Cortina, Italy.</desc>
-    <category lang="en">Sports</category>
-    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p31372159_st_v8_ab.jpg" />
-    <video>
-      <colour>yes</colour>
-    </video>
-    <new />
-  </programme>
-  <programme start="20260216170000 +0000" stop="20260216230000 +0000" channel="cbc.canada.cbht-dt">
-    <title lang="en">Milano Cortina Olympics 2026</title>
-    <sub-title lang="en">Daytime</sub-title>
-    <desc lang="en">Various sports from Milano Cortina, Italy.</desc>
-    <category lang="en">Sports</category>
-    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p31372159_st_v8_ab.jpg" />
-    <video>
-      <colour>yes</colour>
-    </video>
-    <new />
-  </programme>
-  <programme start="20260216230000 +0000" stop="20260216233000 +0000" channel="cbc.canada.cbht-dt">
-    <title lang="en">CBC Nova Scotia News</title>
-    <desc lang="en">Tom Murphy and Amy Smith bring Nova Scotians news and weather every weeknight.</desc>
-    <date>20221125</date>
-    <category lang="en">News</category>
-    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p23489124_b_v8_aa.jpg" />
-    <video>
-      <colour>yes</colour>
-    </video>
-    <new />
-  </programme>
-  <programme start="20260216233000 +0000" stop="20260217000000 +0000" channel="cbc.canada.cbht-dt">
-    <title lang="en">Coronation Street</title>
-    <desc lang="en">Leanne offers to buy Maggie's stake in the Rovers, and Will frets over Megan's health.</desc>
-    <credits>
-      <actor>Gareth Pierce</actor>
-      <actor>Harriet Bibby</actor>
-      <actor>Antony Cotton</actor>
-    </credits>
-    <date>20260116</date>
-    <category lang="en">Soaps</category>
-    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p183997_b_v7_aa.jpg" />
-    <episode-num system="onscreen">11777</episode-num>
-    <video>
-      <colour>yes</colour>
-    </video>
-    <new />
-    <rating>
-      <value>PG</value>
-    </rating>
-  </programme>
   <programme start="20260217000000 +0000" stop="20260217040000 +0000" channel="cbc.canada.cbht-dt">
     <title lang="en">Milano Cortina Olympics 2026</title>
     <sub-title lang="en">Primetime</sub-title>
@@ -648,7 +563,18 @@
     </video>
     <new />
   </programme>
-  <programme start="20260216040000 +0000" stop="20260216050000 +0000" channel="cbc.canada.cblt-dt">
+  <programme start="20260223000000 +0000" stop="20260223030000 +0000" channel="cbc.canada.cbht-dt">
+    <title lang="en">Milano Cortina Olympics 2026</title>
+    <sub-title lang="en">Closing Ceremony</sub-title>
+    <desc lang="en">From Verona Olympic Arena in Verona, Italy.</desc>
+    <category lang="en">Sports</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p31372159_st_v8_ab.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <previously-shown />
+  </programme>
+  <programme start="20260223030000 +0000" stop="20260223040000 +0000" channel="cbc.canada.cbht-dt">
     <title lang="en">The National</title>
     <desc lang="en">CBC's flagship nightly news program, featuring the day's top stories with in-depth and original journalism; Adrienne Arsenault and Ian Hanomansing anchor.</desc>
     <category lang="en">News</category>
@@ -658,73 +584,747 @@
     </video>
     <new />
   </programme>
-  <programme start="20260216050000 +0000" stop="20260216080000 +0000" channel="cbc.canada.cblt-dt">
-    <title lang="en">Milano Cortina Olympics 2026</title>
-    <sub-title lang="en">Pacific Primetime</sub-title>
-    <desc lang="en">Various sports from Milano Cortina, Italy.</desc>
-    <category lang="en">Sports</category>
-    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p31372159_st_v8_ab.jpg" />
+  <programme start="20260223040000 +0000" stop="20260223050000 +0000" channel="cbc.canada.cbht-dt">
+    <title lang="en">CBC Docs POV</title>
+    <sub-title lang="en">The Internet of Everything</sub-title>
+    <desc lang="en">A disillusioned early adopter and Internet evangelist feels a sense of responsibility to engage the problems the Internet has created and wants to see where things went wrong.</desc>
+    <category lang="en">Documentary</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p14647819_b_v7_aa.jpg" />
+    <episode-num system="xmltv_ns">2.9.0/1</episode-num>
     <video>
       <colour>yes</colour>
     </video>
-    <new />
   </programme>
-  <programme start="20260216080000 +0000" stop="20260216110000 +0000" channel="cbc.canada.cblt-dt">
-    <title lang="en">Milano Cortina Olympics 2026</title>
-    <sub-title lang="en">Overnight</sub-title>
-    <desc lang="en">Various sports from Milano Cortina, Italy.</desc>
-    <category lang="en">Sports</category>
-    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p31372159_st_v8_ab.jpg" />
+  <programme start="20260223050000 +0000" stop="20260223060000 +0000" channel="cbc.canada.cbht-dt">
+    <title lang="en">The Nature of Things</title>
+    <sub-title lang="en">Nature's Cleanup Crew</sub-title>
+    <desc lang="en">An introduction to the unsung animal heroes who clean up messes in the urban spaces they share with humans.</desc>
+    <date>20200131</date>
+    <category lang="en">Documentary</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p185885_b_v12_ah.jpg" />
+    <episode-num system="xmltv_ns">58.11.0/1</episode-num>
     <video>
       <colour>yes</colour>
     </video>
-    <new />
+    <rating>
+      <value>PG</value>
+    </rating>
   </programme>
-  <programme start="20260216110000 +0000" stop="20260216170000 +0000" channel="cbc.canada.cblt-dt">
-    <title lang="en">Milano Cortina Olympics 2026</title>
-    <sub-title lang="en">Morning</sub-title>
-    <desc lang="en">Various sports from Milano Cortina, Italy.</desc>
-    <category lang="en">Sports</category>
-    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p31372159_st_v8_ab.jpg" />
+  <programme start="20260223060000 +0000" stop="20260223070000 +0000" channel="cbc.canada.cbht-dt">
+    <title lang="en">The Nature of Things</title>
+    <sub-title lang="en">The Secrets of Friendship</sub-title>
+    <desc lang="en">Following the friendship detectives who are unraveling the mysteries of social behaviors in humans and other animals.</desc>
+    <date>20230324</date>
+    <category lang="en">Documentary</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p185885_b_v12_ah.jpg" />
+    <episode-num system="xmltv_ns">61.10.0/1</episode-num>
     <video>
       <colour>yes</colour>
     </video>
-    <new />
+    <rating>
+      <value>PG</value>
+    </rating>
   </programme>
-  <programme start="20260216170000 +0000" stop="20260216230000 +0000" channel="cbc.canada.cblt-dt">
-    <title lang="en">Milano Cortina Olympics 2026</title>
-    <sub-title lang="en">Daytime</sub-title>
-    <desc lang="en">Various sports from Milano Cortina, Italy.</desc>
-    <category lang="en">Sports</category>
-    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p31372159_st_v8_ab.jpg" />
-    <video>
-      <colour>yes</colour>
-    </video>
-    <new />
-  </programme>
-  <programme start="20260216230000 +0000" stop="20260216233000 +0000" channel="cbc.canada.cblt-dt">
-    <title lang="en">CBC Toronto News</title>
-    <desc lang="en">Dwight Drummond and the CBC Toronto News team take a comprehensive look at the day's top stories, with breaking news, live reports and updates relevant to the city of Toronto.</desc>
-    <date>20160125</date>
-    <category lang="en">News</category>
-    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p12466091_b_h10_ac.jpg" />
-    <video>
-      <colour>yes</colour>
-    </video>
-    <new />
-  </programme>
-  <programme start="20260216233000 +0000" stop="20260217000000 +0000" channel="cbc.canada.cblt-dt">
-    <title lang="en">Coronation Street</title>
-    <desc lang="en">Leanne offers to buy Maggie's stake in the Rovers, and Will frets over Megan's health.</desc>
+  <programme start="20260223070000 +0000" stop="20260223080000 +0000" channel="cbc.canada.cbht-dt">
+    <title lang="en">Heartland</title>
+    <sub-title lang="en">In the Cards</sub-title>
+    <desc lang="en">Peter's announcement throws Lou's wedding plans into disarray; Amy and Ty are forced to make a difficult decisions about their future.</desc>
     <credits>
-      <actor>Gareth Pierce</actor>
-      <actor>Harriet Bibby</actor>
-      <actor>Antony Cotton</actor>
+      <actor>Amber Marshall</actor>
+      <actor>Chris Potter</actor>
+      <actor>Michelle Morgan</actor>
     </credits>
-    <date>20260116</date>
+    <date>20100328</date>
+    <category lang="en">Drama</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p185880_b_v12_bc.jpg" />
+    <episode-num system="onscreen">318</episode-num>
+    <episode-num system="xmltv_ns">2.17.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>PG</value>
+    </rating>
+  </programme>
+  <programme start="20260223080000 +0000" stop="20260223090000 +0000" channel="cbc.canada.cbht-dt">
+    <title lang="en">Escape to the Country</title>
+    <sub-title lang="en">The Cotswolds</sub-title>
+    <desc lang="en">Alistair Appleton is on a property-hunting mission to the beautiful Cotswolds, with a couple who want a location with dog walks on the doorstep, as well as decent dining options for date nights.</desc>
+    <date>20240528</date>
+    <category lang="en">Home</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p379352_b_v8_bm.jpg" />
+    <episode-num system="xmltv_ns">23.46.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223090000 +0000" stop="20260223100000 +0000" channel="cbc.canada.cbht-dt">
+    <title lang="en">Escape to the Country</title>
+    <sub-title lang="en">East Midlands</sub-title>
+    <desc lang="en">A young couple want to swap their London flat for something bigger in the East Midlands, where Nicki Chapman opens the front doors to a lovely selection of homes with lovely gardens.</desc>
+    <date>20240603</date>
+    <category lang="en">Home</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p379352_b_v8_bm.jpg" />
+    <episode-num system="xmltv_ns">23.47.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223100000 +0000" stop="20260223101000 +0000" channel="cbc.canada.cbht-dt">
+    <title lang="en">World Report</title>
+    <desc lang="en">What's going on in Canada and the world; a ten-minute dose of big news stories.</desc>
+    <date>20250302</date>
+    <category lang="en">News</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p29417925_b_v12_aa.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <new />
+  </programme>
+  <programme start="20260223101000 +0000" stop="20260223110000 +0000" channel="cbc.canada.cbht-dt">
+    <title lang="en">Information Morning</title>
+    <desc lang="en">"Information Morning," with host Portia Clark, helps Nova Scotia listeners start their day.</desc>
+    <date>20100826</date>
+    <category lang="en">News</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p8277845_st_v8_aa.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <new />
+  </programme>
+  <programme start="20260223110000 +0000" stop="20260223110500 +0000" channel="cbc.canada.cbht-dt">
+    <title lang="en">Mini-Jon and Mini-Maple</title>
+    <sub-title lang="en">Chromatic Alert</sub-title>
+    <desc lang="en">Mini-Jon invents an intelligent paintbrush to repaint his room; it's very practical, except when Byzantine gets involved.</desc>
+    <date>20230804</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p25180614_b_v12_ab.jpg" />
+    <episode-num system="onscreen">103A</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+  </programme>
+  <programme start="20260223110500 +0000" stop="20260223111300 +0000" channel="cbc.canada.cbht-dt">
+    <title lang="en">Super Agent Jon Le Bon!</title>
+    <sub-title lang="en">Who Kidnapped Whitewash?</sub-title>
+    <desc lang="en">Whitewash tricks the agents by faking his own kidnapping.</desc>
+    <date>20210522</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p15621714_b_v12_ac.jpg" />
+    <episode-num system="onscreen">311</episode-num>
+    <episode-num system="xmltv_ns">2.10.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223111300 +0000" stop="20260223112600 +0000" channel="cbc.canada.cbht-dt">
+    <title lang="en">Kingdom Force</title>
+    <sub-title lang="en">Cat Me if You Can</sub-title>
+    <desc lang="en">Jabari's solo-mission is thwarted after Mittens McGuirk intervenes and accidently lets Gunter and Gustav steal Jabari's crystal cargo.</desc>
+    <credits>
+      <actor>Julie Sype</actor>
+      <actor>Tyler James Nathan</actor>
+    </credits>
+    <date>20200502</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p15558398_b_v8_ag.jpg" />
+    <episode-num system="xmltv_ns">0.15.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223112600 +0000" stop="20260223113000 +0000" channel="cbc.canada.cbht-dt">
+    <title lang="en">Super Why's Comic Book Adventures</title>
+    <sub-title lang="en">Outta Compound Words</sub-title>
+    <desc lang="en">Outta Space removes the space between the words doll and house, causing Power Paige to shrink and become trapped inside a dollhouse.</desc>
+    <date>20231018</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p29396543_b_v12_aa.jpg" />
+    <episode-num system="xmltv_ns">0.13.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223113000 +0000" stop="20260223114300 +0000" channel="cbc.canada.cbht-dt">
+    <title lang="en">Dino Ranch: Island Explorers</title>
+    <sub-title lang="en">Turtle Trouble</sub-title>
+    <desc lang="en">Jon and Miguel must protect some baby giant turtles while Min helps fix their mother's injured fin.</desc>
+    <date>20251227</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p31465068_b_v12_aa.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>C</value>
+    </rating>
+  </programme>
+  <programme start="20260223114300 +0000" stop="20260223115700 +0000" channel="cbc.canada.cbht-dt">
+    <title lang="en">PAW Patrol</title>
+    <sub-title lang="en">Pups Save a Farmerless Farm</sub-title>
+    <desc lang="en">With the farmers out of town, Mayor Goodway calls the PAW Patrol to wrangle animals and control the chaos on a farmerless farm.</desc>
+    <credits>
+      <actor>Jaxon Mercey</actor>
+      <actor>Justin Paul Kelly</actor>
+      <actor>Lukas Engel</actor>
+    </credits>
+    <date>20191113</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p10077400_b_v12_cj.jpg" />
+    <episode-num system="onscreen">617B</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>C</value>
+    </rating>
+  </programme>
+  <programme start="20260223115700 +0000" stop="20260223120800 +0000" channel="cbc.canada.cbht-dt">
+    <title lang="en">Hello Kitty: Super Style!</title>
+    <sub-title lang="en">Dbs Big Show</sub-title>
+    <desc lang="en">Pop Star Kitty helps DB realize that a truly inspired performance isn't doing what your audience wants, but doing what you love.</desc>
+    <credits>
+      <actor>Sarah Anne Williams</actor>
+      <actor>Lindsay Sheppard</actor>
+      <actor>Nicholas Andrew Louie</actor>
+    </credits>
+    <date>20230823</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p24422414_b_v8_ab.jpg" />
+    <episode-num system="xmltv_ns">6.2.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>8+</value>
+    </rating>
+  </programme>
+  <programme start="20260223120800 +0000" stop="20260223121300 +0000" channel="cbc.canada.cbht-dt">
+    <title lang="en">Jeremy and Jazzy</title>
+    <sub-title lang="en">Dale Dale Dale</sub-title>
+    <desc lang="en">Join Jeremy and Jazzy for a birthday celebration; who will open the pinata?</desc>
+    <credits>
+      <actor>Jeremy Fisher</actor>
+      <actor>Aiza Ntibarikure</actor>
+    </credits>
+    <date>20250918</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p22900364_b_v12_ad.jpg" />
+    <episode-num system="xmltv_ns">2.9.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223121300 +0000" stop="20260223122500 +0000" channel="cbc.canada.cbht-dt">
+    <title lang="en">Big Blue</title>
+    <sub-title lang="en">Revenge of the Sibs</sub-title>
+    <desc lang="en">Lemo meets a fellow scientist and they decide to work together on an entry for the United Current Science fair.</desc>
+    <credits>
+      <actor>Bahia Watson</actor>
+    </credits>
+    <date>20220606</date>
+    <category lang="en">Comedy</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p15558375_b_v11_ab.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>C</value>
+    </rating>
+  </programme>
+  <programme start="20260223122500 +0000" stop="20260223123700 +0000" channel="cbc.canada.cbht-dt">
+    <title lang="en">Rusty Rivets</title>
+    <sub-title lang="en">Rusty's Pendant Problem</sub-title>
+    <desc lang="en">Oliver needs Rusty and Ruby's help to find Ozzy's birthday gift before the party starts.</desc>
+    <credits>
+      <actor>Kyle Breitkopf</actor>
+      <actor>Ava Preston</actor>
+      <actor>Rob Tinkler</actor>
+    </credits>
+    <date>20200504</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p13000950_b_v12_ag.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>C</value>
+    </rating>
+  </programme>
+  <programme start="20260223123700 +0000" stop="20260223124500 +0000" channel="cbc.canada.cbht-dt">
+    <title lang="en">Super Agent Jon Le Bon!</title>
+    <sub-title lang="en">Choosing Your Side</sub-title>
+    <desc lang="en">Cassandra makes WXT an offer he can't refuse.</desc>
+    <date>20200530</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p15621714_b_v12_ac.jpg" />
+    <episode-num system="xmltv_ns">1.15.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223124500 +0000" stop="20260223124800 +0000" channel="cbc.canada.cbht-dt">
+    <title lang="en">Mini-Jon and Mini-Maple</title>
+    <sub-title lang="en">The Honoured Guest</sub-title>
+    <desc lang="en">Hear ye! Hear ye! Q, the guest of honor, makes his entrance into the mini-clones' room.</desc>
+    <date>20251211</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p25180614_b_v12_ab.jpg" />
+    <episode-num system="xmltv_ns">3.21.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>C</value>
+    </rating>
+  </programme>
+  <programme start="20260223124800 +0000" stop="20260223130000 +0000" channel="cbc.canada.cbht-dt">
+    <title lang="en">Let's Go, Bananas!</title>
+    <sub-title lang="en">Josh the Butterfly</sub-title>
+    <desc lang="en">It's time for the Jungle Towers Bug Parade and the kids are dressing as their favourite creepy crawlies. Josh wants to be a butterfly, but wonders if that's tough enough.</desc>
+    <date>20250201</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p27072704_b_v12_aa.jpg" />
+    <episode-num system="onscreen">122B</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223130000 +0000" stop="20260223131200 +0000" channel="cbc.canada.cbht-dt">
+    <title lang="en">Dylan's Playtime Adventures</title>
+    <sub-title lang="en">Dylan the Airplane Pilot</sub-title>
+    <desc lang="en">Dylan and his friends imagine he's an Airplane Pilot.</desc>
+    <date>20240410</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p26951457_b_v12_aa.jpg" />
+    <episode-num system="onscreen">104a</episode-num>
+    <episode-num system="xmltv_ns">0.3.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223131200 +0000" stop="20260223132400 +0000" channel="cbc.canada.cbht-dt">
+    <title lang="en">Hop</title>
+    <sub-title lang="en">Brand New Hop</sub-title>
+    <desc lang="en">With Penny away, Hop is overwhelmed running the diner so Filipa makes him a robot to help out.</desc>
+    <credits>
+      <actor>David Connolly</actor>
+    </credits>
+    <category lang="en">Comedy</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p26986672_b_v12_ab.jpg" />
+    <episode-num system="xmltv_ns">0.24.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223132400 +0000" stop="20260223133400 +0000" channel="cbc.canada.cbht-dt">
+    <title lang="en">Lu &amp; the Bally Bunch</title>
+    <sub-title lang="en">Bright Beetle Lu</sub-title>
+    <desc lang="en">Lu struggles to do all the things she wants to do in her new costume.</desc>
+    <credits>
+      <actor>Amy De Bhrún</actor>
+      <actor>Ross Breen</actor>
+      <actor>Jonathan Delaney Tynan</actor>
+    </credits>
+    <date>20231016</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p24332376_b_v12_ab.jpg" />
+    <episode-num system="xmltv_ns">0.65.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223133400 +0000" stop="20260223133900 +0000" channel="cbc.canada.cbht-dt">
+    <title lang="en">Go Togo</title>
+    <sub-title lang="en">Stella's Bad Day</sub-title>
+    <date>20260107</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p28003667_b_v12_ac.jpg" />
+    <episode-num system="xmltv_ns">1.22.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>C</value>
+    </rating>
+  </programme>
+  <programme start="20260223133900 +0000" stop="20260223135200 +0000" channel="cbc.canada.cbht-dt">
+    <title lang="en">Mighty Express</title>
+    <sub-title lang="en">Volcano Kablamo</sub-title>
+    <desc lang="en">Nate must deliver Jaden's science fair project, a confetti-erupting volcano, to the school for the science fair before it erupts.</desc>
+    <credits>
+      <actor>Jay Hatton</actor>
+      <actor>Zoe Hatz</actor>
+      <actor>Meesha Contreras</actor>
+    </credits>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p18698287_b_v12_am.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223135200 +0000" stop="20260223135600 +0000" channel="cbc.canada.cbht-dt">
+    <title lang="en">Mighty Express</title>
+    <sub-title lang="en">Penny's Summer Train-Cation</sub-title>
+    <desc lang="en">Penny has a blast in Tracks Ville during summer vacation.</desc>
+    <credits>
+      <actor>Jay Hatton</actor>
+      <actor>Zoe Hatz</actor>
+      <actor>Meesha Contreras</actor>
+    </credits>
+    <date>20220110</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p18698287_b_v12_am.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223135600 +0000" stop="20260223135800 +0000" channel="cbc.canada.cbht-dt">
+    <title lang="en">Playing With Stu</title>
+    <sub-title lang="en">Stu and the Wishes</sub-title>
+    <desc lang="en">Stu has trouble coming up with the best birthday wish.</desc>
+    <date>20250915</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p28044539_b_v12_aa.jpg" />
+    <episode-num system="xmltv_ns">1.5.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>C</value>
+    </rating>
+  </programme>
+  <programme start="20260223135800 +0000" stop="20260223140500 +0000" channel="cbc.canada.cbht-dt">
+    <title lang="en">Mittens &amp; Pants</title>
+    <sub-title lang="en">Petunia's Special Deliveries</sub-title>
+    <desc lang="en">Post Pig Petunia's birthday selfie keeps getting interrupted by strange special delivery alerts that she must attend to.</desc>
+    <date>20250724</date>
+    <category lang="en">Children</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p23923525_b_v12_ad.jpg" />
+    <episode-num system="xmltv_ns">2.28.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+  </programme>
+  <programme start="20260223140500 +0000" stop="20260223141700 +0000" channel="cbc.canada.cbht-dt">
+    <title lang="en">The Adventures of Paddington</title>
+    <sub-title lang="en">Paddinton's Knightly Quest</sub-title>
+    <desc lang="en">Paddington is on a mission to become a knight; he just needs to complete three heroic quests a day.</desc>
+    <credits>
+      <actor>Ben Whishaw</actor>
+      <actor>Morwenna Banks</actor>
+      <actor>Bobby Beynon</actor>
+    </credits>
+    <date>20231011</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p17645395_b_v12_bb.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>C</value>
+    </rating>
+  </programme>
+  <programme start="20260223141700 +0000" stop="20260223143000 +0000" channel="cbc.canada.cbht-dt">
+    <title lang="en">Gary's Magic Fort</title>
+    <sub-title lang="en">Ready, Set, Gary</sub-title>
+    <desc lang="en">Gary and Stuffy have a hard time waiting for Sir Cushington to pack for their beach trip; they learn that fun will come quicker with a helping hand.</desc>
+    <date>20230605</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p20565662_b_v12_ab.jpg" />
+    <episode-num system="xmltv_ns">2.3.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>C</value>
+    </rating>
+  </programme>
+  <programme start="20260223143000 +0000" stop="20260223144400 +0000" channel="cbc.canada.cbht-dt">
+    <title lang="en">Molly of Denali</title>
+    <sub-title lang="en">The Night Manager</sub-title>
+    <desc lang="en">Molly and Trini have trouble checking in the Sassy Ladies of Saskatoon when they arrive at the Trading Post a day early.</desc>
+    <credits>
+      <actor>Sovereign Bill</actor>
+      <actor>Sequoia Janvier</actor>
+      <actor>Lorne Cardinal</actor>
+    </credits>
+    <date>20191009</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p15558414_b_v12_ac.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>C8</value>
+    </rating>
+  </programme>
+  <programme start="20260223144400 +0000" stop="20260223144800 +0000" channel="cbc.canada.cbht-dt">
+    <title lang="en">Jeremy and Jazzy</title>
+    <sub-title lang="en">Garbage Truck</sub-title>
+    <desc lang="en">Jeremy, Jazzy, Guy, and Turtle dance to the rattle of the garbage truck as it keeps streets clean.</desc>
+    <date>20240912</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p22900364_b_v12_ad.jpg" />
+    <episode-num system="xmltv_ns">1.3.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223144800 +0000" stop="20260223150000 +0000" channel="cbc.canada.cbht-dt">
+    <title lang="en">Addison</title>
+    <sub-title lang="en">Mystery of the Reluctant Racer</sub-title>
+    <desc lang="en">An hour before the soap box race, Addison and Alex's car has mysteriously slowed down.</desc>
+    <credits>
+      <actor>Jayshia Watters</actor>
+      <actor>Nate White-Nogler</actor>
+      <actor>Alexis Milligan</actor>
+    </credits>
+    <date>20190705</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p14392515_b_v12_ae.jpg" />
+    <episode-num system="onscreen">206</episode-num>
+    <episode-num system="xmltv_ns">1.5.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>C</value>
+    </rating>
+  </programme>
+  <programme start="20260223150000 +0000" stop="20260223160000 +0000" channel="cbc.canada.cbht-dt">
+    <title lang="en">Heartland</title>
+    <sub-title lang="en">Strange Bedfellows</sub-title>
+    <desc lang="en">Amy is asked to work with Lisa's racehorse, but when information is brought to light about the horse's breeding, conflict arises.</desc>
+    <credits>
+      <actor>Amber Marshall</actor>
+      <actor>Graham Wardle</actor>
+      <actor>Michelle Morgan</actor>
+    </credits>
+    <date>20171105</date>
+    <category lang="en">Drama</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p185880_b_v12_bc.jpg" />
+    <episode-num system="onscreen">1006</episode-num>
+    <episode-num system="xmltv_ns">10.5.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>PG</value>
+    </rating>
+  </programme>
+  <programme start="20260223160000 +0000" stop="20260223170000 +0000" channel="cbc.canada.cbht-dt">
+    <title lang="en">CBC Newsroom</title>
+    <desc lang="en">News program bringing Canadians breaking news and live coverage from across Canada and around the world.</desc>
+    <date>20170911</date>
+    <category lang="en">News</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p14555206_b_v12_af.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+  </programme>
+  <programme start="20260223170000 +0000" stop="20260223180000 +0000" channel="cbc.canada.cbht-dt">
+    <title lang="en">Escape to the Country</title>
+    <sub-title lang="en">Caithness</sub-title>
+    <desc lang="en">Jules Hudson savours the spectacular scenery and splendid isolation on offer in Scotland's Caithness today as he helps a young family with a house-hunting budget of £270,000.</desc>
+    <credits>
+      <actor>Titus Ogilvy</actor>
+    </credits>
+    <date>20230919</date>
+    <category lang="en">Home</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p379352_b_v8_bm.jpg" />
+    <episode-num system="xmltv_ns">23.7.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223180000 +0000" stop="20260223183000 +0000" channel="cbc.canada.cbht-dt">
+    <title lang="en">Family Feud Canada</title>
+    <sub-title lang="en">Show Me… Your Colon?</sub-title>
+    <desc lang="en">The Castillo and Goodyear families face off for the chance to play Fast Money and win $10,000.</desc>
+    <date>20250220</date>
+    <category lang="en">Game Shows</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p16999225_b_v12_ad.jpg" />
+    <episode-num system="xmltv_ns">5.31.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223183000 +0000" stop="20260223190000 +0000" channel="cbc.canada.cbht-dt">
+    <title lang="en">Schitt's Creek</title>
+    <sub-title lang="en">Baby Sprinkle</sub-title>
+    <desc lang="en">Johnny and Moira get too involved at a singles event; Alexis runs into an old friend.</desc>
+    <credits>
+      <actor>Eugene Levy</actor>
+      <actor>Catherine O'Hara</actor>
+      <actor>Annie Murphy</actor>
+    </credits>
+    <date>20180327</date>
+    <category lang="en">Sitcom</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p11311723_b_v12_ak.jpg" />
+    <episode-num system="onscreen">SC49</episode-num>
+    <episode-num system="xmltv_ns">3.9.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>14+</value>
+    </rating>
+  </programme>
+  <programme start="20260223190000 +0000" stop="20260223200000 +0000" channel="cbc.canada.cbht-dt">
+    <title lang="en">Wild Cards</title>
+    <sub-title lang="en">Con in 60 Seconds</sub-title>
+    <desc lang="en">Begrudgingly, Ellis comes to terms with Max's betrayal knowing she risked it all to share info about his brother's killer; now assigned to a new case, they dive into a high-speed street racing ring.</desc>
+    <credits>
+      <actor>Giacomo Gianniotti</actor>
+      <actor>Vanessa Morgan</actor>
+      <actor>Karin Konoval</actor>
+    </credits>
+    <date>20250205</date>
+    <category lang="en">Drama</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p25877512_b_v12_aj.jpg" />
+    <episode-num system="onscreen">201</episode-num>
+    <episode-num system="xmltv_ns">1.0.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>14+</value>
+    </rating>
+  </programme>
+  <programme start="20260223200000 +0000" stop="20260223210000 +0000" channel="cbc.canada.cbht-dt">
+    <title lang="en">Call the Midwife</title>
+    <sub-title lang="en">Christmas Special 2022: Part 1</sub-title>
+    <desc lang="en">Poplar is returning to normal after the train crash; the midwives move the clinic into new premises; one patient is Rhoda Mullocks, who the team know after her last baby was affected by Thalidomide.</desc>
+    <credits>
+      <actor>Jenny Agutter</actor>
+      <actor>Linda Bassett</actor>
+      <actor>Judy Parfitt</actor>
+    </credits>
+    <date>20221225</date>
+    <category lang="en">Drama</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p9025596_b_v8_cq.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>14+</value>
+    </rating>
+  </programme>
+  <programme start="20260223210000 +0000" stop="20260223213000 +0000" channel="cbc.canada.cbht-dt">
+    <title lang="en">Jamie: Keep Cooking and Carry On</title>
+    <sub-title lang="en">Episode 13</sub-title>
+    <desc lang="en">Jamie Oliver shows some incredible recipes, tips and hacks tailored for the unique times, including cheese-topped burgers, super spinach pancakes and a one-pan fish.</desc>
+    <date>20200408</date>
+    <category lang="en">Food</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p18116257_b_v11_ad.jpg" />
+    <episode-num system="xmltv_ns">0.12.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>PG</value>
+    </rating>
+  </programme>
+  <programme start="20260223213000 +0000" stop="20260223220000 +0000" channel="cbc.canada.cbht-dt">
+    <title lang="en">Jamie: Keep Cooking and Carry On</title>
+    <sub-title lang="en">Episode 14</sub-title>
+    <desc lang="en">Jamie Oliver demonstrates recipes for home-made pasta shapes, chicken fajitas and a one-pan sausage and apple bake.</desc>
+    <date>20200409</date>
+    <category lang="en">Food</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p18116257_b_v11_ad.jpg" />
+    <episode-num system="xmltv_ns">0.13.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>PG</value>
+    </rating>
+  </programme>
+  <programme start="20260223220000 +0000" stop="20260223230000 +0000" channel="cbc.canada.cbht-dt">
+    <title lang="en">CBC Nova Scotia News</title>
+    <desc lang="en">Tom Murphy and Amy Smith bring Nova Scotians news and weather every weeknight.</desc>
+    <date>20221125</date>
+    <category lang="en">News</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p23489124_b_v8_aa.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <new />
+  </programme>
+  <programme start="20260223230000 +0000" stop="20260223233000 +0000" channel="cbc.canada.cbht-dt">
+    <title lang="en">Coronation Street</title>
+    <desc lang="en">Sam grows suspicious of Will and Megan's relationship, and Jodie receives a warning.</desc>
+    <credits>
+      <actor>David Neilson</actor>
+      <actor>Jimmi Harkishin</actor>
+      <actor>Jane Hazlegrove</actor>
+    </credits>
+    <date>20260126</date>
     <category lang="en">Soaps</category>
     <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p183997_b_v7_aa.jpg" />
-    <episode-num system="onscreen">11777</episode-num>
+    <episode-num system="onscreen">11782</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <new />
+    <rating>
+      <value>PG</value>
+    </rating>
+  </programme>
+  <programme start="20260223233000 +0000" stop="20260224000000 +0000" channel="cbc.canada.cbht-dt">
+    <title lang="en">Family Feud Canada</title>
+    <desc lang="en">Two families compete to guess the most popular answers to family-friendly survey questions, with a Canadian twist.</desc>
+    <category lang="en">Game Shows</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p16999225_b_v12_ad.jpg" />
     <video>
       <colour>yes</colour>
     </video>
@@ -803,7 +1403,7 @@
     <desc lang="en">Dwight Drummond and the CBC Toronto News team take a comprehensive look at the day's top stories, with breaking news, live reports and updates relevant to the city of Toronto.</desc>
     <date>20160125</date>
     <category lang="en">News</category>
-    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p12466091_b_h10_ac.jpg" />
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p12466091_b_v8_ac.jpg" />
     <video>
       <colour>yes</colour>
     </video>
@@ -899,7 +1499,7 @@
     <desc lang="en">Dwight Drummond and the CBC Toronto News team take a comprehensive look at the day's top stories, with breaking news, live reports and updates relevant to the city of Toronto.</desc>
     <date>20160125</date>
     <category lang="en">News</category>
-    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p12466091_b_h10_ac.jpg" />
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p12466091_b_v8_ac.jpg" />
     <video>
       <colour>yes</colour>
     </video>
@@ -995,7 +1595,7 @@
     <desc lang="en">Dwight Drummond and the CBC Toronto News team take a comprehensive look at the day's top stories, with breaking news, live reports and updates relevant to the city of Toronto.</desc>
     <date>20160125</date>
     <category lang="en">News</category>
-    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p12466091_b_h10_ac.jpg" />
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p12466091_b_v8_ac.jpg" />
     <video>
       <colour>yes</colour>
     </video>
@@ -1091,7 +1691,7 @@
     <desc lang="en">Dwight Drummond and the CBC Toronto News team take a comprehensive look at the day's top stories, with breaking news, live reports and updates relevant to the city of Toronto.</desc>
     <date>20160125</date>
     <category lang="en">News</category>
-    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p12466091_b_h10_ac.jpg" />
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p12466091_b_v8_ac.jpg" />
     <video>
       <colour>yes</colour>
     </video>
@@ -1275,7 +1875,18 @@
     </video>
     <new />
   </programme>
-  <programme start="20260216040000 +0000" stop="20260216050000 +0000" channel="cbc.canada.cbrt-dt">
+  <programme start="20260223000000 +0000" stop="20260223030000 +0000" channel="cbc.canada.cblt-dt">
+    <title lang="en">Milano Cortina Olympics 2026</title>
+    <sub-title lang="en">Closing Ceremony</sub-title>
+    <desc lang="en">From Verona Olympic Arena in Verona, Italy.</desc>
+    <category lang="en">Sports</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p31372159_st_v8_ab.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <previously-shown />
+  </programme>
+  <programme start="20260223030000 +0000" stop="20260223040000 +0000" channel="cbc.canada.cblt-dt">
     <title lang="en">The National</title>
     <desc lang="en">CBC's flagship nightly news program, featuring the day's top stories with in-depth and original journalism; Adrienne Arsenault and Ian Hanomansing anchor.</desc>
     <category lang="en">News</category>
@@ -1285,56 +1896,741 @@
     </video>
     <new />
   </programme>
-  <programme start="20260216050000 +0000" stop="20260216080000 +0000" channel="cbc.canada.cbrt-dt">
-    <title lang="en">Milano Cortina Olympics 2026</title>
-    <sub-title lang="en">Pacific Primetime</sub-title>
-    <desc lang="en">Various sports from Milano Cortina, Italy.</desc>
-    <category lang="en">Sports</category>
-    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p31372159_st_v8_ab.jpg" />
-    <video>
-      <colour>yes</colour>
-    </video>
-    <new />
-  </programme>
-  <programme start="20260216080000 +0000" stop="20260216110000 +0000" channel="cbc.canada.cbrt-dt">
-    <title lang="en">Milano Cortina Olympics 2026</title>
-    <sub-title lang="en">Overnight</sub-title>
-    <desc lang="en">Various sports from Milano Cortina, Italy.</desc>
-    <category lang="en">Sports</category>
-    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p31372159_st_v8_ab.jpg" />
-    <video>
-      <colour>yes</colour>
-    </video>
-    <new />
-  </programme>
-  <programme start="20260216110000 +0000" stop="20260216170000 +0000" channel="cbc.canada.cbrt-dt">
-    <title lang="en">Milano Cortina Olympics 2026</title>
-    <sub-title lang="en">Morning</sub-title>
-    <desc lang="en">Various sports from Milano Cortina, Italy.</desc>
-    <category lang="en">Sports</category>
-    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p31372159_st_v8_ab.jpg" />
-    <video>
-      <colour>yes</colour>
-    </video>
-    <new />
-  </programme>
-  <programme start="20260216170000 +0000" stop="20260216230000 +0000" channel="cbc.canada.cbrt-dt">
-    <title lang="en">Milano Cortina Olympics 2026</title>
-    <sub-title lang="en">Daytime</sub-title>
-    <desc lang="en">Various sports from Milano Cortina, Italy.</desc>
-    <category lang="en">Sports</category>
-    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p31372159_st_v8_ab.jpg" />
-    <video>
-      <colour>yes</colour>
-    </video>
-    <new />
-  </programme>
-  <programme start="20260216230000 +0000" stop="20260217000000 +0000" channel="cbc.canada.cbrt-dt">
-    <title lang="en">CBC Calgary News</title>
-    <desc lang="en">The stories behind the top stories of the day.</desc>
-    <date>20160118</date>
+  <programme start="20260223040000 +0000" stop="20260223043000 +0000" channel="cbc.canada.cblt-dt">
+    <title lang="en">CBC Ontario News</title>
+    <desc lang="en">A comprehensive look at the day's top stories.</desc>
+    <date>20200327</date>
     <category lang="en">News</category>
-    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p12466008_b_v8_aa.jpg" />
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p18135178_st_v8_aa.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <new />
+  </programme>
+  <programme start="20260223043000 +0000" stop="20260223050000 +0000" channel="cbc.canada.cblt-dt">
+    <title lang="en">About That</title>
+    <sub-title lang="en">Washington Retribution; AI Bubble</sub-title>
+    <desc lang="en">Andrew Chang breaks down Trump's accusations after the shooting of two National Guard members near the White House; plus, if the AI bubble pops, will the whole U.S. economy go with it?</desc>
+    <category lang="en">News</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p23373001_b_v12_ab.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223050000 +0000" stop="20260223060000 +0000" channel="cbc.canada.cblt-dt">
+    <title lang="en">CBC Docs POV</title>
+    <sub-title lang="en">The Internet of Everything</sub-title>
+    <desc lang="en">A disillusioned early adopter and Internet evangelist feels a sense of responsibility to engage the problems the Internet has created and wants to see where things went wrong.</desc>
+    <category lang="en">Documentary</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p14647819_b_v7_aa.jpg" />
+    <episode-num system="xmltv_ns">2.9.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+  </programme>
+  <programme start="20260223060000 +0000" stop="20260223070000 +0000" channel="cbc.canada.cblt-dt">
+    <title lang="en">The Nature of Things</title>
+    <sub-title lang="en">Nature's Cleanup Crew</sub-title>
+    <desc lang="en">An introduction to the unsung animal heroes who clean up messes in the urban spaces they share with humans.</desc>
+    <date>20200131</date>
+    <category lang="en">Documentary</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p185885_b_v12_ah.jpg" />
+    <episode-num system="xmltv_ns">58.11.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>PG</value>
+    </rating>
+  </programme>
+  <programme start="20260223070000 +0000" stop="20260223080000 +0000" channel="cbc.canada.cblt-dt">
+    <title lang="en">The Nature of Things</title>
+    <sub-title lang="en">The Secrets of Friendship</sub-title>
+    <desc lang="en">Following the friendship detectives who are unraveling the mysteries of social behaviors in humans and other animals.</desc>
+    <date>20230324</date>
+    <category lang="en">Documentary</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p185885_b_v12_ah.jpg" />
+    <episode-num system="xmltv_ns">61.10.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>PG</value>
+    </rating>
+  </programme>
+  <programme start="20260223080000 +0000" stop="20260223090000 +0000" channel="cbc.canada.cblt-dt">
+    <title lang="en">Heartland</title>
+    <sub-title lang="en">In the Cards</sub-title>
+    <desc lang="en">Peter's announcement throws Lou's wedding plans into disarray; Amy and Ty are forced to make a difficult decisions about their future.</desc>
+    <credits>
+      <actor>Amber Marshall</actor>
+      <actor>Chris Potter</actor>
+      <actor>Michelle Morgan</actor>
+    </credits>
+    <date>20100328</date>
+    <category lang="en">Drama</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p185880_b_v12_bc.jpg" />
+    <episode-num system="onscreen">318</episode-num>
+    <episode-num system="xmltv_ns">2.17.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>PG</value>
+    </rating>
+  </programme>
+  <programme start="20260223090000 +0000" stop="20260223100000 +0000" channel="cbc.canada.cblt-dt">
+    <title lang="en">Escape to the Country</title>
+    <sub-title lang="en">The Cotswolds</sub-title>
+    <desc lang="en">Alistair Appleton is on a property-hunting mission to the beautiful Cotswolds, with a couple who want a location with dog walks on the doorstep, as well as decent dining options for date nights.</desc>
+    <date>20240528</date>
+    <category lang="en">Home</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p379352_b_v8_bm.jpg" />
+    <episode-num system="xmltv_ns">23.46.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223100000 +0000" stop="20260223110000 +0000" channel="cbc.canada.cblt-dt">
+    <title lang="en">Escape to the Country</title>
+    <sub-title lang="en">East Midlands</sub-title>
+    <desc lang="en">A young couple want to swap their London flat for something bigger in the East Midlands, where Nicki Chapman opens the front doors to a lovely selection of homes with lovely gardens.</desc>
+    <date>20240603</date>
+    <category lang="en">Home</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p379352_b_v8_bm.jpg" />
+    <episode-num system="xmltv_ns">23.47.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223110000 +0000" stop="20260223111000 +0000" channel="cbc.canada.cblt-dt">
+    <title lang="en">World Report</title>
+    <desc lang="en">What's going on in Canada and the world; a ten-minute dose of big news stories.</desc>
+    <date>20250302</date>
+    <category lang="en">News</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p29417925_b_v12_aa.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <new />
+  </programme>
+  <programme start="20260223111000 +0000" stop="20260223120000 +0000" channel="cbc.canada.cblt-dt">
+    <title lang="en">Metro Morning</title>
+    <desc lang="en">News, current affairs, weather and traffic.</desc>
+    <date>20150420</date>
+    <category lang="en">News</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p11567849_b_v12_ab.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <new />
+  </programme>
+  <programme start="20260223120000 +0000" stop="20260223120500 +0000" channel="cbc.canada.cblt-dt">
+    <title lang="en">Mini-Jon and Mini-Maple</title>
+    <sub-title lang="en">Chromatic Alert</sub-title>
+    <desc lang="en">Mini-Jon invents an intelligent paintbrush to repaint his room; it's very practical, except when Byzantine gets involved.</desc>
+    <date>20230804</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p25180614_b_v12_ab.jpg" />
+    <episode-num system="onscreen">103A</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+  </programme>
+  <programme start="20260223120500 +0000" stop="20260223121300 +0000" channel="cbc.canada.cblt-dt">
+    <title lang="en">Super Agent Jon Le Bon!</title>
+    <sub-title lang="en">Who Kidnapped Whitewash?</sub-title>
+    <desc lang="en">Whitewash tricks the agents by faking his own kidnapping.</desc>
+    <date>20210522</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p15621714_b_v12_ac.jpg" />
+    <episode-num system="onscreen">311</episode-num>
+    <episode-num system="xmltv_ns">2.10.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223121300 +0000" stop="20260223122600 +0000" channel="cbc.canada.cblt-dt">
+    <title lang="en">Kingdom Force</title>
+    <sub-title lang="en">Cat Me if You Can</sub-title>
+    <desc lang="en">Jabari's solo-mission is thwarted after Mittens McGuirk intervenes and accidently lets Gunter and Gustav steal Jabari's crystal cargo.</desc>
+    <credits>
+      <actor>Julie Sype</actor>
+      <actor>Tyler James Nathan</actor>
+    </credits>
+    <date>20200502</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p15558398_b_v8_ag.jpg" />
+    <episode-num system="xmltv_ns">0.15.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223122600 +0000" stop="20260223123000 +0000" channel="cbc.canada.cblt-dt">
+    <title lang="en">Super Why's Comic Book Adventures</title>
+    <sub-title lang="en">Outta Compound Words</sub-title>
+    <desc lang="en">Outta Space removes the space between the words doll and house, causing Power Paige to shrink and become trapped inside a dollhouse.</desc>
+    <date>20231018</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p29396543_b_v12_aa.jpg" />
+    <episode-num system="xmltv_ns">0.13.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223123000 +0000" stop="20260223124300 +0000" channel="cbc.canada.cblt-dt">
+    <title lang="en">Dino Ranch: Island Explorers</title>
+    <sub-title lang="en">Turtle Trouble</sub-title>
+    <desc lang="en">Jon and Miguel must protect some baby giant turtles while Min helps fix their mother's injured fin.</desc>
+    <date>20251227</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p31465068_b_v12_aa.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>C</value>
+    </rating>
+  </programme>
+  <programme start="20260223124300 +0000" stop="20260223125700 +0000" channel="cbc.canada.cblt-dt">
+    <title lang="en">PAW Patrol</title>
+    <sub-title lang="en">Pups Save a Farmerless Farm</sub-title>
+    <desc lang="en">With the farmers out of town, Mayor Goodway calls the PAW Patrol to wrangle animals and control the chaos on a farmerless farm.</desc>
+    <credits>
+      <actor>Jaxon Mercey</actor>
+      <actor>Justin Paul Kelly</actor>
+      <actor>Lukas Engel</actor>
+    </credits>
+    <date>20191113</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p10077400_b_v12_cj.jpg" />
+    <episode-num system="onscreen">617B</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>C</value>
+    </rating>
+  </programme>
+  <programme start="20260223125700 +0000" stop="20260223130800 +0000" channel="cbc.canada.cblt-dt">
+    <title lang="en">Hello Kitty: Super Style!</title>
+    <sub-title lang="en">Dbs Big Show</sub-title>
+    <desc lang="en">Pop Star Kitty helps DB realize that a truly inspired performance isn't doing what your audience wants, but doing what you love.</desc>
+    <credits>
+      <actor>Sarah Anne Williams</actor>
+      <actor>Lindsay Sheppard</actor>
+      <actor>Nicholas Andrew Louie</actor>
+    </credits>
+    <date>20230823</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p24422414_b_v8_ab.jpg" />
+    <episode-num system="xmltv_ns">6.2.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>8+</value>
+    </rating>
+  </programme>
+  <programme start="20260223130800 +0000" stop="20260223131300 +0000" channel="cbc.canada.cblt-dt">
+    <title lang="en">Jeremy and Jazzy</title>
+    <sub-title lang="en">Dale Dale Dale</sub-title>
+    <desc lang="en">Join Jeremy and Jazzy for a birthday celebration; who will open the pinata?</desc>
+    <credits>
+      <actor>Jeremy Fisher</actor>
+      <actor>Aiza Ntibarikure</actor>
+    </credits>
+    <date>20250918</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p22900364_b_v12_ad.jpg" />
+    <episode-num system="xmltv_ns">2.9.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223131300 +0000" stop="20260223132500 +0000" channel="cbc.canada.cblt-dt">
+    <title lang="en">Big Blue</title>
+    <sub-title lang="en">Revenge of the Sibs</sub-title>
+    <desc lang="en">Lemo meets a fellow scientist and they decide to work together on an entry for the United Current Science fair.</desc>
+    <credits>
+      <actor>Bahia Watson</actor>
+    </credits>
+    <date>20220606</date>
+    <category lang="en">Comedy</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p15558375_b_v11_ab.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>C</value>
+    </rating>
+  </programme>
+  <programme start="20260223132500 +0000" stop="20260223133700 +0000" channel="cbc.canada.cblt-dt">
+    <title lang="en">Rusty Rivets</title>
+    <sub-title lang="en">Rusty's Pendant Problem</sub-title>
+    <desc lang="en">Oliver needs Rusty and Ruby's help to find Ozzy's birthday gift before the party starts.</desc>
+    <credits>
+      <actor>Kyle Breitkopf</actor>
+      <actor>Ava Preston</actor>
+      <actor>Rob Tinkler</actor>
+    </credits>
+    <date>20200504</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p13000950_b_v12_ag.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>C</value>
+    </rating>
+  </programme>
+  <programme start="20260223133700 +0000" stop="20260223134500 +0000" channel="cbc.canada.cblt-dt">
+    <title lang="en">Super Agent Jon Le Bon!</title>
+    <sub-title lang="en">Choosing Your Side</sub-title>
+    <desc lang="en">Cassandra makes WXT an offer he can't refuse.</desc>
+    <date>20200530</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p15621714_b_v12_ac.jpg" />
+    <episode-num system="xmltv_ns">1.15.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223134500 +0000" stop="20260223134800 +0000" channel="cbc.canada.cblt-dt">
+    <title lang="en">Mini-Jon and Mini-Maple</title>
+    <sub-title lang="en">The Honoured Guest</sub-title>
+    <desc lang="en">Hear ye! Hear ye! Q, the guest of honor, makes his entrance into the mini-clones' room.</desc>
+    <date>20251211</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p25180614_b_v12_ab.jpg" />
+    <episode-num system="xmltv_ns">3.21.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>C</value>
+    </rating>
+  </programme>
+  <programme start="20260223134800 +0000" stop="20260223140000 +0000" channel="cbc.canada.cblt-dt">
+    <title lang="en">Let's Go, Bananas!</title>
+    <sub-title lang="en">Josh the Butterfly</sub-title>
+    <desc lang="en">It's time for the Jungle Towers Bug Parade and the kids are dressing as their favourite creepy crawlies. Josh wants to be a butterfly, but wonders if that's tough enough.</desc>
+    <date>20250201</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p27072704_b_v12_aa.jpg" />
+    <episode-num system="onscreen">122B</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223140000 +0000" stop="20260223141200 +0000" channel="cbc.canada.cblt-dt">
+    <title lang="en">Dylan's Playtime Adventures</title>
+    <sub-title lang="en">Dylan the Airplane Pilot</sub-title>
+    <desc lang="en">Dylan and his friends imagine he's an Airplane Pilot.</desc>
+    <date>20240410</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p26951457_b_v12_aa.jpg" />
+    <episode-num system="onscreen">104a</episode-num>
+    <episode-num system="xmltv_ns">0.3.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223141200 +0000" stop="20260223142400 +0000" channel="cbc.canada.cblt-dt">
+    <title lang="en">Hop</title>
+    <sub-title lang="en">Brand New Hop</sub-title>
+    <desc lang="en">With Penny away, Hop is overwhelmed running the diner so Filipa makes him a robot to help out.</desc>
+    <credits>
+      <actor>David Connolly</actor>
+    </credits>
+    <category lang="en">Comedy</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p26986672_b_v12_ab.jpg" />
+    <episode-num system="xmltv_ns">0.24.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223142400 +0000" stop="20260223143400 +0000" channel="cbc.canada.cblt-dt">
+    <title lang="en">Lu &amp; the Bally Bunch</title>
+    <sub-title lang="en">Bright Beetle Lu</sub-title>
+    <desc lang="en">Lu struggles to do all the things she wants to do in her new costume.</desc>
+    <credits>
+      <actor>Amy De Bhrún</actor>
+      <actor>Ross Breen</actor>
+      <actor>Jonathan Delaney Tynan</actor>
+    </credits>
+    <date>20231016</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p24332376_b_v12_ab.jpg" />
+    <episode-num system="xmltv_ns">0.65.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223143400 +0000" stop="20260223143900 +0000" channel="cbc.canada.cblt-dt">
+    <title lang="en">Go Togo</title>
+    <sub-title lang="en">Stella's Bad Day</sub-title>
+    <date>20260107</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p28003667_b_v12_ac.jpg" />
+    <episode-num system="xmltv_ns">1.22.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>C</value>
+    </rating>
+  </programme>
+  <programme start="20260223143900 +0000" stop="20260223145200 +0000" channel="cbc.canada.cblt-dt">
+    <title lang="en">Mighty Express</title>
+    <sub-title lang="en">Volcano Kablamo</sub-title>
+    <desc lang="en">Nate must deliver Jaden's science fair project, a confetti-erupting volcano, to the school for the science fair before it erupts.</desc>
+    <credits>
+      <actor>Jay Hatton</actor>
+      <actor>Zoe Hatz</actor>
+      <actor>Meesha Contreras</actor>
+    </credits>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p18698287_b_v12_am.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223145200 +0000" stop="20260223145600 +0000" channel="cbc.canada.cblt-dt">
+    <title lang="en">Mighty Express</title>
+    <sub-title lang="en">Penny's Summer Train-Cation</sub-title>
+    <desc lang="en">Penny has a blast in Tracks Ville during summer vacation.</desc>
+    <credits>
+      <actor>Jay Hatton</actor>
+      <actor>Zoe Hatz</actor>
+      <actor>Meesha Contreras</actor>
+    </credits>
+    <date>20220110</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p18698287_b_v12_am.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223145600 +0000" stop="20260223145800 +0000" channel="cbc.canada.cblt-dt">
+    <title lang="en">Playing With Stu</title>
+    <sub-title lang="en">Stu and the Wishes</sub-title>
+    <desc lang="en">Stu has trouble coming up with the best birthday wish.</desc>
+    <date>20250915</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p28044539_b_v12_aa.jpg" />
+    <episode-num system="xmltv_ns">1.5.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>C</value>
+    </rating>
+  </programme>
+  <programme start="20260223145800 +0000" stop="20260223150500 +0000" channel="cbc.canada.cblt-dt">
+    <title lang="en">Mittens &amp; Pants</title>
+    <sub-title lang="en">Petunia's Special Deliveries</sub-title>
+    <desc lang="en">Post Pig Petunia's birthday selfie keeps getting interrupted by strange special delivery alerts that she must attend to.</desc>
+    <date>20250724</date>
+    <category lang="en">Children</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p23923525_b_v12_ad.jpg" />
+    <episode-num system="xmltv_ns">2.28.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+  </programme>
+  <programme start="20260223150500 +0000" stop="20260223151700 +0000" channel="cbc.canada.cblt-dt">
+    <title lang="en">The Adventures of Paddington</title>
+    <sub-title lang="en">Paddinton's Knightly Quest</sub-title>
+    <desc lang="en">Paddington is on a mission to become a knight; he just needs to complete three heroic quests a day.</desc>
+    <credits>
+      <actor>Ben Whishaw</actor>
+      <actor>Morwenna Banks</actor>
+      <actor>Bobby Beynon</actor>
+    </credits>
+    <date>20231011</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p17645395_b_v12_bb.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>C</value>
+    </rating>
+  </programme>
+  <programme start="20260223151700 +0000" stop="20260223153000 +0000" channel="cbc.canada.cblt-dt">
+    <title lang="en">Gary's Magic Fort</title>
+    <sub-title lang="en">Ready, Set, Gary</sub-title>
+    <desc lang="en">Gary and Stuffy have a hard time waiting for Sir Cushington to pack for their beach trip; they learn that fun will come quicker with a helping hand.</desc>
+    <date>20230605</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p20565662_b_v12_ab.jpg" />
+    <episode-num system="xmltv_ns">2.3.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>C</value>
+    </rating>
+  </programme>
+  <programme start="20260223153000 +0000" stop="20260223154400 +0000" channel="cbc.canada.cblt-dt">
+    <title lang="en">Molly of Denali</title>
+    <sub-title lang="en">The Night Manager</sub-title>
+    <desc lang="en">Molly and Trini have trouble checking in the Sassy Ladies of Saskatoon when they arrive at the Trading Post a day early.</desc>
+    <credits>
+      <actor>Sovereign Bill</actor>
+      <actor>Sequoia Janvier</actor>
+      <actor>Lorne Cardinal</actor>
+    </credits>
+    <date>20191009</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p15558414_b_v12_ac.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>C8</value>
+    </rating>
+  </programme>
+  <programme start="20260223154400 +0000" stop="20260223154800 +0000" channel="cbc.canada.cblt-dt">
+    <title lang="en">Jeremy and Jazzy</title>
+    <sub-title lang="en">Garbage Truck</sub-title>
+    <desc lang="en">Jeremy, Jazzy, Guy, and Turtle dance to the rattle of the garbage truck as it keeps streets clean.</desc>
+    <date>20240912</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p22900364_b_v12_ad.jpg" />
+    <episode-num system="xmltv_ns">1.3.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223154800 +0000" stop="20260223160000 +0000" channel="cbc.canada.cblt-dt">
+    <title lang="en">Addison</title>
+    <sub-title lang="en">Mystery of the Reluctant Racer</sub-title>
+    <desc lang="en">An hour before the soap box race, Addison and Alex's car has mysteriously slowed down.</desc>
+    <credits>
+      <actor>Jayshia Watters</actor>
+      <actor>Nate White-Nogler</actor>
+      <actor>Alexis Milligan</actor>
+    </credits>
+    <date>20190705</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p14392515_b_v12_ae.jpg" />
+    <episode-num system="onscreen">206</episode-num>
+    <episode-num system="xmltv_ns">1.5.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>C</value>
+    </rating>
+  </programme>
+  <programme start="20260223160000 +0000" stop="20260223170000 +0000" channel="cbc.canada.cblt-dt">
+    <title lang="en">Heartland</title>
+    <sub-title lang="en">Strange Bedfellows</sub-title>
+    <desc lang="en">Amy is asked to work with Lisa's racehorse, but when information is brought to light about the horse's breeding, conflict arises.</desc>
+    <credits>
+      <actor>Amber Marshall</actor>
+      <actor>Graham Wardle</actor>
+      <actor>Michelle Morgan</actor>
+    </credits>
+    <date>20171105</date>
+    <category lang="en">Drama</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p185880_b_v12_bc.jpg" />
+    <episode-num system="onscreen">1006</episode-num>
+    <episode-num system="xmltv_ns">10.5.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>PG</value>
+    </rating>
+  </programme>
+  <programme start="20260223170000 +0000" stop="20260223180000 +0000" channel="cbc.canada.cblt-dt">
+    <title lang="en">CBC Newsroom</title>
+    <desc lang="en">News program bringing Canadians breaking news and live coverage from across Canada and around the world.</desc>
+    <date>20170911</date>
+    <category lang="en">News</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p14555206_b_v12_af.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+  </programme>
+  <programme start="20260223180000 +0000" stop="20260223190000 +0000" channel="cbc.canada.cblt-dt">
+    <title lang="en">Escape to the Country</title>
+    <sub-title lang="en">Caithness</sub-title>
+    <desc lang="en">Jules Hudson savours the spectacular scenery and splendid isolation on offer in Scotland's Caithness today as he helps a young family with a house-hunting budget of £270,000.</desc>
+    <credits>
+      <actor>Titus Ogilvy</actor>
+    </credits>
+    <date>20230919</date>
+    <category lang="en">Home</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p379352_b_v8_bm.jpg" />
+    <episode-num system="xmltv_ns">23.7.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223190000 +0000" stop="20260223193000 +0000" channel="cbc.canada.cblt-dt">
+    <title lang="en">Family Feud Canada</title>
+    <sub-title lang="en">Show Me… Your Colon?</sub-title>
+    <desc lang="en">The Castillo and Goodyear families face off for the chance to play Fast Money and win $10,000.</desc>
+    <date>20250220</date>
+    <category lang="en">Game Shows</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p16999225_b_v12_ad.jpg" />
+    <episode-num system="xmltv_ns">5.31.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223193000 +0000" stop="20260223200000 +0000" channel="cbc.canada.cblt-dt">
+    <title lang="en">Schitt's Creek</title>
+    <sub-title lang="en">Baby Sprinkle</sub-title>
+    <desc lang="en">Johnny and Moira get too involved at a singles event; Alexis runs into an old friend.</desc>
+    <credits>
+      <actor>Eugene Levy</actor>
+      <actor>Catherine O'Hara</actor>
+      <actor>Annie Murphy</actor>
+    </credits>
+    <date>20180327</date>
+    <category lang="en">Sitcom</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p11311723_b_v12_ak.jpg" />
+    <episode-num system="onscreen">SC49</episode-num>
+    <episode-num system="xmltv_ns">3.9.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>14+</value>
+    </rating>
+  </programme>
+  <programme start="20260223200000 +0000" stop="20260223210000 +0000" channel="cbc.canada.cblt-dt">
+    <title lang="en">Wild Cards</title>
+    <sub-title lang="en">Con in 60 Seconds</sub-title>
+    <desc lang="en">Begrudgingly, Ellis comes to terms with Max's betrayal knowing she risked it all to share info about his brother's killer; now assigned to a new case, they dive into a high-speed street racing ring.</desc>
+    <credits>
+      <actor>Giacomo Gianniotti</actor>
+      <actor>Vanessa Morgan</actor>
+      <actor>Karin Konoval</actor>
+    </credits>
+    <date>20250205</date>
+    <category lang="en">Drama</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p25877512_b_v12_aj.jpg" />
+    <episode-num system="onscreen">201</episode-num>
+    <episode-num system="xmltv_ns">1.0.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>14+</value>
+    </rating>
+  </programme>
+  <programme start="20260223210000 +0000" stop="20260223220000 +0000" channel="cbc.canada.cblt-dt">
+    <title lang="en">Call the Midwife</title>
+    <sub-title lang="en">Christmas Special 2022: Part 1</sub-title>
+    <desc lang="en">Poplar is returning to normal after the train crash; the midwives move the clinic into new premises; one patient is Rhoda Mullocks, who the team know after her last baby was affected by Thalidomide.</desc>
+    <credits>
+      <actor>Jenny Agutter</actor>
+      <actor>Linda Bassett</actor>
+      <actor>Judy Parfitt</actor>
+    </credits>
+    <date>20221225</date>
+    <category lang="en">Drama</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p9025596_b_v8_cq.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>14+</value>
+    </rating>
+  </programme>
+  <programme start="20260223220000 +0000" stop="20260223223000 +0000" channel="cbc.canada.cblt-dt">
+    <title lang="en">Jamie: Keep Cooking and Carry On</title>
+    <sub-title lang="en">Episode 13</sub-title>
+    <desc lang="en">Jamie Oliver shows some incredible recipes, tips and hacks tailored for the unique times, including cheese-topped burgers, super spinach pancakes and a one-pan fish.</desc>
+    <date>20200408</date>
+    <category lang="en">Food</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p18116257_b_v11_ad.jpg" />
+    <episode-num system="xmltv_ns">0.12.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>PG</value>
+    </rating>
+  </programme>
+  <programme start="20260223223000 +0000" stop="20260223230000 +0000" channel="cbc.canada.cblt-dt">
+    <title lang="en">Jamie: Keep Cooking and Carry On</title>
+    <sub-title lang="en">Episode 14</sub-title>
+    <desc lang="en">Jamie Oliver demonstrates recipes for home-made pasta shapes, chicken fajitas and a one-pan sausage and apple bake.</desc>
+    <date>20200409</date>
+    <category lang="en">Food</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p18116257_b_v11_ad.jpg" />
+    <episode-num system="xmltv_ns">0.13.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>PG</value>
+    </rating>
+  </programme>
+  <programme start="20260223230000 +0000" stop="20260224000000 +0000" channel="cbc.canada.cblt-dt">
+    <title lang="en">CBC Toronto News</title>
+    <desc lang="en">Dwight Drummond and the CBC Toronto News team take a comprehensive look at the day's top stories, with breaking news, live reports and updates relevant to the city of Toronto.</desc>
+    <date>20160125</date>
+    <category lang="en">News</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p12466091_b_v8_ac.jpg" />
     <video>
       <colour>yes</colour>
     </video>
@@ -1801,7 +3097,62 @@
     </video>
     <new />
   </programme>
-  <programme start="20260216040000 +0000" stop="20260216050000 +0000" channel="cbc.canada.cbut-dt">
+  <programme start="20260223000000 +0000" stop="20260223030000 +0000" channel="cbc.canada.cbrt-dt">
+    <title lang="en">Milano Cortina Olympics 2026</title>
+    <sub-title lang="en">Closing Ceremony</sub-title>
+    <desc lang="en">From Verona Olympic Arena in Verona, Italy.</desc>
+    <category lang="en">Sports</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p31372159_st_v8_ab.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <previously-shown />
+  </programme>
+  <programme start="20260223030000 +0000" stop="20260223033000 +0000" channel="cbc.canada.cbrt-dt">
+    <title lang="en">Still Standing</title>
+    <sub-title lang="en">Goderich, ON</sub-title>
+    <desc lang="en">Goderich is well-known as Canada's prettiest town; it was also devastated by an F3 tornado in 2011 that destroyed its downtown; it's now rebuilding toward a bold new future.</desc>
+    <date>20230201</date>
+    <category lang="en">Reality TV</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p11810367_b_v12_ab.jpg" />
+    <episode-num system="xmltv_ns">7.4.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>14+</value>
+    </rating>
+  </programme>
+  <programme start="20260223033000 +0000" stop="20260223040000 +0000" channel="cbc.canada.cbrt-dt">
+    <title lang="en">Still Standing</title>
+    <sub-title lang="en">Ucluelet, BC</sub-title>
+    <desc lang="en">Perched on the most westerly edge of Canada and despite its incredible beauty, Ucluelet is having to work hard to attract tourists from its well-known neighbor, Tofino.</desc>
+    <date>20230208</date>
+    <category lang="en">Reality TV</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p11810367_b_v12_ab.jpg" />
+    <episode-num system="xmltv_ns">7.5.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>14+</value>
+    </rating>
+  </programme>
+  <programme start="20260223040000 +0000" stop="20260223050000 +0000" channel="cbc.canada.cbrt-dt">
+    <title lang="en">CBC Winnipeg Comedy Festival</title>
+    <sub-title lang="en">Strange Days</sub-title>
+    <desc lang="en">Hosted by Ali Hassan; performances from Peter White, Salma Hindy, Damonde Tschritter, Nick Beaton, Lara Rae, and Rob Pue.</desc>
+    <date>20220708</date>
+    <category lang="en">Comedy</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p216050_b_v12_ad.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>PG</value>
+    </rating>
+  </programme>
+  <programme start="20260223050000 +0000" stop="20260223060000 +0000" channel="cbc.canada.cbrt-dt">
     <title lang="en">The National</title>
     <desc lang="en">CBC's flagship nightly news program, featuring the day's top stories with in-depth and original journalism; Adrienne Arsenault and Ian Hanomansing anchor.</desc>
     <category lang="en">News</category>
@@ -1811,79 +3162,703 @@
     </video>
     <new />
   </programme>
-  <programme start="20260216050000 +0000" stop="20260216080000 +0000" channel="cbc.canada.cbut-dt">
-    <title lang="en">Milano Cortina Olympics 2026</title>
-    <sub-title lang="en">Pacific Primetime</sub-title>
-    <desc lang="en">Various sports from Milano Cortina, Italy.</desc>
-    <category lang="en">Sports</category>
-    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p31372159_st_v8_ab.jpg" />
-    <video>
-      <colour>yes</colour>
-    </video>
-    <new />
-  </programme>
-  <programme start="20260216080000 +0000" stop="20260216110000 +0000" channel="cbc.canada.cbut-dt">
-    <title lang="en">Milano Cortina Olympics 2026</title>
-    <sub-title lang="en">Overnight</sub-title>
-    <desc lang="en">Various sports from Milano Cortina, Italy.</desc>
-    <category lang="en">Sports</category>
-    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p31372159_st_v8_ab.jpg" />
-    <video>
-      <colour>yes</colour>
-    </video>
-    <new />
-  </programme>
-  <programme start="20260216110000 +0000" stop="20260216170000 +0000" channel="cbc.canada.cbut-dt">
-    <title lang="en">Milano Cortina Olympics 2026</title>
-    <sub-title lang="en">Morning</sub-title>
-    <desc lang="en">Various sports from Milano Cortina, Italy.</desc>
-    <category lang="en">Sports</category>
-    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p31372159_st_v8_ab.jpg" />
-    <video>
-      <colour>yes</colour>
-    </video>
-    <new />
-  </programme>
-  <programme start="20260216170000 +0000" stop="20260216230000 +0000" channel="cbc.canada.cbut-dt">
-    <title lang="en">Milano Cortina Olympics 2026</title>
-    <sub-title lang="en">Daytime</sub-title>
-    <desc lang="en">Various sports from Milano Cortina, Italy.</desc>
-    <category lang="en">Sports</category>
-    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p31372159_st_v8_ab.jpg" />
-    <video>
-      <colour>yes</colour>
-    </video>
-    <new />
-  </programme>
-  <programme start="20260216230000 +0000" stop="20260216233000 +0000" channel="cbc.canada.cbut-dt">
-    <title lang="en">CBC Vancouver News</title>
-    <desc lang="en">The latest news and weather.</desc>
-    <date>20151008</date>
+  <programme start="20260223060000 +0000" stop="20260223063000 +0000" channel="cbc.canada.cbrt-dt">
+    <title lang="en">CBC Alberta News</title>
+    <desc lang="en">Top local, national and international news.</desc>
+    <date>20151010</date>
     <category lang="en">News</category>
-    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p12143966_st_v8_ab.jpg" />
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p12159765_b_v12_aa.jpg" />
     <video>
       <colour>yes</colour>
     </video>
     <new />
   </programme>
-  <programme start="20260216233000 +0000" stop="20260217000000 +0000" channel="cbc.canada.cbut-dt">
-    <title lang="en">Coronation Street</title>
-    <desc lang="en">Leanne offers to buy Maggie's stake in the Rovers, and Will frets over Megan's health.</desc>
-    <credits>
-      <actor>Gareth Pierce</actor>
-      <actor>Harriet Bibby</actor>
-      <actor>Antony Cotton</actor>
-    </credits>
-    <date>20260116</date>
-    <category lang="en">Soaps</category>
-    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p183997_b_v7_aa.jpg" />
-    <episode-num system="onscreen">11777</episode-num>
+  <programme start="20260223063000 +0000" stop="20260223070000 +0000" channel="cbc.canada.cbrt-dt">
+    <title lang="en">About That</title>
+    <sub-title lang="en">Washington Retribution; AI Bubble</sub-title>
+    <desc lang="en">Andrew Chang breaks down Trump's accusations after the shooting of two National Guard members near the White House; plus, if the AI bubble pops, will the whole U.S. economy go with it?</desc>
+    <category lang="en">News</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p23373001_b_v12_ab.jpg" />
     <video>
       <colour>yes</colour>
     </video>
-    <new />
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223070000 +0000" stop="20260223080000 +0000" channel="cbc.canada.cbrt-dt">
+    <title lang="en">CBC Docs POV</title>
+    <sub-title lang="en">The Internet of Everything</sub-title>
+    <desc lang="en">A disillusioned early adopter and Internet evangelist feels a sense of responsibility to engage the problems the Internet has created and wants to see where things went wrong.</desc>
+    <category lang="en">Documentary</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p14647819_b_v7_aa.jpg" />
+    <episode-num system="xmltv_ns">2.9.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+  </programme>
+  <programme start="20260223080000 +0000" stop="20260223090000 +0000" channel="cbc.canada.cbrt-dt">
+    <title lang="en">The Nature of Things</title>
+    <sub-title lang="en">Nature's Cleanup Crew</sub-title>
+    <desc lang="en">An introduction to the unsung animal heroes who clean up messes in the urban spaces they share with humans.</desc>
+    <date>20200131</date>
+    <category lang="en">Documentary</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p185885_b_v12_ah.jpg" />
+    <episode-num system="xmltv_ns">58.11.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
     <rating>
       <value>PG</value>
+    </rating>
+  </programme>
+  <programme start="20260223090000 +0000" stop="20260223100000 +0000" channel="cbc.canada.cbrt-dt">
+    <title lang="en">The Nature of Things</title>
+    <sub-title lang="en">The Secrets of Friendship</sub-title>
+    <desc lang="en">Following the friendship detectives who are unraveling the mysteries of social behaviors in humans and other animals.</desc>
+    <date>20230324</date>
+    <category lang="en">Documentary</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p185885_b_v12_ah.jpg" />
+    <episode-num system="xmltv_ns">61.10.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>PG</value>
+    </rating>
+  </programme>
+  <programme start="20260223100000 +0000" stop="20260223110000 +0000" channel="cbc.canada.cbrt-dt">
+    <title lang="en">Heartland</title>
+    <sub-title lang="en">In the Cards</sub-title>
+    <desc lang="en">Peter's announcement throws Lou's wedding plans into disarray; Amy and Ty are forced to make a difficult decisions about their future.</desc>
+    <credits>
+      <actor>Amber Marshall</actor>
+      <actor>Chris Potter</actor>
+      <actor>Michelle Morgan</actor>
+    </credits>
+    <date>20100328</date>
+    <category lang="en">Drama</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p185880_b_v12_bc.jpg" />
+    <episode-num system="onscreen">318</episode-num>
+    <episode-num system="xmltv_ns">2.17.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>PG</value>
+    </rating>
+  </programme>
+  <programme start="20260223110000 +0000" stop="20260223120000 +0000" channel="cbc.canada.cbrt-dt">
+    <title lang="en">Escape to the Country</title>
+    <sub-title lang="en">The Cotswolds</sub-title>
+    <desc lang="en">Alistair Appleton is on a property-hunting mission to the beautiful Cotswolds, with a couple who want a location with dog walks on the doorstep, as well as decent dining options for date nights.</desc>
+    <date>20240528</date>
+    <category lang="en">Home</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p379352_b_v8_bm.jpg" />
+    <episode-num system="xmltv_ns">23.46.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223120000 +0000" stop="20260223130000 +0000" channel="cbc.canada.cbrt-dt">
+    <title lang="en">Escape to the Country</title>
+    <sub-title lang="en">East Midlands</sub-title>
+    <desc lang="en">A young couple want to swap their London flat for something bigger in the East Midlands, where Nicki Chapman opens the front doors to a lovely selection of homes with lovely gardens.</desc>
+    <date>20240603</date>
+    <category lang="en">Home</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p379352_b_v8_bm.jpg" />
+    <episode-num system="xmltv_ns">23.47.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223130000 +0000" stop="20260223131000 +0000" channel="cbc.canada.cbrt-dt">
+    <title lang="en">World Report</title>
+    <desc lang="en">What's going on in Canada and the world; a ten-minute dose of big news stories.</desc>
+    <date>20250302</date>
+    <category lang="en">News</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p29417925_b_v12_aa.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <new />
+  </programme>
+  <programme start="20260223131000 +0000" stop="20260223140000 +0000" channel="cbc.canada.cbrt-dt">
+    <title lang="en">Calgary Eyeopener</title>
+    <desc lang="en">Daily news, interviews, facts, and storytelling.</desc>
+    <date>20141006</date>
+    <category lang="en">News</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p11072781_b_v12_ab.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <new />
+  </programme>
+  <programme start="20260223140000 +0000" stop="20260223140500 +0000" channel="cbc.canada.cbrt-dt">
+    <title lang="en">Mini-Jon and Mini-Maple</title>
+    <sub-title lang="en">Chromatic Alert</sub-title>
+    <desc lang="en">Mini-Jon invents an intelligent paintbrush to repaint his room; it's very practical, except when Byzantine gets involved.</desc>
+    <date>20230804</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p25180614_b_v12_ab.jpg" />
+    <episode-num system="onscreen">103A</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+  </programme>
+  <programme start="20260223140500 +0000" stop="20260223141300 +0000" channel="cbc.canada.cbrt-dt">
+    <title lang="en">Super Agent Jon Le Bon!</title>
+    <sub-title lang="en">Who Kidnapped Whitewash?</sub-title>
+    <desc lang="en">Whitewash tricks the agents by faking his own kidnapping.</desc>
+    <date>20210522</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p15621714_b_v12_ac.jpg" />
+    <episode-num system="onscreen">311</episode-num>
+    <episode-num system="xmltv_ns">2.10.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223141300 +0000" stop="20260223142600 +0000" channel="cbc.canada.cbrt-dt">
+    <title lang="en">Kingdom Force</title>
+    <sub-title lang="en">Cat Me if You Can</sub-title>
+    <desc lang="en">Jabari's solo-mission is thwarted after Mittens McGuirk intervenes and accidently lets Gunter and Gustav steal Jabari's crystal cargo.</desc>
+    <credits>
+      <actor>Julie Sype</actor>
+      <actor>Tyler James Nathan</actor>
+    </credits>
+    <date>20200502</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p15558398_b_v8_ag.jpg" />
+    <episode-num system="xmltv_ns">0.15.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223142600 +0000" stop="20260223143000 +0000" channel="cbc.canada.cbrt-dt">
+    <title lang="en">Super Why's Comic Book Adventures</title>
+    <sub-title lang="en">Outta Compound Words</sub-title>
+    <desc lang="en">Outta Space removes the space between the words doll and house, causing Power Paige to shrink and become trapped inside a dollhouse.</desc>
+    <date>20231018</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p29396543_b_v12_aa.jpg" />
+    <episode-num system="xmltv_ns">0.13.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223143000 +0000" stop="20260223144300 +0000" channel="cbc.canada.cbrt-dt">
+    <title lang="en">Dino Ranch: Island Explorers</title>
+    <sub-title lang="en">Turtle Trouble</sub-title>
+    <desc lang="en">Jon and Miguel must protect some baby giant turtles while Min helps fix their mother's injured fin.</desc>
+    <date>20251227</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p31465068_b_v12_aa.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>C</value>
+    </rating>
+  </programme>
+  <programme start="20260223144300 +0000" stop="20260223145700 +0000" channel="cbc.canada.cbrt-dt">
+    <title lang="en">PAW Patrol</title>
+    <sub-title lang="en">Pups Save a Farmerless Farm</sub-title>
+    <desc lang="en">With the farmers out of town, Mayor Goodway calls the PAW Patrol to wrangle animals and control the chaos on a farmerless farm.</desc>
+    <credits>
+      <actor>Jaxon Mercey</actor>
+      <actor>Justin Paul Kelly</actor>
+      <actor>Lukas Engel</actor>
+    </credits>
+    <date>20191113</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p10077400_b_v12_cj.jpg" />
+    <episode-num system="onscreen">617B</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>C</value>
+    </rating>
+  </programme>
+  <programme start="20260223145700 +0000" stop="20260223150800 +0000" channel="cbc.canada.cbrt-dt">
+    <title lang="en">Hello Kitty: Super Style!</title>
+    <sub-title lang="en">Dbs Big Show</sub-title>
+    <desc lang="en">Pop Star Kitty helps DB realize that a truly inspired performance isn't doing what your audience wants, but doing what you love.</desc>
+    <credits>
+      <actor>Sarah Anne Williams</actor>
+      <actor>Lindsay Sheppard</actor>
+      <actor>Nicholas Andrew Louie</actor>
+    </credits>
+    <date>20230823</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p24422414_b_v8_ab.jpg" />
+    <episode-num system="xmltv_ns">6.2.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>8+</value>
+    </rating>
+  </programme>
+  <programme start="20260223150800 +0000" stop="20260223151300 +0000" channel="cbc.canada.cbrt-dt">
+    <title lang="en">Jeremy and Jazzy</title>
+    <sub-title lang="en">Dale Dale Dale</sub-title>
+    <desc lang="en">Join Jeremy and Jazzy for a birthday celebration; who will open the pinata?</desc>
+    <credits>
+      <actor>Jeremy Fisher</actor>
+      <actor>Aiza Ntibarikure</actor>
+    </credits>
+    <date>20250918</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p22900364_b_v12_ad.jpg" />
+    <episode-num system="xmltv_ns">2.9.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223151300 +0000" stop="20260223152500 +0000" channel="cbc.canada.cbrt-dt">
+    <title lang="en">Big Blue</title>
+    <sub-title lang="en">Revenge of the Sibs</sub-title>
+    <desc lang="en">Lemo meets a fellow scientist and they decide to work together on an entry for the United Current Science fair.</desc>
+    <credits>
+      <actor>Bahia Watson</actor>
+    </credits>
+    <date>20220606</date>
+    <category lang="en">Comedy</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p15558375_b_v11_ab.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>C</value>
+    </rating>
+  </programme>
+  <programme start="20260223152500 +0000" stop="20260223153700 +0000" channel="cbc.canada.cbrt-dt">
+    <title lang="en">Rusty Rivets</title>
+    <sub-title lang="en">Rusty's Pendant Problem</sub-title>
+    <desc lang="en">Oliver needs Rusty and Ruby's help to find Ozzy's birthday gift before the party starts.</desc>
+    <credits>
+      <actor>Kyle Breitkopf</actor>
+      <actor>Ava Preston</actor>
+      <actor>Rob Tinkler</actor>
+    </credits>
+    <date>20200504</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p13000950_b_v12_ag.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>C</value>
+    </rating>
+  </programme>
+  <programme start="20260223153700 +0000" stop="20260223154500 +0000" channel="cbc.canada.cbrt-dt">
+    <title lang="en">Super Agent Jon Le Bon!</title>
+    <sub-title lang="en">Choosing Your Side</sub-title>
+    <desc lang="en">Cassandra makes WXT an offer he can't refuse.</desc>
+    <date>20200530</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p15621714_b_v12_ac.jpg" />
+    <episode-num system="xmltv_ns">1.15.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223154500 +0000" stop="20260223154800 +0000" channel="cbc.canada.cbrt-dt">
+    <title lang="en">Mini-Jon and Mini-Maple</title>
+    <sub-title lang="en">The Honoured Guest</sub-title>
+    <desc lang="en">Hear ye! Hear ye! Q, the guest of honor, makes his entrance into the mini-clones' room.</desc>
+    <date>20251211</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p25180614_b_v12_ab.jpg" />
+    <episode-num system="xmltv_ns">3.21.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>C</value>
+    </rating>
+  </programme>
+  <programme start="20260223154800 +0000" stop="20260223160000 +0000" channel="cbc.canada.cbrt-dt">
+    <title lang="en">Let's Go, Bananas!</title>
+    <sub-title lang="en">Josh the Butterfly</sub-title>
+    <desc lang="en">It's time for the Jungle Towers Bug Parade and the kids are dressing as their favourite creepy crawlies. Josh wants to be a butterfly, but wonders if that's tough enough.</desc>
+    <date>20250201</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p27072704_b_v12_aa.jpg" />
+    <episode-num system="onscreen">122B</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223160000 +0000" stop="20260223161200 +0000" channel="cbc.canada.cbrt-dt">
+    <title lang="en">Dylan's Playtime Adventures</title>
+    <sub-title lang="en">Dylan the Airplane Pilot</sub-title>
+    <desc lang="en">Dylan and his friends imagine he's an Airplane Pilot.</desc>
+    <date>20240410</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p26951457_b_v12_aa.jpg" />
+    <episode-num system="onscreen">104a</episode-num>
+    <episode-num system="xmltv_ns">0.3.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223161200 +0000" stop="20260223162400 +0000" channel="cbc.canada.cbrt-dt">
+    <title lang="en">Hop</title>
+    <sub-title lang="en">Brand New Hop</sub-title>
+    <desc lang="en">With Penny away, Hop is overwhelmed running the diner so Filipa makes him a robot to help out.</desc>
+    <credits>
+      <actor>David Connolly</actor>
+    </credits>
+    <category lang="en">Comedy</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p26986672_b_v12_ab.jpg" />
+    <episode-num system="xmltv_ns">0.24.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223162400 +0000" stop="20260223163400 +0000" channel="cbc.canada.cbrt-dt">
+    <title lang="en">Lu &amp; the Bally Bunch</title>
+    <sub-title lang="en">Bright Beetle Lu</sub-title>
+    <desc lang="en">Lu struggles to do all the things she wants to do in her new costume.</desc>
+    <credits>
+      <actor>Amy De Bhrún</actor>
+      <actor>Ross Breen</actor>
+      <actor>Jonathan Delaney Tynan</actor>
+    </credits>
+    <date>20231016</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p24332376_b_v12_ab.jpg" />
+    <episode-num system="xmltv_ns">0.65.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223163400 +0000" stop="20260223163900 +0000" channel="cbc.canada.cbrt-dt">
+    <title lang="en">Go Togo</title>
+    <sub-title lang="en">Stella's Bad Day</sub-title>
+    <date>20260107</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p28003667_b_v12_ac.jpg" />
+    <episode-num system="xmltv_ns">1.22.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>C</value>
+    </rating>
+  </programme>
+  <programme start="20260223163900 +0000" stop="20260223165200 +0000" channel="cbc.canada.cbrt-dt">
+    <title lang="en">Mighty Express</title>
+    <sub-title lang="en">Volcano Kablamo</sub-title>
+    <desc lang="en">Nate must deliver Jaden's science fair project, a confetti-erupting volcano, to the school for the science fair before it erupts.</desc>
+    <credits>
+      <actor>Jay Hatton</actor>
+      <actor>Zoe Hatz</actor>
+      <actor>Meesha Contreras</actor>
+    </credits>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p18698287_b_v12_am.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223165200 +0000" stop="20260223165600 +0000" channel="cbc.canada.cbrt-dt">
+    <title lang="en">Mighty Express</title>
+    <sub-title lang="en">Penny's Summer Train-Cation</sub-title>
+    <desc lang="en">Penny has a blast in Tracks Ville during summer vacation.</desc>
+    <credits>
+      <actor>Jay Hatton</actor>
+      <actor>Zoe Hatz</actor>
+      <actor>Meesha Contreras</actor>
+    </credits>
+    <date>20220110</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p18698287_b_v12_am.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223165600 +0000" stop="20260223165800 +0000" channel="cbc.canada.cbrt-dt">
+    <title lang="en">Playing With Stu</title>
+    <sub-title lang="en">Stu and the Wishes</sub-title>
+    <desc lang="en">Stu has trouble coming up with the best birthday wish.</desc>
+    <date>20250915</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p28044539_b_v12_aa.jpg" />
+    <episode-num system="xmltv_ns">1.5.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>C</value>
+    </rating>
+  </programme>
+  <programme start="20260223165800 +0000" stop="20260223170500 +0000" channel="cbc.canada.cbrt-dt">
+    <title lang="en">Mittens &amp; Pants</title>
+    <sub-title lang="en">Petunia's Special Deliveries</sub-title>
+    <desc lang="en">Post Pig Petunia's birthday selfie keeps getting interrupted by strange special delivery alerts that she must attend to.</desc>
+    <date>20250724</date>
+    <category lang="en">Children</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p23923525_b_v12_ad.jpg" />
+    <episode-num system="xmltv_ns">2.28.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+  </programme>
+  <programme start="20260223170500 +0000" stop="20260223171700 +0000" channel="cbc.canada.cbrt-dt">
+    <title lang="en">The Adventures of Paddington</title>
+    <sub-title lang="en">Paddinton's Knightly Quest</sub-title>
+    <desc lang="en">Paddington is on a mission to become a knight; he just needs to complete three heroic quests a day.</desc>
+    <credits>
+      <actor>Ben Whishaw</actor>
+      <actor>Morwenna Banks</actor>
+      <actor>Bobby Beynon</actor>
+    </credits>
+    <date>20231011</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p17645395_b_v12_bb.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>C</value>
+    </rating>
+  </programme>
+  <programme start="20260223171700 +0000" stop="20260223173000 +0000" channel="cbc.canada.cbrt-dt">
+    <title lang="en">Gary's Magic Fort</title>
+    <sub-title lang="en">Ready, Set, Gary</sub-title>
+    <desc lang="en">Gary and Stuffy have a hard time waiting for Sir Cushington to pack for their beach trip; they learn that fun will come quicker with a helping hand.</desc>
+    <date>20230605</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p20565662_b_v12_ab.jpg" />
+    <episode-num system="xmltv_ns">2.3.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>C</value>
+    </rating>
+  </programme>
+  <programme start="20260223173000 +0000" stop="20260223174400 +0000" channel="cbc.canada.cbrt-dt">
+    <title lang="en">Molly of Denali</title>
+    <sub-title lang="en">The Night Manager</sub-title>
+    <desc lang="en">Molly and Trini have trouble checking in the Sassy Ladies of Saskatoon when they arrive at the Trading Post a day early.</desc>
+    <credits>
+      <actor>Sovereign Bill</actor>
+      <actor>Sequoia Janvier</actor>
+      <actor>Lorne Cardinal</actor>
+    </credits>
+    <date>20191009</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p15558414_b_v12_ac.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>C8</value>
+    </rating>
+  </programme>
+  <programme start="20260223174400 +0000" stop="20260223174800 +0000" channel="cbc.canada.cbrt-dt">
+    <title lang="en">Jeremy and Jazzy</title>
+    <sub-title lang="en">Garbage Truck</sub-title>
+    <desc lang="en">Jeremy, Jazzy, Guy, and Turtle dance to the rattle of the garbage truck as it keeps streets clean.</desc>
+    <date>20240912</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p22900364_b_v12_ad.jpg" />
+    <episode-num system="xmltv_ns">1.3.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223174800 +0000" stop="20260223180000 +0000" channel="cbc.canada.cbrt-dt">
+    <title lang="en">Addison</title>
+    <sub-title lang="en">Mystery of the Reluctant Racer</sub-title>
+    <desc lang="en">An hour before the soap box race, Addison and Alex's car has mysteriously slowed down.</desc>
+    <credits>
+      <actor>Jayshia Watters</actor>
+      <actor>Nate White-Nogler</actor>
+      <actor>Alexis Milligan</actor>
+    </credits>
+    <date>20190705</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p14392515_b_v12_ae.jpg" />
+    <episode-num system="onscreen">206</episode-num>
+    <episode-num system="xmltv_ns">1.5.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>C</value>
+    </rating>
+  </programme>
+  <programme start="20260223180000 +0000" stop="20260223190000 +0000" channel="cbc.canada.cbrt-dt">
+    <title lang="en">Heartland</title>
+    <sub-title lang="en">Strange Bedfellows</sub-title>
+    <desc lang="en">Amy is asked to work with Lisa's racehorse, but when information is brought to light about the horse's breeding, conflict arises.</desc>
+    <credits>
+      <actor>Amber Marshall</actor>
+      <actor>Graham Wardle</actor>
+      <actor>Michelle Morgan</actor>
+    </credits>
+    <date>20171105</date>
+    <category lang="en">Drama</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p185880_b_v12_bc.jpg" />
+    <episode-num system="onscreen">1006</episode-num>
+    <episode-num system="xmltv_ns">10.5.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>PG</value>
+    </rating>
+  </programme>
+  <programme start="20260223190000 +0000" stop="20260223200000 +0000" channel="cbc.canada.cbrt-dt">
+    <title lang="en">CBC Newsroom</title>
+    <desc lang="en">News program bringing Canadians breaking news and live coverage from across Canada and around the world.</desc>
+    <date>20170911</date>
+    <category lang="en">News</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p14555206_b_v12_af.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+  </programme>
+  <programme start="20260223200000 +0000" stop="20260223210000 +0000" channel="cbc.canada.cbrt-dt">
+    <title lang="en">Escape to the Country</title>
+    <sub-title lang="en">Caithness</sub-title>
+    <desc lang="en">Jules Hudson savours the spectacular scenery and splendid isolation on offer in Scotland's Caithness today as he helps a young family with a house-hunting budget of £270,000.</desc>
+    <credits>
+      <actor>Titus Ogilvy</actor>
+    </credits>
+    <date>20230919</date>
+    <category lang="en">Home</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p379352_b_v8_bm.jpg" />
+    <episode-num system="xmltv_ns">23.7.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223210000 +0000" stop="20260223213000 +0000" channel="cbc.canada.cbrt-dt">
+    <title lang="en">Family Feud Canada</title>
+    <sub-title lang="en">Show Me… Your Colon?</sub-title>
+    <desc lang="en">The Castillo and Goodyear families face off for the chance to play Fast Money and win $10,000.</desc>
+    <date>20250220</date>
+    <category lang="en">Game Shows</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p16999225_b_v12_ad.jpg" />
+    <episode-num system="xmltv_ns">5.31.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223213000 +0000" stop="20260223220000 +0000" channel="cbc.canada.cbrt-dt">
+    <title lang="en">Schitt's Creek</title>
+    <sub-title lang="en">Baby Sprinkle</sub-title>
+    <desc lang="en">Johnny and Moira get too involved at a singles event; Alexis runs into an old friend.</desc>
+    <credits>
+      <actor>Eugene Levy</actor>
+      <actor>Catherine O'Hara</actor>
+      <actor>Annie Murphy</actor>
+    </credits>
+    <date>20180327</date>
+    <category lang="en">Sitcom</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p11311723_b_v12_ak.jpg" />
+    <episode-num system="onscreen">SC49</episode-num>
+    <episode-num system="xmltv_ns">3.9.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>14+</value>
+    </rating>
+  </programme>
+  <programme start="20260223220000 +0000" stop="20260223230000 +0000" channel="cbc.canada.cbrt-dt">
+    <title lang="en">Wild Cards</title>
+    <sub-title lang="en">Con in 60 Seconds</sub-title>
+    <desc lang="en">Begrudgingly, Ellis comes to terms with Max's betrayal knowing she risked it all to share info about his brother's killer; now assigned to a new case, they dive into a high-speed street racing ring.</desc>
+    <credits>
+      <actor>Giacomo Gianniotti</actor>
+      <actor>Vanessa Morgan</actor>
+      <actor>Karin Konoval</actor>
+    </credits>
+    <date>20250205</date>
+    <category lang="en">Drama</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p25877512_b_v12_aj.jpg" />
+    <episode-num system="onscreen">201</episode-num>
+    <episode-num system="xmltv_ns">1.0.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>14+</value>
+    </rating>
+  </programme>
+  <programme start="20260223230000 +0000" stop="20260224000000 +0000" channel="cbc.canada.cbrt-dt">
+    <title lang="en">Call the Midwife</title>
+    <sub-title lang="en">Christmas Special 2022: Part 1</sub-title>
+    <desc lang="en">Poplar is returning to normal after the train crash; the midwives move the clinic into new premises; one patient is Rhoda Mullocks, who the team know after her last baby was affected by Thalidomide.</desc>
+    <credits>
+      <actor>Jenny Agutter</actor>
+      <actor>Linda Bassett</actor>
+      <actor>Judy Parfitt</actor>
+    </credits>
+    <date>20221225</date>
+    <category lang="en">Drama</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p9025596_b_v8_cq.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>14+</value>
     </rating>
   </programme>
   <programme start="20260217000000 +0000" stop="20260217040000 +0000" channel="cbc.canada.cbut-dt">
@@ -2427,7 +4402,75 @@
     </video>
     <new />
   </programme>
-  <programme start="20260216040000 +0000" stop="20260216050000 +0000" channel="cbc.canada.cbwt-dt">
+  <programme start="20260223000000 +0000" stop="20260223030000 +0000" channel="cbc.canada.cbut-dt">
+    <title lang="en">Milano Cortina Olympics 2026</title>
+    <sub-title lang="en">Closing Ceremony</sub-title>
+    <desc lang="en">From Verona Olympic Arena in Verona, Italy.</desc>
+    <category lang="en">Sports</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p31372159_st_v8_ab.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <previously-shown />
+  </programme>
+  <programme start="20260223030000 +0000" stop="20260223040000 +0000" channel="cbc.canada.cbut-dt">
+    <title lang="en">Dragons' Den</title>
+    <desc lang="en">A chocolate company hopes the Dragons get a sugar high; a mother/daughter team offers a deal and a date; an entrepreneur hopes to impress with his can-do attitude; a health coach hopes an investment in the Den will get her business popping.</desc>
+    <date>20191031</date>
+    <category lang="en">Reality TV</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p191605_b_v12_ad.jpg" />
+    <episode-num system="xmltv_ns">13.5.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>PG</value>
+    </rating>
+  </programme>
+  <programme start="20260223040000 +0000" stop="20260223043000 +0000" channel="cbc.canada.cbut-dt">
+    <title lang="en">Still Standing</title>
+    <sub-title lang="en">Goderich, ON</sub-title>
+    <desc lang="en">Goderich is well-known as Canada's prettiest town; it was also devastated by an F3 tornado in 2011 that destroyed its downtown; it's now rebuilding toward a bold new future.</desc>
+    <date>20230201</date>
+    <category lang="en">Reality TV</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p11810367_b_v12_ab.jpg" />
+    <episode-num system="xmltv_ns">7.4.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>14+</value>
+    </rating>
+  </programme>
+  <programme start="20260223043000 +0000" stop="20260223050000 +0000" channel="cbc.canada.cbut-dt">
+    <title lang="en">Still Standing</title>
+    <sub-title lang="en">Ucluelet, BC</sub-title>
+    <desc lang="en">Perched on the most westerly edge of Canada and despite its incredible beauty, Ucluelet is having to work hard to attract tourists from its well-known neighbor, Tofino.</desc>
+    <date>20230208</date>
+    <category lang="en">Reality TV</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p11810367_b_v12_ab.jpg" />
+    <episode-num system="xmltv_ns">7.5.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>14+</value>
+    </rating>
+  </programme>
+  <programme start="20260223050000 +0000" stop="20260223060000 +0000" channel="cbc.canada.cbut-dt">
+    <title lang="en">Winnipeg Comedy Festival</title>
+    <desc lang="en">Comics from all over North America gather together in Winnipeg each spring to perform on stage.</desc>
+    <date>20021122</date>
+    <category lang="en">Comedy</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p216050_b_v12_ae.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>PG</value>
+    </rating>
+  </programme>
+  <programme start="20260223060000 +0000" stop="20260223070000 +0000" channel="cbc.canada.cbut-dt">
     <title lang="en">The National</title>
     <desc lang="en">CBC's flagship nightly news program, featuring the day's top stories with in-depth and original journalism; Adrienne Arsenault and Ian Hanomansing anchor.</desc>
     <category lang="en">News</category>
@@ -2437,58 +4480,662 @@
     </video>
     <new />
   </programme>
-  <programme start="20260216050000 +0000" stop="20260216080000 +0000" channel="cbc.canada.cbwt-dt">
-    <title lang="en">Milano Cortina Olympics 2026</title>
-    <sub-title lang="en">Pacific Primetime</sub-title>
-    <desc lang="en">Various sports from Milano Cortina, Italy.</desc>
-    <category lang="en">Sports</category>
-    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p31372159_st_v8_ab.jpg" />
+  <programme start="20260223070000 +0000" stop="20260223073000 +0000" channel="cbc.canada.cbut-dt">
+    <title lang="en">CBC Vancouver News</title>
+    <desc lang="en">The latest news and weather.</desc>
+    <date>20151008</date>
+    <category lang="en">News</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p12143966_st_v8_ab.jpg" />
     <video>
       <colour>yes</colour>
     </video>
     <new />
   </programme>
-  <programme start="20260216080000 +0000" stop="20260216110000 +0000" channel="cbc.canada.cbwt-dt">
-    <title lang="en">Milano Cortina Olympics 2026</title>
-    <sub-title lang="en">Overnight</sub-title>
-    <desc lang="en">Various sports from Milano Cortina, Italy.</desc>
-    <category lang="en">Sports</category>
-    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p31372159_st_v8_ab.jpg" />
+  <programme start="20260223073000 +0000" stop="20260223080000 +0000" channel="cbc.canada.cbut-dt">
+    <title lang="en">About That</title>
+    <sub-title lang="en">Washington Retribution; AI Bubble</sub-title>
+    <desc lang="en">Andrew Chang breaks down Trump's accusations after the shooting of two National Guard members near the White House; plus, if the AI bubble pops, will the whole U.S. economy go with it?</desc>
+    <category lang="en">News</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p23373001_b_v12_ab.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223080000 +0000" stop="20260223090000 +0000" channel="cbc.canada.cbut-dt">
+    <title lang="en">CBC Docs POV</title>
+    <sub-title lang="en">The Internet of Everything</sub-title>
+    <desc lang="en">A disillusioned early adopter and Internet evangelist feels a sense of responsibility to engage the problems the Internet has created and wants to see where things went wrong.</desc>
+    <category lang="en">Documentary</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p14647819_b_v7_aa.jpg" />
+    <episode-num system="xmltv_ns">2.9.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+  </programme>
+  <programme start="20260223090000 +0000" stop="20260223100000 +0000" channel="cbc.canada.cbut-dt">
+    <title lang="en">The Nature of Things</title>
+    <sub-title lang="en">Nature's Cleanup Crew</sub-title>
+    <desc lang="en">An introduction to the unsung animal heroes who clean up messes in the urban spaces they share with humans.</desc>
+    <date>20200131</date>
+    <category lang="en">Documentary</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p185885_b_v12_ah.jpg" />
+    <episode-num system="xmltv_ns">58.11.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>PG</value>
+    </rating>
+  </programme>
+  <programme start="20260223100000 +0000" stop="20260223110000 +0000" channel="cbc.canada.cbut-dt">
+    <title lang="en">The Nature of Things</title>
+    <sub-title lang="en">The Secrets of Friendship</sub-title>
+    <desc lang="en">Following the friendship detectives who are unraveling the mysteries of social behaviors in humans and other animals.</desc>
+    <date>20230324</date>
+    <category lang="en">Documentary</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p185885_b_v12_ah.jpg" />
+    <episode-num system="xmltv_ns">61.10.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>PG</value>
+    </rating>
+  </programme>
+  <programme start="20260223110000 +0000" stop="20260223120000 +0000" channel="cbc.canada.cbut-dt">
+    <title lang="en">Heartland</title>
+    <sub-title lang="en">In the Cards</sub-title>
+    <desc lang="en">Peter's announcement throws Lou's wedding plans into disarray; Amy and Ty are forced to make a difficult decisions about their future.</desc>
+    <credits>
+      <actor>Amber Marshall</actor>
+      <actor>Chris Potter</actor>
+      <actor>Michelle Morgan</actor>
+    </credits>
+    <date>20100328</date>
+    <category lang="en">Drama</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p185880_b_v12_bc.jpg" />
+    <episode-num system="onscreen">318</episode-num>
+    <episode-num system="xmltv_ns">2.17.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>PG</value>
+    </rating>
+  </programme>
+  <programme start="20260223120000 +0000" stop="20260223130000 +0000" channel="cbc.canada.cbut-dt">
+    <title lang="en">Escape to the Country</title>
+    <sub-title lang="en">The Cotswolds</sub-title>
+    <desc lang="en">Alistair Appleton is on a property-hunting mission to the beautiful Cotswolds, with a couple who want a location with dog walks on the doorstep, as well as decent dining options for date nights.</desc>
+    <date>20240528</date>
+    <category lang="en">Home</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p379352_b_v8_bm.jpg" />
+    <episode-num system="xmltv_ns">23.46.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223130000 +0000" stop="20260223140000 +0000" channel="cbc.canada.cbut-dt">
+    <title lang="en">Escape to the Country</title>
+    <sub-title lang="en">East Midlands</sub-title>
+    <desc lang="en">A young couple want to swap their London flat for something bigger in the East Midlands, where Nicki Chapman opens the front doors to a lovely selection of homes with lovely gardens.</desc>
+    <date>20240603</date>
+    <category lang="en">Home</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p379352_b_v8_bm.jpg" />
+    <episode-num system="xmltv_ns">23.47.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223140000 +0000" stop="20260223141000 +0000" channel="cbc.canada.cbut-dt">
+    <title lang="en">World Report</title>
+    <desc lang="en">What's going on in Canada and the world; a ten-minute dose of big news stories.</desc>
+    <date>20250302</date>
+    <category lang="en">News</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p29417925_b_v12_aa.jpg" />
     <video>
       <colour>yes</colour>
     </video>
     <new />
   </programme>
-  <programme start="20260216110000 +0000" stop="20260216170000 +0000" channel="cbc.canada.cbwt-dt">
-    <title lang="en">Milano Cortina Olympics 2026</title>
-    <sub-title lang="en">Morning</sub-title>
-    <desc lang="en">Various sports from Milano Cortina, Italy.</desc>
-    <category lang="en">Sports</category>
-    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p31372159_st_v8_ab.jpg" />
+  <programme start="20260223141000 +0000" stop="20260223150000 +0000" channel="cbc.canada.cbut-dt">
+    <title lang="en">The Early Edition</title>
+    <desc lang="en">The latest Vancouver news, traffic, culture and quirks.</desc>
+    <date>20150908</date>
+    <category lang="en">News</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p12053801_b_v8_aa.jpg" />
     <video>
       <colour>yes</colour>
     </video>
     <new />
   </programme>
-  <programme start="20260216170000 +0000" stop="20260216230000 +0000" channel="cbc.canada.cbwt-dt">
-    <title lang="en">Milano Cortina Olympics 2026</title>
-    <sub-title lang="en">Daytime</sub-title>
-    <desc lang="en">Various sports from Milano Cortina, Italy.</desc>
-    <category lang="en">Sports</category>
-    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p31372159_st_v8_ab.jpg" />
+  <programme start="20260223150000 +0000" stop="20260223150500 +0000" channel="cbc.canada.cbut-dt">
+    <title lang="en">Mini-Jon and Mini-Maple</title>
+    <sub-title lang="en">Chromatic Alert</sub-title>
+    <desc lang="en">Mini-Jon invents an intelligent paintbrush to repaint his room; it's very practical, except when Byzantine gets involved.</desc>
+    <date>20230804</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p25180614_b_v12_ab.jpg" />
+    <episode-num system="onscreen">103A</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+  </programme>
+  <programme start="20260223150500 +0000" stop="20260223151300 +0000" channel="cbc.canada.cbut-dt">
+    <title lang="en">Super Agent Jon Le Bon!</title>
+    <sub-title lang="en">Who Kidnapped Whitewash?</sub-title>
+    <desc lang="en">Whitewash tricks the agents by faking his own kidnapping.</desc>
+    <date>20210522</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p15621714_b_v12_ac.jpg" />
+    <episode-num system="onscreen">311</episode-num>
+    <episode-num system="xmltv_ns">2.10.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223151300 +0000" stop="20260223152600 +0000" channel="cbc.canada.cbut-dt">
+    <title lang="en">Kingdom Force</title>
+    <sub-title lang="en">Cat Me if You Can</sub-title>
+    <desc lang="en">Jabari's solo-mission is thwarted after Mittens McGuirk intervenes and accidently lets Gunter and Gustav steal Jabari's crystal cargo.</desc>
+    <credits>
+      <actor>Julie Sype</actor>
+      <actor>Tyler James Nathan</actor>
+    </credits>
+    <date>20200502</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p15558398_b_v8_ag.jpg" />
+    <episode-num system="xmltv_ns">0.15.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223152600 +0000" stop="20260223153000 +0000" channel="cbc.canada.cbut-dt">
+    <title lang="en">Super Why's Comic Book Adventures</title>
+    <sub-title lang="en">Outta Compound Words</sub-title>
+    <desc lang="en">Outta Space removes the space between the words doll and house, causing Power Paige to shrink and become trapped inside a dollhouse.</desc>
+    <date>20231018</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p29396543_b_v12_aa.jpg" />
+    <episode-num system="xmltv_ns">0.13.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223153000 +0000" stop="20260223154300 +0000" channel="cbc.canada.cbut-dt">
+    <title lang="en">Dino Ranch: Island Explorers</title>
+    <sub-title lang="en">Turtle Trouble</sub-title>
+    <desc lang="en">Jon and Miguel must protect some baby giant turtles while Min helps fix their mother's injured fin.</desc>
+    <date>20251227</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p31465068_b_v12_aa.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>C</value>
+    </rating>
+  </programme>
+  <programme start="20260223154300 +0000" stop="20260223155700 +0000" channel="cbc.canada.cbut-dt">
+    <title lang="en">PAW Patrol</title>
+    <sub-title lang="en">Pups Save a Farmerless Farm</sub-title>
+    <desc lang="en">With the farmers out of town, Mayor Goodway calls the PAW Patrol to wrangle animals and control the chaos on a farmerless farm.</desc>
+    <credits>
+      <actor>Jaxon Mercey</actor>
+      <actor>Justin Paul Kelly</actor>
+      <actor>Lukas Engel</actor>
+    </credits>
+    <date>20191113</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p10077400_b_v12_cj.jpg" />
+    <episode-num system="onscreen">617B</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>C</value>
+    </rating>
+  </programme>
+  <programme start="20260223155700 +0000" stop="20260223160800 +0000" channel="cbc.canada.cbut-dt">
+    <title lang="en">Hello Kitty: Super Style!</title>
+    <sub-title lang="en">Dbs Big Show</sub-title>
+    <desc lang="en">Pop Star Kitty helps DB realize that a truly inspired performance isn't doing what your audience wants, but doing what you love.</desc>
+    <credits>
+      <actor>Sarah Anne Williams</actor>
+      <actor>Lindsay Sheppard</actor>
+      <actor>Nicholas Andrew Louie</actor>
+    </credits>
+    <date>20230823</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p24422414_b_v8_ab.jpg" />
+    <episode-num system="xmltv_ns">6.2.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>8+</value>
+    </rating>
+  </programme>
+  <programme start="20260223160800 +0000" stop="20260223161300 +0000" channel="cbc.canada.cbut-dt">
+    <title lang="en">Jeremy and Jazzy</title>
+    <sub-title lang="en">Dale Dale Dale</sub-title>
+    <desc lang="en">Join Jeremy and Jazzy for a birthday celebration; who will open the pinata?</desc>
+    <credits>
+      <actor>Jeremy Fisher</actor>
+      <actor>Aiza Ntibarikure</actor>
+    </credits>
+    <date>20250918</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p22900364_b_v12_ad.jpg" />
+    <episode-num system="xmltv_ns">2.9.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223161300 +0000" stop="20260223162500 +0000" channel="cbc.canada.cbut-dt">
+    <title lang="en">Big Blue</title>
+    <sub-title lang="en">Revenge of the Sibs</sub-title>
+    <desc lang="en">Lemo meets a fellow scientist and they decide to work together on an entry for the United Current Science fair.</desc>
+    <credits>
+      <actor>Bahia Watson</actor>
+    </credits>
+    <date>20220606</date>
+    <category lang="en">Comedy</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p15558375_b_v11_ab.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>C</value>
+    </rating>
+  </programme>
+  <programme start="20260223162500 +0000" stop="20260223163700 +0000" channel="cbc.canada.cbut-dt">
+    <title lang="en">Rusty Rivets</title>
+    <sub-title lang="en">Rusty's Pendant Problem</sub-title>
+    <desc lang="en">Oliver needs Rusty and Ruby's help to find Ozzy's birthday gift before the party starts.</desc>
+    <credits>
+      <actor>Kyle Breitkopf</actor>
+      <actor>Ava Preston</actor>
+      <actor>Rob Tinkler</actor>
+    </credits>
+    <date>20200504</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p13000950_b_v12_ag.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>C</value>
+    </rating>
+  </programme>
+  <programme start="20260223163700 +0000" stop="20260223164500 +0000" channel="cbc.canada.cbut-dt">
+    <title lang="en">Super Agent Jon Le Bon!</title>
+    <sub-title lang="en">Choosing Your Side</sub-title>
+    <desc lang="en">Cassandra makes WXT an offer he can't refuse.</desc>
+    <date>20200530</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p15621714_b_v12_ac.jpg" />
+    <episode-num system="xmltv_ns">1.15.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223164500 +0000" stop="20260223164800 +0000" channel="cbc.canada.cbut-dt">
+    <title lang="en">Mini-Jon and Mini-Maple</title>
+    <sub-title lang="en">The Honoured Guest</sub-title>
+    <desc lang="en">Hear ye! Hear ye! Q, the guest of honor, makes his entrance into the mini-clones' room.</desc>
+    <date>20251211</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p25180614_b_v12_ab.jpg" />
+    <episode-num system="xmltv_ns">3.21.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>C</value>
+    </rating>
+  </programme>
+  <programme start="20260223164800 +0000" stop="20260223170000 +0000" channel="cbc.canada.cbut-dt">
+    <title lang="en">Let's Go, Bananas!</title>
+    <sub-title lang="en">Josh the Butterfly</sub-title>
+    <desc lang="en">It's time for the Jungle Towers Bug Parade and the kids are dressing as their favourite creepy crawlies. Josh wants to be a butterfly, but wonders if that's tough enough.</desc>
+    <date>20250201</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p27072704_b_v12_aa.jpg" />
+    <episode-num system="onscreen">122B</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223170000 +0000" stop="20260223171200 +0000" channel="cbc.canada.cbut-dt">
+    <title lang="en">Dylan's Playtime Adventures</title>
+    <sub-title lang="en">Dylan the Airplane Pilot</sub-title>
+    <desc lang="en">Dylan and his friends imagine he's an Airplane Pilot.</desc>
+    <date>20240410</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p26951457_b_v12_aa.jpg" />
+    <episode-num system="onscreen">104a</episode-num>
+    <episode-num system="xmltv_ns">0.3.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223171200 +0000" stop="20260223172400 +0000" channel="cbc.canada.cbut-dt">
+    <title lang="en">Hop</title>
+    <sub-title lang="en">Brand New Hop</sub-title>
+    <desc lang="en">With Penny away, Hop is overwhelmed running the diner so Filipa makes him a robot to help out.</desc>
+    <credits>
+      <actor>David Connolly</actor>
+    </credits>
+    <category lang="en">Comedy</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p26986672_b_v12_ab.jpg" />
+    <episode-num system="xmltv_ns">0.24.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223172400 +0000" stop="20260223173400 +0000" channel="cbc.canada.cbut-dt">
+    <title lang="en">Lu &amp; the Bally Bunch</title>
+    <sub-title lang="en">Bright Beetle Lu</sub-title>
+    <desc lang="en">Lu struggles to do all the things she wants to do in her new costume.</desc>
+    <credits>
+      <actor>Amy De Bhrún</actor>
+      <actor>Ross Breen</actor>
+      <actor>Jonathan Delaney Tynan</actor>
+    </credits>
+    <date>20231016</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p24332376_b_v12_ab.jpg" />
+    <episode-num system="xmltv_ns">0.65.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223173400 +0000" stop="20260223173900 +0000" channel="cbc.canada.cbut-dt">
+    <title lang="en">Go Togo</title>
+    <sub-title lang="en">Stella's Bad Day</sub-title>
+    <date>20260107</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p28003667_b_v12_ac.jpg" />
+    <episode-num system="xmltv_ns">1.22.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>C</value>
+    </rating>
+  </programme>
+  <programme start="20260223173900 +0000" stop="20260223175200 +0000" channel="cbc.canada.cbut-dt">
+    <title lang="en">Mighty Express</title>
+    <sub-title lang="en">Volcano Kablamo</sub-title>
+    <desc lang="en">Nate must deliver Jaden's science fair project, a confetti-erupting volcano, to the school for the science fair before it erupts.</desc>
+    <credits>
+      <actor>Jay Hatton</actor>
+      <actor>Zoe Hatz</actor>
+      <actor>Meesha Contreras</actor>
+    </credits>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p18698287_b_v12_am.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223175200 +0000" stop="20260223175600 +0000" channel="cbc.canada.cbut-dt">
+    <title lang="en">Mighty Express</title>
+    <sub-title lang="en">Penny's Summer Train-Cation</sub-title>
+    <desc lang="en">Penny has a blast in Tracks Ville during summer vacation.</desc>
+    <credits>
+      <actor>Jay Hatton</actor>
+      <actor>Zoe Hatz</actor>
+      <actor>Meesha Contreras</actor>
+    </credits>
+    <date>20220110</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p18698287_b_v12_am.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223175600 +0000" stop="20260223175800 +0000" channel="cbc.canada.cbut-dt">
+    <title lang="en">Playing With Stu</title>
+    <sub-title lang="en">Stu and the Wishes</sub-title>
+    <desc lang="en">Stu has trouble coming up with the best birthday wish.</desc>
+    <date>20250915</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p28044539_b_v12_aa.jpg" />
+    <episode-num system="xmltv_ns">1.5.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>C</value>
+    </rating>
+  </programme>
+  <programme start="20260223175800 +0000" stop="20260223180500 +0000" channel="cbc.canada.cbut-dt">
+    <title lang="en">Mittens &amp; Pants</title>
+    <sub-title lang="en">Petunia's Special Deliveries</sub-title>
+    <desc lang="en">Post Pig Petunia's birthday selfie keeps getting interrupted by strange special delivery alerts that she must attend to.</desc>
+    <date>20250724</date>
+    <category lang="en">Children</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p23923525_b_v12_ad.jpg" />
+    <episode-num system="xmltv_ns">2.28.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+  </programme>
+  <programme start="20260223180500 +0000" stop="20260223181700 +0000" channel="cbc.canada.cbut-dt">
+    <title lang="en">The Adventures of Paddington</title>
+    <sub-title lang="en">Paddinton's Knightly Quest</sub-title>
+    <desc lang="en">Paddington is on a mission to become a knight; he just needs to complete three heroic quests a day.</desc>
+    <credits>
+      <actor>Ben Whishaw</actor>
+      <actor>Morwenna Banks</actor>
+      <actor>Bobby Beynon</actor>
+    </credits>
+    <date>20231011</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p17645395_b_v12_bb.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>C</value>
+    </rating>
+  </programme>
+  <programme start="20260223181700 +0000" stop="20260223183000 +0000" channel="cbc.canada.cbut-dt">
+    <title lang="en">Gary's Magic Fort</title>
+    <sub-title lang="en">Ready, Set, Gary</sub-title>
+    <desc lang="en">Gary and Stuffy have a hard time waiting for Sir Cushington to pack for their beach trip; they learn that fun will come quicker with a helping hand.</desc>
+    <date>20230605</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p20565662_b_v12_ab.jpg" />
+    <episode-num system="xmltv_ns">2.3.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>C</value>
+    </rating>
+  </programme>
+  <programme start="20260223183000 +0000" stop="20260223184400 +0000" channel="cbc.canada.cbut-dt">
+    <title lang="en">Molly of Denali</title>
+    <sub-title lang="en">The Night Manager</sub-title>
+    <desc lang="en">Molly and Trini have trouble checking in the Sassy Ladies of Saskatoon when they arrive at the Trading Post a day early.</desc>
+    <credits>
+      <actor>Sovereign Bill</actor>
+      <actor>Sequoia Janvier</actor>
+      <actor>Lorne Cardinal</actor>
+    </credits>
+    <date>20191009</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p15558414_b_v12_ac.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>C8</value>
+    </rating>
+  </programme>
+  <programme start="20260223184400 +0000" stop="20260223184800 +0000" channel="cbc.canada.cbut-dt">
+    <title lang="en">Jeremy and Jazzy</title>
+    <sub-title lang="en">Garbage Truck</sub-title>
+    <desc lang="en">Jeremy, Jazzy, Guy, and Turtle dance to the rattle of the garbage truck as it keeps streets clean.</desc>
+    <date>20240912</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p22900364_b_v12_ad.jpg" />
+    <episode-num system="xmltv_ns">1.3.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223184800 +0000" stop="20260223190000 +0000" channel="cbc.canada.cbut-dt">
+    <title lang="en">Addison</title>
+    <sub-title lang="en">Mystery of the Reluctant Racer</sub-title>
+    <desc lang="en">An hour before the soap box race, Addison and Alex's car has mysteriously slowed down.</desc>
+    <credits>
+      <actor>Jayshia Watters</actor>
+      <actor>Nate White-Nogler</actor>
+      <actor>Alexis Milligan</actor>
+    </credits>
+    <date>20190705</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p14392515_b_v12_ae.jpg" />
+    <episode-num system="onscreen">206</episode-num>
+    <episode-num system="xmltv_ns">1.5.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>C</value>
+    </rating>
+  </programme>
+  <programme start="20260223190000 +0000" stop="20260223200000 +0000" channel="cbc.canada.cbut-dt">
+    <title lang="en">Heartland</title>
+    <sub-title lang="en">Strange Bedfellows</sub-title>
+    <desc lang="en">Amy is asked to work with Lisa's racehorse, but when information is brought to light about the horse's breeding, conflict arises.</desc>
+    <credits>
+      <actor>Amber Marshall</actor>
+      <actor>Graham Wardle</actor>
+      <actor>Michelle Morgan</actor>
+    </credits>
+    <date>20171105</date>
+    <category lang="en">Drama</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p185880_b_v12_bc.jpg" />
+    <episode-num system="onscreen">1006</episode-num>
+    <episode-num system="xmltv_ns">10.5.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>PG</value>
+    </rating>
+  </programme>
+  <programme start="20260223200000 +0000" stop="20260223210000 +0000" channel="cbc.canada.cbut-dt">
+    <title lang="en">BC Today</title>
+    <desc lang="en">The show where British Columbians connect on issues facing their lives and their community.</desc>
+    <date>20230721</date>
+    <category lang="en">Regular</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p25252457_st_v8_aa.jpg" />
     <video>
       <colour>yes</colour>
     </video>
     <new />
+    <rating>
+      <value>G</value>
+    </rating>
   </programme>
-  <programme start="20260216230000 +0000" stop="20260216233000 +0000" channel="cbc.canada.cbwt-dt">
-    <title lang="en">Still Standing</title>
-    <sub-title lang="en">Southport, MB</sub-title>
-    <desc lang="en">For 50 years, this tiny town was an air force base where thousands of pilots learned to fly; when the base closed, Southport transformed into a new kind of community.</desc>
-    <date>20231010</date>
-    <category lang="en">Reality TV</category>
-    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p11810367_b_v12_ab.jpg" />
-    <episode-num system="xmltv_ns">8.2.0/1</episode-num>
+  <programme start="20260223210000 +0000" stop="20260223220000 +0000" channel="cbc.canada.cbut-dt">
+    <title lang="en">Escape to the Country</title>
+    <sub-title lang="en">Caithness</sub-title>
+    <desc lang="en">Jules Hudson savours the spectacular scenery and splendid isolation on offer in Scotland's Caithness today as he helps a young family with a house-hunting budget of £270,000.</desc>
+    <credits>
+      <actor>Titus Ogilvy</actor>
+    </credits>
+    <date>20230919</date>
+    <category lang="en">Home</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p379352_b_v8_bm.jpg" />
+    <episode-num system="xmltv_ns">23.7.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223220000 +0000" stop="20260223223000 +0000" channel="cbc.canada.cbut-dt">
+    <title lang="en">Family Feud Canada</title>
+    <sub-title lang="en">Show Me… Your Colon?</sub-title>
+    <desc lang="en">The Castillo and Goodyear families face off for the chance to play Fast Money and win $10,000.</desc>
+    <date>20250220</date>
+    <category lang="en">Game Shows</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p16999225_b_v12_ad.jpg" />
+    <episode-num system="xmltv_ns">5.31.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223223000 +0000" stop="20260223230000 +0000" channel="cbc.canada.cbut-dt">
+    <title lang="en">Schitt's Creek</title>
+    <sub-title lang="en">Baby Sprinkle</sub-title>
+    <desc lang="en">Johnny and Moira get too involved at a singles event; Alexis runs into an old friend.</desc>
+    <credits>
+      <actor>Eugene Levy</actor>
+      <actor>Catherine O'Hara</actor>
+      <actor>Annie Murphy</actor>
+    </credits>
+    <date>20180327</date>
+    <category lang="en">Sitcom</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p11311723_b_v12_ak.jpg" />
+    <episode-num system="onscreen">SC49</episode-num>
+    <episode-num system="xmltv_ns">3.9.0/1</episode-num>
     <video>
       <colour>yes</colour>
     </video>
@@ -2496,24 +5143,25 @@
       <value>14+</value>
     </rating>
   </programme>
-  <programme start="20260216233000 +0000" stop="20260217000000 +0000" channel="cbc.canada.cbwt-dt">
-    <title lang="en">Coronation Street</title>
-    <desc lang="en">Leanne offers to buy Maggie's stake in the Rovers, and Will frets over Megan's health.</desc>
+  <programme start="20260223230000 +0000" stop="20260224000000 +0000" channel="cbc.canada.cbut-dt">
+    <title lang="en">Wild Cards</title>
+    <sub-title lang="en">Con in 60 Seconds</sub-title>
+    <desc lang="en">Begrudgingly, Ellis comes to terms with Max's betrayal knowing she risked it all to share info about his brother's killer; now assigned to a new case, they dive into a high-speed street racing ring.</desc>
     <credits>
-      <actor>Gareth Pierce</actor>
-      <actor>Harriet Bibby</actor>
-      <actor>Antony Cotton</actor>
+      <actor>Giacomo Gianniotti</actor>
+      <actor>Vanessa Morgan</actor>
+      <actor>Karin Konoval</actor>
     </credits>
-    <date>20260116</date>
-    <category lang="en">Soaps</category>
-    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p183997_b_v7_aa.jpg" />
-    <episode-num system="onscreen">11777</episode-num>
+    <date>20250205</date>
+    <category lang="en">Drama</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p25877512_b_v12_aj.jpg" />
+    <episode-num system="onscreen">201</episode-num>
+    <episode-num system="xmltv_ns">1.0.0/1</episode-num>
     <video>
       <colour>yes</colour>
     </video>
-    <new />
     <rating>
-      <value>PG</value>
+      <value>14+</value>
     </rating>
   </programme>
   <programme start="20260217000000 +0000" stop="20260217040000 +0000" channel="cbc.canada.cbwt-dt">
@@ -3056,5 +5704,779 @@
       <colour>yes</colour>
     </video>
     <new />
+  </programme>
+  <programme start="20260223000000 +0000" stop="20260223030000 +0000" channel="cbc.canada.cbwt-dt">
+    <title lang="en">Milano Cortina Olympics 2026</title>
+    <sub-title lang="en">Closing Ceremony</sub-title>
+    <desc lang="en">From Verona Olympic Arena in Verona, Italy.</desc>
+    <category lang="en">Sports</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p31372159_st_v8_ab.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <previously-shown />
+  </programme>
+  <programme start="20260223030000 +0000" stop="20260223040000 +0000" channel="cbc.canada.cbwt-dt">
+    <title lang="en">CBC Winnipeg Comedy Festival</title>
+    <sub-title lang="en">Strange Days</sub-title>
+    <desc lang="en">Hosted by Ali Hassan; performances from Peter White, Salma Hindy, Damonde Tschritter, Nick Beaton, Lara Rae, and Rob Pue.</desc>
+    <date>20220708</date>
+    <category lang="en">Comedy</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p216050_b_v12_ad.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>PG</value>
+    </rating>
+  </programme>
+  <programme start="20260223040000 +0000" stop="20260223050000 +0000" channel="cbc.canada.cbwt-dt">
+    <title lang="en">The National</title>
+    <desc lang="en">CBC's flagship nightly news program, featuring the day's top stories with in-depth and original journalism; Adrienne Arsenault and Ian Hanomansing anchor.</desc>
+    <category lang="en">News</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p191966_b_v12_aa.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <new />
+  </programme>
+  <programme start="20260223050000 +0000" stop="20260223053000 +0000" channel="cbc.canada.cbwt-dt">
+    <title lang="en">Kim's Convenience</title>
+    <sub-title lang="en">Cutie Pie</sub-title>
+    <desc lang="en">Appa tries to convince Umma that he's still attractive; Jung returns to Handy; Gerald's girlfriend makes herself at home.</desc>
+    <credits>
+      <actor>Paul Sun-hyung Lee</actor>
+      <actor>Jean Yoon</actor>
+      <actor>Simu Liu</actor>
+    </credits>
+    <date>20190115</date>
+    <category lang="en">Sitcom</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p13224572_b_v12_ad.jpg" />
+    <episode-num system="onscreen">302</episode-num>
+    <episode-num system="xmltv_ns">2.1.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>14+</value>
+    </rating>
+  </programme>
+  <programme start="20260223053000 +0000" stop="20260223060000 +0000" channel="cbc.canada.cbwt-dt">
+    <title lang="en">About That</title>
+    <sub-title lang="en">Washington Retribution; AI Bubble</sub-title>
+    <desc lang="en">Andrew Chang breaks down Trump's accusations after the shooting of two National Guard members near the White House; plus, if the AI bubble pops, will the whole U.S. economy go with it?</desc>
+    <category lang="en">News</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p23373001_b_v12_ab.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223060000 +0000" stop="20260223070000 +0000" channel="cbc.canada.cbwt-dt">
+    <title lang="en">CBC Docs POV</title>
+    <sub-title lang="en">The Internet of Everything</sub-title>
+    <desc lang="en">A disillusioned early adopter and Internet evangelist feels a sense of responsibility to engage the problems the Internet has created and wants to see where things went wrong.</desc>
+    <category lang="en">Documentary</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p14647819_b_v7_aa.jpg" />
+    <episode-num system="xmltv_ns">2.9.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+  </programme>
+  <programme start="20260223070000 +0000" stop="20260223080000 +0000" channel="cbc.canada.cbwt-dt">
+    <title lang="en">The Nature of Things</title>
+    <sub-title lang="en">Nature's Cleanup Crew</sub-title>
+    <desc lang="en">An introduction to the unsung animal heroes who clean up messes in the urban spaces they share with humans.</desc>
+    <date>20200131</date>
+    <category lang="en">Documentary</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p185885_b_v12_ah.jpg" />
+    <episode-num system="xmltv_ns">58.11.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>PG</value>
+    </rating>
+  </programme>
+  <programme start="20260223080000 +0000" stop="20260223090000 +0000" channel="cbc.canada.cbwt-dt">
+    <title lang="en">The Nature of Things</title>
+    <sub-title lang="en">The Secrets of Friendship</sub-title>
+    <desc lang="en">Following the friendship detectives who are unraveling the mysteries of social behaviors in humans and other animals.</desc>
+    <date>20230324</date>
+    <category lang="en">Documentary</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p185885_b_v12_ah.jpg" />
+    <episode-num system="xmltv_ns">61.10.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>PG</value>
+    </rating>
+  </programme>
+  <programme start="20260223090000 +0000" stop="20260223100000 +0000" channel="cbc.canada.cbwt-dt">
+    <title lang="en">Heartland</title>
+    <sub-title lang="en">In the Cards</sub-title>
+    <desc lang="en">Peter's announcement throws Lou's wedding plans into disarray; Amy and Ty are forced to make a difficult decisions about their future.</desc>
+    <credits>
+      <actor>Amber Marshall</actor>
+      <actor>Chris Potter</actor>
+      <actor>Michelle Morgan</actor>
+    </credits>
+    <date>20100328</date>
+    <category lang="en">Drama</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p185880_b_v12_bc.jpg" />
+    <episode-num system="onscreen">318</episode-num>
+    <episode-num system="xmltv_ns">2.17.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>PG</value>
+    </rating>
+  </programme>
+  <programme start="20260223100000 +0000" stop="20260223110000 +0000" channel="cbc.canada.cbwt-dt">
+    <title lang="en">Escape to the Country</title>
+    <sub-title lang="en">The Cotswolds</sub-title>
+    <desc lang="en">Alistair Appleton is on a property-hunting mission to the beautiful Cotswolds, with a couple who want a location with dog walks on the doorstep, as well as decent dining options for date nights.</desc>
+    <date>20240528</date>
+    <category lang="en">Home</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p379352_b_v8_bm.jpg" />
+    <episode-num system="xmltv_ns">23.46.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223110000 +0000" stop="20260223120000 +0000" channel="cbc.canada.cbwt-dt">
+    <title lang="en">Escape to the Country</title>
+    <sub-title lang="en">East Midlands</sub-title>
+    <desc lang="en">A young couple want to swap their London flat for something bigger in the East Midlands, where Nicki Chapman opens the front doors to a lovely selection of homes with lovely gardens.</desc>
+    <date>20240603</date>
+    <category lang="en">Home</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p379352_b_v8_bm.jpg" />
+    <episode-num system="xmltv_ns">23.47.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223120000 +0000" stop="20260223121000 +0000" channel="cbc.canada.cbwt-dt">
+    <title lang="en">World Report</title>
+    <desc lang="en">What's going on in Canada and the world; a ten-minute dose of big news stories.</desc>
+    <date>20250302</date>
+    <category lang="en">News</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p29417925_b_v12_aa.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <new />
+  </programme>
+  <programme start="20260223121000 +0000" stop="20260223130000 +0000" channel="cbc.canada.cbwt-dt">
+    <title lang="en">Information Radio</title>
+    <desc lang="en">Stories from Manitoba as well as current news, sports, traffic, business and more.</desc>
+    <date>20150908</date>
+    <category lang="en">News</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p12048200_b_v8_aa.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <new />
+  </programme>
+  <programme start="20260223130000 +0000" stop="20260223130500 +0000" channel="cbc.canada.cbwt-dt">
+    <title lang="en">Mini-Jon and Mini-Maple</title>
+    <sub-title lang="en">Chromatic Alert</sub-title>
+    <desc lang="en">Mini-Jon invents an intelligent paintbrush to repaint his room; it's very practical, except when Byzantine gets involved.</desc>
+    <date>20230804</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p25180614_b_v12_ab.jpg" />
+    <episode-num system="onscreen">103A</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+  </programme>
+  <programme start="20260223130500 +0000" stop="20260223131300 +0000" channel="cbc.canada.cbwt-dt">
+    <title lang="en">Super Agent Jon Le Bon!</title>
+    <sub-title lang="en">Who Kidnapped Whitewash?</sub-title>
+    <desc lang="en">Whitewash tricks the agents by faking his own kidnapping.</desc>
+    <date>20210522</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p15621714_b_v12_ac.jpg" />
+    <episode-num system="onscreen">311</episode-num>
+    <episode-num system="xmltv_ns">2.10.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223131300 +0000" stop="20260223132600 +0000" channel="cbc.canada.cbwt-dt">
+    <title lang="en">Kingdom Force</title>
+    <sub-title lang="en">Cat Me if You Can</sub-title>
+    <desc lang="en">Jabari's solo-mission is thwarted after Mittens McGuirk intervenes and accidently lets Gunter and Gustav steal Jabari's crystal cargo.</desc>
+    <credits>
+      <actor>Julie Sype</actor>
+      <actor>Tyler James Nathan</actor>
+    </credits>
+    <date>20200502</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p15558398_b_v8_ag.jpg" />
+    <episode-num system="xmltv_ns">0.15.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223132600 +0000" stop="20260223133000 +0000" channel="cbc.canada.cbwt-dt">
+    <title lang="en">Super Why's Comic Book Adventures</title>
+    <sub-title lang="en">Outta Compound Words</sub-title>
+    <desc lang="en">Outta Space removes the space between the words doll and house, causing Power Paige to shrink and become trapped inside a dollhouse.</desc>
+    <date>20231018</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p29396543_b_v12_aa.jpg" />
+    <episode-num system="xmltv_ns">0.13.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223133000 +0000" stop="20260223134300 +0000" channel="cbc.canada.cbwt-dt">
+    <title lang="en">Dino Ranch: Island Explorers</title>
+    <sub-title lang="en">Turtle Trouble</sub-title>
+    <desc lang="en">Jon and Miguel must protect some baby giant turtles while Min helps fix their mother's injured fin.</desc>
+    <date>20251227</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p31465068_b_v12_aa.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>C</value>
+    </rating>
+  </programme>
+  <programme start="20260223134300 +0000" stop="20260223135700 +0000" channel="cbc.canada.cbwt-dt">
+    <title lang="en">PAW Patrol</title>
+    <sub-title lang="en">Pups Save a Farmerless Farm</sub-title>
+    <desc lang="en">With the farmers out of town, Mayor Goodway calls the PAW Patrol to wrangle animals and control the chaos on a farmerless farm.</desc>
+    <credits>
+      <actor>Jaxon Mercey</actor>
+      <actor>Justin Paul Kelly</actor>
+      <actor>Lukas Engel</actor>
+    </credits>
+    <date>20191113</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p10077400_b_v12_cj.jpg" />
+    <episode-num system="onscreen">617B</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>C</value>
+    </rating>
+  </programme>
+  <programme start="20260223135700 +0000" stop="20260223140800 +0000" channel="cbc.canada.cbwt-dt">
+    <title lang="en">Hello Kitty: Super Style!</title>
+    <sub-title lang="en">Dbs Big Show</sub-title>
+    <desc lang="en">Pop Star Kitty helps DB realize that a truly inspired performance isn't doing what your audience wants, but doing what you love.</desc>
+    <credits>
+      <actor>Sarah Anne Williams</actor>
+      <actor>Lindsay Sheppard</actor>
+      <actor>Nicholas Andrew Louie</actor>
+    </credits>
+    <date>20230823</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p24422414_b_v8_ab.jpg" />
+    <episode-num system="xmltv_ns">6.2.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>8+</value>
+    </rating>
+  </programme>
+  <programme start="20260223140800 +0000" stop="20260223141300 +0000" channel="cbc.canada.cbwt-dt">
+    <title lang="en">Jeremy and Jazzy</title>
+    <sub-title lang="en">Dale Dale Dale</sub-title>
+    <desc lang="en">Join Jeremy and Jazzy for a birthday celebration; who will open the pinata?</desc>
+    <credits>
+      <actor>Jeremy Fisher</actor>
+      <actor>Aiza Ntibarikure</actor>
+    </credits>
+    <date>20250918</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p22900364_b_v12_ad.jpg" />
+    <episode-num system="xmltv_ns">2.9.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223141300 +0000" stop="20260223142500 +0000" channel="cbc.canada.cbwt-dt">
+    <title lang="en">Big Blue</title>
+    <sub-title lang="en">Revenge of the Sibs</sub-title>
+    <desc lang="en">Lemo meets a fellow scientist and they decide to work together on an entry for the United Current Science fair.</desc>
+    <credits>
+      <actor>Bahia Watson</actor>
+    </credits>
+    <date>20220606</date>
+    <category lang="en">Comedy</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p15558375_b_v11_ab.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>C</value>
+    </rating>
+  </programme>
+  <programme start="20260223142500 +0000" stop="20260223143700 +0000" channel="cbc.canada.cbwt-dt">
+    <title lang="en">Rusty Rivets</title>
+    <sub-title lang="en">Rusty's Pendant Problem</sub-title>
+    <desc lang="en">Oliver needs Rusty and Ruby's help to find Ozzy's birthday gift before the party starts.</desc>
+    <credits>
+      <actor>Kyle Breitkopf</actor>
+      <actor>Ava Preston</actor>
+      <actor>Rob Tinkler</actor>
+    </credits>
+    <date>20200504</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p13000950_b_v12_ag.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>C</value>
+    </rating>
+  </programme>
+  <programme start="20260223143700 +0000" stop="20260223144500 +0000" channel="cbc.canada.cbwt-dt">
+    <title lang="en">Super Agent Jon Le Bon!</title>
+    <sub-title lang="en">Choosing Your Side</sub-title>
+    <desc lang="en">Cassandra makes WXT an offer he can't refuse.</desc>
+    <date>20200530</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p15621714_b_v12_ac.jpg" />
+    <episode-num system="xmltv_ns">1.15.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223144500 +0000" stop="20260223144800 +0000" channel="cbc.canada.cbwt-dt">
+    <title lang="en">Mini-Jon and Mini-Maple</title>
+    <sub-title lang="en">The Honoured Guest</sub-title>
+    <desc lang="en">Hear ye! Hear ye! Q, the guest of honor, makes his entrance into the mini-clones' room.</desc>
+    <date>20251211</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p25180614_b_v12_ab.jpg" />
+    <episode-num system="xmltv_ns">3.21.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>C</value>
+    </rating>
+  </programme>
+  <programme start="20260223144800 +0000" stop="20260223150000 +0000" channel="cbc.canada.cbwt-dt">
+    <title lang="en">Let's Go, Bananas!</title>
+    <sub-title lang="en">Josh the Butterfly</sub-title>
+    <desc lang="en">It's time for the Jungle Towers Bug Parade and the kids are dressing as their favourite creepy crawlies. Josh wants to be a butterfly, but wonders if that's tough enough.</desc>
+    <date>20250201</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p27072704_b_v12_aa.jpg" />
+    <episode-num system="onscreen">122B</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223150000 +0000" stop="20260223151200 +0000" channel="cbc.canada.cbwt-dt">
+    <title lang="en">Dylan's Playtime Adventures</title>
+    <sub-title lang="en">Dylan the Airplane Pilot</sub-title>
+    <desc lang="en">Dylan and his friends imagine he's an Airplane Pilot.</desc>
+    <date>20240410</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p26951457_b_v12_aa.jpg" />
+    <episode-num system="onscreen">104a</episode-num>
+    <episode-num system="xmltv_ns">0.3.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223151200 +0000" stop="20260223152400 +0000" channel="cbc.canada.cbwt-dt">
+    <title lang="en">Hop</title>
+    <sub-title lang="en">Brand New Hop</sub-title>
+    <desc lang="en">With Penny away, Hop is overwhelmed running the diner so Filipa makes him a robot to help out.</desc>
+    <credits>
+      <actor>David Connolly</actor>
+    </credits>
+    <category lang="en">Comedy</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p26986672_b_v12_ab.jpg" />
+    <episode-num system="xmltv_ns">0.24.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223152400 +0000" stop="20260223153400 +0000" channel="cbc.canada.cbwt-dt">
+    <title lang="en">Lu &amp; the Bally Bunch</title>
+    <sub-title lang="en">Bright Beetle Lu</sub-title>
+    <desc lang="en">Lu struggles to do all the things she wants to do in her new costume.</desc>
+    <credits>
+      <actor>Amy De Bhrún</actor>
+      <actor>Ross Breen</actor>
+      <actor>Jonathan Delaney Tynan</actor>
+    </credits>
+    <date>20231016</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p24332376_b_v12_ab.jpg" />
+    <episode-num system="xmltv_ns">0.65.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223153400 +0000" stop="20260223153900 +0000" channel="cbc.canada.cbwt-dt">
+    <title lang="en">Go Togo</title>
+    <sub-title lang="en">Stella's Bad Day</sub-title>
+    <date>20260107</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p28003667_b_v12_ac.jpg" />
+    <episode-num system="xmltv_ns">1.22.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>C</value>
+    </rating>
+  </programme>
+  <programme start="20260223153900 +0000" stop="20260223155200 +0000" channel="cbc.canada.cbwt-dt">
+    <title lang="en">Mighty Express</title>
+    <sub-title lang="en">Volcano Kablamo</sub-title>
+    <desc lang="en">Nate must deliver Jaden's science fair project, a confetti-erupting volcano, to the school for the science fair before it erupts.</desc>
+    <credits>
+      <actor>Jay Hatton</actor>
+      <actor>Zoe Hatz</actor>
+      <actor>Meesha Contreras</actor>
+    </credits>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p18698287_b_v12_am.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223155200 +0000" stop="20260223155600 +0000" channel="cbc.canada.cbwt-dt">
+    <title lang="en">Mighty Express</title>
+    <sub-title lang="en">Penny's Summer Train-Cation</sub-title>
+    <desc lang="en">Penny has a blast in Tracks Ville during summer vacation.</desc>
+    <credits>
+      <actor>Jay Hatton</actor>
+      <actor>Zoe Hatz</actor>
+      <actor>Meesha Contreras</actor>
+    </credits>
+    <date>20220110</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p18698287_b_v12_am.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223155600 +0000" stop="20260223155800 +0000" channel="cbc.canada.cbwt-dt">
+    <title lang="en">Playing With Stu</title>
+    <sub-title lang="en">Stu and the Wishes</sub-title>
+    <desc lang="en">Stu has trouble coming up with the best birthday wish.</desc>
+    <date>20250915</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p28044539_b_v12_aa.jpg" />
+    <episode-num system="xmltv_ns">1.5.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>C</value>
+    </rating>
+  </programme>
+  <programme start="20260223155800 +0000" stop="20260223160500 +0000" channel="cbc.canada.cbwt-dt">
+    <title lang="en">Mittens &amp; Pants</title>
+    <sub-title lang="en">Petunia's Special Deliveries</sub-title>
+    <desc lang="en">Post Pig Petunia's birthday selfie keeps getting interrupted by strange special delivery alerts that she must attend to.</desc>
+    <date>20250724</date>
+    <category lang="en">Children</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p23923525_b_v12_ad.jpg" />
+    <episode-num system="xmltv_ns">2.28.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+  </programme>
+  <programme start="20260223160500 +0000" stop="20260223161700 +0000" channel="cbc.canada.cbwt-dt">
+    <title lang="en">The Adventures of Paddington</title>
+    <sub-title lang="en">Paddinton's Knightly Quest</sub-title>
+    <desc lang="en">Paddington is on a mission to become a knight; he just needs to complete three heroic quests a day.</desc>
+    <credits>
+      <actor>Ben Whishaw</actor>
+      <actor>Morwenna Banks</actor>
+      <actor>Bobby Beynon</actor>
+    </credits>
+    <date>20231011</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p17645395_b_v12_bb.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>C</value>
+    </rating>
+  </programme>
+  <programme start="20260223161700 +0000" stop="20260223163000 +0000" channel="cbc.canada.cbwt-dt">
+    <title lang="en">Gary's Magic Fort</title>
+    <sub-title lang="en">Ready, Set, Gary</sub-title>
+    <desc lang="en">Gary and Stuffy have a hard time waiting for Sir Cushington to pack for their beach trip; they learn that fun will come quicker with a helping hand.</desc>
+    <date>20230605</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p20565662_b_v12_ab.jpg" />
+    <episode-num system="xmltv_ns">2.3.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>C</value>
+    </rating>
+  </programme>
+  <programme start="20260223163000 +0000" stop="20260223164400 +0000" channel="cbc.canada.cbwt-dt">
+    <title lang="en">Molly of Denali</title>
+    <sub-title lang="en">The Night Manager</sub-title>
+    <desc lang="en">Molly and Trini have trouble checking in the Sassy Ladies of Saskatoon when they arrive at the Trading Post a day early.</desc>
+    <credits>
+      <actor>Sovereign Bill</actor>
+      <actor>Sequoia Janvier</actor>
+      <actor>Lorne Cardinal</actor>
+    </credits>
+    <date>20191009</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p15558414_b_v12_ac.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>C8</value>
+    </rating>
+  </programme>
+  <programme start="20260223164400 +0000" stop="20260223164800 +0000" channel="cbc.canada.cbwt-dt">
+    <title lang="en">Jeremy and Jazzy</title>
+    <sub-title lang="en">Garbage Truck</sub-title>
+    <desc lang="en">Jeremy, Jazzy, Guy, and Turtle dance to the rattle of the garbage truck as it keeps streets clean.</desc>
+    <date>20240912</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p22900364_b_v12_ad.jpg" />
+    <episode-num system="xmltv_ns">1.3.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223164800 +0000" stop="20260223170000 +0000" channel="cbc.canada.cbwt-dt">
+    <title lang="en">Addison</title>
+    <sub-title lang="en">Mystery of the Reluctant Racer</sub-title>
+    <desc lang="en">An hour before the soap box race, Addison and Alex's car has mysteriously slowed down.</desc>
+    <credits>
+      <actor>Jayshia Watters</actor>
+      <actor>Nate White-Nogler</actor>
+      <actor>Alexis Milligan</actor>
+    </credits>
+    <date>20190705</date>
+    <category lang="en">Animated</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p14392515_b_v12_ae.jpg" />
+    <episode-num system="onscreen">206</episode-num>
+    <episode-num system="xmltv_ns">1.5.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>C</value>
+    </rating>
+  </programme>
+  <programme start="20260223170000 +0000" stop="20260223180000 +0000" channel="cbc.canada.cbwt-dt">
+    <title lang="en">Heartland</title>
+    <sub-title lang="en">Strange Bedfellows</sub-title>
+    <desc lang="en">Amy is asked to work with Lisa's racehorse, but when information is brought to light about the horse's breeding, conflict arises.</desc>
+    <credits>
+      <actor>Amber Marshall</actor>
+      <actor>Graham Wardle</actor>
+      <actor>Michelle Morgan</actor>
+    </credits>
+    <date>20171105</date>
+    <category lang="en">Drama</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p185880_b_v12_bc.jpg" />
+    <episode-num system="onscreen">1006</episode-num>
+    <episode-num system="xmltv_ns">10.5.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>PG</value>
+    </rating>
+  </programme>
+  <programme start="20260223180000 +0000" stop="20260223190000 +0000" channel="cbc.canada.cbwt-dt">
+    <title lang="en">CBC Newsroom</title>
+    <desc lang="en">News program bringing Canadians breaking news and live coverage from across Canada and around the world.</desc>
+    <date>20170911</date>
+    <category lang="en">News</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p14555206_b_v12_af.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+  </programme>
+  <programme start="20260223190000 +0000" stop="20260223200000 +0000" channel="cbc.canada.cbwt-dt">
+    <title lang="en">Escape to the Country</title>
+    <sub-title lang="en">Caithness</sub-title>
+    <desc lang="en">Jules Hudson savours the spectacular scenery and splendid isolation on offer in Scotland's Caithness today as he helps a young family with a house-hunting budget of £270,000.</desc>
+    <credits>
+      <actor>Titus Ogilvy</actor>
+    </credits>
+    <date>20230919</date>
+    <category lang="en">Home</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p379352_b_v8_bm.jpg" />
+    <episode-num system="xmltv_ns">23.7.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223200000 +0000" stop="20260223203000 +0000" channel="cbc.canada.cbwt-dt">
+    <title lang="en">Family Feud Canada</title>
+    <sub-title lang="en">Show Me… Your Colon?</sub-title>
+    <desc lang="en">The Castillo and Goodyear families face off for the chance to play Fast Money and win $10,000.</desc>
+    <date>20250220</date>
+    <category lang="en">Game Shows</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p16999225_b_v12_ad.jpg" />
+    <episode-num system="xmltv_ns">5.31.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>G</value>
+    </rating>
+  </programme>
+  <programme start="20260223203000 +0000" stop="20260223210000 +0000" channel="cbc.canada.cbwt-dt">
+    <title lang="en">Schitt's Creek</title>
+    <sub-title lang="en">Baby Sprinkle</sub-title>
+    <desc lang="en">Johnny and Moira get too involved at a singles event; Alexis runs into an old friend.</desc>
+    <credits>
+      <actor>Eugene Levy</actor>
+      <actor>Catherine O'Hara</actor>
+      <actor>Annie Murphy</actor>
+    </credits>
+    <date>20180327</date>
+    <category lang="en">Sitcom</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p11311723_b_v12_ak.jpg" />
+    <episode-num system="onscreen">SC49</episode-num>
+    <episode-num system="xmltv_ns">3.9.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>14+</value>
+    </rating>
+  </programme>
+  <programme start="20260223210000 +0000" stop="20260223220000 +0000" channel="cbc.canada.cbwt-dt">
+    <title lang="en">Wild Cards</title>
+    <sub-title lang="en">Con in 60 Seconds</sub-title>
+    <desc lang="en">Begrudgingly, Ellis comes to terms with Max's betrayal knowing she risked it all to share info about his brother's killer; now assigned to a new case, they dive into a high-speed street racing ring.</desc>
+    <credits>
+      <actor>Giacomo Gianniotti</actor>
+      <actor>Vanessa Morgan</actor>
+      <actor>Karin Konoval</actor>
+    </credits>
+    <date>20250205</date>
+    <category lang="en">Drama</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p25877512_b_v12_aj.jpg" />
+    <episode-num system="onscreen">201</episode-num>
+    <episode-num system="xmltv_ns">1.0.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>14+</value>
+    </rating>
+  </programme>
+  <programme start="20260223220000 +0000" stop="20260223230000 +0000" channel="cbc.canada.cbwt-dt">
+    <title lang="en">Call the Midwife</title>
+    <sub-title lang="en">Christmas Special 2022: Part 1</sub-title>
+    <desc lang="en">Poplar is returning to normal after the train crash; the midwives move the clinic into new premises; one patient is Rhoda Mullocks, who the team know after her last baby was affected by Thalidomide.</desc>
+    <credits>
+      <actor>Jenny Agutter</actor>
+      <actor>Linda Bassett</actor>
+      <actor>Judy Parfitt</actor>
+    </credits>
+    <date>20221225</date>
+    <category lang="en">Drama</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p9025596_b_v8_cq.jpg" />
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>14+</value>
+    </rating>
+  </programme>
+  <programme start="20260223230000 +0000" stop="20260223233000 +0000" channel="cbc.canada.cbwt-dt">
+    <title lang="en">Jamie: Keep Cooking and Carry On</title>
+    <sub-title lang="en">Episode 13</sub-title>
+    <desc lang="en">Jamie Oliver shows some incredible recipes, tips and hacks tailored for the unique times, including cheese-topped burgers, super spinach pancakes and a one-pan fish.</desc>
+    <date>20200408</date>
+    <category lang="en">Food</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p18116257_b_v11_ad.jpg" />
+    <episode-num system="xmltv_ns">0.12.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>PG</value>
+    </rating>
+  </programme>
+  <programme start="20260223233000 +0000" stop="20260224000000 +0000" channel="cbc.canada.cbwt-dt">
+    <title lang="en">Jamie: Keep Cooking and Carry On</title>
+    <sub-title lang="en">Episode 14</sub-title>
+    <desc lang="en">Jamie Oliver demonstrates recipes for home-made pasta shapes, chicken fajitas and a one-pan sausage and apple bake.</desc>
+    <date>20200409</date>
+    <category lang="en">Food</category>
+    <icon src="http://cdn.tvpassport.com/image/show/960x540/v2/p18116257_b_v11_ad.jpg" />
+    <episode-num system="xmltv_ns">0.13.0/1</episode-num>
+    <video>
+      <colour>yes</colour>
+    </video>
+    <rating>
+      <value>PG</value>
+    </rating>
   </programme>
 </tv>
