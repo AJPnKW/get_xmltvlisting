@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tv SYSTEM "xmltv.dtd">
-<tv date="02/17/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
+<tv date="02/18/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
   <channel id="1766.stations.xmltv.tvmedia.ca">
     <display-name>CBS (WCBS) New York, NY</display-name>
     <display-name>WCBS-TV</display-name>
@@ -844,7 +844,7 @@
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s55578_h15_ab.png"/>
   </channel>
   <channel id="11077.stations.xmltv.tvmedia.ca">
-    <display-name>ION Mystery (WPXN-TV3) New York, NY</display-name>
+    <display-name>Grit (WPXN-TV3) New York, NY</display-name>
     <display-name>WPXN-TV3</display-name>
     <display-name>492</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/55285-1AFEA.png"/>
