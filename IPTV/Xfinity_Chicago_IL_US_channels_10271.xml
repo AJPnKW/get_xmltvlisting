@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tv SYSTEM "xmltv.dtd">
-<tv date="03/01/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
+<tv date="03/02/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
   <channel id="1830.stations.xmltv.tvmedia.ca">
     <display-name>CBS (WBBM) Chicago, IL</display-name>
     <display-name>WBBM-TV</display-name>
@@ -673,7 +673,7 @@
     <display-name>MSNOW-HD</display-name>
     <display-name>317</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/64241-1F5E2.png"/>
-    <url>www.msnbc.com</url>
+    <url>https://www.ms.now/</url>
   </channel>
   <channel id="7300.stations.xmltv.tvmedia.ca">
     <display-name>VICE HD</display-name>
@@ -1082,7 +1082,7 @@
     <display-name>MSNOW-HD</display-name>
     <display-name>1113</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/64241-1F5E2.png"/>
-    <url>www.msnbc.com</url>
+    <url>https://www.ms.now/</url>
   </channel>
   <channel id="10294.stations.xmltv.tvmedia.ca">
     <display-name>BBC News - North America HD</display-name>
@@ -1709,7 +1709,7 @@
     <display-name>MSNOW-HD</display-name>
     <display-name>20900</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/64241-1F5E2.png"/>
-    <url>www.msnbc.com</url>
+    <url>https://www.ms.now/</url>
   </channel>
   <channel id="527.stations.xmltv.tvmedia.ca">
     <display-name>BBC News - North America</display-name>
