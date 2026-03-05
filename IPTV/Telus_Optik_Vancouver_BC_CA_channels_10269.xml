@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tv SYSTEM "xmltv.dtd">
-<tv date="03/04/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
+<tv date="03/05/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
   <channel id="6257.stations.xmltv.tvmedia.ca">
     <display-name>CBC (CBUT) Vancouver, BC HD</display-name>
     <display-name>CBUT-HD</display-name>
@@ -175,6 +175,7 @@
     <display-name>MNT (WWOR) New York, NY HD</display-name>
     <display-name>WWOR-HD</display-name>
     <display-name>275</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/11760-5BE0.png"/>
     <url>www.upn9.com</url>
   </channel>
   <channel id="8458.stations.xmltv.tvmedia.ca">
@@ -298,6 +299,12 @@
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s80176_h15_ac.png"/>
     <url>www.cmtcanada.com</url>
   </channel>
+  <channel id="9189.stations.xmltv.tvmedia.ca">
+    <display-name>Family Jr. HD</display-name>
+    <display-name>FAMJR-HD</display-name>
+    <display-name>603</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s80695_h15_aa.png"/>
+  </channel>
   <channel id="16832.stations.xmltv.tvmedia.ca">
     <display-name>Disney Channel Canada HD - West</display-name>
     <display-name>DISNW-HD</display-name>
@@ -309,6 +316,18 @@
     <display-name>DISNC-HD</display-name>
     <display-name>607</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s96507_h15_ab.png"/>
+  </channel>
+  <channel id="31992.stations.xmltv.tvmedia.ca">
+    <display-name>WildBrainTV West</display-name>
+    <display-name>WILDB-W</display-name>
+    <display-name>618</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s72093_h9_ab.png"/>
+  </channel>
+  <channel id="10240.stations.xmltv.tvmedia.ca">
+    <display-name>WildBrainTV HD</display-name>
+    <display-name>WILDB-HD</display-name>
+    <display-name>619</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s72270_h9_ab.png"/>
   </channel>
   <channel id="10332.stations.xmltv.tvmedia.ca">
     <display-name>Cartoon Network Canada - West HD</display-name>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tv SYSTEM "xmltv.dtd">
-<tv date="03/04/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
+<tv date="03/05/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
   <channel id="13887.stations.xmltv.tvmedia.ca">
     <display-name>TVO (CICA-DT) Toronto, ON</display-name>
     <display-name>CICA-DT</display-name>
@@ -293,12 +293,24 @@
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s90948_h9_aa.png"/>
     <url>www.fxnowcanada.ca/</url>
   </channel>
+  <channel id="10176.stations.xmltv.tvmedia.ca">
+    <display-name>WildBrainTV</display-name>
+    <display-name>WILDB</display-name>
+    <display-name>66</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s72093_h9_ab.png"/>
+  </channel>
   <channel id="11011.stations.xmltv.tvmedia.ca">
     <display-name>National Geographic Wild Canada</display-name>
     <display-name>NGWILD</display-name>
     <display-name>67</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s75447_h15_ad.png"/>
     <url>WWW.NATGEOCHANNEL.COM</url>
+  </channel>
+  <channel id="5330.stations.xmltv.tvmedia.ca">
+    <display-name>Family Jr.</display-name>
+    <display-name>FAMJR</display-name>
+    <display-name>68</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s59119_h15_aa.png"/>
   </channel>
   <channel id="198.stations.xmltv.tvmedia.ca">
     <display-name>APTN - East</display-name>
@@ -648,6 +660,7 @@
     <display-name>MNT (WNYO) Buffalo, NY</display-name>
     <display-name>WNYO-TV</display-name>
     <display-name>167</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/16557-815A.png"/>
     <url>www.wb49.com/</url>
   </channel>
   <channel id="3008.stations.xmltv.tvmedia.ca">
@@ -720,6 +733,18 @@
     <display-name>194</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s89542_h15_ab.png"/>
   </channel>
+  <channel id="10176.stations.xmltv.tvmedia.ca">
+    <display-name>WildBrainTV</display-name>
+    <display-name>WILDB</display-name>
+    <display-name>216</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s72093_h9_ab.png"/>
+  </channel>
+  <channel id="5330.stations.xmltv.tvmedia.ca">
+    <display-name>Family Jr.</display-name>
+    <display-name>FAMJR</display-name>
+    <display-name>218</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s59119_h15_aa.png"/>
+  </channel>
   <channel id="16682.stations.xmltv.tvmedia.ca">
     <display-name>Disney Channel Canada - East</display-name>
     <display-name>DISNC</display-name>
@@ -744,6 +769,7 @@
     <display-name>Daystar Canada</display-name>
     <display-name>DAYSTAR</display-name>
     <display-name>241</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/48742-17CCC.png"/>
     <url>www.christianchannel.ca</url>
   </channel>
   <channel id="9632.stations.xmltv.tvmedia.ca">
@@ -804,7 +830,6 @@
     <display-name>NASA Public Educational Channel</display-name>
     <display-name>NASA1</display-name>
     <display-name>254</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s12553_h15_aa.png"/>
     <url>www.nasa.gov</url>
   </channel>
   <channel id="1204.stations.xmltv.tvmedia.ca">
@@ -1256,6 +1281,12 @@
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s82984_h15_ab.png"/>
     <url>www.gustotv.com</url>
   </channel>
+  <channel id="9189.stations.xmltv.tvmedia.ca">
+    <display-name>Family Jr. HD</display-name>
+    <display-name>FAMJR-HD</display-name>
+    <display-name>479</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s80695_h15_aa.png"/>
+  </channel>
   <channel id="8368.stations.xmltv.tvmedia.ca">
     <display-name>AMC - Canada HD</display-name>
     <display-name>AMC-HD</display-name>
@@ -1658,7 +1689,6 @@
     <display-name>NASA Public Educational Channel HD</display-name>
     <display-name>NASA1-HD</display-name>
     <display-name>579</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s12553_h15_aa.png"/>
     <url>www.nasa.gov</url>
   </channel>
   <channel id="8399.stations.xmltv.tvmedia.ca">
@@ -1687,6 +1717,12 @@
     <display-name>583</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s10136_h15_aa.png"/>
     <url>www.citytv.com/vancouver</url>
+  </channel>
+  <channel id="10240.stations.xmltv.tvmedia.ca">
+    <display-name>WildBrainTV HD</display-name>
+    <display-name>WILDB-HD</display-name>
+    <display-name>589</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s72270_h9_ab.png"/>
   </channel>
   <channel id="9116.stations.xmltv.tvmedia.ca">
     <display-name>Documentary Channel (Canada) HD</display-name>

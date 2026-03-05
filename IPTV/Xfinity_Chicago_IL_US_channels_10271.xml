@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tv SYSTEM "xmltv.dtd">
-<tv date="03/04/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
+<tv date="03/05/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
   <channel id="1830.stations.xmltv.tvmedia.ca">
     <display-name>CBS (WBBM) Chicago, IL</display-name>
     <display-name>WBBM-TV</display-name>
@@ -1041,6 +1041,7 @@
     <display-name>TBN (WWTO) Chicago, IL</display-name>
     <display-name>WWTO-TV</display-name>
     <display-name>1035</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/11987-5DA6.png"/>
     <url>WWW.TBN.ORG</url>
   </channel>
   <channel id="6542.stations.xmltv.tvmedia.ca">
