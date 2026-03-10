@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tv SYSTEM "xmltv.dtd">
-<tv date="03/09/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
+<tv date="03/10/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
   <channel id="13887.stations.xmltv.tvmedia.ca">
     <display-name>TVO (CICA-DT) Toronto, ON</display-name>
     <display-name>CICA-DT</display-name>
@@ -233,12 +233,6 @@
     <display-name>50</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s17609_h15_ac.png"/>
   </channel>
-  <channel id="414.stations.xmltv.tvmedia.ca">
-    <display-name>MTV Canada</display-name>
-    <display-name>MTV</display-name>
-    <display-name>52</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s24514_h15_ad.png"/>
-  </channel>
   <channel id="161.stations.xmltv.tvmedia.ca">
     <display-name>DTOUR - East</display-name>
     <display-name>DTOUR</display-name>
@@ -325,12 +319,6 @@
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s20675_h15_aa.png"/>
     <url>www.star-tv.com</url>
   </channel>
-  <channel id="296.stations.xmltv.tvmedia.ca">
-    <display-name>Oprah Winfrey Network Canada</display-name>
-    <display-name>OWN</display-name>
-    <display-name>72</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s20714_h15_ab.png"/>
-  </channel>
   <channel id="3561.stations.xmltv.tvmedia.ca">
     <display-name>CNBC Canada</display-name>
     <display-name>CNBC</display-name>
@@ -375,13 +363,6 @@
     <display-name>MOVTI</display-name>
     <display-name>86</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s27125_h15_aa.png"/>
-  </channel>
-  <channel id="415.stations.xmltv.tvmedia.ca">
-    <display-name>BBC Canada East</display-name>
-    <display-name>BBCC</display-name>
-    <display-name>87</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s26827_h15_aa.png"/>
-    <url>www.bbccanada.com</url>
   </channel>
   <channel id="2034.stations.xmltv.tvmedia.ca">
     <display-name>Magnolia Network Canada</display-name>
@@ -820,12 +801,6 @@
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s26823_h15_ae.png"/>
     <url>https://www.ctv.ca/wild</url>
   </channel>
-  <channel id="296.stations.xmltv.tvmedia.ca">
-    <display-name>Oprah Winfrey Network Canada</display-name>
-    <display-name>OWN</display-name>
-    <display-name>252</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s20714_h15_ab.png"/>
-  </channel>
   <channel id="1963.stations.xmltv.tvmedia.ca">
     <display-name>NASA Public Educational Channel</display-name>
     <display-name>NASA1</display-name>
@@ -908,19 +883,6 @@
     <display-name>CTVDR</display-name>
     <display-name>272</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s15176_h15_ab.png"/>
-  </channel>
-  <channel id="414.stations.xmltv.tvmedia.ca">
-    <display-name>MTV Canada</display-name>
-    <display-name>MTV</display-name>
-    <display-name>274</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s24514_h15_ad.png"/>
-  </channel>
-  <channel id="415.stations.xmltv.tvmedia.ca">
-    <display-name>BBC Canada East</display-name>
-    <display-name>BBCC</display-name>
-    <display-name>275</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s26827_h15_aa.png"/>
-    <url>www.bbccanada.com</url>
   </channel>
   <channel id="451.stations.xmltv.tvmedia.ca">
     <display-name>Crime + Investigation Canada</display-name>
@@ -1809,12 +1771,6 @@
     <display-name>CTVLife</display-name>
     <display-name>702</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s18808_h15_ab.png"/>
-  </channel>
-  <channel id="478.stations.xmltv.tvmedia.ca">
-    <display-name>MTV 2 Canada</display-name>
-    <display-name>MTV2</display-name>
-    <display-name>706</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s26775_h15_aa.png"/>
   </channel>
   <channel id="120.stations.xmltv.tvmedia.ca">
     <display-name>CMT Canada</display-name>
