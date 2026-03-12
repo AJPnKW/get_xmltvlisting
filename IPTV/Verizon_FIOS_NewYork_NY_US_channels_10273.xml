@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tv SYSTEM "xmltv.dtd">
-<tv date="03/11/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
+<tv date="03/12/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
   <channel id="1766.stations.xmltv.tvmedia.ca">
     <display-name>CBS (WCBS) New York, NY</display-name>
     <display-name>WCBS-TV</display-name>
@@ -1206,6 +1206,19 @@
     <display-name>741</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s73541_h15_aa.png"/>
     <url>www.tvland.com</url>
+  </channel>
+  <channel id="14622.stations.xmltv.tvmedia.ca">
+    <display-name>FETV (Family Entertainment Television)</display-name>
+    <display-name>FETV</display-name>
+    <display-name>742</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s73413_h15_ab.png"/>
+  </channel>
+  <channel id="11450.stations.xmltv.tvmedia.ca">
+    <display-name>GAC Family - East HD</display-name>
+    <display-name>GACF-HD</display-name>
+    <display-name>743</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s82892_h15_ac.png"/>
+    <url>www.greatamericancountry.com</url>
   </channel>
   <channel id="6107.stations.xmltv.tvmedia.ca">
     <display-name>MGM HD (USA)</display-name>
