@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tv SYSTEM "xmltv.dtd">
-<tv date="03/20/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
+<tv date="03/21/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
   <channel id="13887.stations.xmltv.tvmedia.ca">
     <display-name>TVO (CICA-DT) Toronto, ON</display-name>
     <display-name>CICA-DT</display-name>
@@ -1704,7 +1704,7 @@
     <display-name>Bravo Canada HD</display-name>
     <display-name>BRAVOC-HD</display-name>
     <display-name>593</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/72517-2368A.png"/>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s17610_h15_af.png"/>
   </channel>
   <channel id="7901.stations.xmltv.tvmedia.ca">
     <display-name>CTV2 Toronto, ON HD</display-name>
