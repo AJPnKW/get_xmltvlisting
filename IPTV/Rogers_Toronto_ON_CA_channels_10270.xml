@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tv SYSTEM "xmltv.dtd">
-<tv date="03/24/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
+<tv date="03/25/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
   <channel id="13887.stations.xmltv.tvmedia.ca">
     <display-name>TVO (CICA-DT) Toronto, ON</display-name>
     <display-name>CICA-DT</display-name>
@@ -1060,7 +1060,7 @@
     <display-name>Crave1 - East HD</display-name>
     <display-name>CRVM1HD</display-name>
     <display-name>312</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s33382_h15_ac.png"/>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/33382-104CC.png"/>
     <url>www.themovienetwork.ca</url>
   </channel>
   <channel id="4230.stations.xmltv.tvmedia.ca">
@@ -1496,7 +1496,7 @@
     <display-name>Crave1 - East HD</display-name>
     <display-name>CRVM1HD</display-name>
     <display-name>550</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s33382_h15_ac.png"/>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/33382-104CC.png"/>
     <url>www.themovienetwork.ca</url>
   </channel>
   <channel id="4230.stations.xmltv.tvmedia.ca">

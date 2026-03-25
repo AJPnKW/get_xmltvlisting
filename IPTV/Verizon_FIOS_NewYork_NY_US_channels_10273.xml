@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tv SYSTEM "xmltv.dtd">
-<tv date="03/24/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
+<tv date="03/25/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
   <channel id="1766.stations.xmltv.tvmedia.ca">
     <display-name>CBS (WCBS) New York, NY</display-name>
     <display-name>WCBS-TV</display-name>
@@ -157,7 +157,6 @@
     <display-name>CNBCW</display-name>
     <display-name>106</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/26849-D1C2.png"/>
-    <url>www.nbcmv.com/cnbc</url>
   </channel>
   <channel id="527.stations.xmltv.tvmedia.ca">
     <display-name>BBC News - North America</display-name>
