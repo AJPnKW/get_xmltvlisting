@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tv SYSTEM "xmltv.dtd">
-<tv date="03/25/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
+<tv date="03/26/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
   <channel id="13887.stations.xmltv.tvmedia.ca">
     <display-name>TVO (CICA-DT) Toronto, ON</display-name>
     <display-name>CICA-DT</display-name>
@@ -1087,14 +1087,14 @@
     <display-name>Crave3 - East HD</display-name>
     <display-name>CRVM3-HD</display-name>
     <display-name>316</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s65990_h15_ad.png"/>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/65990-2038C.png"/>
     <url>www.themovienetwork.ca</url>
   </channel>
   <channel id="7139.stations.xmltv.tvmedia.ca">
     <display-name>Crave2 - East HD</display-name>
     <display-name>CRVM2-HD</display-name>
     <display-name>317</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s65988_h15_ad.png"/>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/65988-20388.png"/>
     <url>www.themovienetwork.ca</url>
   </channel>
   <channel id="10026.stations.xmltv.tvmedia.ca">
@@ -1523,14 +1523,14 @@
     <display-name>Crave3 - East HD</display-name>
     <display-name>CRVM3-HD</display-name>
     <display-name>554</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s65990_h15_ad.png"/>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/65990-2038C.png"/>
     <url>www.themovienetwork.ca</url>
   </channel>
   <channel id="7139.stations.xmltv.tvmedia.ca">
     <display-name>Crave2 - East HD</display-name>
     <display-name>CRVM2-HD</display-name>
     <display-name>555</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s65988_h15_ad.png"/>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/65988-20388.png"/>
     <url>www.themovienetwork.ca</url>
   </channel>
   <channel id="10781.stations.xmltv.tvmedia.ca">
