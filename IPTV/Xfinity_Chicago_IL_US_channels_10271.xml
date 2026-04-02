@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tv SYSTEM "xmltv.dtd">
-<tv date="04/01/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
+<tv date="04/02/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
   <channel id="1830.stations.xmltv.tvmedia.ca">
     <display-name>CBS (WBBM) Chicago, IL</display-name>
     <display-name>WBBM-TV</display-name>
@@ -628,7 +628,7 @@
     <url>www.cmt.com</url>
   </channel>
   <channel id="6313.stations.xmltv.tvmedia.ca">
-    <display-name>HBO 2 - Eastern Feed HD</display-name>
+    <display-name>HBO Hits - Eastern Feed HD</display-name>
     <display-name>HBO2E-HD</display-name>
     <display-name>300</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/59368-1CFD0.png"/>
@@ -1528,7 +1528,7 @@
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s10240_h15_aa.png"/>
   </channel>
   <channel id="6313.stations.xmltv.tvmedia.ca">
-    <display-name>HBO 2 - Eastern Feed HD</display-name>
+    <display-name>HBO Hits - Eastern Feed HD</display-name>
     <display-name>HBO2E-HD</display-name>
     <display-name>1804</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/59368-1CFD0.png"/>

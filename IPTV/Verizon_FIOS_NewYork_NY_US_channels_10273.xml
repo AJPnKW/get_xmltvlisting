@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tv SYSTEM "xmltv.dtd">
-<tv date="04/01/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
+<tv date="04/02/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
   <channel id="1766.stations.xmltv.tvmedia.ca">
     <display-name>CBS (WCBS) New York, NY</display-name>
     <display-name>WCBS-TV</display-name>
@@ -698,7 +698,7 @@
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/10241-5002.png"/>
   </channel>
   <channel id="2205.stations.xmltv.tvmedia.ca">
-    <display-name>HBO 2 - Pacific Feed</display-name>
+    <display-name>HBO Hits - Pacific Feed</display-name>
     <display-name>HBO2P</display-name>
     <display-name>403</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/10242-5004.png"/>
@@ -1417,14 +1417,14 @@
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s19548_h15_aa.png"/>
   </channel>
   <channel id="6313.stations.xmltv.tvmedia.ca">
-    <display-name>HBO 2 - Eastern Feed HD</display-name>
+    <display-name>HBO Hits - Eastern Feed HD</display-name>
     <display-name>HBO2E-HD</display-name>
     <display-name>902</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/59368-1CFD0.png"/>
     <url>www.hbo.com</url>
   </channel>
   <channel id="6314.stations.xmltv.tvmedia.ca">
-    <display-name>HBO 2 - Pacific Feed HD</display-name>
+    <display-name>HBO Hits - Pacific Feed HD</display-name>
     <display-name>HBO2P-HD</display-name>
     <display-name>903</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/59355-1CFB6.png"/>
