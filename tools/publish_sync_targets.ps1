@@ -25,10 +25,10 @@ function Invoke-Git {
 }
 
 function Invoke-CheckedCommand {
-    param([string]$FilePath, [string[]]$Args)
-    & $FilePath @Args
+    param([string]$FilePath, [string[]]$CommandArgs)
+    & $FilePath @CommandArgs
     if ($LASTEXITCODE -ne 0) {
-        throw "command failed: $FilePath $($Args -join ' ')"
+        throw "command failed: $FilePath $($CommandArgs -join ' ')"
     }
 }
 
@@ -49,8 +49,8 @@ if (-not $SkipHp920) {
     }
 
     Write-Host "Installing HP920 post-receive deploy hook"
-    Invoke-CheckedCommand -FilePath "ssh" -Args @($HpHost, "mkdir -p ~/bin ~/repos/get_xmltvlisting.git/hooks ~/sites/iptv-sync")
-    Invoke-CheckedCommand -FilePath "scp" -Args @($serverHookLocal, "${HpHost}:${HpHookScript}")
+    Invoke-CheckedCommand -FilePath "ssh" -CommandArgs @($HpHost, "mkdir -p ~/bin ~/repos/get_xmltvlisting.git/hooks ~/sites/iptv-sync")
+    Invoke-CheckedCommand -FilePath "scp" -CommandArgs @($serverHookLocal, "${HpHost}:${HpHookScript}")
 
     $hookContent = @"
 #!/usr/bin/env bash
@@ -58,9 +58,9 @@ set -euo pipefail
 exec "$HpHookScript"
 "@
     Set-Content -Path $tempHook -Value $hookContent -Encoding ascii -NoNewline
-    Invoke-CheckedCommand -FilePath "scp" -Args @($tempHook, "${HpHost}:~/repos/get_xmltvlisting.git/hooks/post-receive")
+    Invoke-CheckedCommand -FilePath "scp" -CommandArgs @($tempHook, "${HpHost}:~/repos/get_xmltvlisting.git/hooks/post-receive")
     Remove-Item $tempHook -Force -ErrorAction SilentlyContinue
-    Invoke-CheckedCommand -FilePath "ssh" -Args @($HpHost, "chmod +x '$HpHookScript' ~/repos/get_xmltvlisting.git/hooks/post-receive")
+    Invoke-CheckedCommand -FilePath "ssh" -CommandArgs @($HpHost, "chmod +x '$HpHookScript' ~/repos/get_xmltvlisting.git/hooks/post-receive")
 }
 
 if (-not $SkipGitHub) {
