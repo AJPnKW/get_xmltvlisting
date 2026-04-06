@@ -121,3 +121,865 @@
         </div>
       </div>
     </section>
+    <section class="panel" data-panel="downloads" id="panel-downloads" aria-label="Downloads">
+      <div class="grid download-grid">
+        <div class="card">
+          <div class="card-h">
+            <div class="card-title">Use in IPTV App</div>
+            <div class="card-note">Copy these two links into your app</div>
+          </div>
+          <div class="dl">
+            <div class="dl-row">
+              <div class="dl-k">Playlist</div>
+              <div class="dl-v"><code id="m3uUrl">—</code></div>
+              <button class="btn" id="copyM3u" type="button" data-dpad="item">Copy Playlist</button>
+            </div>
+            <div class="dl-row">
+              <div class="dl-k">Guide</div>
+              <div class="dl-v"><code id="epgUrl">—</code></div>
+              <button class="btn" id="copyEpg" type="button" data-dpad="item">Copy Guide</button>
+            </div>
+            <div class="dl-row">
+              <div class="dl-k">VLC list</div>
+              <div class="dl-v"><code id="vlcUrl">IPTV/CBC_Channels_for_VLC.txt</code></div>
+              <button class="btn" id="copyVlc" type="button" data-dpad="item">Copy VLC List</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-h">
+            <div class="card-title">Download Pack</div>
+            <div class="card-note">Includes playlist, guide, and VLC list</div>
+          </div>
+          <div class="dl">
+            <div id="zipRow" class="dl-row hidden">
+              <div class="dl-k">ZIP pack</div>
+              <div class="dl-v"><code id="zipUrl">IPTV/CBC_Pack.zip</code></div>
+              <a class="btn" href="../../IPTV/CBC_Pack.zip" id="downloadZip" download data-dpad="item">Download ZIP pack</a>
+            </div>
+            <div id="zipMissing" class="hint">ZIP pack is not present yet. Run your generator scripts, then refresh.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel" data-panel="help" id="panel-help" aria-label="Help">
+      <div class="card">
+        <div class="card-h">
+          <div class="card-title">Help</div>
+          <div class="card-note">Remote, keyboard, touch, and event editing</div>
+        </div>
+        <div class="help">
+          <ol>
+            <li>Use Watch to pick a city and press Play.</li>
+            <li>Use Schedule for a TV-guide grid. Arrow keys move through shows; Enter opens Watch.</li>
+            <li>Press Esc in Watch to jump back to the last show tile.</li>
+            <li>If browser playback fails, use Copy Stream Link in VLC or your IPTV app.</li>
+            <li>Edit Olympics events in <code>assets/olympics/canada_events.json</code> (Today/Tomorrow sections).</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="../js/xmltv.js"></script>
+  <script src="../js/m3u.js"></script>
+  <script src="../js/dpad_nav.js"></script>
+  <script>
+    (function () {
+      const PATH_XML = "../../IPTV/CBC_Canada.xml";
+      const PATH_M3U = "../../IPTV/CBC_Canada.m3u";
+      const PATH_VLC = "../../IPTV/CBC_Channels_for_VLC.txt";
+      const PATH_ZIP = "../../IPTV/CBC_Pack.zip";
+      const PATH_EVENTS = "../../assets/olympics/canada_events.json";
+
+      const WINDOW_MINUTES = 180;
+      const STEP_MINUTES = 30;
+      const SLOT_WIDTH = 220;
+      const ROW_HEIGHT = 112;
+
+      const LOGOS = {
+        "cbc.canada.cblt-dt": "../../assets/cbc/cbc_toronto.svg",
+        "cbc.canada.cbut-dt": "../../assets/cbc/cbc_vancouver.svg",
+        "cbc.canada.cbht-dt": "../../assets/cbc/cbc_halifax.svg",
+        "cbc.canada.cbwt-dt": "../../assets/cbc/cbc_winnipeg.svg",
+        "cbc.canada.cbrt-dt": "../../assets/cbc/cbc_calgary.svg"
+      };
+
+      const $ = (id) => document.getElementById(id);
+      const state = {
+        channelsById: {},
+        programmesByChannel: {},
+        m3uItems: [],
+        m3uById: {},
+        days: [],
+        fmtTime: (d) => d.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" }),
+        channelIds: [],
+        activeChannelId: "",
+        selectedDay: "",
+        guideChannelFilter: "all",
+        search: "",
+        windowStartMinute: 0,
+        lastTileFocus: null,
+        focusedFromSchedule: false,
+        pendingFocus: null,
+        eventsData: null
+      };
+
+      const toast = $("toast");
+
+      function showToast(msg) {
+        toast.textContent = msg;
+        toast.classList.add("show");
+        setTimeout(() => toast.classList.remove("show"), 1600);
+      }
+
+      function escapeHtml(value) {
+        return String(value || "")
+          .replaceAll("&", "&amp;")
+          .replaceAll("<", "&lt;")
+          .replaceAll(">", "&gt;")
+          .replaceAll('"', "&quot;")
+          .replaceAll("'", "&#039;");
+      }
+
+      function setTab(name) {
+        document.querySelectorAll(".tab").forEach((b) => b.classList.toggle("is-active", b.dataset.tab === name));
+        document.querySelectorAll(".panel").forEach((p) => p.classList.toggle("is-active", p.dataset.panel === name));
+        const panel = document.querySelector('.panel[data-panel="' + name + '"]');
+        const first = panel ? panel.querySelector('[data-dpad="item"]') : null;
+        if (first) first.focus();
+      }
+
+      function parseNameParts(name) {
+        const m = String(name || "").match(/^CBC\s+(.+?)\s+\(([^)]+)\)/i);
+        if (!m) return { city: name || "CBC", callsign: "" };
+        return { city: m[1], callsign: m[2] };
+      }
+
+      function minuteLabel(minute) {
+        const d = new Date();
+        d.setHours(Math.floor(minute / 60), minute % 60, 0, 0);
+        return d.toLocaleTimeString([], { hour: "numeric", minute: "2-digit" });
+      }
+
+      function minutesOfDay(date) {
+        return date.getHours() * 60 + date.getMinutes();
+      }
+
+      function alignToStep(minute) {
+        const max = (24 * 60) - WINDOW_MINUTES;
+        const v = Math.floor(minute / STEP_MINUTES) * STEP_MINUTES;
+        return Math.max(0, Math.min(max, v));
+      }
+
+      function currentDayKey() {
+        const n = new Date();
+        return n.getFullYear() + "-" + String(n.getMonth() + 1).padStart(2, "0") + "-" + String(n.getDate()).padStart(2, "0");
+      }
+
+      function visibleChannelIds() {
+        return state.guideChannelFilter === "all" ? state.channelIds.slice(0, 5) : [state.guideChannelFilter];
+      }
+
+      function selectedGuideChannelId() {
+        if (state.guideChannelFilter !== "all") return state.guideChannelFilter;
+        return state.activeChannelId || visibleChannelIds()[0] || "";
+      }
+
+      async function fetchText(url) {
+        const r = await fetch(url, { cache: "no-store" });
+        if (!r.ok) throw new Error("HTTP " + r.status + " for " + url);
+        return r.text();
+      }
+
+      async function fetchJson(url) {
+        const r = await fetch(url, { cache: "no-store" });
+        if (!r.ok) throw new Error("HTTP " + r.status + " for " + url);
+        return r.json();
+      }
+
+      async function copyText(text, message) {
+        try {
+          await navigator.clipboard.writeText(text);
+          showToast(message);
+        } catch (err) {
+          showToast("Copy failed");
+        }
+      }
+
+      function buildDeepLink(channelId, autoPlay) {
+        const base = window.location.origin + window.location.pathname;
+        const params = new URLSearchParams();
+        params.set("ch", channelId);
+        if (autoPlay) params.set("play", "1");
+        return base + "?" + params.toString();
+      }
+      function pickCurrentAndNext(channelId) {
+        const list = state.programmesByChannel[channelId] || [];
+        const now = new Date();
+        const current = list.find((p) => p.start <= now && p.stop > now) || null;
+        const next = list.filter((p) => p.start >= now).slice(0, 6);
+        return { current, next };
+      }
+
+      function pickNowNextForDay(channelId, dayKey) {
+        const list = (state.programmesByChannel[channelId] || []).filter((p) => p.startKey === dayKey);
+        const now = new Date();
+        const current = list.find((p) => p.start <= now && p.stop > now) || list[0] || null;
+        const next = list.find((p) => current && p.start >= current.stop) || list[1] || null;
+        return { current, next };
+      }
+
+      function ensureTileVisible(tile) {
+        const scroller = $("guideScroll");
+        if (!tile || !scroller) return;
+
+        const tileRect = tile.getBoundingClientRect();
+        const scRect = scroller.getBoundingClientRect();
+
+        if (tileRect.left < scRect.left + 8) {
+          scroller.scrollLeft -= (scRect.left + 8 - tileRect.left);
+        } else if (tileRect.right > scRect.right - 8) {
+          scroller.scrollLeft += (tileRect.right - (scRect.right - 8));
+        }
+
+        if (tileRect.top < scRect.top + 46) {
+          scroller.scrollTop -= (scRect.top + 46 - tileRect.top);
+        } else if (tileRect.bottom > scRect.bottom - 8) {
+          scroller.scrollTop += (tileRect.bottom - (scRect.bottom - 8));
+        }
+      }
+
+      function focusTileByKey(key) {
+        if (!key) return false;
+        const selector = '.prog-tile[data-channel-id="' + key.channelId + '"][data-start-ms="' + key.startMs + '"]';
+        const el = document.querySelector(selector);
+        if (!el) return false;
+        el.focus();
+        ensureTileVisible(el);
+        return true;
+      }
+
+      function tilesForChannel(channelId) {
+        return Array.from(document.querySelectorAll('.prog-tile[data-channel-id="' + channelId + '"]'));
+      }
+
+      function nearestTile(channelId, startMinute) {
+        const tiles = tilesForChannel(channelId);
+        if (!tiles.length) return null;
+        let best = null;
+        let bestDiff = Number.MAX_SAFE_INTEGER;
+        for (const tile of tiles) {
+          const diff = Math.abs(Number(tile.dataset.startMinute || "0") - startMinute);
+          if (diff < bestDiff) {
+            bestDiff = diff;
+            best = tile;
+          }
+        }
+        return best;
+      }
+
+      function shiftWindow(delta) {
+        state.windowStartMinute = alignToStep(state.windowStartMinute + delta);
+        renderGuide();
+      }
+
+      function renderChannels(filterText) {
+        const filter = String(filterText || "").toLowerCase().trim();
+        const wrap = $("channels");
+        wrap.innerHTML = "";
+        let shown = 0;
+
+        for (const id of state.channelIds) {
+          const ch = state.channelsById[id];
+          if (!ch) continue;
+          const p = parseNameParts(ch.name);
+          const hay = (ch.name + " " + id + " " + p.city + " " + p.callsign).toLowerCase();
+          if (filter && !hay.includes(filter)) continue;
+
+          const nowNext = pickCurrentAndNext(id);
+          const nowText = nowNext.current ? (state.fmtTime(nowNext.current.start) + " " + nowNext.current.title) : "No current listing";
+          const nextText = nowNext.next[0] ? (state.fmtTime(nowNext.next[0].start) + " " + nowNext.next[0].title) : "No next listing";
+
+          const btn = document.createElement("button");
+          btn.type = "button";
+          btn.className = "ch" + (id === state.activeChannelId ? " is-active" : "");
+          btn.dataset.channelId = id;
+          btn.setAttribute("data-dpad", "item");
+          btn.innerHTML =
+            '<span class="ch-logo"><img src="' + escapeHtml(LOGOS[id] || "../../assets/cbc/channel_placeholder.svg") + '" alt=""></span>' +
+            '<span class="ch-txt"><span class="ch-name">' + escapeHtml(p.city) + '</span>' +
+            '<span class="ch-sub">CBC ' + escapeHtml(p.city) + (p.callsign ? (" (" + escapeHtml(p.callsign) + ")") : "") + '</span>' +
+            '<span class="ch-meta"><span><b>Now:</b> ' + escapeHtml(nowText) + '</span><span><b>Next:</b> ' + escapeHtml(nextText) + '</span></span></span>' +
+            '<span class="live-badge">Live</span>';
+          wrap.appendChild(btn);
+          shown++;
+        }
+
+        $("channelsMeta").textContent = shown + " channel(s)";
+      }
+
+      function updateWatchActions(channelId, stream) {
+        const btnPlay = $("btnPlay");
+        const btnOpenTab = $("btnOpenTab");
+        const btnCopyStream = $("btnCopyStream");
+        const btnCopyWeb = $("btnCopyWeb");
+        const btnOpenWeb = $("btnOpenWeb");
+        const btnFallbackCopy = $("btnFallbackCopy");
+        const btnFallbackTab = $("btnFallbackTab");
+
+        const enabled = !!(stream && stream.url);
+        btnPlay.disabled = !enabled;
+        btnOpenTab.disabled = !enabled;
+        btnCopyStream.disabled = !enabled;
+        btnCopyWeb.disabled = !channelId;
+        btnOpenWeb.disabled = !channelId;
+
+        const deepLink = buildDeepLink(channelId, true);
+
+        btnPlay.onclick = () => {
+          if (!enabled) return;
+          startPlayback(stream.url);
+        };
+        btnOpenTab.onclick = () => {
+          if (!enabled) return;
+          window.open(stream.url, "_blank", "noopener,noreferrer");
+        };
+        btnCopyStream.onclick = () => {
+          if (!enabled) return;
+          copyText(stream.url, "Copied stream link");
+        };
+        btnCopyWeb.onclick = () => {
+          if (!channelId) return;
+          copyText(deepLink, "Copied web link");
+        };
+        btnOpenWeb.onclick = () => {
+          if (!channelId) return;
+          window.open(deepLink, "_blank", "noopener,noreferrer");
+        };
+
+        btnFallbackCopy.onclick = () => {
+          if (!enabled) return;
+          copyText(stream.url, "Copied stream link for VLC/IPTV");
+        };
+        btnFallbackTab.onclick = () => {
+          if (!enabled) return;
+          window.open(stream.url, "_blank", "noopener,noreferrer");
+        };
+      }
+
+      function startPlayback(url) {
+        const player = $("streamPlayer");
+        const hint = $("playbackHint");
+        hint.classList.add("hidden");
+        player.src = url;
+        player.load();
+        const p = player.play();
+        if (p && typeof p.catch === "function") {
+          p.catch(() => {
+            hint.classList.remove("hidden");
+          });
+        }
+      }
+
+      function moveFocusToProgramme(channelId, startMs) {
+        const prog = (state.programmesByChannel[channelId] || []).find((p) => p.start.getTime() === startMs);
+        if (!prog) return;
+        state.guideChannelFilter = channelId;
+        $("channelPick").value = channelId;
+        state.selectedDay = prog.startKey;
+        $("dayPick").value = prog.startKey;
+        state.windowStartMinute = alignToStep(minutesOfDay(prog.start) - STEP_MINUTES);
+        state.pendingFocus = { channelId, startMs: String(startMs) };
+        setTab("schedule");
+        renderGuide();
+      }
+
+      function renderNow(channelId) {
+        const ch = state.channelsById[channelId];
+        if (!ch) return;
+
+        const p = parseNameParts(ch.name);
+        const chosen = pickCurrentAndNext(channelId);
+        const current = chosen.current;
+        const stream = (state.m3uById[channelId] || [])[0] || null;
+
+        $("nowChannel").textContent = "CBC " + p.city + (p.callsign ? " (" + p.callsign + ")" : "");
+        $("nowTitle").textContent = current ? current.title : "No current programme";
+        $("nowMeta").textContent = current ? (state.fmtTime(current.start) + " - " + state.fmtTime(current.stop)) : "Guide data unavailable";
+        $("nowDesc").textContent = current ? (current.desc || "No description") : "";
+        $("watchHintTop").textContent = stream ? "Primary stream selected" : "No stream available for this channel";
+
+        updateWatchActions(channelId, stream);
+
+        const up = $("upNext");
+        up.innerHTML = "";
+        for (const item of chosen.next) {
+          const row = document.createElement("button");
+          row.type = "button";
+          row.className = "mini-item";
+          row.setAttribute("data-dpad", "item");
+          row.innerHTML = '<span class="t">' + escapeHtml(item.title) + '</span><span class="m">' + escapeHtml(state.fmtTime(item.start)) + '</span>';
+          row.addEventListener("click", () => {
+            moveFocusToProgramme(channelId, item.start.getTime());
+          });
+          up.appendChild(row);
+        }
+      }
+
+      function onTileKeyDown(e) {
+        const tile = e.currentTarget;
+        const key = e.key;
+
+        if (key === "Enter") {
+          e.preventDefault();
+          openFromSchedule(tile.dataset.channelId, tile.dataset.startMs);
+          return;
+        }
+
+        if (key === "PageDown" || key === "PageUp") {
+          e.preventDefault();
+          const scroller = $("guideScroll");
+          const delta = key === "PageDown" ? (ROW_HEIGHT * 3) : (-ROW_HEIGHT * 3);
+          scroller.scrollTop += delta;
+          return;
+        }
+
+        if (!["ArrowLeft", "ArrowRight", "ArrowUp", "ArrowDown"].includes(key)) return;
+        e.preventDefault();
+        e.stopPropagation();
+        const channelId = tile.dataset.channelId;
+        const startMinute = Number(tile.dataset.startMinute || "0");
+        const rows = visibleChannelIds();
+        const rowIndex = rows.indexOf(channelId);
+
+        if (key === "ArrowLeft" || key === "ArrowRight") {
+          const all = tilesForChannel(channelId)
+            .map((t) => ({ el: t, min: Number(t.dataset.startMinute || "0") }))
+            .sort((a, b) => a.min - b.min);
+
+          const current = Number(tile.dataset.startMinute || "0");
+          const target = key === "ArrowLeft"
+            ? all.filter((x) => x.min < current).pop()
+            : all.find((x) => x.min > current);
+
+          if (target && target.el) {
+            target.el.focus();
+            ensureTileVisible(target.el);
+            return;
+          }
+
+          shiftWindow(key === "ArrowLeft" ? -STEP_MINUTES : STEP_MINUTES);
+          setTimeout(() => {
+            const replacement = nearestTile(channelId, current);
+            if (replacement) {
+              replacement.focus();
+              ensureTileVisible(replacement);
+            }
+          }, 0);
+          return;
+        }
+
+        const nextIndex = key === "ArrowUp" ? rowIndex - 1 : rowIndex + 1;
+        if (nextIndex < 0 || nextIndex >= rows.length) return;
+
+        const nextChannel = rows[nextIndex];
+        const nextTile = nearestTile(nextChannel, startMinute);
+        if (nextTile) {
+          nextTile.focus();
+          ensureTileVisible(nextTile);
+        }
+      }
+
+      function openFromSchedule(channelId, startMs) {
+        state.focusedFromSchedule = true;
+        state.activeChannelId = channelId;
+        state.lastTileFocus = { channelId, startMs: String(startMs || "") };
+        renderChannels($("q").value);
+        renderNow(channelId);
+        setTab("watch");
+        const stream = (state.m3uById[channelId] || [])[0] || null;
+        if (stream && stream.url) startPlayback(stream.url);
+      }
+
+      function findCurrentProgrammeForChannel(channelId) {
+        const list = state.programmesByChannel[channelId] || [];
+        const now = new Date();
+        return list.find((p) => p.start <= now && p.stop > now) || null;
+      }
+
+      function renderGuide() {
+        const day = state.selectedDay;
+        const channels = visibleChannelIds();
+        const search = state.search.toLowerCase().trim();
+        const startMinute = state.windowStartMinute;
+        const endMinute = startMinute + WINDOW_MINUTES;
+
+        const canvas = $("guideCanvas");
+        canvas.innerHTML = "";
+
+        $("windowRange").value = String(startMinute);
+        $("windowLabel").textContent = minuteLabel(startMinute) + " - " + minuteLabel(endMinute);
+        $("guideMeta").textContent = channels.length + " channel(s), " + minuteLabel(startMinute) + " - " + minuteLabel(endMinute);
+
+        const head = document.createElement("div");
+        head.className = "guide-head";
+        head.innerHTML = '<div class="guide-corner">Channels</div><div class="guide-times"></div>';
+        const times = head.querySelector(".guide-times");
+        for (let m = startMinute; m < endMinute; m += STEP_MINUTES) {
+          const tick = document.createElement("div");
+          tick.className = "time-tick";
+          tick.textContent = minuteLabel(m);
+          times.appendChild(tick);
+        }
+        canvas.appendChild(head);
+
+        for (const id of channels) {
+          const row = document.createElement("div");
+          row.className = "guide-row";
+
+          const channel = state.channelsById[id] || { name: id };
+          const np = parseNameParts(channel.name);
+          const rowNowNext = pickNowNextForDay(id, day);
+
+          const left = document.createElement("div");
+          left.className = "guide-channel";
+          left.innerHTML =
+            '<img src="' + escapeHtml(LOGOS[id] || "../../assets/cbc/channel_placeholder.svg") + '" alt="">' +
+            '<div class="g-main">' +
+            '<div class="g-city">' + escapeHtml(np.city) + '</div>' +
+            '<div class="g-call">' + escapeHtml(np.callsign || id) + '</div>' +
+            '<div class="g-now"><b>Now:</b> ' + escapeHtml(rowNowNext.current ? (state.fmtTime(rowNowNext.current.start) + ' ' + rowNowNext.current.title) : 'No listing') + '</div>' +
+            '<div class="g-next"><b>Next:</b> ' + escapeHtml(rowNowNext.next ? (state.fmtTime(rowNowNext.next.start) + ' ' + rowNowNext.next.title) : 'No listing') + '</div>' +
+            '</div>';
+
+          const track = document.createElement("div");
+          track.className = "guide-track";
+
+          const list = (state.programmesByChannel[id] || []).filter((pg) => {
+            if (pg.startKey !== day) return false;
+            const a = minutesOfDay(pg.start);
+            const b = minutesOfDay(pg.stop);
+            return b > startMinute && a < endMinute;
+          });
+
+          let matches = 0;
+          for (const pg of list) {
+            const a = minutesOfDay(pg.start);
+            const b = minutesOfDay(pg.stop);
+            const clipA = Math.max(a, startMinute);
+            const clipB = Math.min(b, endMinute);
+            const leftPx = (clipA - startMinute) * (SLOT_WIDTH / STEP_MINUTES);
+            const widthPx = Math.max((clipB - clipA) * (SLOT_WIDTH / STEP_MINUTES), 24);
+            const hit = !search || (pg.title + " " + (pg.desc || "")).toLowerCase().includes(search);
+            if (hit) matches++;
+
+            const tile = document.createElement("button");
+            tile.type = "button";
+            tile.className = "prog-tile" + (hit ? "" : " dim");
+            tile.setAttribute("data-dpad", "item");
+            tile.dataset.channelId = id;
+            tile.dataset.startMs = String(pg.start.getTime());
+            tile.dataset.startMinute = String(a);
+            tile.style.left = leftPx + "px";
+            tile.style.width = widthPx + "px";
+            tile.innerHTML = '<span class="tile-title">' + escapeHtml(pg.title) + '</span>' +
+                             '<span class="tile-time">' + escapeHtml(state.fmtTime(pg.start)) + ' - ' + escapeHtml(state.fmtTime(pg.stop)) + '</span>';
+            tile.addEventListener("click", () => openFromSchedule(id, String(pg.start.getTime())));
+            tile.addEventListener("focus", () => {
+              state.lastTileFocus = { channelId: id, startMs: String(pg.start.getTime()) };
+              ensureTileVisible(tile);
+            });
+            tile.addEventListener("keydown", onTileKeyDown);
+            track.appendChild(tile);
+          }
+
+          if (!matches && search) {
+            const noMatch = document.createElement("div");
+            noMatch.className = "no-match-tile";
+            noMatch.textContent = "No matching shows for filter";
+            track.appendChild(noMatch);
+          }
+
+          row.append(left, track);
+          canvas.appendChild(row);
+        }
+
+        if (state.pendingFocus && !focusTileByKey(state.pendingFocus)) {
+          state.pendingFocus = null;
+        } else {
+          state.pendingFocus = null;
+        }
+
+        if (!state.lastTileFocus || !focusTileByKey(state.lastTileFocus)) {
+          const first = canvas.querySelector(".prog-tile:not(.dim)") || canvas.querySelector(".prog-tile");
+          if (first) {
+            first.focus();
+            ensureTileVisible(first);
+          }
+        }
+      }
+
+      function tzDateKey(date, timeZone) {
+        const dtf = new Intl.DateTimeFormat("en-CA", {
+          timeZone,
+          year: "numeric",
+          month: "2-digit",
+          day: "2-digit"
+        });
+        const parts = dtf.formatToParts(date);
+        const map = {};
+        for (const p of parts) if (p.type !== "literal") map[p.type] = p.value;
+        return map.year + "-" + map.month + "-" + map.day;
+      }
+
+      function renderOlympicsPanel() {
+        const wrap = $("olympicsList");
+        wrap.innerHTML = "";
+
+        const data = state.eventsData;
+        if (!data || !Array.isArray(data.days)) {
+          $("olympicsTz").textContent = "Events unavailable";
+          wrap.innerHTML = '<div class="hint">No local Olympics events file found.</div>';
+          return;
+        }
+        const tz = data.timezone || "America/Toronto";
+        $("olympicsTz").textContent = tz;
+
+        const todayKey = tzDateKey(new Date(), tz);
+        const tomorrowDate = new Date(Date.now() + 24 * 60 * 60 * 1000);
+        const tomorrowKey = tzDateKey(tomorrowDate, tz);
+
+        const today = data.days.find((d) => d.date === todayKey);
+        const tomorrow = data.days.find((d) => d.date === tomorrowKey);
+
+        const sections = [
+          { title: "Today", item: today, key: todayKey },
+          { title: "Tomorrow", item: tomorrow, key: tomorrowKey }
+        ];
+
+        for (const sec of sections) {
+          const block = document.createElement("div");
+          block.className = "ol-day";
+          const header = document.createElement("h4");
+          header.textContent = sec.title + " - " + sec.key;
+          block.appendChild(header);
+
+          const events = (sec.item && Array.isArray(sec.item.events)) ? sec.item.events : [];
+          if (!events.length) {
+            const none = document.createElement("div");
+            none.className = "hint";
+            none.textContent = "No events listed.";
+            block.appendChild(none);
+          } else {
+            for (const ev of events) {
+              const row = document.createElement("div");
+              row.className = "ol-item";
+              row.innerHTML =
+                '<div class="ol-time">' + escapeHtml(ev.time || "--:--") + '</div>' +
+                '<div class="ol-title">' + escapeHtml((ev.sport || "Sport") + ': ' + (ev.title || "Event")) + '</div>' +
+                '<div class="ol-meta">' + escapeHtml((ev.note || "") + (ev.channelHint ? (' · ' + ev.channelHint) : '')) + '</div>';
+              block.appendChild(row);
+            }
+          }
+
+          wrap.appendChild(block);
+        }
+      }
+
+      function applyDeepLink() {
+        const params = new URLSearchParams(window.location.search);
+        const ch = params.get("ch");
+        const autoPlay = params.get("play") === "1";
+
+        if (ch && state.channelsById[ch]) {
+          state.activeChannelId = ch;
+          renderChannels($("q").value || "");
+          renderNow(ch);
+          if (autoPlay) {
+            const stream = (state.m3uById[ch] || [])[0];
+            if (stream && stream.url) startPlayback(stream.url);
+          }
+        }
+      }
+
+      function jumpToNow() {
+        const nowKey = currentDayKey();
+        const dayPick = $("dayPick");
+        if (Array.from(dayPick.options).some((o) => o.value === nowKey)) {
+          dayPick.value = nowKey;
+          state.selectedDay = nowKey;
+        }
+        state.windowStartMinute = alignToStep(minutesOfDay(new Date()) - STEP_MINUTES);
+
+        const channelId = selectedGuideChannelId();
+        const current = channelId ? findCurrentProgrammeForChannel(channelId) : null;
+        if (current) {
+          state.pendingFocus = { channelId, startMs: String(current.start.getTime()) };
+        }
+
+        renderGuide();
+      }
+
+      function setDownloads() {
+        $("m3uUrl").textContent = PATH_M3U;
+        $("epgUrl").textContent = PATH_XML;
+
+        $("copyM3u").onclick = () => copyText(PATH_M3U, "Copied playlist link");
+        $("copyEpg").onclick = () => copyText(PATH_XML, "Copied guide link");
+        $("copyVlc").onclick = async () => {
+          try {
+            const text = await fetchText(PATH_VLC);
+            copyText(text, "Copied VLC list");
+          } catch (err) {
+            const fallback = state.m3uItems.map((it) => (it.name || it.tvgId || "CBC") + " - " + it.url).join("\n");
+            copyText(fallback, "Copied VLC fallback list");
+          }
+        };
+
+        fetch(PATH_ZIP, { method: "HEAD", cache: "no-store" })
+          .then((r) => {
+            if (r.ok) {
+              $("zipRow").classList.remove("hidden");
+              $("zipMissing").classList.add("hidden");
+            }
+          })
+          .catch(() => {});
+      }
+
+      function wireControls() {
+        $("btnRefresh").addEventListener("click", () => location.reload());
+        $("q").addEventListener("input", (e) => renderChannels(e.target.value));
+
+        $("channels").addEventListener("click", (e) => {
+          const btn = e.target.closest(".ch");
+          if (!btn) return;
+          state.focusedFromSchedule = false;
+          state.activeChannelId = btn.dataset.channelId;
+          renderChannels($("q").value || "");
+          renderNow(state.activeChannelId);
+        });
+
+        $("channelPick").addEventListener("change", (e) => {
+          state.guideChannelFilter = e.target.value;
+          renderGuide();
+        });
+
+        $("dayPick").addEventListener("change", (e) => {
+          state.selectedDay = e.target.value;
+          state.windowStartMinute = state.selectedDay === currentDayKey()
+            ? alignToStep(minutesOfDay(new Date()) - STEP_MINUTES)
+            : 0;
+          renderGuide();
+        });
+
+        $("scheduleSearch").addEventListener("input", (e) => {
+          state.search = e.target.value || "";
+          renderGuide();
+        });
+
+        $("btnPrevWindow").addEventListener("click", () => shiftWindow(-STEP_MINUTES));
+        $("btnNextWindow").addEventListener("click", () => shiftWindow(STEP_MINUTES));
+        $("windowRange").addEventListener("input", (e) => {
+          state.windowStartMinute = Number(e.target.value || "0");
+          renderGuide();
+        });
+        $("btnNow").addEventListener("click", jumpToNow);
+
+        const guideScroll = $("guideScroll");
+        guideScroll.addEventListener("keydown", (e) => {
+          if (e.key === "PageDown" || e.key === "PageUp") {
+            e.preventDefault();
+            guideScroll.scrollTop += e.key === "PageDown" ? (ROW_HEIGHT * 3) : (-ROW_HEIGHT * 3);
+          }
+        });
+
+        document.querySelectorAll(".tab").forEach((t) => {
+          t.addEventListener("click", () => setTab(t.dataset.tab));
+        });
+
+        document.addEventListener("keydown", (e) => {
+          if (e.key !== "Escape") return;
+          const watchPanel = document.querySelector('.panel[data-panel="watch"]');
+          if (!watchPanel || !watchPanel.classList.contains("is-active") || !state.focusedFromSchedule) return;
+          e.preventDefault();
+          setTab("schedule");
+          focusTileByKey(state.lastTileFocus);
+        });
+      }
+
+      function initSelectors() {
+        const cp = $("channelPick");
+        cp.innerHTML = '<option value="all">All channels</option>' +
+          state.channelIds.map((id) => '<option value="' + escapeHtml(id) + '">' + escapeHtml(state.channelsById[id].name || id) + '</option>').join("");
+
+        const dp = $("dayPick");
+        dp.innerHTML = state.days.map((d) => '<option value="' + escapeHtml(d.key) + '">' + escapeHtml(d.label) + '</option>').join("");
+      }
+
+      async function main() {
+        setTab("watch");
+
+        const [xmlText, m3uText] = await Promise.all([fetchText(PATH_XML), fetchText(PATH_M3U)]);
+        const xml = window.XMLTV.parseXmltv(xmlText);
+        const m3u = window.M3U.parseM3u(m3uText);
+
+        state.channelsById = xml.channelsById;
+        state.programmesByChannel = xml.programmesByChannel;
+        state.days = xml.days;
+        state.fmtTime = xml.fmtTime;
+        state.m3uItems = m3u.items;
+
+        state.m3uById = {};
+        for (const it of m3u.items) {
+          if (!it.tvgId) continue;
+          if (!state.m3uById[it.tvgId]) state.m3uById[it.tvgId] = [];
+          state.m3uById[it.tvgId].push(it);
+        }
+
+        state.channelIds = Object.keys(state.channelsById).sort((a, b) => {
+          const an = state.channelsById[a] ? state.channelsById[a].name : a;
+          const bn = state.channelsById[b] ? state.channelsById[b].name : b;
+          return an.localeCompare(bn);
+        });
+
+        state.activeChannelId = state.channelIds[0] || "";
+        state.selectedDay = (state.days[0] && state.days[0].key) || "";
+        state.windowStartMinute = alignToStep(minutesOfDay(new Date()) - STEP_MINUTES);
+
+        initSelectors();
+        wireControls();
+
+        renderChannels("");
+        if (state.activeChannelId) renderNow(state.activeChannelId);
+        renderGuide();
+        setDownloads();
+
+        try {
+          state.eventsData = await fetchJson(PATH_EVENTS);
+        } catch (err) {
+          state.eventsData = null;
+        }
+        renderOlympicsPanel();
+
+        applyDeepLink();
+        showToast("CBC guide loaded");
+      }
+
+      window.addEventListener("DOMContentLoaded", () => {
+        main().catch((err) => {
+          document.body.innerHTML = '<div style="padding:20px;color:#fff;font-family:Arial,sans-serif;">' +
+            '<h2>Failed to load CBC Hub</h2>' +
+            '<pre style="white-space:pre-wrap;color:#ffd54a;">' + escapeHtml(String((err && err.message) || err)) + '</pre>' +
+            '<div>Check that IPTV/CBC_Canada.xml and IPTV/CBC_Canada.m3u are available.</div>' +
+            '</div>';
+        });
+      });
+    })();
+  </script>
+</body>
+</html>
