@@ -41,11 +41,7 @@ if ($currentBranch -ne $Branch) {
 }
 
 if (-not $SkipHp920) {
-    $remoteExists = $true
-    & git -C $repoRoot remote get-url $HpRemote *> $null
-    if ($LASTEXITCODE -ne 0) {
-        $remoteExists = $false
-    }
+    $remoteExists = @(& git -C $repoRoot remote) -contains $HpRemote
 
     if (-not $remoteExists) {
         Write-Host "Adding HP920 remote '$HpRemote' => $hpRemoteUrl"
