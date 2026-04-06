@@ -40,3 +40,30 @@
   1. fetch channels
   2. fetch listings
   3. run `tools/build_cbc_canada_epg.py`
+
+## Multi-target publish
+
+Use this when you want the repo synced to:
+- local working copy
+- GitHub
+- HP920 bare git remote over SSH
+- HP920 LAN-hosted static XMLTV folder at `http://192.168.1.73:8011/iptv-epg/`
+
+Run:
+
+```powershell
+Set-Location "C:\Users\andrew\PROJECTS\GitHub\get_xmltvlisting"
+powershell -ExecutionPolicy Bypass -File .\tools\publish_sync_targets.ps1
+```
+
+What it does:
+- ensures the `hp920` git remote exists
+- installs the HP920 post-receive deployment hook
+- pushes the current `main` branch to GitHub
+- pushes the current `main` branch to HP920
+- HP920 then auto-publishes the repo `IPTV/` folder into `/srv/my_tv_movie/app/iptv-epg`
+
+Notes:
+- HP920 currently has an active Python static web server on port `8011`
+- `Gitea` was not found running on HP920 during setup, so HP920 sync uses a bare git repository instead
+- large files over GitHub's single-file limit should be published as `.gz` assets for GitHub compatibility

@@ -13,6 +13,10 @@ venv/
 .my_notes/
 
 sample_download_XML.TV.Listings/
+IPTV/EPG_AU_Australia.xml
+IPTV/EPG_CA_Canada.xml
+IPTV/EPG_UK_UnitedKingdom.xml
+IPTV/EPG_US_UnitedStates.xml
 
 # CBC handoff artifacts (local)
 IPTV/CBC_Pack.zip

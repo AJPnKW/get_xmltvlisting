@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IPTV EPG Reference</title>
+  <style>
+    :root {
+      --bg: #f3f0e8;
+      --ink: #182126;
+      --muted: #5b6468;
+      --card: #fffdf8;
+      --line: #d6cec0;
+      --accent: #0d6b61;
+      --warn: #8b5e00;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, sans-serif;
+      background:
+        radial-gradient(circle at top right, #e0efe9 0, transparent 26rem),
+        linear-gradient(180deg, #f7f3eb 0, var(--bg) 100%);
+      color: var(--ink);
+      line-height: 1.5;
+    }
+    main {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 32px 20px 48px;
+    }
+    h1, h2, h3 { line-height: 1.15; }
+    h1 { margin: 0 0 10px; font-size: 2.2rem; }
+    h2 { margin: 0 0 12px; font-size: 1.25rem; }
+    p { margin: 0 0 12px; }
+    .lede { color: var(--muted); max-width: 70rem; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 16px;
+      margin: 22px 0 26px;
+    }
+    .card, .panel {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 18px;
+      box-shadow: 0 10px 25px rgba(24, 33, 38, 0.05);
+    }
+    .tag {
+      display: inline-block;
+      margin-bottom: 10px;
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: #ddeeea;
+      color: var(--accent);
+      font-size: 0.82rem;
+      font-weight: 700;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+    }
+    .warn {
+      background: #f7ecd1;
+      color: var(--warn);
+    }
+    ul {
+      margin: 0;
+      padding-left: 18px;
+    }
+    li { margin: 0 0 8px; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 10px 25px rgba(24, 33, 38, 0.05);
+    }
+    th, td {
+      padding: 12px 10px;
+      border-bottom: 1px solid var(--line);
+      text-align: left;
+      vertical-align: top;
+      font-size: 0.95rem;
+    }
+    th {
+      background: #ece6da;
+      font-size: 0.82rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    tr:last-child td { border-bottom: 0; }
+    code {
+      background: #efe9dd;
+      padding: 2px 5px;
+      border-radius: 4px;
+      word-break: break-all;
+    }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    a:hover { text-decoration: underline; }
+    .small { font-size: 0.9rem; color: var(--muted); }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>IPTV EPG Reference</h1>
+    <p class="lede">
+      Reviewed from the research in <code>C:\Users\andrew\PROJECTS\iptv</code> and assembled into
+      stable files in <code>C:\Users\andrew\PROJECTS\GitHub\get_xmltvlisting\IPTV</code>.
+      Main strategy: one broad XMLTV file per focus country for quick device setup, with smaller provider-specific
+      CA/US alternatives kept available where they are a better fit.
+    </p>
+
+    <div class="grid">
+      <section class="card">
+        <div class="tag">Recommended Use</div>
+        <ul>
+          <li>Use the country files first when you want one EPG URL per country: <code>CA</code>, <code>UK</code>, <code>AU</code>, <code>US</code>.</li>
+          <li>Use the narrower provider-specific files for <code>CA</code> or <code>US</code> if your playlist closely matches those channel lineups.</li>
+          <li>Keep file references stable by using the raw GitHub URLs listed below in your IPTV app.</li>
+        </ul>
+      </section>
+      <section class="card">
+        <div class="tag warn">Important</div>
+        <ul>
+          <li>The all-country US feed is very large at about <code>206.8 MB</code>.</li>
+          <li>Some IPTV apps or lower-power devices may index faster with <code>Xfinity</code>, <code>Verizon</code>, or <code>Broadcast Los Angeles</code> instead.</li>
+          <li>The UK file is sourced from <code>epg.pw</code> under the <code>GB</code> region but published here as <code>UK</code> for device clarity.</li>
+        </ul>
+      </section>
+    </div>
+
+    <section class="panel" style="margin-bottom: 18px;">
+      <h2>Main Country Files</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Country</th>
+            <th>File</th>
+            <th>Channels</th>
+            <th>Programmes</th>
+            <th>Fit</th>
+            <th>Tracked Repo Path</th>
+            <th>GitHub Raw URL</th>
+            <th>HP920 LAN URL</th>
+            <th>GitHub Page</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Australia</td>
+            <td><code>EPG_AU_Australia.xml</code></td>
+            <td>219</td>
+            <td>22,654</td>
+            <td>Best current broad AU option from the research repo.</td>
+            <td><code>C:\Users\andrew\PROJECTS\GitHub\get_xmltvlisting\IPTV\EPG_AU_Australia.xml.gz</code></td>
+            <td><a href="https://raw.githubusercontent.com/AJPnKW/get_xmltvlisting/main/IPTV/EPG_AU_Australia.xml.gz">raw.githubusercontent.com/.../EPG_AU_Australia.xml.gz</a></td>
+            <td><a href="http://192.168.1.73:8011/iptv-epg/EPG_AU_Australia.xml">192.168.1.73:8011/iptv-epg/EPG_AU_Australia.xml</a></td>
+            <td><a href="https://github.com/AJPnKW/get_xmltvlisting/blob/main/IPTV/EPG_AU_Australia.xml.gz">github.com/.../EPG_AU_Australia.xml.gz</a></td>
+          </tr>
+          <tr>
+            <td>Canada</td>
+            <td><code>EPG_CA_Canada.xml</code></td>
+            <td>634</td>
+            <td>56,976</td>
+            <td>Best broad CA file. Use provider-specific CA files below if they match your lineup more closely.</td>
+            <td><code>C:\Users\andrew\PROJECTS\GitHub\get_xmltvlisting\IPTV\EPG_CA_Canada.xml.gz</code></td>
+            <td><a href="https://raw.githubusercontent.com/AJPnKW/get_xmltvlisting/main/IPTV/EPG_CA_Canada.xml.gz">raw.githubusercontent.com/.../EPG_CA_Canada.xml.gz</a></td>
+            <td><a href="http://192.168.1.73:8011/iptv-epg/EPG_CA_Canada.xml">192.168.1.73:8011/iptv-epg/EPG_CA_Canada.xml</a></td>
+            <td><a href="https://github.com/AJPnKW/get_xmltvlisting/blob/main/IPTV/EPG_CA_Canada.xml.gz">github.com/.../EPG_CA_Canada.xml.gz</a></td>
+          </tr>
+          <tr>
+            <td>United Kingdom</td>
+            <td><code>EPG_UK_UnitedKingdom.xml</code></td>
+            <td>799</td>
+            <td>56,123</td>
+            <td>Best current broad UK file from the research repo.</td>
+            <td><code>C:\Users\andrew\PROJECTS\GitHub\get_xmltvlisting\IPTV\EPG_UK_UnitedKingdom.xml.gz</code></td>
+            <td><a href="https://raw.githubusercontent.com/AJPnKW/get_xmltvlisting/main/IPTV/EPG_UK_UnitedKingdom.xml.gz">raw.githubusercontent.com/.../EPG_UK_UnitedKingdom.xml.gz</a></td>
+            <td><a href="http://192.168.1.73:8011/iptv-epg/EPG_UK_UnitedKingdom.xml">192.168.1.73:8011/iptv-epg/EPG_UK_UnitedKingdom.xml</a></td>
+            <td><a href="https://github.com/AJPnKW/get_xmltvlisting/blob/main/IPTV/EPG_UK_UnitedKingdom.xml.gz">github.com/.../EPG_UK_UnitedKingdom.xml.gz</a></td>
+          </tr>
+          <tr>
+            <td>United States</td>
+            <td><code>EPG_US_UnitedStates.xml</code></td>
+            <td>5,364</td>
+            <td>553,132</td>
+            <td>Best broad US file, but very large. Use one of the smaller US provider files below if your app struggles.</td>
+            <td><code>C:\Users\andrew\PROJECTS\GitHub\get_xmltvlisting\IPTV\EPG_US_UnitedStates.xml.gz</code></td>
+            <td><a href="https://raw.githubusercontent.com/AJPnKW/get_xmltvlisting/main/IPTV/EPG_US_UnitedStates.xml.gz">raw.githubusercontent.com/.../EPG_US_UnitedStates.xml.gz</a></td>
+            <td><a href="http://192.168.1.73:8011/iptv-epg/EPG_US_UnitedStates.xml">192.168.1.73:8011/iptv-epg/EPG_US_UnitedStates.xml</a></td>
+            <td><a href="https://github.com/AJPnKW/get_xmltvlisting/blob/main/IPTV/EPG_US_UnitedStates.xml.gz">github.com/.../EPG_US_UnitedStates.xml.gz</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="panel" style="margin-bottom: 18px;">
+      <h2>Provider-Specific Alternatives Already In Repo</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>File</th>
+            <th>Channels</th>
+            <th>Programmes</th>
+            <th>Use When</th>
+            <th>Raw GitHub URL</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><code>Rogers_Toronto_ON_CA_xmltv_10270.xml</code></td>
+            <td>269</td>
+            <td>55,089</td>
+            <td>Your Canadian playlist mainly maps to Rogers Toronto channels.</td>
+            <td><a href="https://raw.githubusercontent.com/AJPnKW/get_xmltvlisting/main/IPTV/Rogers_Toronto_ON_CA_xmltv_10270.xml">raw.githubusercontent.com/.../Rogers_Toronto_ON_CA_xmltv_10270.xml</a></td>
+          </tr>
+          <tr>
+            <td><code>Telus_Optik_Vancouver_BC_CA_xmltv_10269.xml</code></td>
+            <td>67</td>
+            <td>14,896</td>
+            <td>Your Canadian playlist mainly maps to Telus Optik Vancouver channels.</td>
+            <td><a href="https://raw.githubusercontent.com/AJPnKW/get_xmltvlisting/main/IPTV/Telus_Optik_Vancouver_BC_CA_xmltv_10269.xml">raw.githubusercontent.com/.../Telus_Optik_Vancouver_BC_CA_xmltv_10269.xml</a></td>
+          </tr>
+          <tr>
+            <td><code>Xfinity_Chicago_IL_US_xmltv_10271.xml</code></td>
+            <td>308</td>
+            <td>56,595</td>
+            <td>Your US playlist lines up best with Xfinity Chicago.</td>
+            <td><a href="https://raw.githubusercontent.com/AJPnKW/get_xmltvlisting/main/IPTV/Xfinity_Chicago_IL_US_xmltv_10271.xml">raw.githubusercontent.com/.../Xfinity_Chicago_IL_US_xmltv_10271.xml</a></td>
+          </tr>
+          <tr>
+            <td><code>Verizon_FIOS_NewYork_NY_US_xmltv_10273.xml</code></td>
+            <td>258</td>
+            <td>43,543</td>
+            <td>Your US playlist lines up best with Verizon FIOS New York.</td>
+            <td><a href="https://raw.githubusercontent.com/AJPnKW/get_xmltvlisting/main/IPTV/Verizon_FIOS_NewYork_NY_US_xmltv_10273.xml">raw.githubusercontent.com/.../Verizon_FIOS_NewYork_NY_US_xmltv_10273.xml</a></td>
+          </tr>
+          <tr>
+            <td><code>Broadcast_LosAngeles_CA_US_xmltv_10272.xml</code></td>
+            <td>49</td>
+            <td>9,216</td>
+            <td>You want a much smaller US over-the-air style lineup.</td>
+            <td><a href="https://raw.githubusercontent.com/AJPnKW/get_xmltvlisting/main/IPTV/Broadcast_LosAngeles_CA_US_xmltv_10272.xml">raw.githubusercontent.com/.../Broadcast_LosAngeles_CA_US_xmltv_10272.xml</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="panel">
+      <h2>Current Review Outcome</h2>
+      <ul>
+        <li><strong>Best overall structure:</strong> separate country XMLTV files is the right strategy for your devices.</li>
+        <li><strong>Best ready-to-use set:</strong> <code>EPG_CA_Canada.xml</code>, <code>EPG_UK_UnitedKingdom.xml</code>, <code>EPG_AU_Australia.xml</code>, <code>EPG_US_UnitedStates.xml</code>.</li>
+        <li><strong>Best CA/US precision option:</strong> use the provider-specific files where your playlist source closely matches Rogers, Telus, Xfinity, Verizon, or LA Broadcast.</li>
+        <li><strong>Source basis:</strong> the research repo provided country-level XMLTV cache files from <code>epg.pw</code>, and the delivery repo already contained smaller provider-based North American XMLTV outputs.</li>
+        <li><strong>Local server hosting:</strong> HP920 LAN delivery uses <code>http://192.168.1.73:8011/iptv-epg/</code> from the active static Python web server.</li>
+      </ul>
+      <p class="small" style="margin-top: 14px;">
+        GitHub folder reference: <a href="https://github.com/AJPnKW/get_xmltvlisting/tree/main/IPTV">https://github.com/AJPnKW/get_xmltvlisting/tree/main/IPTV</a>
+      </p>
+      <p class="small">
+        HP920 reference page: <a href="http://192.168.1.73:8011/iptv-epg/IPTV_EPG_Reference.html">http://192.168.1.73:8011/iptv-epg/IPTV_EPG_Reference.html</a>
+      </p>
+    </section>
+  </main>
+</body>
+</html>
