@@ -17,10 +17,10 @@ $tempHook = Join-Path $env:TEMP "hp920-post-receive-hook.tmp"
 $hpRemoteUrl = "$HpHost`:$HpRemoteRepo"
 
 function Invoke-Git {
-    param([string[]]$Args)
-    & git -C $repoRoot @Args
+    param([string[]]$GitArgs)
+    & git -C $repoRoot @GitArgs
     if ($LASTEXITCODE -ne 0) {
-        throw "git command failed: git -C $repoRoot $($Args -join ' ')"
+        throw "git command failed: git -C $repoRoot $($GitArgs -join ' ')"
     }
 }
 
@@ -45,7 +45,7 @@ if (-not $SkipHp920) {
 
     if (-not $remoteExists) {
         Write-Host "Adding HP920 remote '$HpRemote' => $hpRemoteUrl"
-        Invoke-Git -Args @("remote", "add", $HpRemote, $hpRemoteUrl)
+        Invoke-Git -GitArgs @("remote", "add", $HpRemote, $hpRemoteUrl)
     }
 
     Write-Host "Installing HP920 post-receive deploy hook"
@@ -65,12 +65,12 @@ exec "$HpHookScript"
 
 if (-not $SkipGitHub) {
     Write-Host "Pushing to GitHub remote '$GitHubRemote'"
-    Invoke-Git -Args @("push", $GitHubRemote, $Branch)
+    Invoke-Git -GitArgs @("push", $GitHubRemote, $Branch)
 }
 
 if (-not $SkipHp920) {
     Write-Host "Pushing to HP920 remote '$HpRemote'"
-    Invoke-Git -Args @("push", $HpRemote, $Branch)
+    Invoke-Git -GitArgs @("push", $HpRemote, $Branch)
 }
 
 Write-Host ""
