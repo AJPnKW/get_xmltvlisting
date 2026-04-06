@@ -18,3 +18,7 @@ sample_download_XML.TV.Listings/
 IPTV/CBC_Pack.zip
 IPTV/CBC_Channels_for_VLC.txt
 
+assets/olympics/canada_events.json
+tools/download_cbc_olympics_assets.ps1
+web/cbc/index.html
+tools/download_cbc_olympics_assets.ps1
