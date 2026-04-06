@@ -1,10 +1,8 @@
 param(
     [string]$Branch = "main",
     [string]$GitHubRemote = "origin",
-    [string]$HpRemote = "hp920",
     [string]$HpHost = "theboys-hp290",
-    [string]$HpRemoteRepo = "/home/andrew/repos/get_xmltvlisting.git",
-    [string]$HpHookScript = "/home/andrew/bin/hp920_get_xmltvlisting_post_receive.sh",
+    [string]$HpSyncScript = "/home/andrew/bin/hp920_sync_from_github.sh",
     [switch]$SkipGitHub,
     [switch]$SkipHp920
 )
@@ -12,9 +10,7 @@ param(
 $ErrorActionPreference = "Stop"
 
 $repoRoot = (Resolve-Path (Join-Path $PSScriptRoot "..")).Path
-$serverHookLocal = Join-Path $PSScriptRoot "server\hp920_post_receive.sh"
-$tempHook = Join-Path $env:TEMP "hp920-post-receive-hook.tmp"
-$hpRemoteUrl = "$HpHost`:$HpRemoteRepo"
+$serverSyncLocal = Join-Path $PSScriptRoot "server\hp920_sync_from_github.sh"
 
 function Invoke-Git {
     param([string[]]$GitArgs)
@@ -41,26 +37,10 @@ if ($currentBranch -ne $Branch) {
 }
 
 if (-not $SkipHp920) {
-    $remoteExists = @(& git -C $repoRoot remote) -contains $HpRemote
-
-    if (-not $remoteExists) {
-        Write-Host "Adding HP920 remote '$HpRemote' => $hpRemoteUrl"
-        Invoke-Git -GitArgs @("remote", "add", $HpRemote, $hpRemoteUrl)
-    }
-
-    Write-Host "Installing HP920 post-receive deploy hook"
-    Invoke-CheckedCommand -FilePath "ssh" -CommandArgs @($HpHost, "mkdir -p ~/bin ~/repos/get_xmltvlisting.git/hooks ~/sites/iptv-sync")
-    Invoke-CheckedCommand -FilePath "scp" -CommandArgs @($serverHookLocal, "${HpHost}:${HpHookScript}")
-
-    $hookContent = @"
-#!/usr/bin/env bash
-set -euo pipefail
-exec "$HpHookScript"
-"@
-    Set-Content -Path $tempHook -Value $hookContent -Encoding ascii -NoNewline
-    Invoke-CheckedCommand -FilePath "scp" -CommandArgs @($tempHook, "${HpHost}:~/repos/get_xmltvlisting.git/hooks/post-receive")
-    Remove-Item $tempHook -Force -ErrorAction SilentlyContinue
-    Invoke-CheckedCommand -FilePath "ssh" -CommandArgs @($HpHost, "chmod +x '$HpHookScript' ~/repos/get_xmltvlisting.git/hooks/post-receive")
+    Write-Host "Installing HP920 GitHub sync helper"
+    Invoke-CheckedCommand -FilePath "ssh" -CommandArgs @($HpHost, "mkdir -p ~/bin ~/sites/iptv-sync")
+    Invoke-CheckedCommand -FilePath "scp" -CommandArgs @($serverSyncLocal, "${HpHost}:${HpSyncScript}")
+    Invoke-CheckedCommand -FilePath "ssh" -CommandArgs @($HpHost, "chmod +x '$HpSyncScript'")
 }
 
 if (-not $SkipGitHub) {
@@ -69,8 +49,8 @@ if (-not $SkipGitHub) {
 }
 
 if (-not $SkipHp920) {
-    Write-Host "Pushing to HP920 remote '$HpRemote'"
-    Invoke-Git -GitArgs @("push", $HpRemote, $Branch)
+    Write-Host "Refreshing HP920 clone and LAN publish directory"
+    Invoke-CheckedCommand -FilePath "ssh" -CommandArgs @($HpHost, "BRANCH='$Branch' '$HpSyncScript'")
 }
 
 Write-Host ""
