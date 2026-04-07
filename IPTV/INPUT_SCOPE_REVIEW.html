@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IPTV Input Scope Review</title>
+  <style>
+    :root {
+      --bg: #f4efe7;
+      --paper: #fffdfa;
+      --ink: #182126;
+      --muted: #657177;
+      --line: #d7d0c3;
+      --keep: #0e7a5f;
+      --ref: #9a6c00;
+      --out: #9a2f2f;
+      --accent: #0b5f86;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at top left, #dcecf0 0, transparent 24rem),
+        linear-gradient(180deg, #f8f5ee 0, var(--bg) 100%);
+    }
+    .wrap { max-width: 1220px; margin: 0 auto; padding: 28px 20px 48px; }
+    .hero, .panel {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      box-shadow: 0 16px 36px rgba(24, 33, 38, 0.08);
+    }
+    .hero { padding: 24px; margin-bottom: 18px; }
+    .panel { padding: 20px; margin-bottom: 18px; }
+    h1, h2 { margin: 0 0 10px; line-height: 1.1; }
+    p { margin: 0; }
+    .lede { color: var(--muted); max-width: 72rem; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 14px;
+      margin-top: 18px;
+    }
+    .stat {
+      padding: 16px;
+      border-radius: 16px;
+      color: #fff;
+      min-height: 110px;
+    }
+    .stat.keep { background: linear-gradient(135deg, #0e7a5f, #20a17c); }
+    .stat.reference { background: linear-gradient(135deg, #8e6600, #c69314); }
+    .stat.scopeout { background: linear-gradient(135deg, #8a2e2e, #bc5555); }
+    .stat .k { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.08em; opacity: 0.88; }
+    .stat .v { font-size: 2rem; font-weight: 700; margin-top: 8px; }
+    .pill {
+      display: inline-block;
+      padding: 5px 10px;
+      border-radius: 999px;
+      color: #fff;
+      font-size: 0.8rem;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      margin-right: 8px;
+      margin-bottom: 8px;
+    }
+    .pill.keep { background: var(--keep); }
+    .pill.reference { background: var(--ref); }
+    .pill.scopeout { background: var(--out); }
+    .twocol {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 16px;
+    }
+    ul { margin: 0; padding-left: 18px; }
+    li { margin-bottom: 8px; }
+    .muted { color: var(--muted); }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      border-radius: 14px;
+      overflow: hidden;
+    }
+    th, td {
+      text-align: left;
+      padding: 12px 10px;
+      border-bottom: 1px solid var(--line);
+      vertical-align: top;
+    }
+    th {
+      background: #ece4d7;
+      font-size: 0.82rem;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+    tr:last-child td { border-bottom: 0; }
+    .decision.keep { color: var(--keep); font-weight: 700; }
+    .decision.reference { color: var(--ref); font-weight: 700; }
+    .decision.scopeout { color: var(--out); font-weight: 700; }
+    code {
+      background: #efe8db;
+      padding: 2px 6px;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <section class="hero">
+      <h1>IPTV Input Scope Review</h1>
+      <p class="lede">
+        Distilled from the extended HTML/dashboard input. This page keeps only the material that supports the working output scope:
+        <strong>CA, UK, AU, US</strong>.
+      </p>
+      <div class="grid">
+        <div class="stat keep">
+          <div class="k">Keep</div>
+          <div class="v">5</div>
+        </div>
+        <div class="stat reference">
+          <div class="k">Reference Only</div>
+          <div class="v">3</div>
+        </div>
+        <div class="stat scopeout">
+          <div class="k">Scope Out</div>
+          <div class="v">4</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>Decision Summary</h2>
+      <div>
+        <span class="pill keep">Keep</span>
+        <span class="pill reference">Reference Only</span>
+        <span class="pill scopeout">Scope Out</span>
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th>Section</th>
+            <th>Decision</th>
+            <th>Why</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>BBC + UK Freeview</td>
+            <td class="decision keep">KEEP</td>
+            <td>Directly useful for UK broadcaster naming, grouping, and tvg-id alignment.</td>
+          </tr>
+          <tr>
+            <td>UK Freesat</td>
+            <td class="decision keep">KEEP</td>
+            <td>Useful for UK regional channel variants if your actual playlist requires them.</td>
+          </tr>
+          <tr>
+            <td>UK Broadcasters (BBC, ITV, C4, C5, UKTV, STV, S4C, UTV)</td>
+            <td class="decision keep">KEEP</td>
+            <td>High-value UK channel reference material with real broadcaster structure.</td>
+          </tr>
+          <tr>
+            <td>AU Freeview</td>
+            <td class="decision keep">KEEP</td>
+            <td>Useful AU broadcaster/channel naming reference for scoped country output.</td>
+          </tr>
+          <tr>
+            <td>Provider Manifests</td>
+            <td class="decision keep">KEEP</td>
+            <td>Good normalization source for future country allow-lists and metadata mapping.</td>
+          </tr>
+          <tr>
+            <td>Expanded XMLTV Templates</td>
+            <td class="decision reference">REFERENCE ONLY</td>
+            <td>Helpful as implementation examples, but still template-heavy and not source-of-truth material.</td>
+          </tr>
+          <tr>
+            <td>Advanced Usage Notes</td>
+            <td class="decision reference">REFERENCE ONLY</td>
+            <td>Useful for QA rules, naming discipline, and device compatibility checks.</td>
+          </tr>
+          <tr>
+            <td>Usage &amp; mapping notes</td>
+            <td class="decision reference">REFERENCE ONLY</td>
+            <td>Helpful as supporting notes only.</td>
+          </tr>
+          <tr>
+            <td>Global FAST Channels</td>
+            <td class="decision scopeout">SCOPE OUT</td>
+            <td>Moves away from your country-focused deliverables and introduces placeholder/global IPTV noise.</td>
+          </tr>
+          <tr>
+            <td>IPTV-Org Deep Subsets</td>
+            <td class="decision scopeout">SCOPE OUT</td>
+            <td>Open-playlist style material is not aligned to your preferred production scope.</td>
+          </tr>
+          <tr>
+            <td>Expanded M3U Templates</td>
+            <td class="decision scopeout">SCOPE OUT</td>
+            <td>Mostly placeholders and repeated examples, not production source files.</td>
+          </tr>
+          <tr>
+            <td>Fallback Chains</td>
+            <td class="decision scopeout">SCOPE OUT</td>
+            <td>Synthetic failover patterns are not useful until you have real stream providers to back them.</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="twocol">
+      <article class="panel">
+        <h2>Important Constraint</h2>
+        <ul>
+          <li>The pasted document is mostly a reference dashboard, not a production source.</li>
+          <li>Most M3U examples use placeholder URLs like <code>http://your-stream-source/...</code>.</li>
+          <li>The safe parts are naming ideas, broadcaster groupings, and possible <code>tvg-id</code> conventions.</li>
+          <li>The unsafe parts are sections that look like ready-to-use streams or synthetic failover chains without a real provider.</li>
+        </ul>
+      </article>
+
+      <article class="panel">
+        <h2>Working Rule Set</h2>
+        <ul>
+          <li>Keep only sections that directly support <code>CA</code>, <code>UK</code>, <code>AU</code>, or <code>US</code>.</li>
+          <li>Prefer real XMLTV assets over templates.</li>
+          <li>Prefer broadcaster and lineup metadata over generic IPTV examples.</li>
+          <li>Reject sections that are mainly FAST, IPTV-Org, placeholder streams, or duplicated expansions.</li>
+          <li>Treat regional variants as optional until your actual playlist needs them.</li>
+        </ul>
+      </article>
+
+      <article class="panel">
+        <h2>Suggested Operational Scope</h2>
+        <ul>
+          <li><strong>CA:</strong> keep using the real XMLTV files already in the repo.</li>
+          <li><strong>UK:</strong> keep a broadcaster-focused UK file first; add regional variants only if the playlist requires them.</li>
+          <li><strong>AU:</strong> keep a broadcaster-focused AU file first; avoid template sprawl.</li>
+          <li><strong>US:</strong> keep using the real provider or country XMLTV files already published; do not mix in FAST/template material.</li>
+        </ul>
+      </article>
+
+      <article class="panel">
+        <h2>Recommended Next Step</h2>
+        <p class="muted">
+          Convert the kept UK and AU broadcaster/channel ideas into small allow-list files or manifests, not another giant dashboard file.
+          Those allow-lists should then drive future country-specific XMLTV subset and mapping review work.
+        </p>
+      </article>
+    </section>
+  </div>
+</body>
+</html>
