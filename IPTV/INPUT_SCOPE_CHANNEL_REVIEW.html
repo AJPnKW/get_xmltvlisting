@@ -83,7 +83,7 @@
     .button-row { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 14px; }
     .primary { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 600; }
     .table-wrap { padding: 0 18px 18px; overflow: auto; }
-    table { width: 100%; min-width: 980px; border-collapse: collapse; }
+    table { width: 100%; min-width: 1480px; border-collapse: collapse; }
     th, td {
       text-align: left;
       padding: 11px 10px;
@@ -100,9 +100,11 @@
       text-transform: uppercase;
       letter-spacing: 0.05em;
     }
+    td.controls { white-space: nowrap; }
     tr { cursor: pointer; }
     tr:hover { background: #f5f1e8; }
     tr.selected { background: #e8f4f8; }
+    tr.marked { outline: 2px solid rgba(12, 98, 127, 0.18); outline-offset: -2px; }
     .pill {
       display: inline-block;
       padding: 4px 9px;
@@ -150,6 +152,29 @@
     }
     .small { font-size: 0.84rem; color: var(--muted); }
     .empty { color: var(--muted); font-style: italic; }
+    .mini-row { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+    .mini-button, .icon-button {
+      padding: 6px 8px;
+      border-radius: 10px;
+      border: 1px solid var(--line);
+      background: #fff;
+      color: var(--ink);
+      font-size: 0.76rem;
+      line-height: 1;
+    }
+    .mini-button.include, .icon-button.include { border-color: #7fc0ae; color: var(--include); }
+    .mini-button.exclude, .icon-button.exclude { border-color: #d6a3a3; color: var(--exclude); }
+    .mini-button.pending, .icon-button.pending { border-color: #b7c0c4; color: #516066; }
+    .checkbox-cell {
+      width: 42px;
+      text-align: center;
+    }
+    .checkbox-cell input {
+      width: 18px;
+      height: 18px;
+      padding: 0;
+    }
+    .mono { font-family: Consolas, "SFMono-Regular", monospace; }
     @media (max-width: 1180px) { .wrap { grid-template-columns: 1fr; } }
   </style>
 </head>
@@ -162,6 +187,9 @@
           This tool is built from the large input you pasted today, not from the repo XML inventory. It gives you
           selectable UK and AU scope candidates extracted from that reference so you can decide what to include before
           building final M3U or XMLTV subsets.
+        </p>
+        <p class="small" style="margin-top: 10px;">
+          Use this page for UK and AU from the input HTML. The separate repo validator reflects existing repo inventory, which is why UK and AU are not showing there.
         </p>
         <div class="stats">
           <div class="stat total"><div class="label">Visible</div><div class="value" id="visibleCount">0</div></div>
@@ -206,6 +234,11 @@
         </div>
         <div class="button-row">
           <button id="clearFilters">Clear Filters</button>
+          <button id="selectVisible">Select Visible</button>
+          <button id="clearSelection">Clear Selection</button>
+          <button id="bulkInclude">Include Selected</button>
+          <button id="bulkMaybe">Maybe Selected</button>
+          <button id="bulkExclude">Exclude Selected</button>
           <button id="exportJson" class="primary">Export Scope JSON</button>
           <button id="exportCsv">Export Scope CSV</button>
           <button id="importJson">Import Scope JSON</button>
@@ -221,12 +254,18 @@
         <table>
           <thead>
             <tr>
+              <th class="checkbox-cell"><input id="toggleAllVisible" type="checkbox" aria-label="Select all visible rows"></th>
               <th>Decision</th>
-              <th>Channel</th>
+              <th>Actions</th>
+              <th>Name</th>
+              <th>Call Sign</th>
+              <th>No.</th>
               <th>tvg-id</th>
               <th>Country</th>
-              <th>Broadcaster</th>
-              <th>Platform</th>
+              <th>Type</th>
+              <th>Network</th>
+              <th>Lineups</th>
+              <th>Platforms</th>
               <th>Scope Hint</th>
             </tr>
           </thead>
@@ -245,8 +284,12 @@
         <div class="meta">
           <div class="box"><span class="k">tvg-id</span><div id="detailTvgId" class="empty">None selected</div></div>
           <div class="box"><span class="k">Decision</span><div id="detailDecisionText" class="empty">Pending</div></div>
+          <div class="box"><span class="k">Call Sign</span><div id="detailCallSign" class="empty">-</div></div>
+          <div class="box"><span class="k">No.</span><div id="detailChannelNumber" class="empty">-</div></div>
           <div class="box"><span class="k">Country</span><div id="detailCountry" class="empty">-</div></div>
-          <div class="box"><span class="k">Broadcaster</span><div id="detailBroadcaster" class="empty">-</div></div>
+          <div class="box"><span class="k">Type</span><div id="detailType" class="empty">-</div></div>
+          <div class="box"><span class="k">Network</span><div id="detailBroadcaster" class="empty">-</div></div>
+          <div class="box"><span class="k">Lineups</span><div id="detailLineups" class="empty">-</div></div>
         </div>
 
         <label>Decision
@@ -758,6 +801,7 @@
     const DATA = JSON.parse(document.getElementById('channelData').textContent);
     const STORAGE_KEY = 'get_xmltvlisting.input_scope_channel_review.v1';
     let selectedId = null;
+    let selectedRows = new Set();
     let decisions = loadDecisions();
 
     const els = {
@@ -776,8 +820,12 @@
       detailSubtitle: document.getElementById('detailSubtitle'),
       detailTvgId: document.getElementById('detailTvgId'),
       detailDecisionText: document.getElementById('detailDecisionText'),
+      detailCallSign: document.getElementById('detailCallSign'),
+      detailChannelNumber: document.getElementById('detailChannelNumber'),
       detailCountry: document.getElementById('detailCountry'),
+      detailType: document.getElementById('detailType'),
       detailBroadcaster: document.getElementById('detailBroadcaster'),
+      detailLineups: document.getElementById('detailLineups'),
       detailDecision: document.getElementById('detailDecision'),
       detailGroup: document.getElementById('detailGroup'),
       detailNotes: document.getElementById('detailNotes'),
@@ -785,7 +833,8 @@
       detailSections: document.getElementById('detailSections'),
       detailScopeHint: document.getElementById('detailScopeHint'),
       detailNotesSource: document.getElementById('detailNotesSource'),
-      importFile: document.getElementById('importFile')
+      importFile: document.getElementById('importFile'),
+      toggleAllVisible: document.getElementById('toggleAllVisible')
     };
 
     function loadDecisions() {
@@ -806,12 +855,42 @@
         `<option value="${escapeHtml(value)}">${escapeHtml(value)}</option>`
       ).join('');
     }
+    function slugPieces(value) {
+      return String(value || '').split(/[.\s_-]+/).filter(Boolean);
+    }
+    function normalizeCallSign(row) {
+      const parts = slugPieces(row.tvg_id);
+      if (parts.length) return parts[0].toUpperCase();
+      return String(row.channel_name || '').replace(/[^A-Za-z0-9]+/g, '').toUpperCase() || '';
+    }
+    function normalizeType(row) {
+      if (row.scope_hint === 'regional') return 'Regional';
+      if (row.platforms.some((value) => /freesat/i.test(value))) return 'FTA Satellite';
+      if (row.platforms.some((value) => /freeview/i.test(value))) return 'FTA Terrestrial';
+      return 'National';
+    }
+    function normalizeLineups(row) {
+      return [...new Set([...(row.platforms || []), ...(row.sections || [])])];
+    }
+    function normalizeChannelNumber(row) {
+      const match = String(row.notes || '').match(/\bchannel\s+(\d+)\b/i);
+      return match ? match[1] : '';
+    }
+    const ENRICHED_DATA = DATA.map((row) => ({
+      ...row,
+      name: row.channel_name,
+      call_sign: normalizeCallSign(row),
+      channel_number: normalizeChannelNumber(row),
+      channel_type: normalizeType(row),
+      network: row.broadcaster,
+      lineups: normalizeLineups(row)
+    }));
     function getReviewKey(row) { return row.tvg_id || row.channel_name; }
     function getReview(row) { return decisions[getReviewKey(row)] || { decision: 'pending', target_group: '', notes: '' }; }
     function initFilters() {
-      fillSelect(els.countryFilter, uniqSorted(DATA.map((row) => row.country)));
-      fillSelect(els.broadcasterFilter, uniqSorted(DATA.map((row) => row.broadcaster)));
-      fillSelect(els.platformFilter, uniqSorted(DATA.flatMap((row) => row.platforms)));
+      fillSelect(els.countryFilter, uniqSorted(ENRICHED_DATA.map((row) => row.country)));
+      fillSelect(els.broadcasterFilter, uniqSorted(ENRICHED_DATA.map((row) => row.broadcaster)));
+      fillSelect(els.platformFilter, uniqSorted(ENRICHED_DATA.flatMap((row) => row.platforms)));
     }
     function renderChips(target, values, kind = '') {
       if (!values || values.length === 0) { target.innerHTML = '<span class="empty">None</span>'; return; }
@@ -827,11 +906,12 @@
       const broadcaster = els.broadcasterFilter.value;
       const platform = els.platformFilter.value;
       const hint = els.hintFilter.value;
-      return DATA.filter((row) => {
+      return ENRICHED_DATA.filter((row) => {
         const review = getReview(row);
         const haystack = [
-          row.channel_name, row.tvg_id, row.country, row.broadcaster, row.notes, row.scope_hint,
-          review.target_group, review.notes, ...row.platforms, ...row.sections
+          row.channel_name, row.name, row.tvg_id, row.country, row.broadcaster, row.notes, row.scope_hint,
+          row.call_sign, row.channel_number, row.channel_type, row.network, review.target_group, review.notes,
+          ...row.platforms, ...row.sections, ...row.lineups
         ].join(' ').toLowerCase();
         if (q && !haystack.includes(q)) return false;
         if (decision !== 'ALL' && (review.decision || 'pending') !== decision) return false;
@@ -848,14 +928,29 @@
         const review = getReview(row);
         const decision = review.decision || 'pending';
         const key = getReviewKey(row);
-        const rowClass = key === selectedId ? 'selected' : '';
+        const classes = [];
+        if (key === selectedId) classes.push('selected');
+        if (selectedRows.has(key)) classes.push('marked');
+        const rowClass = classes.join(' ');
         return `
           <tr data-id="${escapeHtml(key)}" class="${rowClass}">
+            <td class="checkbox-cell"><input type="checkbox" data-select-id="${escapeHtml(key)}" ${selectedRows.has(key) ? 'checked' : ''} aria-label="Select ${escapeHtml(row.name)}"></td>
             <td><span class="pill ${escapeHtml(decision)}">${escapeHtml(decision.toUpperCase())}</span></td>
-            <td>${escapeHtml(row.channel_name)}</td>
-            <td>${escapeHtml(row.tvg_id)}</td>
+            <td class="controls">
+              <div class="mini-row">
+                <button type="button" class="icon-button include" data-action="include" data-id="${escapeHtml(key)}" title="Include">IN</button>
+                <button type="button" class="icon-button pending" data-action="maybe" data-id="${escapeHtml(key)}" title="Maybe">MB</button>
+                <button type="button" class="icon-button exclude" data-action="exclude" data-id="${escapeHtml(key)}" title="Exclude">EX</button>
+              </div>
+            </td>
+            <td>${escapeHtml(row.name)}</td>
+            <td class="mono">${escapeHtml(row.call_sign || '-')}</td>
+            <td class="mono">${escapeHtml(row.channel_number || '-')}</td>
+            <td class="mono">${escapeHtml(row.tvg_id)}</td>
             <td>${escapeHtml(row.country)}</td>
-            <td>${escapeHtml(row.broadcaster)}</td>
+            <td>${escapeHtml(row.channel_type)}</td>
+            <td>${escapeHtml(row.network)}</td>
+            <td>${escapeHtml(row.lineups.join(' | '))}</td>
             <td>${escapeHtml(row.platforms.join(' | '))}</td>
             <td><span class="pill ${escapeHtml(row.scope_hint)}">${escapeHtml(row.scope_hint.toUpperCase())}</span></td>
           </tr>`;
@@ -864,6 +959,7 @@
       els.includeCount.textContent = String(Object.values(decisions).filter((v) => v.decision === 'include').length);
       els.maybeCount.textContent = String(Object.values(decisions).filter((v) => v.decision === 'maybe').length);
       els.excludeCount.textContent = String(Object.values(decisions).filter((v) => v.decision === 'exclude').length);
+      els.toggleAllVisible.checked = rows.length > 0 && rows.every((row) => selectedRows.has(getReviewKey(row)));
       els.tableBody.querySelectorAll('tr').forEach((tr) => {
         tr.addEventListener('click', () => {
           selectedId = tr.dataset.id;
@@ -871,16 +967,36 @@
           renderDetail();
         });
       });
+      els.tableBody.querySelectorAll('input[data-select-id]').forEach((input) => {
+        input.addEventListener('click', (event) => event.stopPropagation());
+        input.addEventListener('change', (event) => {
+          const id = event.target.dataset.selectId;
+          if (event.target.checked) selectedRows.add(id);
+          else selectedRows.delete(id);
+          renderTable();
+        });
+      });
+      els.tableBody.querySelectorAll('button[data-action]').forEach((button) => {
+        button.addEventListener('click', (event) => {
+          event.stopPropagation();
+          selectedId = event.currentTarget.dataset.id;
+          saveCurrentDecision(event.currentTarget.dataset.action);
+        });
+      });
     }
     function renderDetail() {
-      const row = DATA.find((item) => getReviewKey(item) === selectedId);
+      const row = ENRICHED_DATA.find((item) => getReviewKey(item) === selectedId);
       if (!row) {
         els.detailTitle.textContent = 'Select a channel candidate';
         els.detailSubtitle.textContent = 'Click a row to inspect the extracted metadata and mark whether it should be in or out of scope.';
         els.detailTvgId.textContent = 'None selected';
         els.detailDecisionText.innerHTML = '<span class="empty">Pending</span>';
+        els.detailCallSign.textContent = '-';
+        els.detailChannelNumber.textContent = '-';
         els.detailCountry.textContent = '-';
+        els.detailType.textContent = '-';
         els.detailBroadcaster.textContent = '-';
+        els.detailLineups.textContent = '-';
         els.detailDecision.value = 'pending';
         els.detailGroup.value = '';
         els.detailNotes.value = '';
@@ -896,8 +1012,12 @@
       els.detailSubtitle.textContent = `Extracted from: ${row.sections.join(' | ')}`;
       els.detailTvgId.textContent = row.tvg_id;
       els.detailDecisionText.innerHTML = `<span class="pill ${escapeHtml(decision)}">${escapeHtml(decision.toUpperCase())}</span>`;
+      els.detailCallSign.textContent = row.call_sign || '-';
+      els.detailChannelNumber.textContent = row.channel_number || '-';
       els.detailCountry.textContent = row.country;
-      els.detailBroadcaster.textContent = row.broadcaster;
+      els.detailType.textContent = row.channel_type;
+      els.detailBroadcaster.textContent = row.network;
+      els.detailLineups.textContent = row.lineups.join(' | ') || '-';
       els.detailDecision.value = decision;
       els.detailGroup.value = review.target_group || '';
       els.detailNotes.value = review.notes || '';
@@ -907,13 +1027,28 @@
       els.detailNotesSource.textContent = row.notes || 'No source note';
     }
     function saveCurrentDecision(forcedDecision = null) {
-      const row = DATA.find((item) => getReviewKey(item) === selectedId);
+      const row = ENRICHED_DATA.find((item) => getReviewKey(item) === selectedId);
       if (!row) return;
       decisions[getReviewKey(row)] = {
         decision: forcedDecision || els.detailDecision.value,
         target_group: els.detailGroup.value.trim(),
         notes: els.detailNotes.value.trim()
       };
+      saveDecisions();
+      renderTable();
+      renderDetail();
+    }
+    function applyDecisionToIds(ids, decision) {
+      ids.forEach((id) => {
+        const row = ENRICHED_DATA.find((item) => getReviewKey(item) === id);
+        if (!row) return;
+        const current = getReview(row);
+        decisions[id] = {
+          decision,
+          target_group: current.target_group || '',
+          notes: current.notes || ''
+        };
+      });
       saveDecisions();
       renderTable();
       renderDetail();
@@ -926,11 +1061,33 @@
       URL.revokeObjectURL(url);
     }
     function exportJson() {
-      download('input_scope_channel_review.json', 'application/json', JSON.stringify({ exported_at: new Date().toISOString(), decisions }, null, 2));
+      download('input_scope_channel_review.json', 'application/json', JSON.stringify({
+        exported_at: new Date().toISOString(),
+        selected_ids: [...selectedRows],
+        decisions
+      }, null, 2));
     }
     function exportCsv() {
-      const lines = [['key','decision','target_group','notes']];
-      Object.entries(decisions).forEach(([key, review]) => lines.push([key, review.decision || 'pending', review.target_group || '', review.notes || '']));
+      const lines = [['key','decision','name','call_sign','channel_number','country','type','network','lineups','platforms','scope_hint','target_group','notes']];
+      ENRICHED_DATA.forEach((row) => {
+        const key = getReviewKey(row);
+        const review = getReview(row);
+        lines.push([
+          key,
+          review.decision || 'pending',
+          row.name || '',
+          row.call_sign || '',
+          row.channel_number || '',
+          row.country || '',
+          row.channel_type || '',
+          row.network || '',
+          row.lineups.join(' | '),
+          row.platforms.join(' | '),
+          row.scope_hint || '',
+          review.target_group || '',
+          review.notes || ''
+        ]);
+      });
       const csv = lines.map((row) => row.map((value) => {
         const text = String(value ?? '');
         return /[",\n]/.test(text) ? '"' + text.replaceAll('"', '""') + '"' : text;
@@ -940,7 +1097,11 @@
     function importJsonObject(obj) {
       const next = obj.decisions && typeof obj.decisions === 'object' ? obj.decisions : obj;
       if (!next || typeof next !== 'object') { alert('Import file did not contain a valid decisions object.'); return; }
-      decisions = next; saveDecisions(); renderTable(); renderDetail();
+      decisions = next;
+      selectedRows = new Set(Array.isArray(obj.selected_ids) ? obj.selected_ids : []);
+      saveDecisions();
+      renderTable();
+      renderDetail();
     }
     initFilters(); renderTable(); renderDetail();
     [els.searchBox, els.decisionFilter, els.countryFilter, els.broadcasterFilter, els.platformFilter, els.hintFilter]
@@ -948,6 +1109,23 @@
     document.getElementById('clearFilters').addEventListener('click', () => {
       els.searchBox.value = ''; els.decisionFilter.value = 'ALL'; els.countryFilter.value = 'ALL';
       els.broadcasterFilter.value = 'ALL'; els.platformFilter.value = 'ALL'; els.hintFilter.value = 'ALL'; renderTable();
+    });
+    document.getElementById('selectVisible').addEventListener('click', () => {
+      filteredRows().forEach((row) => selectedRows.add(getReviewKey(row)));
+      renderTable();
+    });
+    document.getElementById('clearSelection').addEventListener('click', () => {
+      selectedRows.clear();
+      renderTable();
+    });
+    document.getElementById('bulkInclude').addEventListener('click', () => applyDecisionToIds([...selectedRows], 'include'));
+    document.getElementById('bulkMaybe').addEventListener('click', () => applyDecisionToIds([...selectedRows], 'maybe'));
+    document.getElementById('bulkExclude').addEventListener('click', () => applyDecisionToIds([...selectedRows], 'exclude'));
+    els.toggleAllVisible.addEventListener('change', (event) => {
+      const ids = filteredRows().map((row) => getReviewKey(row));
+      if (event.target.checked) ids.forEach((id) => selectedRows.add(id));
+      else ids.forEach((id) => selectedRows.delete(id));
+      renderTable();
     });
     document.getElementById('saveDecision').addEventListener('click', () => saveCurrentDecision());
     document.getElementById('markInclude').addEventListener('click', () => saveCurrentDecision('include'));
@@ -958,7 +1136,7 @@
     document.getElementById('importJson').addEventListener('click', () => els.importFile.click());
     document.getElementById('clearSaved').addEventListener('click', () => {
       if (!confirm('Clear all saved scope decisions for this browser?')) return;
-      decisions = {}; saveDecisions(); renderTable(); renderDetail();
+      decisions = {}; selectedRows.clear(); saveDecisions(); renderTable(); renderDetail();
     });
     els.importFile.addEventListener('change', async (event) => {
       const file = event.target.files?.[0];
