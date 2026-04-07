@@ -1,45 +1,21 @@
-# get_xmltvlisting — Fetch + CBC Canada EPG build
+# get_xmltvlisting — XMLTV Fetch And Publish
 
-## What this does
-- Fetches source lineup XMLTV files into `IPTV/`.
-- Builds a standalone CBC-only XMLTV file from these two fetched sources:
-  - `IPTV/Rogers_Toronto_ON_CA_xmltv_10270.xml`
-  - `IPTV/Telus_Optik_Vancouver_BC_CA_xmltv_10269.xml`
-- Produces:
-  - `IPTV/CBC_Canada.xml`
+## Current active outputs
+- Provider-scoped lineup XMLTV files in `IPTV/`:
+  - `Broadcast_LosAngeles_CA_US_xmltv_10272.xml`
+  - `Rogers_Toronto_ON_CA_xmltv_10270.xml`
+  - `Telus_Optik_Vancouver_BC_CA_xmltv_10269.xml`
+  - `Verizon_FIOS_NewYork_NY_US_xmltv_10273.xml`
+  - `Xfinity_Chicago_IL_US_xmltv_10271.xml`
+- Country-scoped EPG exports:
+  - `IPTV/EPG_CA_Canada.xml.gz`
+  - `IPTV/EPG_UK_UnitedKingdom.xml.gz`
+  - `IPTV/EPG_AU_Australia.xml.gz`
+  - `IPTV/EPG_US_UnitedStates.xml.gz`
 
-## CBC allow-list used by the builder
-- `CBLT-DT`
-- `CBUT-DT`
-- `CBHT-DT`
-- `CBWT-DT`
-- `CBRT-DT`
-
-## Run locally
-1. Fetch source lineup XMLTV files:
-   - `tools/run_fetch_listings.ps1`
-
-2. Build CBC-only EPG (EPG-only; no M3U dependency):
-   - `python tools/build_cbc_canada_epg.py`
-
-### Output
-- `IPTV/CBC_Canada.xml`
-
-### Notes
-- Allow-list: CBLT-DT, CBUT-DT, CBHT-DT, CBWT-DT, CBRT-DT
-- If any allow-list callsign is missing from both source XML files, the build fails fast and prints the missing callsigns.
-
-## Files produced
-- Fetched source files in `IPTV/` (including the two CBC source inputs above).
-- Derived CBC output:
-  - `IPTV/CBC_Canada.xml`
-
-## GitHub Actions
-- Workflow: `.github/workflows/fetch_xmltv_listings.yml`
-- Sequence:
-  1. fetch channels
-  2. fetch listings
-  3. run `tools/build_cbc_canada_epg.py`
+## Keep policy
+- Treat all channels in the active provider lineup XMLTV files above as in-scope keep candidates.
+- Scope and filtering decisions should be applied in review tooling, not by deleting provider channels from source lineup files.
 
 ## Multi-target publish
 
@@ -59,10 +35,16 @@ powershell -ExecutionPolicy Bypass -File .\tools\publish_sync_targets.ps1
 What it does:
 - installs the HP920 GitHub-sync helper
 - pushes the current `main` branch to GitHub
-- tells HP920 to clone/pull the repo from GitHub into `~/sites/iptv-sync/get_xmltvlisting`
+- refreshes local plain `EPG_*.xml` files from the current `EPG_*.xml.gz` files
+- tells HP920 to clone or pull the repo from GitHub into `~/sites/iptv-sync/get_xmltvlisting`
 - HP920 then publishes the repo `IPTV/` folder into `/srv/my_tv_movie/app/iptv-epg`
 
 Notes:
 - HP920 currently has an active Python static web server on port `8011`
 - `Gitea` was not found running on HP920 during setup, so HP920 sync uses a local clone refreshed from GitHub instead
 - large files over GitHub's single-file limit should be published as `.gz` assets for GitHub compatibility
+- the plain local `EPG_*.xml` copies are convenience mirrors of the compressed assets
+
+## Archived CBC/Olympics assets
+- Older CBC-specific pack outputs and CBC/Olympics helper assets are retired and may be kept under archive paths for reference only.
+- They are no longer the primary workflow for this repo.

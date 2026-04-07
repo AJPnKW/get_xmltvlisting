@@ -1,0 +1,13 @@
+﻿CBC Toronto (CBLT-DT)	http://goldenpro.xyz:80/51GYZ3Q/G0N5T14/796349
+CBC Toronto (CBLT-DT) ALT-1	http://goldenpro.xyz:80/51GYZ3Q/G0N5T14/30518
+CBC Toronto (CBLT-DT) ALT-2	http://goldenpro.xyz:80/51GYZ3Q/G0N5T14/515325
+CBC Vancouver (CBUT-DT)	http://goldenpro.xyz:80/51GYZ3Q/G0N5T14/796350
+CBC Vancouver (CBUT-DT) ALT-1	http://goldenpro.xyz:80/51GYZ3Q/G0N5T14/30517
+CBC Vancouver (CBUT-DT) ALT-2	http://goldenpro.xyz:80/51GYZ3Q/G0N5T14/515326
+CBC Halifax (CBHT-DT)	http://goldenpro.xyz:80/51GYZ3Q/G0N5T14/796241
+CBC Halifax (CBHT-DT) ALT-1	http://goldenpro.xyz:80/51GYZ3Q/G0N5T14/515331
+CBC Winnipeg (CBWT-DT)	http://goldenpro.xyz:80/51GYZ3Q/G0N5T14/302941
+CBC Winnipeg (CBWT-DT) ALT-1	http://goldenpro.xyz:80/51GYZ3Q/G0N5T14/515327
+CBC Calgary (CBRT-DT)	http://goldenpro.xyz:80/51GYZ3Q/G0N5T14/796365
+CBC Calgary (CBRT-DT) ALT-1	http://goldenpro.xyz:80/51GYZ3Q/G0N5T14/43893
+CBC Calgary (CBRT-DT) ALT-2	http://goldenpro.xyz:80/51GYZ3Q/G0N5T14/515318

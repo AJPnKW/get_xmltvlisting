@@ -28,6 +28,33 @@ function Invoke-CheckedCommand {
     }
 }
 
+function Expand-LocalEpgAssets {
+    param([string]$IptvDir)
+    Get-ChildItem -Path $IptvDir -Filter "EPG_*.xml.gz" -File | ForEach-Object {
+        $xmlPath = $_.FullName -replace "\.gz$", ""
+        Write-Host "Refreshing local $([System.IO.Path]::GetFileName($xmlPath)) from $($_.Name)"
+        $inputStream = [System.IO.File]::OpenRead($_.FullName)
+        try {
+            $gzipStream = New-Object System.IO.Compression.GzipStream($inputStream, [System.IO.Compression.CompressionMode]::Decompress)
+            try {
+                $outputStream = [System.IO.File]::Create($xmlPath)
+                try {
+                    $gzipStream.CopyTo($outputStream)
+                }
+                finally {
+                    $outputStream.Dispose()
+                }
+            }
+            finally {
+                $gzipStream.Dispose()
+            }
+        }
+        finally {
+            $inputStream.Dispose()
+        }
+    }
+}
+
 Write-Host "Repo root: $repoRoot"
 Write-Host "Branch: $Branch"
 
@@ -47,6 +74,9 @@ if (-not $SkipGitHub) {
     Write-Host "Pushing to GitHub remote '$GitHubRemote'"
     Invoke-Git -GitArgs @("push", $GitHubRemote, $Branch)
 }
+
+Write-Host "Refreshing local plain XML files from compressed EPG assets"
+Expand-LocalEpgAssets -IptvDir (Join-Path $repoRoot "IPTV")
 
 if (-not $SkipHp920) {
     Write-Host "Refreshing HP920 clone and LAN publish directory"
