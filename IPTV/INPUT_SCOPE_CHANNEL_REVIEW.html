@@ -1,0 +1,972 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Input Scope Channel Review</title>
+  <style>
+    :root {
+      --bg: #f5f1ea;
+      --panel: #fffdfa;
+      --ink: #1a2328;
+      --muted: #67737a;
+      --line: #d9d1c4;
+      --accent: #0c627f;
+      --include: #0d7a60;
+      --maybe: #9b6b00;
+      --exclude: #a13232;
+      --shadow: 0 16px 34px rgba(26, 35, 40, 0.08);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at top left, #dcebef 0, transparent 26rem),
+        linear-gradient(180deg, #faf7f0 0, var(--bg) 100%);
+    }
+    .wrap {
+      max-width: 1440px;
+      margin: 0 auto;
+      padding: 24px 18px 40px;
+      display: grid;
+      grid-template-columns: minmax(320px, 1.5fr) minmax(320px, 420px);
+      gap: 18px;
+    }
+    .col { display: flex; flex-direction: column; gap: 18px; min-width: 0; }
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      box-shadow: var(--shadow);
+    }
+    .hero, .filters, .detail { padding: 20px; }
+    h1, h2, h3 { margin: 0 0 10px; line-height: 1.1; }
+    p { margin: 0; }
+    .lede { color: var(--muted); max-width: 72rem; }
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 12px;
+      margin-top: 18px;
+    }
+    .stat { padding: 14px; border-radius: 16px; color: #fff; min-height: 92px; }
+    .stat.total { background: linear-gradient(135deg, #0c627f, #2389ab); }
+    .stat.include { background: linear-gradient(135deg, #0d7a60, #1ea484); }
+    .stat.maybe { background: linear-gradient(135deg, #8e6600, #c69419); }
+    .stat.exclude { background: linear-gradient(135deg, #8d2f2f, #bf5e5e); }
+    .stat .label { font-size: 0.76rem; text-transform: uppercase; letter-spacing: 0.08em; opacity: 0.88; }
+    .stat .value { margin-top: 8px; font-size: 1.95rem; font-weight: 700; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 10px;
+    }
+    label {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      color: var(--muted);
+      font-size: 0.88rem;
+    }
+    input, select, textarea, button {
+      font: inherit;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 10px 12px;
+      background: #fff;
+      color: var(--ink);
+    }
+    textarea { min-height: 110px; resize: vertical; }
+    button { cursor: pointer; }
+    .button-row { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 14px; }
+    .primary { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 600; }
+    .table-wrap { padding: 0 18px 18px; overflow: auto; }
+    table { width: 100%; min-width: 980px; border-collapse: collapse; }
+    th, td {
+      text-align: left;
+      padding: 11px 10px;
+      border-bottom: 1px solid var(--line);
+      vertical-align: top;
+      font-size: 0.92rem;
+    }
+    th {
+      position: sticky;
+      top: 0;
+      z-index: 1;
+      background: #ece4d8;
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    tr { cursor: pointer; }
+    tr:hover { background: #f5f1e8; }
+    tr.selected { background: #e8f4f8; }
+    .pill {
+      display: inline-block;
+      padding: 4px 9px;
+      border-radius: 999px;
+      color: #fff;
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.03em;
+    }
+    .pill.include { background: var(--include); }
+    .pill.maybe { background: var(--maybe); }
+    .pill.exclude { background: var(--exclude); }
+    .pill.pending { background: #7d8a8f; }
+    .pill.core { background: #0d7a60; }
+    .pill.optional { background: #9b6b00; }
+    .pill.regional { background: #7b4c97; }
+    .meta {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px 14px;
+      margin: 14px 0 16px;
+    }
+    .box {
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 10px 12px;
+      background: #fffdf8;
+    }
+    .k {
+      display: block;
+      font-size: 0.73rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 4px;
+    }
+    .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+    .chip {
+      display: inline-block;
+      padding: 4px 8px;
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      background: #faf5ed;
+      font-size: 0.78rem;
+    }
+    .small { font-size: 0.84rem; color: var(--muted); }
+    .empty { color: var(--muted); font-style: italic; }
+    @media (max-width: 1180px) { .wrap { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="col">
+      <section class="panel hero">
+        <h1>Input Scope Channel Review</h1>
+        <p class="lede">
+          This tool is built from the large input you pasted today, not from the repo XML inventory. It gives you
+          selectable UK and AU scope candidates extracted from that reference so you can decide what to include before
+          building final M3U or XMLTV subsets.
+        </p>
+        <div class="stats">
+          <div class="stat total"><div class="label">Visible</div><div class="value" id="visibleCount">0</div></div>
+          <div class="stat include"><div class="label">Include</div><div class="value" id="includeCount">0</div></div>
+          <div class="stat maybe"><div class="label">Maybe</div><div class="value" id="maybeCount">0</div></div>
+          <div class="stat exclude"><div class="label">Exclude</div><div class="value" id="excludeCount">0</div></div>
+        </div>
+      </section>
+
+      <section class="panel filters">
+        <h2>Filters</h2>
+        <div class="grid">
+          <label>Search
+            <input id="searchBox" type="search" placeholder="Channel, tvg-id, notes, broadcaster">
+          </label>
+          <label>Decision
+            <select id="decisionFilter">
+              <option value="ALL">All</option>
+              <option value="include">Include</option>
+              <option value="maybe">Maybe</option>
+              <option value="exclude">Exclude</option>
+              <option value="pending">Pending</option>
+            </select>
+          </label>
+          <label>Country
+            <select id="countryFilter"><option value="ALL">All</option></select>
+          </label>
+          <label>Broadcaster
+            <select id="broadcasterFilter"><option value="ALL">All</option></select>
+          </label>
+          <label>Platform
+            <select id="platformFilter"><option value="ALL">All</option></select>
+          </label>
+          <label>Scope Hint
+            <select id="hintFilter">
+              <option value="ALL">All</option>
+              <option value="core">Core</option>
+              <option value="optional">Optional</option>
+              <option value="regional">Regional</option>
+            </select>
+          </label>
+        </div>
+        <div class="button-row">
+          <button id="clearFilters">Clear Filters</button>
+          <button id="exportJson" class="primary">Export Scope JSON</button>
+          <button id="exportCsv">Export Scope CSV</button>
+          <button id="importJson">Import Scope JSON</button>
+          <button id="clearSaved">Clear Saved Decisions</button>
+          <input id="importFile" type="file" accept=".json" hidden>
+        </div>
+        <p class="small" style="margin-top: 12px;">
+          Decisions are saved in browser local storage on this machine. Export a JSON snapshot when you want a file copy.
+        </p>
+      </section>
+
+      <section class="panel table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Decision</th>
+              <th>Channel</th>
+              <th>tvg-id</th>
+              <th>Country</th>
+              <th>Broadcaster</th>
+              <th>Platform</th>
+              <th>Scope Hint</th>
+            </tr>
+          </thead>
+          <tbody id="tableBody"></tbody>
+        </table>
+      </section>
+    </div>
+
+    <div class="col">
+      <section class="panel detail">
+        <h2 id="detailTitle">Select a channel candidate</h2>
+        <p id="detailSubtitle" class="small">
+          Click a row to inspect the extracted metadata and mark whether it should be in or out of scope.
+        </p>
+
+        <div class="meta">
+          <div class="box"><span class="k">tvg-id</span><div id="detailTvgId" class="empty">None selected</div></div>
+          <div class="box"><span class="k">Decision</span><div id="detailDecisionText" class="empty">Pending</div></div>
+          <div class="box"><span class="k">Country</span><div id="detailCountry" class="empty">-</div></div>
+          <div class="box"><span class="k">Broadcaster</span><div id="detailBroadcaster" class="empty">-</div></div>
+        </div>
+
+        <label>Decision
+          <select id="detailDecision">
+            <option value="pending">Pending</option>
+            <option value="include">Include</option>
+            <option value="maybe">Maybe</option>
+            <option value="exclude">Exclude</option>
+          </select>
+        </label>
+
+        <label style="margin-top: 10px;">Target Group
+          <input id="detailGroup" type="text" placeholder="Example: UK • Core Public Channels">
+        </label>
+
+        <label style="margin-top: 10px;">Notes
+          <textarea id="detailNotes" placeholder="Why include/exclude? region rule? broadcaster group?"></textarea>
+        </label>
+
+        <div class="button-row">
+          <button id="saveDecision" class="primary">Save Decision</button>
+          <button id="markInclude">Mark Include</button>
+          <button id="markMaybe">Mark Maybe</button>
+          <button id="markExclude">Mark Exclude</button>
+        </div>
+
+        <h3 style="margin-top: 18px;">Extracted Metadata</h3>
+        <div><strong>Platforms</strong><div id="detailPlatforms" class="chips"></div></div>
+        <div style="margin-top: 12px;"><strong>Sections</strong><div id="detailSections" class="chips"></div></div>
+        <div style="margin-top: 12px;"><strong>Scope Hint</strong><div id="detailScopeHint" class="chips"></div></div>
+        <div style="margin-top: 12px;"><strong>Source Notes</strong><div id="detailNotesSource" class="small"></div></div>
+      </section>
+    </div>
+  </div>
+
+  <script type="application/json" id="channelData">[
+  {
+    "channel_name": "BBC One",
+    "tvg_id": "bbcone.uk",
+    "country": "UK",
+    "broadcaster": "BBC",
+    "platforms": ["Freeview", "Broadcasters"],
+    "sections": ["BBC + UK Freeview", "UK Broadcasters"],
+    "notes": "Main BBC flagship channel.",
+    "scope_hint": "core"
+  },
+  {
+    "channel_name": "BBC Two",
+    "tvg_id": "bbctwo.uk",
+    "country": "UK",
+    "broadcaster": "BBC",
+    "platforms": ["Freeview", "Broadcasters"],
+    "sections": ["BBC + UK Freeview", "UK Broadcasters"],
+    "notes": "Documentaries, factual, culture.",
+    "scope_hint": "core"
+  },
+  {
+    "channel_name": "BBC Three",
+    "tvg_id": "bbcthree.uk",
+    "country": "UK",
+    "broadcaster": "BBC",
+    "platforms": ["Freeview"],
+    "sections": ["BBC + UK Freeview"],
+    "notes": "Youth-focused entertainment.",
+    "scope_hint": "optional"
+  },
+  {
+    "channel_name": "BBC Four",
+    "tvg_id": "bbcfour.uk",
+    "country": "UK",
+    "broadcaster": "BBC",
+    "platforms": ["Freeview"],
+    "sections": ["BBC + UK Freeview"],
+    "notes": "Arts, culture, world cinema.",
+    "scope_hint": "optional"
+  },
+  {
+    "channel_name": "BBC News",
+    "tvg_id": "bbcnews.uk",
+    "country": "UK",
+    "broadcaster": "BBC",
+    "platforms": ["Freeview", "Broadcasters"],
+    "sections": ["BBC + UK Freeview", "UK Broadcasters"],
+    "notes": "24-hour news channel.",
+    "scope_hint": "core"
+  },
+  {
+    "channel_name": "BBC Parliament",
+    "tvg_id": "bbcparliament.uk",
+    "country": "UK",
+    "broadcaster": "BBC",
+    "platforms": ["Freeview"],
+    "sections": ["BBC + UK Freeview"],
+    "notes": "UK parliamentary coverage.",
+    "scope_hint": "optional"
+  },
+  {
+    "channel_name": "CBBC",
+    "tvg_id": "cbbc.uk",
+    "country": "UK",
+    "broadcaster": "BBC",
+    "platforms": ["Freeview"],
+    "sections": ["BBC + UK Freeview"],
+    "notes": "Children's programming (6-12).",
+    "scope_hint": "optional"
+  },
+  {
+    "channel_name": "CBeebies",
+    "tvg_id": "cbeebies.uk",
+    "country": "UK",
+    "broadcaster": "BBC",
+    "platforms": ["Freeview"],
+    "sections": ["BBC + UK Freeview"],
+    "notes": "Children's programming (under 6).",
+    "scope_hint": "optional"
+  },
+  {
+    "channel_name": "ITV1",
+    "tvg_id": "itv1.uk",
+    "country": "UK",
+    "broadcaster": "ITV",
+    "platforms": ["Freeview", "Broadcasters"],
+    "sections": ["BBC + UK Freeview", "UK Broadcasters"],
+    "notes": "Main ITV channel.",
+    "scope_hint": "core"
+  },
+  {
+    "channel_name": "ITV2",
+    "tvg_id": "itv2.uk",
+    "country": "UK",
+    "broadcaster": "ITV",
+    "platforms": ["Freeview", "Broadcasters"],
+    "sections": ["BBC + UK Freeview", "UK Broadcasters"],
+    "notes": "Entertainment and reality.",
+    "scope_hint": "optional"
+  },
+  {
+    "channel_name": "ITV3",
+    "tvg_id": "itv3.uk",
+    "country": "UK",
+    "broadcaster": "ITV",
+    "platforms": ["Freeview", "Broadcasters"],
+    "sections": ["BBC + UK Freeview", "UK Broadcasters"],
+    "notes": "Dramas and classics.",
+    "scope_hint": "optional"
+  },
+  {
+    "channel_name": "ITV4",
+    "tvg_id": "itv4.uk",
+    "country": "UK",
+    "broadcaster": "ITV",
+    "platforms": ["Freeview", "Broadcasters"],
+    "sections": ["BBC + UK Freeview", "UK Broadcasters"],
+    "notes": "Sports and entertainment.",
+    "scope_hint": "optional"
+  },
+  {
+    "channel_name": "Channel 4",
+    "tvg_id": "channel4.uk",
+    "country": "UK",
+    "broadcaster": "Channel 4",
+    "platforms": ["Freeview", "Broadcasters"],
+    "sections": ["BBC + UK Freeview", "UK Broadcasters"],
+    "notes": "Main Channel 4 service.",
+    "scope_hint": "core"
+  },
+  {
+    "channel_name": "E4",
+    "tvg_id": "e4.uk",
+    "country": "UK",
+    "broadcaster": "Channel 4",
+    "platforms": ["Freeview", "Broadcasters"],
+    "sections": ["BBC + UK Freeview", "UK Broadcasters"],
+    "notes": "Youth entertainment.",
+    "scope_hint": "optional"
+  },
+  {
+    "channel_name": "More4",
+    "tvg_id": "more4.uk",
+    "country": "UK",
+    "broadcaster": "Channel 4",
+    "platforms": ["Freeview", "Broadcasters"],
+    "sections": ["BBC + UK Freeview", "UK Broadcasters"],
+    "notes": "Documentaries and lifestyle.",
+    "scope_hint": "optional"
+  },
+  {
+    "channel_name": "Film4",
+    "tvg_id": "film4.uk",
+    "country": "UK",
+    "broadcaster": "Channel 4",
+    "platforms": ["Broadcasters"],
+    "sections": ["UK Broadcasters"],
+    "notes": "Movies.",
+    "scope_hint": "optional"
+  },
+  {
+    "channel_name": "Channel 5",
+    "tvg_id": "channel5.uk",
+    "country": "UK",
+    "broadcaster": "Channel 5",
+    "platforms": ["Freeview", "Broadcasters"],
+    "sections": ["BBC + UK Freeview", "UK Broadcasters"],
+    "notes": "Main Channel 5 service.",
+    "scope_hint": "core"
+  },
+  {
+    "channel_name": "5USA",
+    "tvg_id": "5usa.uk",
+    "country": "UK",
+    "broadcaster": "Channel 5",
+    "platforms": ["Broadcasters"],
+    "sections": ["UK Broadcasters"],
+    "notes": "US dramas and crime.",
+    "scope_hint": "optional"
+  },
+  {
+    "channel_name": "5STAR",
+    "tvg_id": "5star.uk",
+    "country": "UK",
+    "broadcaster": "Channel 5",
+    "platforms": ["Broadcasters"],
+    "sections": ["UK Broadcasters"],
+    "notes": "Entertainment and reality.",
+    "scope_hint": "optional"
+  },
+  {
+    "channel_name": "Dave",
+    "tvg_id": "dave.uk",
+    "country": "UK",
+    "broadcaster": "UKTV",
+    "platforms": ["Freeview", "Freesat", "Broadcasters"],
+    "sections": ["BBC + UK Freeview", "UK Freesat", "UK Broadcasters"],
+    "notes": "Comedy and entertainment.",
+    "scope_hint": "optional"
+  },
+  {
+    "channel_name": "Drama",
+    "tvg_id": "drama.uk",
+    "country": "UK",
+    "broadcaster": "UKTV",
+    "platforms": ["Freeview", "Broadcasters"],
+    "sections": ["BBC + UK Freeview", "UK Broadcasters"],
+    "notes": "Classic dramas.",
+    "scope_hint": "optional"
+  },
+  {
+    "channel_name": "STV",
+    "tvg_id": "stv.scotland",
+    "country": "UK",
+    "broadcaster": "Regional",
+    "platforms": ["Broadcasters"],
+    "sections": ["UK Broadcasters"],
+    "notes": "Scottish ITV affiliate.",
+    "scope_hint": "regional"
+  },
+  {
+    "channel_name": "S4C",
+    "tvg_id": "s4c.wales",
+    "country": "UK",
+    "broadcaster": "Regional",
+    "platforms": ["Broadcasters"],
+    "sections": ["UK Broadcasters"],
+    "notes": "Welsh-language broadcaster.",
+    "scope_hint": "regional"
+  },
+  {
+    "channel_name": "UTV",
+    "tvg_id": "utv.ni",
+    "country": "UK",
+    "broadcaster": "Regional",
+    "platforms": ["Broadcasters"],
+    "sections": ["UK Broadcasters"],
+    "notes": "Northern Ireland ITV affiliate.",
+    "scope_hint": "regional"
+  },
+  {
+    "channel_name": "BBC One London",
+    "tvg_id": "bbcone.london",
+    "country": "UK",
+    "broadcaster": "BBC",
+    "platforms": ["Freesat"],
+    "sections": ["UK Freesat"],
+    "notes": "London regional feed.",
+    "scope_hint": "regional"
+  },
+  {
+    "channel_name": "BBC One Scotland",
+    "tvg_id": "bbcone.scotland",
+    "country": "UK",
+    "broadcaster": "BBC",
+    "platforms": ["Freesat"],
+    "sections": ["UK Freesat"],
+    "notes": "Scottish regional feed.",
+    "scope_hint": "regional"
+  },
+  {
+    "channel_name": "BBC One Wales",
+    "tvg_id": "bbcone.wales",
+    "country": "UK",
+    "broadcaster": "BBC",
+    "platforms": ["Freesat"],
+    "sections": ["UK Freesat"],
+    "notes": "Welsh regional feed.",
+    "scope_hint": "regional"
+  },
+  {
+    "channel_name": "BBC One Northern Ireland",
+    "tvg_id": "bbcone.ni",
+    "country": "UK",
+    "broadcaster": "BBC",
+    "platforms": ["Freesat"],
+    "sections": ["UK Freesat"],
+    "notes": "Northern Ireland regional feed.",
+    "scope_hint": "regional"
+  },
+  {
+    "channel_name": "ITV1 London",
+    "tvg_id": "itv1.london",
+    "country": "UK",
+    "broadcaster": "ITV",
+    "platforms": ["Freesat"],
+    "sections": ["UK Freesat"],
+    "notes": "Main ITV London feed.",
+    "scope_hint": "regional"
+  },
+  {
+    "channel_name": "ITV1 Granada",
+    "tvg_id": "itv1.granada",
+    "country": "UK",
+    "broadcaster": "ITV",
+    "platforms": ["Freesat"],
+    "sections": ["UK Freesat"],
+    "notes": "North West regional feed.",
+    "scope_hint": "regional"
+  },
+  {
+    "channel_name": "ITV1 Wales",
+    "tvg_id": "itv1.wales",
+    "country": "UK",
+    "broadcaster": "ITV",
+    "platforms": ["Freesat"],
+    "sections": ["UK Freesat"],
+    "notes": "Welsh regional feed.",
+    "scope_hint": "regional"
+  },
+  {
+    "channel_name": "Channel 4 HD",
+    "tvg_id": "channel4.hd",
+    "country": "UK",
+    "broadcaster": "Channel 4",
+    "platforms": ["Freesat"],
+    "sections": ["UK Freesat"],
+    "notes": "HD Freesat feed.",
+    "scope_hint": "optional"
+  },
+  {
+    "channel_name": "Channel 5 HD",
+    "tvg_id": "channel5.hd",
+    "country": "UK",
+    "broadcaster": "Channel 5",
+    "platforms": ["Freesat"],
+    "sections": ["UK Freesat"],
+    "notes": "HD Freesat feed.",
+    "scope_hint": "optional"
+  },
+  {
+    "channel_name": "ABC TV",
+    "tvg_id": "abc.au",
+    "country": "AU",
+    "broadcaster": "ABC",
+    "platforms": ["AU Freeview"],
+    "sections": ["AU Freeview"],
+    "notes": "Main ABC channel.",
+    "scope_hint": "core"
+  },
+  {
+    "channel_name": "ABC Kids",
+    "tvg_id": "abckids.au",
+    "country": "AU",
+    "broadcaster": "ABC",
+    "platforms": ["AU Freeview"],
+    "sections": ["AU Freeview"],
+    "notes": "Children's programming.",
+    "scope_hint": "optional"
+  },
+  {
+    "channel_name": "ABC ME",
+    "tvg_id": "abcme.au",
+    "country": "AU",
+    "broadcaster": "ABC",
+    "platforms": ["AU Freeview"],
+    "sections": ["AU Freeview"],
+    "notes": "Youth programming.",
+    "scope_hint": "optional"
+  },
+  {
+    "channel_name": "ABC News",
+    "tvg_id": "abcnews.au",
+    "country": "AU",
+    "broadcaster": "ABC",
+    "platforms": ["AU Freeview"],
+    "sections": ["AU Freeview"],
+    "notes": "24-hour news channel.",
+    "scope_hint": "core"
+  },
+  {
+    "channel_name": "SBS",
+    "tvg_id": "sbs.au",
+    "country": "AU",
+    "broadcaster": "SBS",
+    "platforms": ["AU Freeview"],
+    "sections": ["AU Freeview"],
+    "notes": "Main multicultural channel.",
+    "scope_hint": "core"
+  },
+  {
+    "channel_name": "SBS Viceland",
+    "tvg_id": "sbsviceland.au",
+    "country": "AU",
+    "broadcaster": "SBS",
+    "platforms": ["AU Freeview"],
+    "sections": ["AU Freeview"],
+    "notes": "Youth and alternative programming.",
+    "scope_hint": "optional"
+  },
+  {
+    "channel_name": "SBS World Movies",
+    "tvg_id": "sbsworldmovies.au",
+    "country": "AU",
+    "broadcaster": "SBS",
+    "platforms": ["AU Freeview"],
+    "sections": ["AU Freeview"],
+    "notes": "International films.",
+    "scope_hint": "optional"
+  },
+  {
+    "channel_name": "Seven",
+    "tvg_id": "seven.au",
+    "country": "AU",
+    "broadcaster": "Seven",
+    "platforms": ["AU Freeview"],
+    "sections": ["AU Freeview"],
+    "notes": "Main Seven Network channel.",
+    "scope_hint": "core"
+  },
+  {
+    "channel_name": "7TWO",
+    "tvg_id": "7two.au",
+    "country": "AU",
+    "broadcaster": "Seven",
+    "platforms": ["AU Freeview"],
+    "sections": ["AU Freeview"],
+    "notes": "Entertainment and lifestyle.",
+    "scope_hint": "optional"
+  },
+  {
+    "channel_name": "7mate",
+    "tvg_id": "7mate.au",
+    "country": "AU",
+    "broadcaster": "Seven",
+    "platforms": ["AU Freeview"],
+    "sections": ["AU Freeview"],
+    "notes": "Sports and male-skewed programming.",
+    "scope_hint": "optional"
+  },
+  {
+    "channel_name": "Nine",
+    "tvg_id": "nine.au",
+    "country": "AU",
+    "broadcaster": "Nine",
+    "platforms": ["AU Freeview"],
+    "sections": ["AU Freeview"],
+    "notes": "Main Nine Network channel.",
+    "scope_hint": "core"
+  },
+  {
+    "channel_name": "9Gem",
+    "tvg_id": "9gem.au",
+    "country": "AU",
+    "broadcaster": "Nine",
+    "platforms": ["AU Freeview"],
+    "sections": ["AU Freeview"],
+    "notes": "Movies and entertainment.",
+    "scope_hint": "optional"
+  },
+  {
+    "channel_name": "10",
+    "tvg_id": "ten.au",
+    "country": "AU",
+    "broadcaster": "Ten",
+    "platforms": ["AU Freeview"],
+    "sections": ["AU Freeview"],
+    "notes": "Main Network 10 channel.",
+    "scope_hint": "core"
+  },
+  {
+    "channel_name": "10 Bold",
+    "tvg_id": "10bold.au",
+    "country": "AU",
+    "broadcaster": "Ten",
+    "platforms": ["AU Freeview"],
+    "sections": ["AU Freeview"],
+    "notes": "Drama and action.",
+    "scope_hint": "optional"
+  }
+]</script>
+  <script>
+    const DATA = JSON.parse(document.getElementById('channelData').textContent);
+    const STORAGE_KEY = 'get_xmltvlisting.input_scope_channel_review.v1';
+    let selectedId = null;
+    let decisions = loadDecisions();
+
+    const els = {
+      searchBox: document.getElementById('searchBox'),
+      decisionFilter: document.getElementById('decisionFilter'),
+      countryFilter: document.getElementById('countryFilter'),
+      broadcasterFilter: document.getElementById('broadcasterFilter'),
+      platformFilter: document.getElementById('platformFilter'),
+      hintFilter: document.getElementById('hintFilter'),
+      tableBody: document.getElementById('tableBody'),
+      visibleCount: document.getElementById('visibleCount'),
+      includeCount: document.getElementById('includeCount'),
+      maybeCount: document.getElementById('maybeCount'),
+      excludeCount: document.getElementById('excludeCount'),
+      detailTitle: document.getElementById('detailTitle'),
+      detailSubtitle: document.getElementById('detailSubtitle'),
+      detailTvgId: document.getElementById('detailTvgId'),
+      detailDecisionText: document.getElementById('detailDecisionText'),
+      detailCountry: document.getElementById('detailCountry'),
+      detailBroadcaster: document.getElementById('detailBroadcaster'),
+      detailDecision: document.getElementById('detailDecision'),
+      detailGroup: document.getElementById('detailGroup'),
+      detailNotes: document.getElementById('detailNotes'),
+      detailPlatforms: document.getElementById('detailPlatforms'),
+      detailSections: document.getElementById('detailSections'),
+      detailScopeHint: document.getElementById('detailScopeHint'),
+      detailNotesSource: document.getElementById('detailNotesSource'),
+      importFile: document.getElementById('importFile')
+    };
+
+    function loadDecisions() {
+      try { return JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}'); }
+      catch { return {}; }
+    }
+    function saveDecisions() { localStorage.setItem(STORAGE_KEY, JSON.stringify(decisions)); }
+    function escapeHtml(value) {
+      return String(value ?? '')
+        .replaceAll('&', '&amp;')
+        .replaceAll('<', '&lt;')
+        .replaceAll('>', '&gt;')
+        .replaceAll('"', '&quot;');
+    }
+    function uniqSorted(values) { return [...new Set(values.filter(Boolean))].sort((a, b) => a.localeCompare(b)); }
+    function fillSelect(select, values) {
+      select.innerHTML = '<option value="ALL">All</option>' + values.map((value) =>
+        `<option value="${escapeHtml(value)}">${escapeHtml(value)}</option>`
+      ).join('');
+    }
+    function getReviewKey(row) { return row.tvg_id || row.channel_name; }
+    function getReview(row) { return decisions[getReviewKey(row)] || { decision: 'pending', target_group: '', notes: '' }; }
+    function initFilters() {
+      fillSelect(els.countryFilter, uniqSorted(DATA.map((row) => row.country)));
+      fillSelect(els.broadcasterFilter, uniqSorted(DATA.map((row) => row.broadcaster)));
+      fillSelect(els.platformFilter, uniqSorted(DATA.flatMap((row) => row.platforms)));
+    }
+    function renderChips(target, values, kind = '') {
+      if (!values || values.length === 0) { target.innerHTML = '<span class="empty">None</span>'; return; }
+      target.innerHTML = values.map((value) => {
+        const cls = kind ? `chip ${kind}` : 'chip';
+        return `<span class="${cls}">${escapeHtml(value)}</span>`;
+      }).join('');
+    }
+    function filteredRows() {
+      const q = els.searchBox.value.trim().toLowerCase();
+      const decision = els.decisionFilter.value;
+      const country = els.countryFilter.value;
+      const broadcaster = els.broadcasterFilter.value;
+      const platform = els.platformFilter.value;
+      const hint = els.hintFilter.value;
+      return DATA.filter((row) => {
+        const review = getReview(row);
+        const haystack = [
+          row.channel_name, row.tvg_id, row.country, row.broadcaster, row.notes, row.scope_hint,
+          review.target_group, review.notes, ...row.platforms, ...row.sections
+        ].join(' ').toLowerCase();
+        if (q && !haystack.includes(q)) return false;
+        if (decision !== 'ALL' && (review.decision || 'pending') !== decision) return false;
+        if (country !== 'ALL' && row.country !== country) return false;
+        if (broadcaster !== 'ALL' && row.broadcaster !== broadcaster) return false;
+        if (platform !== 'ALL' && !row.platforms.includes(platform)) return false;
+        if (hint !== 'ALL' && row.scope_hint !== hint) return false;
+        return true;
+      });
+    }
+    function renderTable() {
+      const rows = filteredRows();
+      els.tableBody.innerHTML = rows.map((row) => {
+        const review = getReview(row);
+        const decision = review.decision || 'pending';
+        const key = getReviewKey(row);
+        const rowClass = key === selectedId ? 'selected' : '';
+        return `
+          <tr data-id="${escapeHtml(key)}" class="${rowClass}">
+            <td><span class="pill ${escapeHtml(decision)}">${escapeHtml(decision.toUpperCase())}</span></td>
+            <td>${escapeHtml(row.channel_name)}</td>
+            <td>${escapeHtml(row.tvg_id)}</td>
+            <td>${escapeHtml(row.country)}</td>
+            <td>${escapeHtml(row.broadcaster)}</td>
+            <td>${escapeHtml(row.platforms.join(' | '))}</td>
+            <td><span class="pill ${escapeHtml(row.scope_hint)}">${escapeHtml(row.scope_hint.toUpperCase())}</span></td>
+          </tr>`;
+      }).join('');
+      els.visibleCount.textContent = String(rows.length);
+      els.includeCount.textContent = String(Object.values(decisions).filter((v) => v.decision === 'include').length);
+      els.maybeCount.textContent = String(Object.values(decisions).filter((v) => v.decision === 'maybe').length);
+      els.excludeCount.textContent = String(Object.values(decisions).filter((v) => v.decision === 'exclude').length);
+      els.tableBody.querySelectorAll('tr').forEach((tr) => {
+        tr.addEventListener('click', () => {
+          selectedId = tr.dataset.id;
+          renderTable();
+          renderDetail();
+        });
+      });
+    }
+    function renderDetail() {
+      const row = DATA.find((item) => getReviewKey(item) === selectedId);
+      if (!row) {
+        els.detailTitle.textContent = 'Select a channel candidate';
+        els.detailSubtitle.textContent = 'Click a row to inspect the extracted metadata and mark whether it should be in or out of scope.';
+        els.detailTvgId.textContent = 'None selected';
+        els.detailDecisionText.innerHTML = '<span class="empty">Pending</span>';
+        els.detailCountry.textContent = '-';
+        els.detailBroadcaster.textContent = '-';
+        els.detailDecision.value = 'pending';
+        els.detailGroup.value = '';
+        els.detailNotes.value = '';
+        renderChips(els.detailPlatforms, []);
+        renderChips(els.detailSections, []);
+        renderChips(els.detailScopeHint, []);
+        els.detailNotesSource.innerHTML = '<span class="empty">No source note</span>';
+        return;
+      }
+      const review = getReview(row);
+      const decision = review.decision || 'pending';
+      els.detailTitle.textContent = row.channel_name;
+      els.detailSubtitle.textContent = `Extracted from: ${row.sections.join(' | ')}`;
+      els.detailTvgId.textContent = row.tvg_id;
+      els.detailDecisionText.innerHTML = `<span class="pill ${escapeHtml(decision)}">${escapeHtml(decision.toUpperCase())}</span>`;
+      els.detailCountry.textContent = row.country;
+      els.detailBroadcaster.textContent = row.broadcaster;
+      els.detailDecision.value = decision;
+      els.detailGroup.value = review.target_group || '';
+      els.detailNotes.value = review.notes || '';
+      renderChips(els.detailPlatforms, row.platforms);
+      renderChips(els.detailSections, row.sections);
+      renderChips(els.detailScopeHint, [row.scope_hint], row.scope_hint);
+      els.detailNotesSource.textContent = row.notes || 'No source note';
+    }
+    function saveCurrentDecision(forcedDecision = null) {
+      const row = DATA.find((item) => getReviewKey(item) === selectedId);
+      if (!row) return;
+      decisions[getReviewKey(row)] = {
+        decision: forcedDecision || els.detailDecision.value,
+        target_group: els.detailGroup.value.trim(),
+        notes: els.detailNotes.value.trim()
+      };
+      saveDecisions();
+      renderTable();
+      renderDetail();
+    }
+    function download(name, type, content) {
+      const blob = new Blob([content], { type });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url; a.download = name; document.body.appendChild(a); a.click(); a.remove();
+      URL.revokeObjectURL(url);
+    }
+    function exportJson() {
+      download('input_scope_channel_review.json', 'application/json', JSON.stringify({ exported_at: new Date().toISOString(), decisions }, null, 2));
+    }
+    function exportCsv() {
+      const lines = [['key','decision','target_group','notes']];
+      Object.entries(decisions).forEach(([key, review]) => lines.push([key, review.decision || 'pending', review.target_group || '', review.notes || '']));
+      const csv = lines.map((row) => row.map((value) => {
+        const text = String(value ?? '');
+        return /[",\n]/.test(text) ? '"' + text.replaceAll('"', '""') + '"' : text;
+      }).join(',')).join('\n');
+      download('input_scope_channel_review.csv', 'text/csv;charset=utf-8', csv);
+    }
+    function importJsonObject(obj) {
+      const next = obj.decisions && typeof obj.decisions === 'object' ? obj.decisions : obj;
+      if (!next || typeof next !== 'object') { alert('Import file did not contain a valid decisions object.'); return; }
+      decisions = next; saveDecisions(); renderTable(); renderDetail();
+    }
+    initFilters(); renderTable(); renderDetail();
+    [els.searchBox, els.decisionFilter, els.countryFilter, els.broadcasterFilter, els.platformFilter, els.hintFilter]
+      .forEach((el) => el.addEventListener('input', renderTable));
+    document.getElementById('clearFilters').addEventListener('click', () => {
+      els.searchBox.value = ''; els.decisionFilter.value = 'ALL'; els.countryFilter.value = 'ALL';
+      els.broadcasterFilter.value = 'ALL'; els.platformFilter.value = 'ALL'; els.hintFilter.value = 'ALL'; renderTable();
+    });
+    document.getElementById('saveDecision').addEventListener('click', () => saveCurrentDecision());
+    document.getElementById('markInclude').addEventListener('click', () => saveCurrentDecision('include'));
+    document.getElementById('markMaybe').addEventListener('click', () => saveCurrentDecision('maybe'));
+    document.getElementById('markExclude').addEventListener('click', () => saveCurrentDecision('exclude'));
+    document.getElementById('exportJson').addEventListener('click', exportJson);
+    document.getElementById('exportCsv').addEventListener('click', exportCsv);
+    document.getElementById('importJson').addEventListener('click', () => els.importFile.click());
+    document.getElementById('clearSaved').addEventListener('click', () => {
+      if (!confirm('Clear all saved scope decisions for this browser?')) return;
+      decisions = {}; saveDecisions(); renderTable(); renderDetail();
+    });
+    els.importFile.addEventListener('change', async (event) => {
+      const file = event.target.files?.[0];
+      if (!file) return;
+      try { importJsonObject(JSON.parse(await file.text())); }
+      catch { alert('Could not import scope review JSON.'); }
+      finally { event.target.value = ''; }
+    });
+  </script>
+</body>
+</html>

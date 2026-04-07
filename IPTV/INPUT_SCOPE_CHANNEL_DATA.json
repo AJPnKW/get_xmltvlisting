@@ -1,0 +1,472 @@
+[
+  {
+    "channel_name": "BBC One",
+    "tvg_id": "bbcone.uk",
+    "country": "UK",
+    "broadcaster": "BBC",
+    "platforms": ["Freeview", "Broadcasters"],
+    "sections": ["BBC + UK Freeview", "UK Broadcasters"],
+    "notes": "Main BBC flagship channel.",
+    "scope_hint": "core"
+  },
+  {
+    "channel_name": "BBC Two",
+    "tvg_id": "bbctwo.uk",
+    "country": "UK",
+    "broadcaster": "BBC",
+    "platforms": ["Freeview", "Broadcasters"],
+    "sections": ["BBC + UK Freeview", "UK Broadcasters"],
+    "notes": "Documentaries, factual, culture.",
+    "scope_hint": "core"
+  },
+  {
+    "channel_name": "BBC Three",
+    "tvg_id": "bbcthree.uk",
+    "country": "UK",
+    "broadcaster": "BBC",
+    "platforms": ["Freeview"],
+    "sections": ["BBC + UK Freeview"],
+    "notes": "Youth-focused entertainment.",
+    "scope_hint": "optional"
+  },
+  {
+    "channel_name": "BBC Four",
+    "tvg_id": "bbcfour.uk",
+    "country": "UK",
+    "broadcaster": "BBC",
+    "platforms": ["Freeview"],
+    "sections": ["BBC + UK Freeview"],
+    "notes": "Arts, culture, world cinema.",
+    "scope_hint": "optional"
+  },
+  {
+    "channel_name": "BBC News",
+    "tvg_id": "bbcnews.uk",
+    "country": "UK",
+    "broadcaster": "BBC",
+    "platforms": ["Freeview", "Broadcasters"],
+    "sections": ["BBC + UK Freeview", "UK Broadcasters"],
+    "notes": "24-hour news channel.",
+    "scope_hint": "core"
+  },
+  {
+    "channel_name": "BBC Parliament",
+    "tvg_id": "bbcparliament.uk",
+    "country": "UK",
+    "broadcaster": "BBC",
+    "platforms": ["Freeview"],
+    "sections": ["BBC + UK Freeview"],
+    "notes": "UK parliamentary coverage.",
+    "scope_hint": "optional"
+  },
+  {
+    "channel_name": "CBBC",
+    "tvg_id": "cbbc.uk",
+    "country": "UK",
+    "broadcaster": "BBC",
+    "platforms": ["Freeview"],
+    "sections": ["BBC + UK Freeview"],
+    "notes": "Children's programming (6-12).",
+    "scope_hint": "optional"
+  },
+  {
+    "channel_name": "CBeebies",
+    "tvg_id": "cbeebies.uk",
+    "country": "UK",
+    "broadcaster": "BBC",
+    "platforms": ["Freeview"],
+    "sections": ["BBC + UK Freeview"],
+    "notes": "Children's programming (under 6).",
+    "scope_hint": "optional"
+  },
+  {
+    "channel_name": "ITV1",
+    "tvg_id": "itv1.uk",
+    "country": "UK",
+    "broadcaster": "ITV",
+    "platforms": ["Freeview", "Broadcasters"],
+    "sections": ["BBC + UK Freeview", "UK Broadcasters"],
+    "notes": "Main ITV channel.",
+    "scope_hint": "core"
+  },
+  {
+    "channel_name": "ITV2",
+    "tvg_id": "itv2.uk",
+    "country": "UK",
+    "broadcaster": "ITV",
+    "platforms": ["Freeview", "Broadcasters"],
+    "sections": ["BBC + UK Freeview", "UK Broadcasters"],
+    "notes": "Entertainment and reality.",
+    "scope_hint": "optional"
+  },
+  {
+    "channel_name": "ITV3",
+    "tvg_id": "itv3.uk",
+    "country": "UK",
+    "broadcaster": "ITV",
+    "platforms": ["Freeview", "Broadcasters"],
+    "sections": ["BBC + UK Freeview", "UK Broadcasters"],
+    "notes": "Dramas and classics.",
+    "scope_hint": "optional"
+  },
+  {
+    "channel_name": "ITV4",
+    "tvg_id": "itv4.uk",
+    "country": "UK",
+    "broadcaster": "ITV",
+    "platforms": ["Freeview", "Broadcasters"],
+    "sections": ["BBC + UK Freeview", "UK Broadcasters"],
+    "notes": "Sports and entertainment.",
+    "scope_hint": "optional"
+  },
+  {
+    "channel_name": "Channel 4",
+    "tvg_id": "channel4.uk",
+    "country": "UK",
+    "broadcaster": "Channel 4",
+    "platforms": ["Freeview", "Broadcasters"],
+    "sections": ["BBC + UK Freeview", "UK Broadcasters"],
+    "notes": "Main Channel 4 service.",
+    "scope_hint": "core"
+  },
+  {
+    "channel_name": "E4",
+    "tvg_id": "e4.uk",
+    "country": "UK",
+    "broadcaster": "Channel 4",
+    "platforms": ["Freeview", "Broadcasters"],
+    "sections": ["BBC + UK Freeview", "UK Broadcasters"],
+    "notes": "Youth entertainment.",
+    "scope_hint": "optional"
+  },
+  {
+    "channel_name": "More4",
+    "tvg_id": "more4.uk",
+    "country": "UK",
+    "broadcaster": "Channel 4",
+    "platforms": ["Freeview", "Broadcasters"],
+    "sections": ["BBC + UK Freeview", "UK Broadcasters"],
+    "notes": "Documentaries and lifestyle.",
+    "scope_hint": "optional"
+  },
+  {
+    "channel_name": "Film4",
+    "tvg_id": "film4.uk",
+    "country": "UK",
+    "broadcaster": "Channel 4",
+    "platforms": ["Broadcasters"],
+    "sections": ["UK Broadcasters"],
+    "notes": "Movies.",
+    "scope_hint": "optional"
+  },
+  {
+    "channel_name": "Channel 5",
+    "tvg_id": "channel5.uk",
+    "country": "UK",
+    "broadcaster": "Channel 5",
+    "platforms": ["Freeview", "Broadcasters"],
+    "sections": ["BBC + UK Freeview", "UK Broadcasters"],
+    "notes": "Main Channel 5 service.",
+    "scope_hint": "core"
+  },
+  {
+    "channel_name": "5USA",
+    "tvg_id": "5usa.uk",
+    "country": "UK",
+    "broadcaster": "Channel 5",
+    "platforms": ["Broadcasters"],
+    "sections": ["UK Broadcasters"],
+    "notes": "US dramas and crime.",
+    "scope_hint": "optional"
+  },
+  {
+    "channel_name": "5STAR",
+    "tvg_id": "5star.uk",
+    "country": "UK",
+    "broadcaster": "Channel 5",
+    "platforms": ["Broadcasters"],
+    "sections": ["UK Broadcasters"],
+    "notes": "Entertainment and reality.",
+    "scope_hint": "optional"
+  },
+  {
+    "channel_name": "Dave",
+    "tvg_id": "dave.uk",
+    "country": "UK",
+    "broadcaster": "UKTV",
+    "platforms": ["Freeview", "Freesat", "Broadcasters"],
+    "sections": ["BBC + UK Freeview", "UK Freesat", "UK Broadcasters"],
+    "notes": "Comedy and entertainment.",
+    "scope_hint": "optional"
+  },
+  {
+    "channel_name": "Drama",
+    "tvg_id": "drama.uk",
+    "country": "UK",
+    "broadcaster": "UKTV",
+    "platforms": ["Freeview", "Broadcasters"],
+    "sections": ["BBC + UK Freeview", "UK Broadcasters"],
+    "notes": "Classic dramas.",
+    "scope_hint": "optional"
+  },
+  {
+    "channel_name": "STV",
+    "tvg_id": "stv.scotland",
+    "country": "UK",
+    "broadcaster": "Regional",
+    "platforms": ["Broadcasters"],
+    "sections": ["UK Broadcasters"],
+    "notes": "Scottish ITV affiliate.",
+    "scope_hint": "regional"
+  },
+  {
+    "channel_name": "S4C",
+    "tvg_id": "s4c.wales",
+    "country": "UK",
+    "broadcaster": "Regional",
+    "platforms": ["Broadcasters"],
+    "sections": ["UK Broadcasters"],
+    "notes": "Welsh-language broadcaster.",
+    "scope_hint": "regional"
+  },
+  {
+    "channel_name": "UTV",
+    "tvg_id": "utv.ni",
+    "country": "UK",
+    "broadcaster": "Regional",
+    "platforms": ["Broadcasters"],
+    "sections": ["UK Broadcasters"],
+    "notes": "Northern Ireland ITV affiliate.",
+    "scope_hint": "regional"
+  },
+  {
+    "channel_name": "BBC One London",
+    "tvg_id": "bbcone.london",
+    "country": "UK",
+    "broadcaster": "BBC",
+    "platforms": ["Freesat"],
+    "sections": ["UK Freesat"],
+    "notes": "London regional feed.",
+    "scope_hint": "regional"
+  },
+  {
+    "channel_name": "BBC One Scotland",
+    "tvg_id": "bbcone.scotland",
+    "country": "UK",
+    "broadcaster": "BBC",
+    "platforms": ["Freesat"],
+    "sections": ["UK Freesat"],
+    "notes": "Scottish regional feed.",
+    "scope_hint": "regional"
+  },
+  {
+    "channel_name": "BBC One Wales",
+    "tvg_id": "bbcone.wales",
+    "country": "UK",
+    "broadcaster": "BBC",
+    "platforms": ["Freesat"],
+    "sections": ["UK Freesat"],
+    "notes": "Welsh regional feed.",
+    "scope_hint": "regional"
+  },
+  {
+    "channel_name": "BBC One Northern Ireland",
+    "tvg_id": "bbcone.ni",
+    "country": "UK",
+    "broadcaster": "BBC",
+    "platforms": ["Freesat"],
+    "sections": ["UK Freesat"],
+    "notes": "Northern Ireland regional feed.",
+    "scope_hint": "regional"
+  },
+  {
+    "channel_name": "ITV1 London",
+    "tvg_id": "itv1.london",
+    "country": "UK",
+    "broadcaster": "ITV",
+    "platforms": ["Freesat"],
+    "sections": ["UK Freesat"],
+    "notes": "Main ITV London feed.",
+    "scope_hint": "regional"
+  },
+  {
+    "channel_name": "ITV1 Granada",
+    "tvg_id": "itv1.granada",
+    "country": "UK",
+    "broadcaster": "ITV",
+    "platforms": ["Freesat"],
+    "sections": ["UK Freesat"],
+    "notes": "North West regional feed.",
+    "scope_hint": "regional"
+  },
+  {
+    "channel_name": "ITV1 Wales",
+    "tvg_id": "itv1.wales",
+    "country": "UK",
+    "broadcaster": "ITV",
+    "platforms": ["Freesat"],
+    "sections": ["UK Freesat"],
+    "notes": "Welsh regional feed.",
+    "scope_hint": "regional"
+  },
+  {
+    "channel_name": "Channel 4 HD",
+    "tvg_id": "channel4.hd",
+    "country": "UK",
+    "broadcaster": "Channel 4",
+    "platforms": ["Freesat"],
+    "sections": ["UK Freesat"],
+    "notes": "HD Freesat feed.",
+    "scope_hint": "optional"
+  },
+  {
+    "channel_name": "Channel 5 HD",
+    "tvg_id": "channel5.hd",
+    "country": "UK",
+    "broadcaster": "Channel 5",
+    "platforms": ["Freesat"],
+    "sections": ["UK Freesat"],
+    "notes": "HD Freesat feed.",
+    "scope_hint": "optional"
+  },
+  {
+    "channel_name": "ABC TV",
+    "tvg_id": "abc.au",
+    "country": "AU",
+    "broadcaster": "ABC",
+    "platforms": ["AU Freeview"],
+    "sections": ["AU Freeview"],
+    "notes": "Main ABC channel.",
+    "scope_hint": "core"
+  },
+  {
+    "channel_name": "ABC Kids",
+    "tvg_id": "abckids.au",
+    "country": "AU",
+    "broadcaster": "ABC",
+    "platforms": ["AU Freeview"],
+    "sections": ["AU Freeview"],
+    "notes": "Children's programming.",
+    "scope_hint": "optional"
+  },
+  {
+    "channel_name": "ABC ME",
+    "tvg_id": "abcme.au",
+    "country": "AU",
+    "broadcaster": "ABC",
+    "platforms": ["AU Freeview"],
+    "sections": ["AU Freeview"],
+    "notes": "Youth programming.",
+    "scope_hint": "optional"
+  },
+  {
+    "channel_name": "ABC News",
+    "tvg_id": "abcnews.au",
+    "country": "AU",
+    "broadcaster": "ABC",
+    "platforms": ["AU Freeview"],
+    "sections": ["AU Freeview"],
+    "notes": "24-hour news channel.",
+    "scope_hint": "core"
+  },
+  {
+    "channel_name": "SBS",
+    "tvg_id": "sbs.au",
+    "country": "AU",
+    "broadcaster": "SBS",
+    "platforms": ["AU Freeview"],
+    "sections": ["AU Freeview"],
+    "notes": "Main multicultural channel.",
+    "scope_hint": "core"
+  },
+  {
+    "channel_name": "SBS Viceland",
+    "tvg_id": "sbsviceland.au",
+    "country": "AU",
+    "broadcaster": "SBS",
+    "platforms": ["AU Freeview"],
+    "sections": ["AU Freeview"],
+    "notes": "Youth and alternative programming.",
+    "scope_hint": "optional"
+  },
+  {
+    "channel_name": "SBS World Movies",
+    "tvg_id": "sbsworldmovies.au",
+    "country": "AU",
+    "broadcaster": "SBS",
+    "platforms": ["AU Freeview"],
+    "sections": ["AU Freeview"],
+    "notes": "International films.",
+    "scope_hint": "optional"
+  },
+  {
+    "channel_name": "Seven",
+    "tvg_id": "seven.au",
+    "country": "AU",
+    "broadcaster": "Seven",
+    "platforms": ["AU Freeview"],
+    "sections": ["AU Freeview"],
+    "notes": "Main Seven Network channel.",
+    "scope_hint": "core"
+  },
+  {
+    "channel_name": "7TWO",
+    "tvg_id": "7two.au",
+    "country": "AU",
+    "broadcaster": "Seven",
+    "platforms": ["AU Freeview"],
+    "sections": ["AU Freeview"],
+    "notes": "Entertainment and lifestyle.",
+    "scope_hint": "optional"
+  },
+  {
+    "channel_name": "7mate",
+    "tvg_id": "7mate.au",
+    "country": "AU",
+    "broadcaster": "Seven",
+    "platforms": ["AU Freeview"],
+    "sections": ["AU Freeview"],
+    "notes": "Sports and male-skewed programming.",
+    "scope_hint": "optional"
+  },
+  {
+    "channel_name": "Nine",
+    "tvg_id": "nine.au",
+    "country": "AU",
+    "broadcaster": "Nine",
+    "platforms": ["AU Freeview"],
+    "sections": ["AU Freeview"],
+    "notes": "Main Nine Network channel.",
+    "scope_hint": "core"
+  },
+  {
+    "channel_name": "9Gem",
+    "tvg_id": "9gem.au",
+    "country": "AU",
+    "broadcaster": "Nine",
+    "platforms": ["AU Freeview"],
+    "sections": ["AU Freeview"],
+    "notes": "Movies and entertainment.",
+    "scope_hint": "optional"
+  },
+  {
+    "channel_name": "10",
+    "tvg_id": "ten.au",
+    "country": "AU",
+    "broadcaster": "Ten",
+    "platforms": ["AU Freeview"],
+    "sections": ["AU Freeview"],
+    "notes": "Main Network 10 channel.",
+    "scope_hint": "core"
+  },
+  {
+    "channel_name": "10 Bold",
+    "tvg_id": "10bold.au",
+    "country": "AU",
+    "broadcaster": "Ten",
+    "platforms": ["AU Freeview"],
+    "sections": ["AU Freeview"],
+    "notes": "Drama and action.",
+    "scope_hint": "optional"
+  }
+]
