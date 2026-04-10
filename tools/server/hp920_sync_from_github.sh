@@ -24,7 +24,7 @@ git -C "$WORK_TREE" checkout -B "$BRANCH" "origin/$BRANCH"
 git -C "$WORK_TREE" reset --hard "origin/$BRANCH"
 
 log "Publishing IPTV assets to ${PUBLISH_DIR}"
-rsync -a --delete "$WORK_TREE/IPTV/" "$PUBLISH_DIR/"
+rsync -a --delete --exclude=".archive/" "$WORK_TREE/IPTV/" "$PUBLISH_DIR/"
 
 shopt -s nullglob
 for gz_file in "$PUBLISH_DIR"/EPG_*.xml.gz; do
