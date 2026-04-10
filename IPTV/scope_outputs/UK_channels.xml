@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tv generator-info-name="get_xmltvlisting scope builder">
+  <channel id="bbcfour.uk">
+    <display-name>BBC Four</display-name>
+    <display-name>BBC</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/7/7a/BBC_Four_logo_2021.svg"/>
+  </channel>
+  <channel id="bbcparliament.uk">
+    <display-name>BBC Parliament</display-name>
+    <display-name>BBC</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/8/8a/BBC_Parliament_logo_2022.svg"/>
+  </channel>
+  <channel id="bbcthree.uk">
+    <display-name>BBC Three</display-name>
+    <display-name>BBC</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/4/4a/BBC_Three_logo_2021.svg"/>
+  </channel>
+  <channel id="cbbc.uk">
+    <display-name>CBBC</display-name>
+    <display-name>BBC</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/5/5a/CBBC_2023.svg"/>
+  </channel>
+  <channel id="cbeebies.uk">
+    <display-name>CBeebies</display-name>
+    <display-name>BBC</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/4/4c/CBeebies_2023.svg"/>
+  </channel>
+  <channel id="channel4.uk">
+    <display-name>Channel 4</display-name>
+    <display-name>UK Freeview</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Channel_4_logo_2015.svg"/>
+  </channel>
+  <channel id="channel5.uk">
+    <display-name>Channel 5</display-name>
+    <display-name>UK Freeview</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Channel_5_logo_2016.svg"/>
+  </channel>
+</tv>

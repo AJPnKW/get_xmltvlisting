@@ -24,10 +24,10 @@ def text_of(node) -> str:
 
 def infer_country(section_id: str, section_title: str) -> str:
     text = f"{section_id} {section_title}".lower()
-    if "uk" in text or "freeview" in text or "freesat" in text:
-        return "UK"
-    if "au" in text or "australia" in text:
+    if section_id.startswith("au") or "australia" in text or "au freeview" in text:
         return "AU"
+    if section_id.startswith("uk") or " uk " in f" {text} " or "freeview" in text or "freesat" in text:
+        return "UK"
     if "us" in text or "usa" in text:
         return "US"
     if "ca" in text or "canada" in text:
@@ -36,10 +36,11 @@ def infer_country(section_id: str, section_title: str) -> str:
 
 
 def infer_scope_hint(name: str, notes: str, section_title: str, article_title: str) -> str:
-    text = f"{name} {notes} {section_title} {article_title}".lower()
-    if any(token in text for token in ["london", "scotland", "wales", "northern ireland", "granada", "regional", "stv", "s4c", "utv", "ni"]):
+    signal_text = f"{name} {notes} {article_title}".lower()
+    if any(token in signal_text for token in ["london", "scotland", "wales", "northern ireland", "granada", "stv", "s4c", "utv", " ni ", "regional feed"]):
         return "regional"
-    if any(token in text for token in ["main ", "flagship", "core", "national"]):
+    text = f"{name} {notes} {section_title} {article_title}".lower()
+    if any(token in text for token in ["main ", "flagship", "core", "national", "24-hour news"]):
         return "core"
     return "optional"
 

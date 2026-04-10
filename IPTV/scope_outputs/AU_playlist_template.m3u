@@ -1,0 +1,9 @@
+#EXTM3U x-tvg-url="AU_channels.xml"
+#EXTINF:-1 tvg-id="ten.au" tvg-name="10" tvg-logo="https://upload.wikimedia.org/wikipedia/en/3/3e/Network_10_logo_2018.svg" group-title="AU • Seeded",10
+http://your-stream-source/au/ten-au.m3u8
+#EXTINF:-1 tvg-id="nine.au" tvg-name="Nine" tvg-logo="https://upload.wikimedia.org/wikipedia/en/4/4e/Nine_Network_logo_2020.svg" group-title="AU • Seeded",Nine
+http://your-stream-source/au/nine-au.m3u8
+#EXTINF:-1 tvg-id="sbsworldmovies.au" tvg-name="SBS World Movies" tvg-logo="https://upload.wikimedia.org/wikipedia/en/3/3f/SBS_World_Movies_logo_2019.svg" group-title="AU • Seeded",SBS World Movies
+http://your-stream-source/au/sbsworldmovies-au.m3u8
+#EXTINF:-1 tvg-id="seven.au" tvg-name="Seven" tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/6b/Seven_Network_logo_2019.svg" group-title="AU • Seeded",Seven
+http://your-stream-source/au/seven-au.m3u8

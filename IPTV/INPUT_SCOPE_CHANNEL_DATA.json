@@ -1,5 +1,585 @@
 [
   {
+    "channel_name": "ABC Kids",
+    "name": "ABC Kids",
+    "tvg_id": "abckids.au",
+    "call_sign": "ABCKIDS",
+    "channel_number": "",
+    "country": "AU",
+    "network": "ABC",
+    "broadcaster": "ABC",
+    "channel_type": "FTA Terrestrial",
+    "platforms": [
+      "AU Freeview"
+    ],
+    "lineups": [
+      "ABC (Australian Broadcasting Corporation)"
+    ],
+    "sections": [
+      "AU Freeview (ABC, SBS, Seven, Nine, Ten, Regionals)"
+    ],
+    "article_titles": [
+      "ABC (Australian Broadcasting Corporation)"
+    ],
+    "source_links": [
+      {
+        "section_id": "au-freeview",
+        "section_title": "AU Freeview (ABC, SBS, Seven, Nine, Ten, Regionals)",
+        "article_title": "ABC (Australian Broadcasting Corporation)",
+        "href": "file:///C:/Users/andrew/PROJECTS/iptv/temp/XTENDED%20IPTV%20MASTER%20SECTIONS.html#au-freeview"
+      }
+    ],
+    "logo_urls": [
+      "https://upload.wikimedia.org/wikipedia/en/5/5e/ABC_Kids_logo_2020.svg"
+    ],
+    "source_notes": [
+      "Children’s programming."
+    ],
+    "scope_hint": "optional",
+    "notes": "Children’s programming."
+  },
+  {
+    "channel_name": "ABC ME",
+    "name": "ABC ME",
+    "tvg_id": "abcme.au",
+    "call_sign": "ABCME",
+    "channel_number": "",
+    "country": "AU",
+    "network": "ABC",
+    "broadcaster": "ABC",
+    "channel_type": "FTA Terrestrial",
+    "platforms": [
+      "AU Freeview"
+    ],
+    "lineups": [
+      "ABC (Australian Broadcasting Corporation)"
+    ],
+    "sections": [
+      "AU Freeview (ABC, SBS, Seven, Nine, Ten, Regionals)"
+    ],
+    "article_titles": [
+      "ABC (Australian Broadcasting Corporation)"
+    ],
+    "source_links": [
+      {
+        "section_id": "au-freeview",
+        "section_title": "AU Freeview (ABC, SBS, Seven, Nine, Ten, Regionals)",
+        "article_title": "ABC (Australian Broadcasting Corporation)",
+        "href": "file:///C:/Users/andrew/PROJECTS/iptv/temp/XTENDED%20IPTV%20MASTER%20SECTIONS.html#au-freeview"
+      }
+    ],
+    "logo_urls": [
+      "https://upload.wikimedia.org/wikipedia/en/4/4d/ABC_Me_logo_2020.svg"
+    ],
+    "source_notes": [
+      "Youth programming."
+    ],
+    "scope_hint": "optional",
+    "notes": "Youth programming."
+  },
+  {
+    "channel_name": "ABC News",
+    "name": "ABC News",
+    "tvg_id": "abcnews.au",
+    "call_sign": "ABCNEWS",
+    "channel_number": "",
+    "country": "AU",
+    "network": "ABC",
+    "broadcaster": "ABC",
+    "channel_type": "FTA Terrestrial",
+    "platforms": [
+      "AU Freeview",
+      "IPTV‑Org Deep Subsets"
+    ],
+    "lineups": [
+      "ABC (Australian Broadcasting Corporation)",
+      "News Subset"
+    ],
+    "sections": [
+      "AU Freeview (ABC, SBS, Seven, Nine, Ten, Regionals)",
+      "IPTV‑Org Deep Subsets"
+    ],
+    "article_titles": [
+      "ABC (Australian Broadcasting Corporation)",
+      "News Subset"
+    ],
+    "source_links": [
+      {
+        "section_id": "au-freeview",
+        "section_title": "AU Freeview (ABC, SBS, Seven, Nine, Ten, Regionals)",
+        "article_title": "ABC (Australian Broadcasting Corporation)",
+        "href": "file:///C:/Users/andrew/PROJECTS/iptv/temp/XTENDED%20IPTV%20MASTER%20SECTIONS.html#au-freeview"
+      },
+      {
+        "section_id": "iptv-org-deep",
+        "section_title": "IPTV‑Org Deep Subsets",
+        "article_title": "News Subset",
+        "href": "file:///C:/Users/andrew/PROJECTS/iptv/temp/XTENDED%20IPTV%20MASTER%20SECTIONS.html#iptv-org-deep"
+      }
+    ],
+    "logo_urls": [
+      "https://upload.wikimedia.org/wikipedia/en/2/2e/ABC_News_Australia_logo_2017.svg",
+      "https://upload.wikimedia.org/wikipedia/commons/4/4f/ABC_News_Australia_logo_2017.svg"
+    ],
+    "source_notes": [
+      "24‑hour news channel.",
+      "Australia"
+    ],
+    "scope_hint": "optional",
+    "notes": "24‑hour news channel. | Australia"
+  },
+  {
+    "channel_name": "ABC TV",
+    "name": "ABC TV",
+    "tvg_id": "abc.au",
+    "call_sign": "ABC",
+    "channel_number": "",
+    "country": "AU",
+    "network": "ABC",
+    "broadcaster": "ABC",
+    "channel_type": "FTA Terrestrial",
+    "platforms": [
+      "AU Freeview",
+      "IPTV‑Org Deep Subsets"
+    ],
+    "lineups": [
+      "ABC (Australian Broadcasting Corporation)",
+      "AU Subset"
+    ],
+    "sections": [
+      "AU Freeview (ABC, SBS, Seven, Nine, Ten, Regionals)",
+      "IPTV‑Org Deep Subsets"
+    ],
+    "article_titles": [
+      "ABC (Australian Broadcasting Corporation)",
+      "AU Subset"
+    ],
+    "source_links": [
+      {
+        "section_id": "au-freeview",
+        "section_title": "AU Freeview (ABC, SBS, Seven, Nine, Ten, Regionals)",
+        "article_title": "ABC (Australian Broadcasting Corporation)",
+        "href": "file:///C:/Users/andrew/PROJECTS/iptv/temp/XTENDED%20IPTV%20MASTER%20SECTIONS.html#au-freeview"
+      },
+      {
+        "section_id": "iptv-org-deep",
+        "section_title": "IPTV‑Org Deep Subsets",
+        "article_title": "AU Subset",
+        "href": "file:///C:/Users/andrew/PROJECTS/iptv/temp/XTENDED%20IPTV%20MASTER%20SECTIONS.html#iptv-org-deep"
+      }
+    ],
+    "logo_urls": [
+      "https://upload.wikimedia.org/wikipedia/en/8/8f/ABC_TV_logo_2021.svg"
+    ],
+    "source_notes": [
+      "Main ABC channel.",
+      "Australia"
+    ],
+    "scope_hint": "optional",
+    "notes": "Main ABC channel. | Australia"
+  },
+  {
+    "channel_name": "10",
+    "name": "10",
+    "tvg_id": "ten.au",
+    "call_sign": "TEN",
+    "channel_number": "",
+    "country": "AU",
+    "network": "Network 10",
+    "broadcaster": "Network 10",
+    "channel_type": "FTA Terrestrial",
+    "platforms": [
+      "AU Freeview"
+    ],
+    "lineups": [
+      "Network 10"
+    ],
+    "sections": [
+      "AU Freeview (ABC, SBS, Seven, Nine, Ten, Regionals)"
+    ],
+    "article_titles": [
+      "Network 10"
+    ],
+    "source_links": [
+      {
+        "section_id": "au-freeview",
+        "section_title": "AU Freeview (ABC, SBS, Seven, Nine, Ten, Regionals)",
+        "article_title": "Network 10",
+        "href": "file:///C:/Users/andrew/PROJECTS/iptv/temp/XTENDED%20IPTV%20MASTER%20SECTIONS.html#au-freeview"
+      }
+    ],
+    "logo_urls": [
+      "https://upload.wikimedia.org/wikipedia/en/3/3e/Network_10_logo_2018.svg"
+    ],
+    "source_notes": [
+      "Main Network 10 channel."
+    ],
+    "scope_hint": "core",
+    "notes": "Main Network 10 channel."
+  },
+  {
+    "channel_name": "10 Bold",
+    "name": "10 Bold",
+    "tvg_id": "10bold.au",
+    "call_sign": "10BOLD",
+    "channel_number": "",
+    "country": "AU",
+    "network": "Network 10",
+    "broadcaster": "Network 10",
+    "channel_type": "FTA Terrestrial",
+    "platforms": [
+      "AU Freeview"
+    ],
+    "lineups": [
+      "Network 10"
+    ],
+    "sections": [
+      "AU Freeview (ABC, SBS, Seven, Nine, Ten, Regionals)"
+    ],
+    "article_titles": [
+      "Network 10"
+    ],
+    "source_links": [
+      {
+        "section_id": "au-freeview",
+        "section_title": "AU Freeview (ABC, SBS, Seven, Nine, Ten, Regionals)",
+        "article_title": "Network 10",
+        "href": "file:///C:/Users/andrew/PROJECTS/iptv/temp/XTENDED%20IPTV%20MASTER%20SECTIONS.html#au-freeview"
+      }
+    ],
+    "logo_urls": [
+      "https://upload.wikimedia.org/wikipedia/en/8/8e/10_Bold_logo_2018.svg"
+    ],
+    "source_notes": [
+      "Drama & action."
+    ],
+    "scope_hint": "optional",
+    "notes": "Drama & action."
+  },
+  {
+    "channel_name": "9Gem",
+    "name": "9Gem",
+    "tvg_id": "9gem.au",
+    "call_sign": "9GEM",
+    "channel_number": "",
+    "country": "AU",
+    "network": "Nine Network",
+    "broadcaster": "Nine Network",
+    "channel_type": "FTA Terrestrial",
+    "platforms": [
+      "AU Freeview"
+    ],
+    "lineups": [
+      "Nine Network"
+    ],
+    "sections": [
+      "AU Freeview (ABC, SBS, Seven, Nine, Ten, Regionals)"
+    ],
+    "article_titles": [
+      "Nine Network"
+    ],
+    "source_links": [
+      {
+        "section_id": "au-freeview",
+        "section_title": "AU Freeview (ABC, SBS, Seven, Nine, Ten, Regionals)",
+        "article_title": "Nine Network",
+        "href": "file:///C:/Users/andrew/PROJECTS/iptv/temp/XTENDED%20IPTV%20MASTER%20SECTIONS.html#au-freeview"
+      }
+    ],
+    "logo_urls": [
+      "https://upload.wikimedia.org/wikipedia/en/3/3c/9Gem_logo_2015.svg"
+    ],
+    "source_notes": [
+      "Movies & entertainment."
+    ],
+    "scope_hint": "optional",
+    "notes": "Movies & entertainment."
+  },
+  {
+    "channel_name": "Nine",
+    "name": "Nine",
+    "tvg_id": "nine.au",
+    "call_sign": "NINE",
+    "channel_number": "",
+    "country": "AU",
+    "network": "Nine Network",
+    "broadcaster": "Nine Network",
+    "channel_type": "FTA Terrestrial",
+    "platforms": [
+      "AU Freeview"
+    ],
+    "lineups": [
+      "Nine Network"
+    ],
+    "sections": [
+      "AU Freeview (ABC, SBS, Seven, Nine, Ten, Regionals)"
+    ],
+    "article_titles": [
+      "Nine Network"
+    ],
+    "source_links": [
+      {
+        "section_id": "au-freeview",
+        "section_title": "AU Freeview (ABC, SBS, Seven, Nine, Ten, Regionals)",
+        "article_title": "Nine Network",
+        "href": "file:///C:/Users/andrew/PROJECTS/iptv/temp/XTENDED%20IPTV%20MASTER%20SECTIONS.html#au-freeview"
+      }
+    ],
+    "logo_urls": [
+      "https://upload.wikimedia.org/wikipedia/en/4/4e/Nine_Network_logo_2020.svg"
+    ],
+    "source_notes": [
+      "Main Nine Network channel."
+    ],
+    "scope_hint": "core",
+    "notes": "Main Nine Network channel."
+  },
+  {
+    "channel_name": "SBS",
+    "name": "SBS",
+    "tvg_id": "sbs.au",
+    "call_sign": "SBS",
+    "channel_number": "",
+    "country": "AU",
+    "network": "SBS",
+    "broadcaster": "SBS",
+    "channel_type": "FTA Terrestrial",
+    "platforms": [
+      "AU Freeview",
+      "IPTV‑Org Deep Subsets"
+    ],
+    "lineups": [
+      "SBS (Special Broadcasting Service)",
+      "AU Subset"
+    ],
+    "sections": [
+      "AU Freeview (ABC, SBS, Seven, Nine, Ten, Regionals)",
+      "IPTV‑Org Deep Subsets"
+    ],
+    "article_titles": [
+      "SBS (Special Broadcasting Service)",
+      "AU Subset"
+    ],
+    "source_links": [
+      {
+        "section_id": "au-freeview",
+        "section_title": "AU Freeview (ABC, SBS, Seven, Nine, Ten, Regionals)",
+        "article_title": "SBS (Special Broadcasting Service)",
+        "href": "file:///C:/Users/andrew/PROJECTS/iptv/temp/XTENDED%20IPTV%20MASTER%20SECTIONS.html#au-freeview"
+      },
+      {
+        "section_id": "iptv-org-deep",
+        "section_title": "IPTV‑Org Deep Subsets",
+        "article_title": "AU Subset",
+        "href": "file:///C:/Users/andrew/PROJECTS/iptv/temp/XTENDED%20IPTV%20MASTER%20SECTIONS.html#iptv-org-deep"
+      }
+    ],
+    "logo_urls": [
+      "https://upload.wikimedia.org/wikipedia/en/0/0a/SBS_Australia_logo_2019.svg"
+    ],
+    "source_notes": [
+      "Main multicultural channel.",
+      "Australia"
+    ],
+    "scope_hint": "optional",
+    "notes": "Main multicultural channel. | Australia"
+  },
+  {
+    "channel_name": "SBS Viceland",
+    "name": "SBS Viceland",
+    "tvg_id": "sbsviceland.au",
+    "call_sign": "SBSVICELAND",
+    "channel_number": "",
+    "country": "AU",
+    "network": "SBS",
+    "broadcaster": "SBS",
+    "channel_type": "FTA Terrestrial",
+    "platforms": [
+      "AU Freeview"
+    ],
+    "lineups": [
+      "SBS (Special Broadcasting Service)"
+    ],
+    "sections": [
+      "AU Freeview (ABC, SBS, Seven, Nine, Ten, Regionals)"
+    ],
+    "article_titles": [
+      "SBS (Special Broadcasting Service)"
+    ],
+    "source_links": [
+      {
+        "section_id": "au-freeview",
+        "section_title": "AU Freeview (ABC, SBS, Seven, Nine, Ten, Regionals)",
+        "article_title": "SBS (Special Broadcasting Service)",
+        "href": "file:///C:/Users/andrew/PROJECTS/iptv/temp/XTENDED%20IPTV%20MASTER%20SECTIONS.html#au-freeview"
+      }
+    ],
+    "logo_urls": [
+      "https://upload.wikimedia.org/wikipedia/en/4/4e/SBS_Viceland_logo_2016.svg"
+    ],
+    "source_notes": [
+      "Youth & alternative programming."
+    ],
+    "scope_hint": "optional",
+    "notes": "Youth & alternative programming."
+  },
+  {
+    "channel_name": "SBS World Movies",
+    "name": "SBS World Movies",
+    "tvg_id": "sbsworldmovies.au",
+    "call_sign": "SBSWORLDMOVIES",
+    "channel_number": "",
+    "country": "AU",
+    "network": "SBS",
+    "broadcaster": "SBS",
+    "channel_type": "FTA Terrestrial",
+    "platforms": [
+      "AU Freeview"
+    ],
+    "lineups": [
+      "SBS (Special Broadcasting Service)"
+    ],
+    "sections": [
+      "AU Freeview (ABC, SBS, Seven, Nine, Ten, Regionals)"
+    ],
+    "article_titles": [
+      "SBS (Special Broadcasting Service)"
+    ],
+    "source_links": [
+      {
+        "section_id": "au-freeview",
+        "section_title": "AU Freeview (ABC, SBS, Seven, Nine, Ten, Regionals)",
+        "article_title": "SBS (Special Broadcasting Service)",
+        "href": "file:///C:/Users/andrew/PROJECTS/iptv/temp/XTENDED%20IPTV%20MASTER%20SECTIONS.html#au-freeview"
+      }
+    ],
+    "logo_urls": [
+      "https://upload.wikimedia.org/wikipedia/en/3/3f/SBS_World_Movies_logo_2019.svg"
+    ],
+    "source_notes": [
+      "International films."
+    ],
+    "scope_hint": "core",
+    "notes": "International films."
+  },
+  {
+    "channel_name": "7mate",
+    "name": "7mate",
+    "tvg_id": "7mate.au",
+    "call_sign": "7MATE",
+    "channel_number": "",
+    "country": "AU",
+    "network": "Seven Network",
+    "broadcaster": "Seven Network",
+    "channel_type": "FTA Terrestrial",
+    "platforms": [
+      "AU Freeview"
+    ],
+    "lineups": [
+      "Seven Network"
+    ],
+    "sections": [
+      "AU Freeview (ABC, SBS, Seven, Nine, Ten, Regionals)"
+    ],
+    "article_titles": [
+      "Seven Network"
+    ],
+    "source_links": [
+      {
+        "section_id": "au-freeview",
+        "section_title": "AU Freeview (ABC, SBS, Seven, Nine, Ten, Regionals)",
+        "article_title": "Seven Network",
+        "href": "file:///C:/Users/andrew/PROJECTS/iptv/temp/XTENDED%20IPTV%20MASTER%20SECTIONS.html#au-freeview"
+      }
+    ],
+    "logo_urls": [
+      "https://upload.wikimedia.org/wikipedia/en/8/8c/7mate_logo_2016.svg"
+    ],
+    "source_notes": [
+      "Sports & male‑skewed programming."
+    ],
+    "scope_hint": "optional",
+    "notes": "Sports & male‑skewed programming."
+  },
+  {
+    "channel_name": "7TWO",
+    "name": "7TWO",
+    "tvg_id": "7two.au",
+    "call_sign": "7TWO",
+    "channel_number": "",
+    "country": "AU",
+    "network": "Seven Network",
+    "broadcaster": "Seven Network",
+    "channel_type": "FTA Terrestrial",
+    "platforms": [
+      "AU Freeview"
+    ],
+    "lineups": [
+      "Seven Network"
+    ],
+    "sections": [
+      "AU Freeview (ABC, SBS, Seven, Nine, Ten, Regionals)"
+    ],
+    "article_titles": [
+      "Seven Network"
+    ],
+    "source_links": [
+      {
+        "section_id": "au-freeview",
+        "section_title": "AU Freeview (ABC, SBS, Seven, Nine, Ten, Regionals)",
+        "article_title": "Seven Network",
+        "href": "file:///C:/Users/andrew/PROJECTS/iptv/temp/XTENDED%20IPTV%20MASTER%20SECTIONS.html#au-freeview"
+      }
+    ],
+    "logo_urls": [
+      "https://upload.wikimedia.org/wikipedia/en/1/1b/7TWO_logo_2016.svg"
+    ],
+    "source_notes": [
+      "Entertainment & lifestyle."
+    ],
+    "scope_hint": "optional",
+    "notes": "Entertainment & lifestyle."
+  },
+  {
+    "channel_name": "Seven",
+    "name": "Seven",
+    "tvg_id": "seven.au",
+    "call_sign": "SEVEN",
+    "channel_number": "",
+    "country": "AU",
+    "network": "Seven Network",
+    "broadcaster": "Seven Network",
+    "channel_type": "FTA Terrestrial",
+    "platforms": [
+      "AU Freeview"
+    ],
+    "lineups": [
+      "Seven Network"
+    ],
+    "sections": [
+      "AU Freeview (ABC, SBS, Seven, Nine, Ten, Regionals)"
+    ],
+    "article_titles": [
+      "Seven Network"
+    ],
+    "source_links": [
+      {
+        "section_id": "au-freeview",
+        "section_title": "AU Freeview (ABC, SBS, Seven, Nine, Ten, Regionals)",
+        "article_title": "Seven Network",
+        "href": "file:///C:/Users/andrew/PROJECTS/iptv/temp/XTENDED%20IPTV%20MASTER%20SECTIONS.html#au-freeview"
+      }
+    ],
+    "logo_urls": [
+      "https://upload.wikimedia.org/wikipedia/en/6/6b/Seven_Network_logo_2019.svg"
+    ],
+    "source_notes": [
+      "Main Seven Network channel."
+    ],
+    "scope_hint": "core",
+    "notes": "Main Seven Network channel."
+  },
+  {
     "channel_name": "Retro TV",
     "name": "Retro TV",
     "tvg_id": "retrotv.us",
@@ -234,185 +814,6 @@
     "notes": "USA"
   },
   {
-    "channel_name": "ABC Kids",
-    "name": "ABC Kids",
-    "tvg_id": "abckids.au",
-    "call_sign": "ABCKIDS",
-    "channel_number": "",
-    "country": "UK",
-    "network": "ABC",
-    "broadcaster": "ABC",
-    "channel_type": "Regional",
-    "platforms": [
-      "AU Freeview"
-    ],
-    "lineups": [
-      "ABC (Australian Broadcasting Corporation)"
-    ],
-    "sections": [
-      "AU Freeview (ABC, SBS, Seven, Nine, Ten, Regionals)"
-    ],
-    "article_titles": [
-      "ABC (Australian Broadcasting Corporation)"
-    ],
-    "source_links": [
-      {
-        "section_id": "au-freeview",
-        "section_title": "AU Freeview (ABC, SBS, Seven, Nine, Ten, Regionals)",
-        "article_title": "ABC (Australian Broadcasting Corporation)",
-        "href": "file:///C:/Users/andrew/PROJECTS/iptv/temp/XTENDED%20IPTV%20MASTER%20SECTIONS.html#au-freeview"
-      }
-    ],
-    "logo_urls": [
-      "https://upload.wikimedia.org/wikipedia/en/5/5e/ABC_Kids_logo_2020.svg"
-    ],
-    "source_notes": [
-      "Children’s programming."
-    ],
-    "scope_hint": "regional",
-    "notes": "Children’s programming."
-  },
-  {
-    "channel_name": "ABC ME",
-    "name": "ABC ME",
-    "tvg_id": "abcme.au",
-    "call_sign": "ABCME",
-    "channel_number": "",
-    "country": "UK",
-    "network": "ABC",
-    "broadcaster": "ABC",
-    "channel_type": "Regional",
-    "platforms": [
-      "AU Freeview"
-    ],
-    "lineups": [
-      "ABC (Australian Broadcasting Corporation)"
-    ],
-    "sections": [
-      "AU Freeview (ABC, SBS, Seven, Nine, Ten, Regionals)"
-    ],
-    "article_titles": [
-      "ABC (Australian Broadcasting Corporation)"
-    ],
-    "source_links": [
-      {
-        "section_id": "au-freeview",
-        "section_title": "AU Freeview (ABC, SBS, Seven, Nine, Ten, Regionals)",
-        "article_title": "ABC (Australian Broadcasting Corporation)",
-        "href": "file:///C:/Users/andrew/PROJECTS/iptv/temp/XTENDED%20IPTV%20MASTER%20SECTIONS.html#au-freeview"
-      }
-    ],
-    "logo_urls": [
-      "https://upload.wikimedia.org/wikipedia/en/4/4d/ABC_Me_logo_2020.svg"
-    ],
-    "source_notes": [
-      "Youth programming."
-    ],
-    "scope_hint": "regional",
-    "notes": "Youth programming."
-  },
-  {
-    "channel_name": "ABC News",
-    "name": "ABC News",
-    "tvg_id": "abcnews.au",
-    "call_sign": "ABCNEWS",
-    "channel_number": "",
-    "country": "UK",
-    "network": "ABC",
-    "broadcaster": "ABC",
-    "channel_type": "Regional",
-    "platforms": [
-      "AU Freeview",
-      "IPTV‑Org Deep Subsets"
-    ],
-    "lineups": [
-      "ABC (Australian Broadcasting Corporation)",
-      "News Subset"
-    ],
-    "sections": [
-      "AU Freeview (ABC, SBS, Seven, Nine, Ten, Regionals)",
-      "IPTV‑Org Deep Subsets"
-    ],
-    "article_titles": [
-      "ABC (Australian Broadcasting Corporation)",
-      "News Subset"
-    ],
-    "source_links": [
-      {
-        "section_id": "au-freeview",
-        "section_title": "AU Freeview (ABC, SBS, Seven, Nine, Ten, Regionals)",
-        "article_title": "ABC (Australian Broadcasting Corporation)",
-        "href": "file:///C:/Users/andrew/PROJECTS/iptv/temp/XTENDED%20IPTV%20MASTER%20SECTIONS.html#au-freeview"
-      },
-      {
-        "section_id": "iptv-org-deep",
-        "section_title": "IPTV‑Org Deep Subsets",
-        "article_title": "News Subset",
-        "href": "file:///C:/Users/andrew/PROJECTS/iptv/temp/XTENDED%20IPTV%20MASTER%20SECTIONS.html#iptv-org-deep"
-      }
-    ],
-    "logo_urls": [
-      "https://upload.wikimedia.org/wikipedia/en/2/2e/ABC_News_Australia_logo_2017.svg",
-      "https://upload.wikimedia.org/wikipedia/commons/4/4f/ABC_News_Australia_logo_2017.svg"
-    ],
-    "source_notes": [
-      "24‑hour news channel.",
-      "Australia"
-    ],
-    "scope_hint": "regional",
-    "notes": "24‑hour news channel. | Australia"
-  },
-  {
-    "channel_name": "ABC TV",
-    "name": "ABC TV",
-    "tvg_id": "abc.au",
-    "call_sign": "ABC",
-    "channel_number": "",
-    "country": "UK",
-    "network": "ABC",
-    "broadcaster": "ABC",
-    "channel_type": "Regional",
-    "platforms": [
-      "AU Freeview",
-      "IPTV‑Org Deep Subsets"
-    ],
-    "lineups": [
-      "ABC (Australian Broadcasting Corporation)",
-      "AU Subset"
-    ],
-    "sections": [
-      "AU Freeview (ABC, SBS, Seven, Nine, Ten, Regionals)",
-      "IPTV‑Org Deep Subsets"
-    ],
-    "article_titles": [
-      "ABC (Australian Broadcasting Corporation)",
-      "AU Subset"
-    ],
-    "source_links": [
-      {
-        "section_id": "au-freeview",
-        "section_title": "AU Freeview (ABC, SBS, Seven, Nine, Ten, Regionals)",
-        "article_title": "ABC (Australian Broadcasting Corporation)",
-        "href": "file:///C:/Users/andrew/PROJECTS/iptv/temp/XTENDED%20IPTV%20MASTER%20SECTIONS.html#au-freeview"
-      },
-      {
-        "section_id": "iptv-org-deep",
-        "section_title": "IPTV‑Org Deep Subsets",
-        "article_title": "AU Subset",
-        "href": "file:///C:/Users/andrew/PROJECTS/iptv/temp/XTENDED%20IPTV%20MASTER%20SECTIONS.html#iptv-org-deep"
-      }
-    ],
-    "logo_urls": [
-      "https://upload.wikimedia.org/wikipedia/en/8/8f/ABC_TV_logo_2021.svg"
-    ],
-    "source_notes": [
-      "Main ABC channel.",
-      "Australia"
-    ],
-    "scope_hint": "regional",
-    "notes": "Main ABC channel. | Australia"
-  },
-  {
     "channel_name": "BBC Four",
     "name": "BBC Four",
     "tvg_id": "bbcfour.uk",
@@ -460,7 +861,7 @@
     "country": "UK",
     "network": "BBC",
     "broadcaster": "BBC",
-    "channel_type": "Regional",
+    "channel_type": "FTA Terrestrial",
     "platforms": [
       "BBC + UK Freeview",
       "UK Broadcasters"
@@ -498,7 +899,7 @@
       "24‑hour news channel.",
       "24‑hour news."
     ],
-    "scope_hint": "regional",
+    "scope_hint": "optional",
     "notes": "24‑hour news channel. | 24‑hour news."
   },
   {
@@ -510,7 +911,7 @@
     "country": "UK",
     "network": "BBC",
     "broadcaster": "BBC",
-    "channel_type": "Regional",
+    "channel_type": "FTA Terrestrial",
     "platforms": [
       "BBC + UK Freeview",
       "UK Broadcasters",
@@ -567,7 +968,7 @@
       "Main national feed.",
       "UK"
     ],
-    "scope_hint": "regional",
+    "scope_hint": "optional",
     "notes": "Main BBC flagship channel. | Main national feed. | UK"
   },
   {
@@ -657,7 +1058,7 @@
     "country": "UK",
     "network": "BBC",
     "broadcaster": "BBC",
-    "channel_type": "Regional",
+    "channel_type": "FTA Terrestrial",
     "platforms": [
       "BBC + UK Freeview",
       "UK Broadcasters",
@@ -706,7 +1107,7 @@
       "Factual & culture.",
       "UK"
     ],
-    "scope_hint": "regional",
+    "scope_hint": "optional",
     "notes": "Documentaries, factual, culture. | Factual & culture. | UK"
   },
   {
@@ -796,7 +1197,7 @@
     "country": "UK",
     "network": "Channel 4",
     "broadcaster": "Channel 4",
-    "channel_type": "Regional",
+    "channel_type": "National",
     "platforms": [
       "UK Broadcasters"
     ],
@@ -823,7 +1224,7 @@
     "source_notes": [
       "Movies."
     ],
-    "scope_hint": "regional",
+    "scope_hint": "optional",
     "notes": "Movies."
   },
   {
@@ -835,7 +1236,7 @@
     "country": "UK",
     "network": "Channel 5",
     "broadcaster": "Channel 5",
-    "channel_type": "Regional",
+    "channel_type": "National",
     "platforms": [
       "UK Broadcasters"
     ],
@@ -862,7 +1263,7 @@
     "source_notes": [
       "Entertainment & reality."
     ],
-    "scope_hint": "regional",
+    "scope_hint": "optional",
     "notes": "Entertainment & reality."
   },
   {
@@ -874,7 +1275,7 @@
     "country": "UK",
     "network": "Channel 5",
     "broadcaster": "Channel 5",
-    "channel_type": "Regional",
+    "channel_type": "National",
     "platforms": [
       "UK Broadcasters"
     ],
@@ -901,7 +1302,7 @@
     "source_notes": [
       "US dramas & crime."
     ],
-    "scope_hint": "regional",
+    "scope_hint": "optional",
     "notes": "US dramas & crime."
   },
   {
@@ -1256,407 +1657,6 @@
     "notes": "Welsh regional feed."
   },
   {
-    "channel_name": "10",
-    "name": "10",
-    "tvg_id": "ten.au",
-    "call_sign": "TEN",
-    "channel_number": "",
-    "country": "UK",
-    "network": "Network 10",
-    "broadcaster": "Network 10",
-    "channel_type": "Regional",
-    "platforms": [
-      "AU Freeview"
-    ],
-    "lineups": [
-      "Network 10"
-    ],
-    "sections": [
-      "AU Freeview (ABC, SBS, Seven, Nine, Ten, Regionals)"
-    ],
-    "article_titles": [
-      "Network 10"
-    ],
-    "source_links": [
-      {
-        "section_id": "au-freeview",
-        "section_title": "AU Freeview (ABC, SBS, Seven, Nine, Ten, Regionals)",
-        "article_title": "Network 10",
-        "href": "file:///C:/Users/andrew/PROJECTS/iptv/temp/XTENDED%20IPTV%20MASTER%20SECTIONS.html#au-freeview"
-      }
-    ],
-    "logo_urls": [
-      "https://upload.wikimedia.org/wikipedia/en/3/3e/Network_10_logo_2018.svg"
-    ],
-    "source_notes": [
-      "Main Network 10 channel."
-    ],
-    "scope_hint": "regional",
-    "notes": "Main Network 10 channel."
-  },
-  {
-    "channel_name": "10 Bold",
-    "name": "10 Bold",
-    "tvg_id": "10bold.au",
-    "call_sign": "10BOLD",
-    "channel_number": "",
-    "country": "UK",
-    "network": "Network 10",
-    "broadcaster": "Network 10",
-    "channel_type": "Regional",
-    "platforms": [
-      "AU Freeview"
-    ],
-    "lineups": [
-      "Network 10"
-    ],
-    "sections": [
-      "AU Freeview (ABC, SBS, Seven, Nine, Ten, Regionals)"
-    ],
-    "article_titles": [
-      "Network 10"
-    ],
-    "source_links": [
-      {
-        "section_id": "au-freeview",
-        "section_title": "AU Freeview (ABC, SBS, Seven, Nine, Ten, Regionals)",
-        "article_title": "Network 10",
-        "href": "file:///C:/Users/andrew/PROJECTS/iptv/temp/XTENDED%20IPTV%20MASTER%20SECTIONS.html#au-freeview"
-      }
-    ],
-    "logo_urls": [
-      "https://upload.wikimedia.org/wikipedia/en/8/8e/10_Bold_logo_2018.svg"
-    ],
-    "source_notes": [
-      "Drama & action."
-    ],
-    "scope_hint": "regional",
-    "notes": "Drama & action."
-  },
-  {
-    "channel_name": "9Gem",
-    "name": "9Gem",
-    "tvg_id": "9gem.au",
-    "call_sign": "9GEM",
-    "channel_number": "",
-    "country": "UK",
-    "network": "Nine Network",
-    "broadcaster": "Nine Network",
-    "channel_type": "Regional",
-    "platforms": [
-      "AU Freeview"
-    ],
-    "lineups": [
-      "Nine Network"
-    ],
-    "sections": [
-      "AU Freeview (ABC, SBS, Seven, Nine, Ten, Regionals)"
-    ],
-    "article_titles": [
-      "Nine Network"
-    ],
-    "source_links": [
-      {
-        "section_id": "au-freeview",
-        "section_title": "AU Freeview (ABC, SBS, Seven, Nine, Ten, Regionals)",
-        "article_title": "Nine Network",
-        "href": "file:///C:/Users/andrew/PROJECTS/iptv/temp/XTENDED%20IPTV%20MASTER%20SECTIONS.html#au-freeview"
-      }
-    ],
-    "logo_urls": [
-      "https://upload.wikimedia.org/wikipedia/en/3/3c/9Gem_logo_2015.svg"
-    ],
-    "source_notes": [
-      "Movies & entertainment."
-    ],
-    "scope_hint": "regional",
-    "notes": "Movies & entertainment."
-  },
-  {
-    "channel_name": "Nine",
-    "name": "Nine",
-    "tvg_id": "nine.au",
-    "call_sign": "NINE",
-    "channel_number": "",
-    "country": "UK",
-    "network": "Nine Network",
-    "broadcaster": "Nine Network",
-    "channel_type": "Regional",
-    "platforms": [
-      "AU Freeview"
-    ],
-    "lineups": [
-      "Nine Network"
-    ],
-    "sections": [
-      "AU Freeview (ABC, SBS, Seven, Nine, Ten, Regionals)"
-    ],
-    "article_titles": [
-      "Nine Network"
-    ],
-    "source_links": [
-      {
-        "section_id": "au-freeview",
-        "section_title": "AU Freeview (ABC, SBS, Seven, Nine, Ten, Regionals)",
-        "article_title": "Nine Network",
-        "href": "file:///C:/Users/andrew/PROJECTS/iptv/temp/XTENDED%20IPTV%20MASTER%20SECTIONS.html#au-freeview"
-      }
-    ],
-    "logo_urls": [
-      "https://upload.wikimedia.org/wikipedia/en/4/4e/Nine_Network_logo_2020.svg"
-    ],
-    "source_notes": [
-      "Main Nine Network channel."
-    ],
-    "scope_hint": "regional",
-    "notes": "Main Nine Network channel."
-  },
-  {
-    "channel_name": "SBS",
-    "name": "SBS",
-    "tvg_id": "sbs.au",
-    "call_sign": "SBS",
-    "channel_number": "",
-    "country": "UK",
-    "network": "SBS",
-    "broadcaster": "SBS",
-    "channel_type": "Regional",
-    "platforms": [
-      "AU Freeview",
-      "IPTV‑Org Deep Subsets"
-    ],
-    "lineups": [
-      "SBS (Special Broadcasting Service)",
-      "AU Subset"
-    ],
-    "sections": [
-      "AU Freeview (ABC, SBS, Seven, Nine, Ten, Regionals)",
-      "IPTV‑Org Deep Subsets"
-    ],
-    "article_titles": [
-      "SBS (Special Broadcasting Service)",
-      "AU Subset"
-    ],
-    "source_links": [
-      {
-        "section_id": "au-freeview",
-        "section_title": "AU Freeview (ABC, SBS, Seven, Nine, Ten, Regionals)",
-        "article_title": "SBS (Special Broadcasting Service)",
-        "href": "file:///C:/Users/andrew/PROJECTS/iptv/temp/XTENDED%20IPTV%20MASTER%20SECTIONS.html#au-freeview"
-      },
-      {
-        "section_id": "iptv-org-deep",
-        "section_title": "IPTV‑Org Deep Subsets",
-        "article_title": "AU Subset",
-        "href": "file:///C:/Users/andrew/PROJECTS/iptv/temp/XTENDED%20IPTV%20MASTER%20SECTIONS.html#iptv-org-deep"
-      }
-    ],
-    "logo_urls": [
-      "https://upload.wikimedia.org/wikipedia/en/0/0a/SBS_Australia_logo_2019.svg"
-    ],
-    "source_notes": [
-      "Main multicultural channel.",
-      "Australia"
-    ],
-    "scope_hint": "regional",
-    "notes": "Main multicultural channel. | Australia"
-  },
-  {
-    "channel_name": "SBS Viceland",
-    "name": "SBS Viceland",
-    "tvg_id": "sbsviceland.au",
-    "call_sign": "SBSVICELAND",
-    "channel_number": "",
-    "country": "UK",
-    "network": "SBS",
-    "broadcaster": "SBS",
-    "channel_type": "Regional",
-    "platforms": [
-      "AU Freeview"
-    ],
-    "lineups": [
-      "SBS (Special Broadcasting Service)"
-    ],
-    "sections": [
-      "AU Freeview (ABC, SBS, Seven, Nine, Ten, Regionals)"
-    ],
-    "article_titles": [
-      "SBS (Special Broadcasting Service)"
-    ],
-    "source_links": [
-      {
-        "section_id": "au-freeview",
-        "section_title": "AU Freeview (ABC, SBS, Seven, Nine, Ten, Regionals)",
-        "article_title": "SBS (Special Broadcasting Service)",
-        "href": "file:///C:/Users/andrew/PROJECTS/iptv/temp/XTENDED%20IPTV%20MASTER%20SECTIONS.html#au-freeview"
-      }
-    ],
-    "logo_urls": [
-      "https://upload.wikimedia.org/wikipedia/en/4/4e/SBS_Viceland_logo_2016.svg"
-    ],
-    "source_notes": [
-      "Youth & alternative programming."
-    ],
-    "scope_hint": "regional",
-    "notes": "Youth & alternative programming."
-  },
-  {
-    "channel_name": "SBS World Movies",
-    "name": "SBS World Movies",
-    "tvg_id": "sbsworldmovies.au",
-    "call_sign": "SBSWORLDMOVIES",
-    "channel_number": "",
-    "country": "UK",
-    "network": "SBS",
-    "broadcaster": "SBS",
-    "channel_type": "Regional",
-    "platforms": [
-      "AU Freeview"
-    ],
-    "lineups": [
-      "SBS (Special Broadcasting Service)"
-    ],
-    "sections": [
-      "AU Freeview (ABC, SBS, Seven, Nine, Ten, Regionals)"
-    ],
-    "article_titles": [
-      "SBS (Special Broadcasting Service)"
-    ],
-    "source_links": [
-      {
-        "section_id": "au-freeview",
-        "section_title": "AU Freeview (ABC, SBS, Seven, Nine, Ten, Regionals)",
-        "article_title": "SBS (Special Broadcasting Service)",
-        "href": "file:///C:/Users/andrew/PROJECTS/iptv/temp/XTENDED%20IPTV%20MASTER%20SECTIONS.html#au-freeview"
-      }
-    ],
-    "logo_urls": [
-      "https://upload.wikimedia.org/wikipedia/en/3/3f/SBS_World_Movies_logo_2019.svg"
-    ],
-    "source_notes": [
-      "International films."
-    ],
-    "scope_hint": "regional",
-    "notes": "International films."
-  },
-  {
-    "channel_name": "7mate",
-    "name": "7mate",
-    "tvg_id": "7mate.au",
-    "call_sign": "7MATE",
-    "channel_number": "",
-    "country": "UK",
-    "network": "Seven Network",
-    "broadcaster": "Seven Network",
-    "channel_type": "Regional",
-    "platforms": [
-      "AU Freeview"
-    ],
-    "lineups": [
-      "Seven Network"
-    ],
-    "sections": [
-      "AU Freeview (ABC, SBS, Seven, Nine, Ten, Regionals)"
-    ],
-    "article_titles": [
-      "Seven Network"
-    ],
-    "source_links": [
-      {
-        "section_id": "au-freeview",
-        "section_title": "AU Freeview (ABC, SBS, Seven, Nine, Ten, Regionals)",
-        "article_title": "Seven Network",
-        "href": "file:///C:/Users/andrew/PROJECTS/iptv/temp/XTENDED%20IPTV%20MASTER%20SECTIONS.html#au-freeview"
-      }
-    ],
-    "logo_urls": [
-      "https://upload.wikimedia.org/wikipedia/en/8/8c/7mate_logo_2016.svg"
-    ],
-    "source_notes": [
-      "Sports & male‑skewed programming."
-    ],
-    "scope_hint": "regional",
-    "notes": "Sports & male‑skewed programming."
-  },
-  {
-    "channel_name": "7TWO",
-    "name": "7TWO",
-    "tvg_id": "7two.au",
-    "call_sign": "7TWO",
-    "channel_number": "",
-    "country": "UK",
-    "network": "Seven Network",
-    "broadcaster": "Seven Network",
-    "channel_type": "Regional",
-    "platforms": [
-      "AU Freeview"
-    ],
-    "lineups": [
-      "Seven Network"
-    ],
-    "sections": [
-      "AU Freeview (ABC, SBS, Seven, Nine, Ten, Regionals)"
-    ],
-    "article_titles": [
-      "Seven Network"
-    ],
-    "source_links": [
-      {
-        "section_id": "au-freeview",
-        "section_title": "AU Freeview (ABC, SBS, Seven, Nine, Ten, Regionals)",
-        "article_title": "Seven Network",
-        "href": "file:///C:/Users/andrew/PROJECTS/iptv/temp/XTENDED%20IPTV%20MASTER%20SECTIONS.html#au-freeview"
-      }
-    ],
-    "logo_urls": [
-      "https://upload.wikimedia.org/wikipedia/en/1/1b/7TWO_logo_2016.svg"
-    ],
-    "source_notes": [
-      "Entertainment & lifestyle."
-    ],
-    "scope_hint": "regional",
-    "notes": "Entertainment & lifestyle."
-  },
-  {
-    "channel_name": "Seven",
-    "name": "Seven",
-    "tvg_id": "seven.au",
-    "call_sign": "SEVEN",
-    "channel_number": "",
-    "country": "UK",
-    "network": "Seven Network",
-    "broadcaster": "Seven Network",
-    "channel_type": "Regional",
-    "platforms": [
-      "AU Freeview"
-    ],
-    "lineups": [
-      "Seven Network"
-    ],
-    "sections": [
-      "AU Freeview (ABC, SBS, Seven, Nine, Ten, Regionals)"
-    ],
-    "article_titles": [
-      "Seven Network"
-    ],
-    "source_links": [
-      {
-        "section_id": "au-freeview",
-        "section_title": "AU Freeview (ABC, SBS, Seven, Nine, Ten, Regionals)",
-        "article_title": "Seven Network",
-        "href": "file:///C:/Users/andrew/PROJECTS/iptv/temp/XTENDED%20IPTV%20MASTER%20SECTIONS.html#au-freeview"
-      }
-    ],
-    "logo_urls": [
-      "https://upload.wikimedia.org/wikipedia/en/6/6b/Seven_Network_logo_2019.svg"
-    ],
-    "source_notes": [
-      "Main Seven Network channel."
-    ],
-    "scope_hint": "regional",
-    "notes": "Main Seven Network channel."
-  },
-  {
     "channel_name": "S4C",
     "name": "S4C",
     "tvg_id": "s4c.wales",
@@ -1782,7 +1782,7 @@
     "country": "UK",
     "network": "UK Freeview",
     "broadcaster": "UK Freeview",
-    "channel_type": "Regional",
+    "channel_type": "FTA Terrestrial",
     "platforms": [
       "BBC + UK Freeview",
       "UK Broadcasters"
@@ -1820,7 +1820,7 @@
       "Main Channel 4 service.",
       "Main C4 service."
     ],
-    "scope_hint": "regional",
+    "scope_hint": "core",
     "notes": "Main Channel 4 service. | Main C4 service."
   },
   {
@@ -1832,7 +1832,7 @@
     "country": "UK",
     "network": "UK Freeview",
     "broadcaster": "UK Freeview",
-    "channel_type": "Regional",
+    "channel_type": "FTA Terrestrial",
     "platforms": [
       "BBC + UK Freeview",
       "UK Broadcasters"
@@ -1870,7 +1870,7 @@
       "Main Channel 5 service.",
       "Main C5 service."
     ],
-    "scope_hint": "regional",
+    "scope_hint": "core",
     "notes": "Main Channel 5 service. | Main C5 service."
   },
   {
@@ -1882,7 +1882,7 @@
     "country": "UK",
     "network": "UK Freeview",
     "broadcaster": "UK Freeview",
-    "channel_type": "Regional",
+    "channel_type": "FTA Satellite",
     "platforms": [
       "BBC + UK Freeview",
       "UK Freesat",
@@ -1929,7 +1929,7 @@
     "source_notes": [
       "Comedy & entertainment."
     ],
-    "scope_hint": "regional",
+    "scope_hint": "optional",
     "notes": "Comedy & entertainment."
   },
   {
@@ -1941,7 +1941,7 @@
     "country": "UK",
     "network": "UK Freeview",
     "broadcaster": "UK Freeview",
-    "channel_type": "Regional",
+    "channel_type": "FTA Terrestrial",
     "platforms": [
       "BBC + UK Freeview",
       "UK Broadcasters"
@@ -1978,7 +1978,7 @@
     "source_notes": [
       "Classic dramas."
     ],
-    "scope_hint": "regional",
+    "scope_hint": "optional",
     "notes": "Classic dramas."
   },
   {
@@ -1990,7 +1990,7 @@
     "country": "UK",
     "network": "UK Freeview",
     "broadcaster": "UK Freeview",
-    "channel_type": "Regional",
+    "channel_type": "FTA Terrestrial",
     "platforms": [
       "BBC + UK Freeview",
       "UK Broadcasters"
@@ -2027,7 +2027,7 @@
     "source_notes": [
       "Youth entertainment."
     ],
-    "scope_hint": "regional",
+    "scope_hint": "optional",
     "notes": "Youth entertainment."
   },
   {
@@ -2039,7 +2039,7 @@
     "country": "UK",
     "network": "UK Freeview",
     "broadcaster": "UK Freeview",
-    "channel_type": "Regional",
+    "channel_type": "FTA Terrestrial",
     "platforms": [
       "BBC + UK Freeview",
       "UK Broadcasters",
@@ -2087,7 +2087,7 @@
       "Main ITV channel.",
       "UK"
     ],
-    "scope_hint": "regional",
+    "scope_hint": "optional",
     "notes": "Main ITV channel. | UK"
   },
   {
@@ -2099,7 +2099,7 @@
     "country": "UK",
     "network": "UK Freeview",
     "broadcaster": "UK Freeview",
-    "channel_type": "Regional",
+    "channel_type": "FTA Terrestrial",
     "platforms": [
       "BBC + UK Freeview",
       "UK Broadcasters"
@@ -2136,7 +2136,7 @@
     "source_notes": [
       "Entertainment & reality."
     ],
-    "scope_hint": "regional",
+    "scope_hint": "optional",
     "notes": "Entertainment & reality."
   },
   {
@@ -2148,7 +2148,7 @@
     "country": "UK",
     "network": "UK Freeview",
     "broadcaster": "UK Freeview",
-    "channel_type": "Regional",
+    "channel_type": "FTA Terrestrial",
     "platforms": [
       "BBC + UK Freeview",
       "UK Broadcasters"
@@ -2185,7 +2185,7 @@
     "source_notes": [
       "Dramas & classics."
     ],
-    "scope_hint": "regional",
+    "scope_hint": "optional",
     "notes": "Dramas & classics."
   },
   {
@@ -2197,7 +2197,7 @@
     "country": "UK",
     "network": "UK Freeview",
     "broadcaster": "UK Freeview",
-    "channel_type": "Regional",
+    "channel_type": "FTA Terrestrial",
     "platforms": [
       "BBC + UK Freeview",
       "UK Broadcasters"
@@ -2234,7 +2234,7 @@
     "source_notes": [
       "Sports & entertainment."
     ],
-    "scope_hint": "regional",
+    "scope_hint": "optional",
     "notes": "Sports & entertainment."
   },
   {
@@ -2246,7 +2246,7 @@
     "country": "UK",
     "network": "UK Freeview",
     "broadcaster": "UK Freeview",
-    "channel_type": "Regional",
+    "channel_type": "FTA Terrestrial",
     "platforms": [
       "BBC + UK Freeview",
       "UK Broadcasters"
@@ -2283,7 +2283,7 @@
     "source_notes": [
       "Documentaries & lifestyle."
     ],
-    "scope_hint": "regional",
+    "scope_hint": "optional",
     "notes": "Documentaries & lifestyle."
   },
   {

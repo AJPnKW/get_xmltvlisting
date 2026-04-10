@@ -48,3 +48,35 @@ Notes:
 ## Archived CBC/Olympics assets
 - Older CBC-specific pack outputs and CBC/Olympics helper assets are retired and may be kept under archive paths for reference only.
 - They are no longer the primary workflow for this repo.
+
+## Extended input review and scope outputs
+
+Rebuild the review dataset directly from the source HTML:
+
+```powershell
+Set-Location "C:\Users\andrew\PROJECTS\GitHub\get_xmltvlisting"
+powershell -ExecutionPolicy Bypass -File .\tools\run_build_extended_input_review.ps1
+```
+
+Build first-pass or decision-driven country scope outputs:
+
+```powershell
+Set-Location "C:\Users\andrew\PROJECTS\GitHub\get_xmltvlisting"
+powershell -ExecutionPolicy Bypass -File .\tools\run_build_scope_outputs.ps1
+```
+
+If you exported decisions from `INPUT_SCOPE_CHANNEL_REVIEW.html`, use:
+
+```powershell
+Set-Location "C:\Users\andrew\PROJECTS\GitHub\get_xmltvlisting"
+powershell -ExecutionPolicy Bypass -File .\tools\run_build_scope_outputs.ps1 -DecisionsJson "C:\path\to\input_scope_channel_review.json"
+```
+
+Generated scope outputs are written to:
+- `IPTV/scope_outputs/SCOPE_OUTPUTS_INDEX.html`
+- `IPTV/scope_outputs/UK_allowlist.json`
+- `IPTV/scope_outputs/AU_allowlist.json`
+- `IPTV/scope_outputs/UK_playlist_template.m3u`
+- `IPTV/scope_outputs/AU_playlist_template.m3u`
+- `IPTV/scope_outputs/UK_channels.xml`
+- `IPTV/scope_outputs/AU_channels.xml`

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tv generator-info-name="get_xmltvlisting scope builder">
+  <channel id="ten.au">
+    <display-name>10</display-name>
+    <display-name>Network 10</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/en/3/3e/Network_10_logo_2018.svg"/>
+  </channel>
+  <channel id="nine.au">
+    <display-name>Nine</display-name>
+    <display-name>Nine Network</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/en/4/4e/Nine_Network_logo_2020.svg"/>
+  </channel>
+  <channel id="sbsworldmovies.au">
+    <display-name>SBS World Movies</display-name>
+    <display-name>SBS</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/en/3/3f/SBS_World_Movies_logo_2019.svg"/>
+  </channel>
+  <channel id="seven.au">
+    <display-name>Seven</display-name>
+    <display-name>Seven Network</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/en/6/6b/Seven_Network_logo_2019.svg"/>
+  </channel>
+</tv>

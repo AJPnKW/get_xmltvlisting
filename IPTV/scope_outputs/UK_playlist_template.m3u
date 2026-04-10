@@ -1,0 +1,15 @@
+#EXTM3U x-tvg-url="UK_channels.xml"
+#EXTINF:-1 tvg-id="bbcfour.uk" tvg-name="BBC Four" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7a/BBC_Four_logo_2021.svg" group-title="UK • Seeded",BBC Four
+http://your-stream-source/uk/bbcfour-uk.m3u8
+#EXTINF:-1 tvg-id="bbcparliament.uk" tvg-name="BBC Parliament" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8a/BBC_Parliament_logo_2022.svg" group-title="UK • Seeded",BBC Parliament
+http://your-stream-source/uk/bbcparliament-uk.m3u8
+#EXTINF:-1 tvg-id="bbcthree.uk" tvg-name="BBC Three" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4a/BBC_Three_logo_2021.svg" group-title="UK • Seeded",BBC Three
+http://your-stream-source/uk/bbcthree-uk.m3u8
+#EXTINF:-1 tvg-id="cbbc.uk" tvg-name="CBBC" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5a/CBBC_2023.svg" group-title="UK • Seeded",CBBC
+http://your-stream-source/uk/cbbc-uk.m3u8
+#EXTINF:-1 tvg-id="cbeebies.uk" tvg-name="CBeebies" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4c/CBeebies_2023.svg" group-title="UK • Seeded",CBeebies
+http://your-stream-source/uk/cbeebies-uk.m3u8
+#EXTINF:-1 tvg-id="channel4.uk" tvg-name="Channel 4" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5f/Channel_4_logo_2015.svg" group-title="UK • Seeded",Channel 4
+http://your-stream-source/uk/channel4-uk.m3u8
+#EXTINF:-1 tvg-id="channel5.uk" tvg-name="Channel 5" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1c/Channel_5_logo_2016.svg" group-title="UK • Seeded",Channel 5
+http://your-stream-source/uk/channel5-uk.m3u8
