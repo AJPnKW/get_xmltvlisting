@@ -3,7 +3,7 @@
 """
 fetch_xmltvlistings_listings.py
 
-Version: 0.10.0
+Version: 0.11.0
 """
 from __future__ import annotations
 
@@ -16,18 +16,11 @@ from pathlib import Path
 
 import requests
 
-__version__ = "0.10.0"
+from _lineups import API_KEY_ENV, DEFAULT_DAYS, LINEUP_IDS, LINEUP_LABELS
+
+__version__ = "0.11.0"
 BASE_URL = "https://www.xmltvlistings.com"
 LIMIT_TEXT = "You have reached your limit of 5 downloads per day."
-
-# Active lineup set (safe labels)
-LINEUP_LABELS = {
-    "10270": "Rogers_Toronto_ON_CA",
-    "10269": "Telus_Optik_Vancouver_BC_CA",
-    "10271": "Xfinity_Chicago_IL_US",
-    "10273": "Verizon_FIOS_NewYork_NY_US",
-    "10272": "Broadcast_LosAngeles_CA_US",
-}
 
 
 def die(msg: str, code: int = 1) -> None:
@@ -44,9 +37,9 @@ def repo_root_from_script() -> Path:
 
 
 def get_api_key() -> str:
-    k = (os.getenv("API_XMLTVLISTING_KEY") or "").strip()
+    k = (os.getenv(API_KEY_ENV) or "").strip()
     if not k:
-        die("Missing env var API_XMLTVLISTING_KEY")
+        die(f"Missing env var {API_KEY_ENV}")
     return k
 
 
@@ -85,8 +78,8 @@ def out_name(lineup_id: str) -> str:
 
 def main(argv: list[str]) -> int:
     ap = argparse.ArgumentParser(add_help=True)
-    ap.add_argument("--lineups", nargs="+", default=list(LINEUP_LABELS.keys()))
-    ap.add_argument("--days", type=int, default=7)
+    ap.add_argument("--lineups", nargs="+", default=list(LINEUP_IDS))
+    ap.add_argument("--days", type=int, default=DEFAULT_DAYS)
     ap.add_argument("--offset", type=int, default=0)
     ap.add_argument("--publish-dir", default="IPTV", help="Relative (repo-based) or absolute publish folder")
     ap.add_argument("--out-dir", default="", help="Audit out dir (default repo/out/downloads/<timestamp>/)")
@@ -108,7 +101,7 @@ def main(argv: list[str]) -> int:
     out_dir = Path(args.out_dir).expanduser() if args.out_dir else (repo / "out" / "downloads" / stamp)
     out_dir.mkdir(parents=True, exist_ok=True)
 
-    fetched = []  # (lineup_id, filename, xml)
+    fetched = []
     any_blocked = False
 
     for lid_raw in args.lineups:
@@ -135,12 +128,10 @@ def main(argv: list[str]) -> int:
             any_blocked = True
             print(f"SKIP (error): {fname} :: {e}")
 
-    # Audit writes for successful fetches
     for _lid, fname, xml in fetched:
         atomic_write_text(out_dir / fname, xml)
         print(f"Wrote: {out_dir / fname}")
 
-    # Publish
     expected = [str(x).strip() for x in args.lineups if str(x).strip()]
     if args.publish_mode == "per_file":
         for _lid, fname, xml in fetched:
