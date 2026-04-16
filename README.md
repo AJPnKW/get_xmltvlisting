@@ -7,10 +7,15 @@ This patch includes **local analysis first** (no API calls required) so you can 
 ## Folder map (expected)
 
 - `sample_download_XML.TV.Listings/` (your sample XML files)
-- `config/lineups.json` (lineup registry for later API pulls)
-- `tools/` (PowerShell launchers)
+- `tools/_lineups.py` (single source of truth for lineup IDs, names, labels, and defaults)
+- `tools/` (PowerShell launchers + XMLTV fetch scripts)
 - `src/get_xmltvlisting/` (Python code)
 - `out/` (generated reports; gitignored)
+
+## Rule
+
+- Do not duplicate lineup IDs in workflow files, docs, or multiple scripts.
+- Update `tools/_lineups.py` only if lineup IDs ever change.
 
 ## Step 1 (local overlap analysis)
 
