@@ -4,28 +4,34 @@
   "default_days": 5,
   "lineups": [
     {
-      "id": 9328,
-      "name": "Hulu Live TV - custom",
+      "id": 10270,
+      "name": "Rogers - Toronto, ON",
       "enabled": true,
-      "notes": "https://www.xmltvlistings.com/xmltv/download/.../9328"
+      "notes": "https://www.xmltvlistings.com/xmltv/download/.../10270"
     },
     {
-      "id": 9329,
-      "name": "DirecTV - USA - Custom",
+      "id": 10269,
+      "name": "Telus Optik TV - Vancouver, BC",
       "enabled": true,
-      "notes": "https://www.xmltvlistings.com/xmltv/download/.../9329"
+      "notes": "https://www.xmltvlistings.com/xmltv/download/.../10269"
     },
     {
-      "id": 9330,
-      "name": "Spectrum - Manhattan, NY",
+      "id": 10271,
+      "name": "Xfinity - Chicago Area 1, 4 & 5, IL - Digital",
       "enabled": true,
-      "notes": "https://www.xmltvlistings.com/xmltv/download/.../9330"
+      "notes": "https://www.xmltvlistings.com/xmltv/download/.../10271"
     },
     {
-      "id": 9331,
-      "name": "Canada - Bell Fibe feed - custom",
-      "enabled": false,
-      "notes": "Not downloaded yet (daily limit). Enable later."
+      "id": 10273,
+      "name": "Verizon FIOS - New York, NY",
+      "enabled": true,
+      "notes": "https://www.xmltvlistings.com/xmltv/download/.../10273"
+    },
+    {
+      "id": 10272,
+      "name": "Broadcast - Los Angeles, CA",
+      "enabled": true,
+      "notes": "https://www.xmltvlistings.com/xmltv/download/.../10272"
     }
   ]
 }
