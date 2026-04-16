@@ -3,14 +3,12 @@
 """
 fetch_xmltvlistings_channels.py
 
-Version: 0.9.0
+Version: 1.0.0
 
 Change
-- SAFE FILENAMES: no square brackets [] or other special chars.
+- Single source of truth for lineup IDs and labels moved to tools/_lineups.py.
 - Output naming:
     IPTV/<LABEL>_channels_<LINEUPID>.xml
-  Example:
-    IPTV/Rogers_Toronto_ON_CA_channels_10270.xml
 
 Purpose
 - Fetch channels-only XML using:
@@ -24,13 +22,6 @@ Safety
 
 Env
 - API_XMLTVLISTING_KEY (required)
-
-Active lineups
-10270 Rogers - Toronto, ON
-10269 Telus Optik TV - Vancouver, BC
-10271 Xfinity - Chicago Area 1, 4 & 5, IL - Digital
-10273 Verizon FIOS - New York, NY
-10272 Broadcast - Los Angeles, CA
 """
 
 from __future__ import annotations
@@ -41,19 +32,14 @@ import os
 import sys
 import tempfile
 from pathlib import Path
+
 import requests
 
-__version__ = "0.9.0"
+from _lineups import API_KEY_ENV, LINEUP_IDS, LINEUP_LABELS
+
+__version__ = "1.0.0"
 BASE_URL = "https://www.xmltvlistings.com"
 LIMIT_TEXT = "You have reached your limit of 5 downloads per day."
-
-LINEUP_LABELS = {
-    "10270": "Rogers_Toronto_ON_CA",
-    "10269": "Telus_Optik_Vancouver_BC_CA",
-    "10271": "Xfinity_Chicago_IL_US",
-    "10273": "Verizon_FIOS_NewYork_NY_US",
-    "10272": "Broadcast_LosAngeles_CA_US",
-}
 
 
 def die(msg: str, code: int = 1) -> None:
@@ -70,9 +56,9 @@ def repo_root_from_script() -> Path:
 
 
 def get_api_key() -> str:
-    k = (os.getenv("API_XMLTVLISTING_KEY") or "").strip()
+    k = (os.getenv(API_KEY_ENV) or "").strip()
     if not k:
-        die("Missing env var API_XMLTVLISTING_KEY")
+        die(f"Missing env var {API_KEY_ENV}")
     return k
 
 
@@ -111,7 +97,7 @@ def out_name(lineup_id: str) -> str:
 
 def main(argv: list[str]) -> int:
     ap = argparse.ArgumentParser(add_help=True)
-    ap.add_argument("--lineups", nargs="+", default=list(LINEUP_LABELS.keys()))
+    ap.add_argument("--lineups", nargs="+", default=list(LINEUP_IDS))
     ap.add_argument("--publish-dir", default="IPTV", help="Relative (repo-based) or absolute publish folder")
     ap.add_argument("--out-dir", default="", help="Audit out dir (default repo/out/downloads/<timestamp>/)")
     args = ap.parse_args(argv)
