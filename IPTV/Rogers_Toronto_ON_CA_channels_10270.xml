@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tv SYSTEM "xmltv.dtd">
-<tv date="04/06/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
+<tv date="04/17/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
   <channel id="13887.stations.xmltv.tvmedia.ca">
     <display-name>TVO (CICA-DT) Toronto, ON</display-name>
     <display-name>CICA-DT</display-name>
@@ -258,7 +258,6 @@
     <display-name>BNNB</display-name>
     <display-name>57</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s20709_h15_aa.png"/>
-    <url>www.bnn.ca</url>
   </channel>
   <channel id="92.stations.xmltv.tvmedia.ca">
     <display-name>PBS (WNED) Buffalo, NY</display-name>
@@ -330,14 +329,12 @@
     <display-name>HLN</display-name>
     <display-name>80</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s10145_h15_ac.png"/>
-    <url>Turner.com</url>
   </channel>
   <channel id="294.stations.xmltv.tvmedia.ca">
     <display-name>BNN Bloomberg</display-name>
     <display-name>BNNB</display-name>
     <display-name>81</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s20709_h15_aa.png"/>
-    <url>www.bnn.ca</url>
   </channel>
   <channel id="607.stations.xmltv.tvmedia.ca">
     <display-name>Adult Swim - East</display-name>

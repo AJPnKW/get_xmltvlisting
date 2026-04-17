@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tv SYSTEM "xmltv.dtd">
-<tv date="04/06/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
+<tv date="04/17/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
   <channel id="1766.stations.xmltv.tvmedia.ca">
     <display-name>CBS (WCBS) New York, NY</display-name>
     <display-name>WCBS-TV</display-name>
@@ -143,7 +143,6 @@
     <display-name>MSNOW</display-name>
     <display-name>103</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/16300-7F58.png"/>
-    <url>https://www.ms.now/</url>
   </channel>
   <channel id="3008.stations.xmltv.tvmedia.ca">
     <display-name>CNN International North America</display-name>
@@ -1595,7 +1594,6 @@
     <display-name>MSNOW</display-name>
     <display-name>1545</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/16300-7F58.png"/>
-    <url>https://www.ms.now/</url>
   </channel>
   <channel id="9577.stations.xmltv.tvmedia.ca">
     <display-name>National Geographic Mundo</display-name>
