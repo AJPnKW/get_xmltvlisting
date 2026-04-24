@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tv SYSTEM "xmltv.dtd">
-<tv date="04/23/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
+<tv date="04/24/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
   <channel id="1766.stations.xmltv.tvmedia.ca">
     <display-name>CBS (WCBS) New York, NY</display-name>
     <display-name>WCBS-TV</display-name>
@@ -781,18 +781,6 @@
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/18434-9004.png"/>
     <url>www.cinemax.com</url>
   </channel>
-  <channel id="1652.stations.xmltv.tvmedia.ca">
-    <display-name>ThrillerMax - East</display-name>
-    <display-name>HBO4</display-name>
-    <display-name>426</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s18435_h15_ad.png"/>
-  </channel>
-  <channel id="2595.stations.xmltv.tvmedia.ca">
-    <display-name>ThrillerMax - Pacific</display-name>
-    <display-name>HBO4</display-name>
-    <display-name>427</display-name>
-    <url>www.cinemax.com</url>
-  </channel>
   <channel id="639.stations.xmltv.tvmedia.ca">
     <display-name>Cinemax Spanish - East</display-name>
     <display-name>@MAX</display-name>
@@ -1505,13 +1493,6 @@
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/59948-1D458.png"/>
     <url>www.cinemax.com</url>
   </channel>
-  <channel id="7100.stations.xmltv.tvmedia.ca">
-    <display-name>ThrillerMax - East HD</display-name>
-    <display-name>HBO4HD</display-name>
-    <display-name>926</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s59954_h15_ab.png"/>
-    <url>www.cinemax.com</url>
-  </channel>
   <channel id="7092.stations.xmltv.tvmedia.ca">
     <display-name>Cinemax Spanish HD</display-name>
     <display-name>@MAX</display-name>
@@ -1525,12 +1506,6 @@
     <display-name>930</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/59961-1D472.png"/>
     <url>WWW.CINEMAX.COM</url>
-  </channel>
-  <channel id="2270.stations.xmltv.tvmedia.ca">
-    <display-name>OuterMax - Eastern</display-name>
-    <display-name>MAX7</display-name>
-    <display-name>931</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s25622_h15_ab.png"/>
   </channel>
   <channel id="347.stations.xmltv.tvmedia.ca">
     <display-name>TNT - Eastern Feed</display-name>
