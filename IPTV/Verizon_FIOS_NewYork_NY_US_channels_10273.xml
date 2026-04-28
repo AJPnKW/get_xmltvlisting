@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tv SYSTEM "xmltv.dtd">
-<tv date="04/27/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
+<tv date="04/28/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
   <channel id="1766.stations.xmltv.tvmedia.ca">
     <display-name>CBS (WCBS) New York, NY</display-name>
     <display-name>WCBS-TV</display-name>
@@ -342,7 +342,6 @@
     <display-name>MTVU</display-name>
     <display-name>212</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s44228_h15_aa.png"/>
-    <url>www.mtv.com</url>
   </channel>
   <channel id="1486.stations.xmltv.tvmedia.ca">
     <display-name>FUSE TV - Eastern feed</display-name>
