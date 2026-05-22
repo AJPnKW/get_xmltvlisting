@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tv SYSTEM "xmltv.dtd">
-<tv date="05/21/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
+<tv date="05/22/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
   <channel id="1766.stations.xmltv.tvmedia.ca">
     <display-name>CBS (WCBS) New York, NY</display-name>
     <display-name>WCBS-TV</display-name>
@@ -778,6 +778,12 @@
     <display-name>MAX3</display-name>
     <display-name>425</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/18434-9004.png"/>
+    <url>www.cinemax.com</url>
+  </channel>
+  <channel id="2595.stations.xmltv.tvmedia.ca">
+    <display-name>ThrillerMax - Pacific</display-name>
+    <display-name>HBO4</display-name>
+    <display-name>427</display-name>
     <url>www.cinemax.com</url>
   </channel>
   <channel id="639.stations.xmltv.tvmedia.ca">
