@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tv SYSTEM "xmltv.dtd">
-<tv date="06/09/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
+<tv date="06/10/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
   <channel id="13887.stations.xmltv.tvmedia.ca">
     <display-name>TVO (CICA-DT) Toronto, ON</display-name>
     <display-name>CICA-DT</display-name>
@@ -590,7 +590,6 @@
     <display-name>KOMO-TV</display-name>
     <display-name>155</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s28708_h15_ac.png"/>
-    <url>WWW.KOMOTV.COM</url>
   </channel>
   <channel id="45.stations.xmltv.tvmedia.ca">
     <display-name>FOX (WUTV) Buffalo, NY</display-name>
