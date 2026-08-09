@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tv SYSTEM "xmltv.dtd">
-<tv date="08/08/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
+<tv date="08/09/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
   <channel id="2172.stations.xmltv.tvmedia.ca">
     <display-name>CBS (KCBS) Los Angeles, CA</display-name>
     <display-name>KCBS-TV</display-name>
@@ -13,6 +13,19 @@
     <display-name>4-1</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s10991_h15_ad.png"/>
     <url>www.nbc4.tv</url>
+  </channel>
+  <channel id="35026.stations.xmltv.tvmedia.ca">
+    <display-name>LX Network (KNBC-DT3) Los Angeles, CA</display-name>
+    <display-name>KNBC3</display-name>
+    <display-name>4-3</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/114892-38198.png"/>
+  </channel>
+  <channel id="37110.stations.xmltv.tvmedia.ca">
+    <display-name>Oxygen (KNBC-DT4) Los Angeles, CA</display-name>
+    <display-name>KNBC4</display-name>
+    <display-name>4-4</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s21484_h15_ac.png"/>
+    <url>WWW.OXYGEN.COM</url>
   </channel>
   <channel id="90.stations.xmltv.tvmedia.ca">
     <display-name>KTLA Los Angeles, CA</display-name>
@@ -44,6 +57,20 @@
     <display-name>KABC-TV</display-name>
     <display-name>7-1</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s28708_h15_ac.png"/>
+    <url>WWW.ABC7.COM</url>
+  </channel>
+  <channel id="6543.stations.xmltv.tvmedia.ca">
+    <display-name>Localish (KABC-TV2) HD Los Angeles, CA</display-name>
+    <display-name>KABC-TV2</display-name>
+    <display-name>7-2</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s70938_h15_ac.png"/>
+    <url>WWW.ABC7.COM</url>
+  </channel>
+  <channel id="9092.stations.xmltv.tvmedia.ca">
+    <display-name>Charge! (KABC-TV3) Los Angeles, CA</display-name>
+    <display-name>KABC-TV3</display-name>
+    <display-name>7-3</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s102148_h15_ab.png"/>
     <url>WWW.ABC7.COM</url>
   </channel>
   <channel id="1826.stations.xmltv.tvmedia.ca">
@@ -214,6 +241,11 @@
     <display-name>KXLA2</display-name>
     <display-name>44-2</display-name>
   </channel>
+  <channel id="11248.stations.xmltv.tvmedia.ca">
+    <display-name>SKY-CAN (KXLA-DT4) Los Angeles, CA</display-name>
+    <display-name>KXLA4</display-name>
+    <display-name>44-4</display-name>
+  </channel>
   <channel id="16533.stations.xmltv.tvmedia.ca">
     <display-name>ION Mystery (KFTR-DT3) Ontario, CA</display-name>
     <display-name>KFTR-DT3</display-name>
@@ -232,11 +264,29 @@
     <display-name>50-2</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s11039_h15_ab.png"/>
   </channel>
+  <channel id="6522.stations.xmltv.tvmedia.ca">
+    <display-name>Daystar (KOCE-TV3) Los Angeles, CA</display-name>
+    <display-name>KOCE-TV3</display-name>
+    <display-name>50-3</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/53201-19FA2.png"/>
+  </channel>
   <channel id="13281.stations.xmltv.tvmedia.ca">
     <display-name>PBS World (KOCE-TV4) Huntington Beach, CA</display-name>
     <display-name>KOCE-TV4</display-name>
     <display-name>50-4</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s56725_h15_ab.png"/>
+  </channel>
+  <channel id="3247.stations.xmltv.tvmedia.ca">
+    <display-name>MeTV (KAZA) Los Angeles, CA</display-name>
+    <display-name>KAZA-TV</display-name>
+    <display-name>54-1</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s70436_h15_ac.png"/>
+  </channel>
+  <channel id="11192.stations.xmltv.tvmedia.ca">
+    <display-name>MeTV Plus (KAZA-TV3) Avalon, CA</display-name>
+    <display-name>KAZA3</display-name>
+    <display-name>54-3</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s159817_h15_aa.png"/>
   </channel>
   <channel id="2631.stations.xmltv.tvmedia.ca">
     <display-name>KDOC - Los Angeles, CA</display-name>
