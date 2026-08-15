@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tv SYSTEM "xmltv.dtd">
-<tv date="08/14/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
+<tv date="08/15/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
   <channel id="13887.stations.xmltv.tvmedia.ca">
     <display-name>TVO (CICA-DT) Toronto, ON</display-name>
     <display-name>CICA-DT</display-name>
@@ -1201,7 +1201,7 @@
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s53098_h15_ac.png"/>
   </channel>
   <channel id="58.stations.xmltv.tvmedia.ca">
-    <display-name>WSBK (TV-38) Boston</display-name>
+    <display-name>TV38 (WSBK) Boston, MA</display-name>
     <display-name>WSBK-TV</display-name>
     <display-name>343</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s32723_h9_ab.png"/>
@@ -1603,7 +1603,7 @@
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s11779_h15_aa.png"/>
   </channel>
   <channel id="3662.stations.xmltv.tvmedia.ca">
-    <display-name>WSBK (TV-38) Boston HD</display-name>
+    <display-name>TV38 (WSBK) Boston, MA HD</display-name>
     <display-name>WSBK-HD</display-name>
     <display-name>571</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s32723_h9_ab.png"/>
