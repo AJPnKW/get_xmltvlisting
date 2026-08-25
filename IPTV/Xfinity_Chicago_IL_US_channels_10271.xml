@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tv SYSTEM "xmltv.dtd">
-<tv date="08/24/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
+<tv date="08/25/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
   <channel id="1830.stations.xmltv.tvmedia.ca">
     <display-name>CBS (WBBM) Chicago, IL</display-name>
     <display-name>WBBM-TV</display-name>
@@ -716,7 +716,7 @@
     <display-name>VICE HD</display-name>
     <display-name>VICE-HD</display-name>
     <display-name>323</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s104547_h9_ab.png"/>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s18822_h15_ac.png"/>
     <url>www.viceland.com</url>
   </channel>
   <channel id="6997.stations.xmltv.tvmedia.ca">
@@ -1287,7 +1287,7 @@
     <display-name>VICE HD</display-name>
     <display-name>VICE-HD</display-name>
     <display-name>1436</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s104547_h9_ab.png"/>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s18822_h15_ac.png"/>
     <url>www.viceland.com</url>
   </channel>
   <channel id="18804.stations.xmltv.tvmedia.ca">
@@ -1948,7 +1948,7 @@
     <display-name>VICE HD</display-name>
     <display-name>VICE-HD</display-name>
     <display-name>28600</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s104547_h9_ab.png"/>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s18822_h15_ac.png"/>
     <url>www.viceland.com</url>
   </channel>
   <channel id="18804.stations.xmltv.tvmedia.ca">
