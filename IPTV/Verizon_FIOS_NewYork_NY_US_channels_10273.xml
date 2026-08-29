@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tv SYSTEM "xmltv.dtd">
-<tv date="08/28/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
+<tv date="08/29/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
   <channel id="1766.stations.xmltv.tvmedia.ca">
     <display-name>CBS (WCBS) New York, NY</display-name>
     <display-name>WCBS-TV</display-name>
@@ -567,7 +567,6 @@
     <display-name>STZEAw</display-name>
     <display-name>361</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s14871_h15_ab.png"/>
-    <url>www.encoremedia.com</url>
   </channel>
   <channel id="2128.stations.xmltv.tvmedia.ca">
     <display-name>Starz Encore Family - Eastern</display-name>
