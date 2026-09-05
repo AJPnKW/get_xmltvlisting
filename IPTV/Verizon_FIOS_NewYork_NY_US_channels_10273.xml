@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tv SYSTEM "xmltv.dtd">
-<tv date="09/04/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
+<tv date="09/05/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
   <channel id="1766.stations.xmltv.tvmedia.ca">
     <display-name>CBS (WCBS) New York, NY</display-name>
     <display-name>WCBS-TV</display-name>
@@ -119,12 +119,6 @@
     <display-name>TBS</display-name>
     <display-name>52</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s11867_h15_ac.png"/>
-  </channel>
-  <channel id="652.stations.xmltv.tvmedia.ca">
-    <display-name>FX Networks East Coast</display-name>
-    <display-name>FX</display-name>
-    <display-name>53</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s14321_h15_aa.png"/>
   </channel>
   <channel id="1030.stations.xmltv.tvmedia.ca">
     <display-name>Paramount Network USA - Eastern Feed</display-name>
@@ -1106,6 +1100,26 @@
     <display-name>639</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s57391_h15_ad.png"/>
   </channel>
+  <channel id="7669.stations.xmltv.tvmedia.ca">
+    <display-name>Jewelry Television HD</display-name>
+    <display-name>JVT</display-name>
+    <display-name>652</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s65556_h15_ab.png"/>
+    <url>WWW.ACNTV.COM</url>
+  </channel>
+  <channel id="19969.stations.xmltv.tvmedia.ca">
+    <display-name>QVC2 HD</display-name>
+    <display-name>QVC2-HD</display-name>
+    <display-name>653</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s82696_h15_ac.png"/>
+    <url>www.qvc.com</url>
+  </channel>
+  <channel id="32018.stations.xmltv.tvmedia.ca">
+    <display-name>HSN 2 HD</display-name>
+    <display-name>HSN2</display-name>
+    <display-name>654</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s99450_h15_ac.png"/>
+  </channel>
   <channel id="8113.stations.xmltv.tvmedia.ca">
     <display-name>The Cooking Channel HD</display-name>
     <display-name>COOKHD</display-name>
@@ -1125,6 +1139,12 @@
     <display-name>676</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s81289_h6_aa.png"/>
     <url>www.skyangel.com</url>
+  </channel>
+  <channel id="32823.stations.xmltv.tvmedia.ca">
+    <display-name>Law &amp; Crime Network</display-name>
+    <display-name>L&amp;C</display-name>
+    <display-name>678</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/122963-3C0A6.png"/>
   </channel>
   <channel id="6216.stations.xmltv.tvmedia.ca">
     <display-name>Crime &amp; Investigation Network USA HD</display-name>
@@ -1251,6 +1271,13 @@
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s59440_h15_ad.png"/>
     <url>www.cmt.com</url>
   </channel>
+  <channel id="7049.stations.xmltv.tvmedia.ca">
+    <display-name>Turner Classic Movies USA HD</display-name>
+    <display-name>TCM-HD</display-name>
+    <display-name>730</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s64312_h15_ab.png"/>
+    <url>www.tcm.com</url>
+  </channel>
   <channel id="6219.stations.xmltv.tvmedia.ca">
     <display-name>AMC - Eastern Feed HD</display-name>
     <display-name>AMC-HD</display-name>
@@ -1271,6 +1298,12 @@
     <display-name>734</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s59444_h15_ab.png"/>
     <url>www.ifc.com</url>
+  </channel>
+  <channel id="32481.stations.xmltv.tvmedia.ca">
+    <display-name>Hallmark Family HD</display-name>
+    <display-name>HFMHD</display-name>
+    <display-name>737</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s105723_h15_ab.png"/>
   </channel>
   <channel id="6214.stations.xmltv.tvmedia.ca">
     <display-name>Hallmark Mystery Eastern - HD</display-name>
@@ -1318,6 +1351,20 @@
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s60048_h15_ac.png"/>
     <url>www.cartoonnetwork.com</url>
   </channel>
+  <channel id="33139.stations.xmltv.tvmedia.ca">
+    <display-name>CLEO TV HD</display-name>
+    <display-name>CLEO</display-name>
+    <display-name>773</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s110289_h15_aa.png"/>
+    <url>www.mycleo.tv</url>
+  </channel>
+  <channel id="37269.stations.xmltv.tvmedia.ca">
+    <display-name>The Grio HD</display-name>
+    <display-name>GRIO-HD</display-name>
+    <display-name>777</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s101752_h15_ae.png"/>
+    <url>https://thegriotv.com/</url>
+  </channel>
   <channel id="6112.stations.xmltv.tvmedia.ca">
     <display-name>Disney HD - Eastern</display-name>
     <display-name>DISN</display-name>
@@ -1331,6 +1378,19 @@
     <display-name>781</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s60006_h15_aa.png"/>
     <url>disneyxd.disney.com/</url>
+  </channel>
+  <channel id="37699.stations.xmltv.tvmedia.ca">
+    <display-name>Merit Street</display-name>
+    <display-name>MERIT</display-name>
+    <display-name>792</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s155158_h15_ac.png"/>
+  </channel>
+  <channel id="10922.stations.xmltv.tvmedia.ca">
+    <display-name>Pursuit Channel</display-name>
+    <display-name>PURSUIT</display-name>
+    <display-name>818</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s60111_h15_aa.png"/>
+    <url>www.pursuitchannel.com</url>
   </channel>
   <channel id="3388.stations.xmltv.tvmedia.ca">
     <display-name>Starz HD - Eastern</display-name>
@@ -1795,5 +1855,12 @@
     <display-name>1729</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s10171_h15_ae.png"/>
     <url>www.disneychannel.com</url>
+  </channel>
+  <channel id="36600.stations.xmltv.tvmedia.ca">
+    <display-name>Daystar Espanol</display-name>
+    <display-name>DAYESP</display-name>
+    <display-name>1739</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s132423_h15_aa.png"/>
+    <url>Espanol.daystar.com</url>
   </channel>
 </tv>
