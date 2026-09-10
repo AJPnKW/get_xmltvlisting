@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tv SYSTEM "xmltv.dtd">
-<tv date="09/09/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
+<tv date="09/10/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
   <channel id="1766.stations.xmltv.tvmedia.ca">
     <display-name>CBS (WCBS) New York, NY</display-name>
     <display-name>WCBS-TV</display-name>
@@ -336,7 +336,7 @@
     <display-name>BBC America - East</display-name>
     <display-name>BBC</display-name>
     <display-name>189</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s18332_h15_aa.png"/>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/18332-8F38.png"/>
   </channel>
   <channel id="647.stations.xmltv.tvmedia.ca">
     <display-name>Comedy Central (US) - Eastern Feed</display-name>
