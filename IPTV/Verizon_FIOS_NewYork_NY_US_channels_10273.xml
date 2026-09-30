@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tv SYSTEM "xmltv.dtd">
-<tv date="09/29/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
+<tv date="09/30/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
   <channel id="1766.stations.xmltv.tvmedia.ca">
     <display-name>CBS (WCBS) New York, NY</display-name>
     <display-name>WCBS-TV</display-name>
@@ -39,7 +39,7 @@
     <display-name>MNT (WWOR) New York, NY</display-name>
     <display-name>WWOR-TV</display-name>
     <display-name>9</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/11760-5BE0.png"/>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s10212_h15_ab.png"/>
     <url>www.upn9.com</url>
   </channel>
   <channel id="9574.stations.xmltv.tvmedia.ca">
