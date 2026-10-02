@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tv SYSTEM "xmltv.dtd">
-<tv date="10/01/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
+<tv date="10/02/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
   <channel id="6257.stations.xmltv.tvmedia.ca">
     <display-name>CBC (CBUT) Vancouver, BC HD</display-name>
     <display-name>CBUT-HD</display-name>
@@ -175,7 +175,7 @@
     <display-name>MNT (WWOR) New York, NY HD</display-name>
     <display-name>WWOR-HD</display-name>
     <display-name>275</display-name>
-    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s10212_h15_ab.png"/>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/11760-5BE0.png"/>
     <url>www.upn9.com</url>
   </channel>
   <channel id="8458.stations.xmltv.tvmedia.ca">
