@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tv SYSTEM "xmltv.dtd">
-<tv date="10/16/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
+<tv date="10/17/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
   <channel id="13887.stations.xmltv.tvmedia.ca">
     <display-name>TVO (CICA-DT) Toronto, ON</display-name>
     <display-name>CICA-DT</display-name>
@@ -13,6 +13,13 @@
     <display-name>3</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s73281_h15_ab.png"/>
     <url>www.canada.com/globaltv/ontario</url>
+  </channel>
+  <channel id="41.stations.xmltv.tvmedia.ca">
+    <display-name>OMNI.1 Television</display-name>
+    <display-name>CFMT</display-name>
+    <display-name>4</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s10105_h15_ad.png"/>
+    <url>www.omnitv.ca</url>
   </channel>
   <channel id="34.stations.xmltv.tvmedia.ca">
     <display-name>CBC (CBLT) Toronto, ON</display-name>
@@ -69,11 +76,29 @@
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s10003_h15_ac.png"/>
     <url>www.wkbw.com/</url>
   </channel>
+  <channel id="359.stations.xmltv.tvmedia.ca">
+    <display-name>TSC</display-name>
+    <display-name>TSC</display-name>
+    <display-name>19</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s15997_h15_ac.png"/>
+  </channel>
   <channel id="36.stations.xmltv.tvmedia.ca">
     <display-name>CTV2 Toronto, ON</display-name>
     <display-name>CTV2T</display-name>
     <display-name>20</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s10135_h15_ab.png"/>
+  </channel>
+  <channel id="8249.stations.xmltv.tvmedia.ca">
+    <display-name>Sportsnet One</display-name>
+    <display-name>SN1</display-name>
+    <display-name>21</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s68858_h15_aa.png"/>
+  </channel>
+  <channel id="254.stations.xmltv.tvmedia.ca">
+    <display-name>Sportsnet (Ontario)</display-name>
+    <display-name>SNO</display-name>
+    <display-name>22</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s18799_h15_aa.png"/>
   </channel>
   <channel id="419.stations.xmltv.tvmedia.ca">
     <display-name>Weather Network</display-name>
@@ -233,6 +258,12 @@
     <display-name>50</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s17609_h15_ac.png"/>
   </channel>
+  <channel id="336.stations.xmltv.tvmedia.ca">
+    <display-name>Sportsnet 360</display-name>
+    <display-name>SN360</display-name>
+    <display-name>53</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s20203_h15_aa.png"/>
+  </channel>
   <channel id="161.stations.xmltv.tvmedia.ca">
     <display-name>DTOUR - East</display-name>
     <display-name>DTOUR</display-name>
@@ -312,6 +343,37 @@
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s20675_h15_aa.png"/>
     <url>www.star-tv.com</url>
   </channel>
+  <channel id="332.stations.xmltv.tvmedia.ca">
+    <display-name>Sportsnet (East) - Satellite/Digital</display-name>
+    <display-name>SNE</display-name>
+    <display-name>74</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s18798_h15_aa.png"/>
+  </channel>
+  <channel id="2705.stations.xmltv.tvmedia.ca">
+    <display-name>Sportsnet (West) - Satellite/Digital</display-name>
+    <display-name>SNW</display-name>
+    <display-name>75</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s70398_h15_ab.png"/>
+  </channel>
+  <channel id="253.stations.xmltv.tvmedia.ca">
+    <display-name>Sportsnet (Pacific) - Satellite/Digital</display-name>
+    <display-name>SNP</display-name>
+    <display-name>76</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s18801_h15_aa.png"/>
+  </channel>
+  <channel id="3349.stations.xmltv.tvmedia.ca">
+    <display-name>NFL Network</display-name>
+    <display-name>NFLN</display-name>
+    <display-name>77</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s34710_h15_aa.png"/>
+  </channel>
+  <channel id="9900.stations.xmltv.tvmedia.ca">
+    <display-name>Golf Channel Canada</display-name>
+    <display-name>GOLF</display-name>
+    <display-name>78</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s65384_h15_aa.png"/>
+    <url>www.thegolfchannel.com</url>
+  </channel>
   <channel id="3561.stations.xmltv.tvmedia.ca">
     <display-name>CNBC Canada</display-name>
     <display-name>CNBC</display-name>
@@ -366,6 +428,24 @@
     <display-name>FX</display-name>
     <display-name>95</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s73681_h15_aa.png"/>
+  </channel>
+  <channel id="1150.stations.xmltv.tvmedia.ca">
+    <display-name>NBA TV Canada</display-name>
+    <display-name>NBA</display-name>
+    <display-name>96</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/27201-D482.png"/>
+  </channel>
+  <channel id="8249.stations.xmltv.tvmedia.ca">
+    <display-name>Sportsnet One</display-name>
+    <display-name>SN1</display-name>
+    <display-name>99</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s68858_h15_aa.png"/>
+  </channel>
+  <channel id="3622.stations.xmltv.tvmedia.ca">
+    <display-name>Rogers On Demand</display-name>
+    <display-name>ROD</display-name>
+    <display-name>100</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s46781_h15_aa.png"/>
   </channel>
   <channel id="39.stations.xmltv.tvmedia.ca">
     <display-name>CTV (CFTO) Toronto, ON</display-name>
@@ -634,6 +714,32 @@
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/16557-815A.png"/>
     <url>www.wb49.com/</url>
   </channel>
+  <channel id="41.stations.xmltv.tvmedia.ca">
+    <display-name>OMNI.1 Television</display-name>
+    <display-name>CFMT</display-name>
+    <display-name>169</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s10105_h15_ad.png"/>
+    <url>www.omnitv.ca</url>
+  </channel>
+  <channel id="1174.stations.xmltv.tvmedia.ca">
+    <display-name>OMNI Vancouver</display-name>
+    <display-name>OMNI</display-name>
+    <display-name>170</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s33725_h15_ab.png"/>
+    <url>www.omnitv.ca/bc/en/</url>
+  </channel>
+  <channel id="613.stations.xmltv.tvmedia.ca">
+    <display-name>OMNI.2</display-name>
+    <display-name>OMNI2</display-name>
+    <display-name>171</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s31558_h15_aa.png"/>
+  </channel>
+  <channel id="7810.stations.xmltv.tvmedia.ca">
+    <display-name>Al Jazeera English</display-name>
+    <display-name>ALJE</display-name>
+    <display-name>176</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s55559_h15_aa.png"/>
+  </channel>
   <channel id="3008.stations.xmltv.tvmedia.ca">
     <display-name>CNN International North America</display-name>
     <display-name>CNNI</display-name>
@@ -672,6 +778,18 @@
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/99663-30A9E.png"/>
     <url>https://www.ms.now/</url>
   </channel>
+  <channel id="294.stations.xmltv.tvmedia.ca">
+    <display-name>BNN Bloomberg</display-name>
+    <display-name>BNNB</display-name>
+    <display-name>186</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s20709_h15_aa.png"/>
+  </channel>
+  <channel id="294.stations.xmltv.tvmedia.ca">
+    <display-name>BNN Bloomberg</display-name>
+    <display-name>BNNB</display-name>
+    <display-name>187</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s20709_h15_aa.png"/>
+  </channel>
   <channel id="416.stations.xmltv.tvmedia.ca">
     <display-name>CTV News Channel</display-name>
     <display-name>CTVNN</display-name>
@@ -704,11 +822,23 @@
     <display-name>194</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s89542_h15_ab.png"/>
   </channel>
+  <channel id="2463.stations.xmltv.tvmedia.ca">
+    <display-name>YTV On Demand</display-name>
+    <display-name>YTVOD</display-name>
+    <display-name>211</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s69112_h9_aa.png"/>
+  </channel>
   <channel id="5330.stations.xmltv.tvmedia.ca">
     <display-name>Family Jr.</display-name>
     <display-name>FAMJR</display-name>
     <display-name>218</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s59119_h15_aa.png"/>
+  </channel>
+  <channel id="163.stations.xmltv.tvmedia.ca">
+    <display-name>Treehouse</display-name>
+    <display-name>TREE</display-name>
+    <display-name>221</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s17639_h15_ab.png"/>
   </channel>
   <channel id="16682.stations.xmltv.tvmedia.ca">
     <display-name>Disney Channel Canada - East</display-name>
@@ -750,6 +880,13 @@
     <display-name>244</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s15098_h15_ac.png"/>
     <url>https://www.ctv.ca/usa-network</url>
+  </channel>
+  <channel id="3887.stations.xmltv.tvmedia.ca">
+    <display-name>CTV Speed HD</display-name>
+    <display-name>CTVSPD-HD</display-name>
+    <display-name>245</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s44794_h15_ab.png"/>
+    <url>https://www.ctv.ca/speed</url>
   </channel>
   <channel id="2035.stations.xmltv.tvmedia.ca">
     <display-name>American Heroes Channel</display-name>
@@ -817,6 +954,12 @@
     <display-name>258</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s24525_h15_ae.png"/>
     <url>https://www.flavournetwork.ca/?redirect=flavour/</url>
+  </channel>
+  <channel id="359.stations.xmltv.tvmedia.ca">
+    <display-name>TSC</display-name>
+    <display-name>TSC</display-name>
+    <display-name>259</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s15997_h15_ac.png"/>
   </channel>
   <channel id="2034.stations.xmltv.tvmedia.ca">
     <display-name>Magnolia Network Canada</display-name>
@@ -1201,17 +1344,460 @@
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s53098_h15_ac.png"/>
     <url>www.ktla.com</url>
   </channel>
+  <channel id="4442.stations.xmltv.tvmedia.ca">
+    <display-name>Sportsnet World</display-name>
+    <display-name>SNWL</display-name>
+    <display-name>370</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s57735_h15_aa.png"/>
+  </channel>
+  <channel id="8249.stations.xmltv.tvmedia.ca">
+    <display-name>Sportsnet One</display-name>
+    <display-name>SN1</display-name>
+    <display-name>371</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s68858_h15_aa.png"/>
+  </channel>
+  <channel id="254.stations.xmltv.tvmedia.ca">
+    <display-name>Sportsnet (Ontario)</display-name>
+    <display-name>SNO</display-name>
+    <display-name>372</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s18799_h15_aa.png"/>
+  </channel>
+  <channel id="6921.stations.xmltv.tvmedia.ca">
+    <display-name>NFL RedZone</display-name>
+    <display-name>NFLN</display-name>
+    <display-name>390</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s65024_h9_aa.png"/>
+    <url>www.nfl.com/ticket/</url>
+  </channel>
+  <channel id="13246.stations.xmltv.tvmedia.ca">
+    <display-name>beIN Sport Canada</display-name>
+    <display-name>beINSC</display-name>
+    <display-name>391</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s91308_h9_ab.png"/>
+  </channel>
+  <channel id="13248.stations.xmltv.tvmedia.ca">
+    <display-name>beIN Sport Espanol Canada</display-name>
+    <display-name>beINSE</display-name>
+    <display-name>392</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s76943_h15_ab.png"/>
+  </channel>
+  <channel id="2976.stations.xmltv.tvmedia.ca">
+    <display-name>Wild TV</display-name>
+    <display-name>WILD</display-name>
+    <display-name>393</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s45324_h15_ac.png"/>
+    <url>www.wildtv.ca</url>
+  </channel>
+  <channel id="8249.stations.xmltv.tvmedia.ca">
+    <display-name>Sportsnet One</display-name>
+    <display-name>SN1</display-name>
+    <display-name>394</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s68858_h15_aa.png"/>
+  </channel>
+  <channel id="8359.stations.xmltv.tvmedia.ca">
+    <display-name>Sportsnet One HD</display-name>
+    <display-name>SN1HD</display-name>
+    <display-name>395</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s68859_h15_ac.png"/>
+  </channel>
+  <channel id="14183.stations.xmltv.tvmedia.ca">
+    <display-name>WWE Network On Demand (Canada)</display-name>
+    <display-name>WWENP</display-name>
+    <display-name>397</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s90143_h15_aa.png"/>
+  </channel>
+  <channel id="6044.stations.xmltv.tvmedia.ca">
+    <display-name>Sportsnet (Ontario) HD</display-name>
+    <display-name>SNOHD</display-name>
+    <display-name>398</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s62111_h15_ac.png"/>
+  </channel>
+  <channel id="16161.stations.xmltv.tvmedia.ca">
+    <display-name>Sportsnet (East) - Satellite/Digital HD</display-name>
+    <display-name>SNEHD</display-name>
+    <display-name>399</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s18798_h15_aa.png"/>
+  </channel>
+  <channel id="16164.stations.xmltv.tvmedia.ca">
+    <display-name>Sportsnet (West) - Satellite/Digital HD</display-name>
+    <display-name>SNWHD</display-name>
+    <display-name>400</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s70398_h15_ab.png"/>
+  </channel>
+  <channel id="16163.stations.xmltv.tvmedia.ca">
+    <display-name>Sportsnet (Pacific) - Satellite/Digital HD</display-name>
+    <display-name>SNPHD</display-name>
+    <display-name>401</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s18801_h15_aa.png"/>
+  </channel>
+  <channel id="254.stations.xmltv.tvmedia.ca">
+    <display-name>Sportsnet (Ontario)</display-name>
+    <display-name>SNO</display-name>
+    <display-name>402</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s18799_h15_aa.png"/>
+  </channel>
+  <channel id="332.stations.xmltv.tvmedia.ca">
+    <display-name>Sportsnet (East) - Satellite/Digital</display-name>
+    <display-name>SNE</display-name>
+    <display-name>403</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s18798_h15_aa.png"/>
+  </channel>
+  <channel id="2705.stations.xmltv.tvmedia.ca">
+    <display-name>Sportsnet (West) - Satellite/Digital</display-name>
+    <display-name>SNW</display-name>
+    <display-name>404</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s70398_h15_ab.png"/>
+  </channel>
+  <channel id="253.stations.xmltv.tvmedia.ca">
+    <display-name>Sportsnet (Pacific) - Satellite/Digital</display-name>
+    <display-name>SNP</display-name>
+    <display-name>405</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s18801_h15_aa.png"/>
+  </channel>
+  <channel id="279.stations.xmltv.tvmedia.ca">
+    <display-name>TSN4</display-name>
+    <display-name>TSN4</display-name>
+    <display-name>406</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s90122_h15_aa.png"/>
+  </channel>
+  <channel id="4294.stations.xmltv.tvmedia.ca">
+    <display-name>TSN2</display-name>
+    <display-name>TSN2</display-name>
+    <display-name>407</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s18990_h15_ab.png"/>
+  </channel>
+  <channel id="4499.stations.xmltv.tvmedia.ca">
+    <display-name>Big Ten Network</display-name>
+    <display-name>B10</display-name>
+    <display-name>408</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s56783_h15_ab.png"/>
+  </channel>
+  <channel id="192.stations.xmltv.tvmedia.ca">
+    <display-name>Fox Sports Racing</display-name>
+    <display-name>FSRacing</display-name>
+    <display-name>409</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s30189_h15_aa.png"/>
+  </channel>
+  <channel id="9900.stations.xmltv.tvmedia.ca">
+    <display-name>Golf Channel Canada</display-name>
+    <display-name>GOLF</display-name>
+    <display-name>410</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s65384_h15_aa.png"/>
+    <url>www.thegolfchannel.com</url>
+  </channel>
+  <channel id="336.stations.xmltv.tvmedia.ca">
+    <display-name>Sportsnet 360</display-name>
+    <display-name>SN360</display-name>
+    <display-name>411</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s20203_h15_aa.png"/>
+  </channel>
   <channel id="160.stations.xmltv.tvmedia.ca">
     <display-name>Bravo Canada</display-name>
     <display-name>BRAVOC</display-name>
     <display-name>412</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s17610_h15_ag.png"/>
   </channel>
+  <channel id="1150.stations.xmltv.tvmedia.ca">
+    <display-name>NBA TV Canada</display-name>
+    <display-name>NBA</display-name>
+    <display-name>413</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/27201-D482.png"/>
+  </channel>
+  <channel id="32974.stations.xmltv.tvmedia.ca">
+    <display-name>MLB Network Canada</display-name>
+    <display-name>MLB</display-name>
+    <display-name>415</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s90155_h15_aa.png"/>
+  </channel>
+  <channel id="3349.stations.xmltv.tvmedia.ca">
+    <display-name>NFL Network</display-name>
+    <display-name>NFLN</display-name>
+    <display-name>419</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s34710_h15_aa.png"/>
+  </channel>
+  <channel id="32992.stations.xmltv.tvmedia.ca">
+    <display-name>Sportsman Channel Canada</display-name>
+    <display-name>SPMNC</display-name>
+    <display-name>426</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s49030_h15_ae.png"/>
+  </channel>
+  <channel id="3433.stations.xmltv.tvmedia.ca">
+    <display-name>Fight Network Canada</display-name>
+    <display-name>FIGHT</display-name>
+    <display-name>427</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s81448_h15_aa.png"/>
+    <url>www.fightnetwork.com</url>
+  </channel>
+  <channel id="4442.stations.xmltv.tvmedia.ca">
+    <display-name>Sportsnet World</display-name>
+    <display-name>SNWL</display-name>
+    <display-name>429</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s57735_h15_aa.png"/>
+  </channel>
+  <channel id="3990.stations.xmltv.tvmedia.ca">
+    <display-name>NFL Network On Demand</display-name>
+    <display-name>NFLOD</display-name>
+    <display-name>430</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/46853-16E0A.png"/>
+  </channel>
+  <channel id="16939.stations.xmltv.tvmedia.ca">
+    <display-name>Super Sports Pak HD 10</display-name>
+    <display-name>HDS10</display-name>
+    <display-name>431</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/79623-26E0E.png"/>
+  </channel>
+  <channel id="16993.stations.xmltv.tvmedia.ca">
+    <display-name>Super Sports Pak HD 1</display-name>
+    <display-name>HDS1</display-name>
+    <display-name>432</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/75947-25156.png"/>
+  </channel>
+  <channel id="16994.stations.xmltv.tvmedia.ca">
+    <display-name>Super Sports Pak HD 2</display-name>
+    <display-name>HDS2</display-name>
+    <display-name>433</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/75948-25158.png"/>
+  </channel>
+  <channel id="16995.stations.xmltv.tvmedia.ca">
+    <display-name>Super Sports Pak HD 3</display-name>
+    <display-name>HDS3</display-name>
+    <display-name>434</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/79612-26DF8.png"/>
+  </channel>
+  <channel id="16996.stations.xmltv.tvmedia.ca">
+    <display-name>Super Sports Pak HD 4</display-name>
+    <display-name>HDS4</display-name>
+    <display-name>435</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/79613-26DFA.png"/>
+  </channel>
+  <channel id="16997.stations.xmltv.tvmedia.ca">
+    <display-name>Super Sports Pak HD 5</display-name>
+    <display-name>HDS5</display-name>
+    <display-name>436</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/79614-26DFC.png"/>
+  </channel>
+  <channel id="16998.stations.xmltv.tvmedia.ca">
+    <display-name>Super Sports Pak HD 6</display-name>
+    <display-name>HDS6</display-name>
+    <display-name>437</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/79615-26DFE.png"/>
+  </channel>
+  <channel id="16999.stations.xmltv.tvmedia.ca">
+    <display-name>Super Sports Pak HD 7</display-name>
+    <display-name>HDS7</display-name>
+    <display-name>438</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/79616-26E00.png"/>
+  </channel>
+  <channel id="17000.stations.xmltv.tvmedia.ca">
+    <display-name>Super Sports Pak HD 8</display-name>
+    <display-name>HDS8</display-name>
+    <display-name>439</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/79617-26E02.png"/>
+  </channel>
+  <channel id="17001.stations.xmltv.tvmedia.ca">
+    <display-name>Super Sports Pak HD 9</display-name>
+    <display-name>HDS9</display-name>
+    <display-name>440</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/79619-26E06.png"/>
+  </channel>
+  <channel id="16942.stations.xmltv.tvmedia.ca">
+    <display-name>Super Sports Pak 11</display-name>
+    <display-name>SPO11</display-name>
+    <display-name>441</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s105617_h15_aa.png"/>
+  </channel>
+  <channel id="16943.stations.xmltv.tvmedia.ca">
+    <display-name>Super Sports Pak 12</display-name>
+    <display-name>SPO12</display-name>
+    <display-name>442</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s105617_h15_aa.png"/>
+  </channel>
+  <channel id="16944.stations.xmltv.tvmedia.ca">
+    <display-name>Super Sports Pak 13</display-name>
+    <display-name>SPO13</display-name>
+    <display-name>443</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s105617_h15_aa.png"/>
+  </channel>
+  <channel id="16945.stations.xmltv.tvmedia.ca">
+    <display-name>Super Sports Pak 14</display-name>
+    <display-name>SPO14</display-name>
+    <display-name>444</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s105617_h15_aa.png"/>
+  </channel>
+  <channel id="16946.stations.xmltv.tvmedia.ca">
+    <display-name>Super Sports Pak 15</display-name>
+    <display-name>SPO15</display-name>
+    <display-name>445</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s105617_h15_aa.png"/>
+  </channel>
+  <channel id="16947.stations.xmltv.tvmedia.ca">
+    <display-name>Super Sports Pak 16</display-name>
+    <display-name>SPO16</display-name>
+    <display-name>446</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s105617_h15_aa.png"/>
+  </channel>
+  <channel id="16948.stations.xmltv.tvmedia.ca">
+    <display-name>Super Sports Pak 17</display-name>
+    <display-name>SPO17</display-name>
+    <display-name>447</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s105617_h15_aa.png"/>
+  </channel>
+  <channel id="16949.stations.xmltv.tvmedia.ca">
+    <display-name>Super Sports Pak 18</display-name>
+    <display-name>SPO18</display-name>
+    <display-name>448</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s105617_h15_aa.png"/>
+  </channel>
+  <channel id="16950.stations.xmltv.tvmedia.ca">
+    <display-name>Super Sports Pak 19</display-name>
+    <display-name>SPO19</display-name>
+    <display-name>449</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s75746_h9_ae.png"/>
+  </channel>
+  <channel id="16990.stations.xmltv.tvmedia.ca">
+    <display-name>Super Sports Pak HD 22</display-name>
+    <display-name>HDS22</display-name>
+    <display-name>450</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s75959_h15_ae.png"/>
+  </channel>
+  <channel id="16989.stations.xmltv.tvmedia.ca">
+    <display-name>Super Sports Pak HD 20</display-name>
+    <display-name>HDS20</display-name>
+    <display-name>451</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s75957_h15_ae.png"/>
+  </channel>
+  <channel id="16954.stations.xmltv.tvmedia.ca">
+    <display-name>Super Sports Pak 22</display-name>
+    <display-name>SPO22</display-name>
+    <display-name>452</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s76045_h15_aa.png"/>
+  </channel>
+  <channel id="17002.stations.xmltv.tvmedia.ca">
+    <display-name>Super Sports Pak HD 21</display-name>
+    <display-name>HDS21</display-name>
+    <display-name>453</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s75958_h15_ae.png"/>
+  </channel>
+  <channel id="16980.stations.xmltv.tvmedia.ca">
+    <display-name>Super Sports Pak HD 11</display-name>
+    <display-name>HDS11</display-name>
+    <display-name>454</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s79620_h15_ae.png"/>
+  </channel>
+  <channel id="16981.stations.xmltv.tvmedia.ca">
+    <display-name>Super Sports Pak HD 12</display-name>
+    <display-name>HDS12</display-name>
+    <display-name>455</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s79621_h15_ae.png"/>
+  </channel>
+  <channel id="16982.stations.xmltv.tvmedia.ca">
+    <display-name>Super Sports Pak HD 13</display-name>
+    <display-name>HDS13</display-name>
+    <display-name>456</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s79622_h15_ae.png"/>
+  </channel>
+  <channel id="16983.stations.xmltv.tvmedia.ca">
+    <display-name>Super Sports Pak HD 14</display-name>
+    <display-name>HDS14</display-name>
+    <display-name>457</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/106701-3419A.png"/>
+  </channel>
+  <channel id="16984.stations.xmltv.tvmedia.ca">
+    <display-name>Super Sports Pak HD 15</display-name>
+    <display-name>HDS15</display-name>
+    <display-name>458</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/106402-33F44.png"/>
+  </channel>
+  <channel id="16985.stations.xmltv.tvmedia.ca">
+    <display-name>Super Sports Pak HD 16</display-name>
+    <display-name>HDS16</display-name>
+    <display-name>459</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/106403-33F46.png"/>
+  </channel>
+  <channel id="16986.stations.xmltv.tvmedia.ca">
+    <display-name>Super Sports Pak HD 17</display-name>
+    <display-name>HDS17</display-name>
+    <display-name>460</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/106404-33F48.png"/>
+  </channel>
+  <channel id="16987.stations.xmltv.tvmedia.ca">
+    <display-name>Super Sports Pak HD 18</display-name>
+    <display-name>HDS18</display-name>
+    <display-name>461</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/106405-33F4A.png"/>
+  </channel>
+  <channel id="16988.stations.xmltv.tvmedia.ca">
+    <display-name>Super Sports Pak HD 19</display-name>
+    <display-name>HDS19</display-name>
+    <display-name>462</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s121230_h15_ab.png"/>
+  </channel>
+  <channel id="16965.stations.xmltv.tvmedia.ca">
+    <display-name>Super Sports Pak 33</display-name>
+    <display-name>SPO33</display-name>
+    <display-name>463</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s105617_h15_aa.png"/>
+  </channel>
+  <channel id="16991.stations.xmltv.tvmedia.ca">
+    <display-name>Super Sports Pak HD 23</display-name>
+    <display-name>HDS23</display-name>
+    <display-name>464</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s75960_h15_ab.png"/>
+  </channel>
+  <channel id="16992.stations.xmltv.tvmedia.ca">
+    <display-name>Super Sports Pak HD 24</display-name>
+    <display-name>HDS24</display-name>
+    <display-name>465</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s75961_h15_ab.png"/>
+  </channel>
+  <channel id="16968.stations.xmltv.tvmedia.ca">
+    <display-name>Super Sports Pak 36</display-name>
+    <display-name>SPO36</display-name>
+    <display-name>466</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s105617_h15_aa.png"/>
+  </channel>
+  <channel id="16969.stations.xmltv.tvmedia.ca">
+    <display-name>Super Sports Pak 37</display-name>
+    <display-name>SPO37</display-name>
+    <display-name>467</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s105617_h15_aa.png"/>
+  </channel>
+  <channel id="16970.stations.xmltv.tvmedia.ca">
+    <display-name>Super Sports Pak 38</display-name>
+    <display-name>SPO38</display-name>
+    <display-name>468</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s105617_h15_aa.png"/>
+  </channel>
+  <channel id="16971.stations.xmltv.tvmedia.ca">
+    <display-name>Super Sports Pak 39</display-name>
+    <display-name>SPO39</display-name>
+    <display-name>469</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s105617_h15_aa.png"/>
+  </channel>
+  <channel id="16973.stations.xmltv.tvmedia.ca">
+    <display-name>Super Sports Pak 40</display-name>
+    <display-name>SPO40</display-name>
+    <display-name>470</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s105617_h15_aa.png"/>
+  </channel>
+  <channel id="16974.stations.xmltv.tvmedia.ca">
+    <display-name>Super Sports Pak 41</display-name>
+    <display-name>SPO41</display-name>
+    <display-name>471</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s105617_h15_aa.png"/>
+  </channel>
   <channel id="9309.stations.xmltv.tvmedia.ca">
     <display-name>OUTtv HD</display-name>
     <display-name>OUT</display-name>
     <display-name>474</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s78648_h15_ab.png"/>
+  </channel>
+  <channel id="10984.stations.xmltv.tvmedia.ca">
+    <display-name>Fight Network Canada HD</display-name>
+    <display-name>FIGHTHD</display-name>
+    <display-name>475</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s91640_h15_aa.png"/>
+    <url>www.fightnetwork.com</url>
   </channel>
   <channel id="10809.stations.xmltv.tvmedia.ca">
     <display-name>CP24 (CablePulse 24) HD</display-name>
@@ -1233,6 +1819,13 @@
     <display-name>479</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s80695_h15_aa.png"/>
   </channel>
+  <channel id="11285.stations.xmltv.tvmedia.ca">
+    <display-name>Treehouse HD</display-name>
+    <display-name>TREEHD</display-name>
+    <display-name>481</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s80173_h15_aa.png"/>
+    <url>treehousetv.com</url>
+  </channel>
   <channel id="8368.stations.xmltv.tvmedia.ca">
     <display-name>AMC - Canada HD</display-name>
     <display-name>AMC-HD</display-name>
@@ -1252,6 +1845,12 @@
     <display-name>484</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s53711_h15_aa.png"/>
     <url>www.showcase.ca/</url>
+  </channel>
+  <channel id="11320.stations.xmltv.tvmedia.ca">
+    <display-name>Hollywood Suite On Demand</display-name>
+    <display-name>HSOD</display-name>
+    <display-name>485</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/73572-23EC8.png"/>
   </channel>
   <channel id="10310.stations.xmltv.tvmedia.ca">
     <display-name>Hollywood Suite 70s+</display-name>
@@ -1279,11 +1878,116 @@
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/73578-23ED4.png"/>
     <url>hollywoodsuite.ca</url>
   </channel>
+  <channel id="3601.stations.xmltv.tvmedia.ca">
+    <display-name>NFL Network HD</display-name>
+    <display-name>NFLN-HD</display-name>
+    <display-name>490</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s45399_h15_aa.png"/>
+    <url>www.nfl.com/network</url>
+  </channel>
+  <channel id="13246.stations.xmltv.tvmedia.ca">
+    <display-name>beIN Sport Canada</display-name>
+    <display-name>beINSC</display-name>
+    <display-name>491</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s91308_h9_ab.png"/>
+  </channel>
+  <channel id="11.stations.xmltv.tvmedia.ca">
+    <display-name>TSN1</display-name>
+    <display-name>TSN1</display-name>
+    <display-name>494</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s11182_h15_aa.png"/>
+  </channel>
+  <channel id="4294.stations.xmltv.tvmedia.ca">
+    <display-name>TSN2</display-name>
+    <display-name>TSN2</display-name>
+    <display-name>495</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s18990_h15_ab.png"/>
+  </channel>
+  <channel id="13719.stations.xmltv.tvmedia.ca">
+    <display-name>TSN3</display-name>
+    <display-name>TSN3</display-name>
+    <display-name>496</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s90118_h15_aa.png"/>
+  </channel>
+  <channel id="279.stations.xmltv.tvmedia.ca">
+    <display-name>TSN4</display-name>
+    <display-name>TSN4</display-name>
+    <display-name>497</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s90122_h15_aa.png"/>
+  </channel>
+  <channel id="278.stations.xmltv.tvmedia.ca">
+    <display-name>TSN5</display-name>
+    <display-name>TSN5</display-name>
+    <display-name>498</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s90124_h15_aa.png"/>
+  </channel>
+  <channel id="14464.stations.xmltv.tvmedia.ca">
+    <display-name>GAME+</display-name>
+    <display-name>GAME+</display-name>
+    <display-name>499</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s87432_h15_aa.png"/>
+    <url>www.fightnetwork.com</url>
+  </channel>
+  <channel id="254.stations.xmltv.tvmedia.ca">
+    <display-name>Sportsnet (Ontario)</display-name>
+    <display-name>SNO</display-name>
+    <display-name>501</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s18799_h15_aa.png"/>
+  </channel>
+  <channel id="8249.stations.xmltv.tvmedia.ca">
+    <display-name>Sportsnet One</display-name>
+    <display-name>SN1</display-name>
+    <display-name>502</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s68858_h15_aa.png"/>
+  </channel>
+  <channel id="336.stations.xmltv.tvmedia.ca">
+    <display-name>Sportsnet 360</display-name>
+    <display-name>SN360</display-name>
+    <display-name>503</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s20203_h15_aa.png"/>
+  </channel>
+  <channel id="332.stations.xmltv.tvmedia.ca">
+    <display-name>Sportsnet (East) - Satellite/Digital</display-name>
+    <display-name>SNE</display-name>
+    <display-name>504</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s18798_h15_aa.png"/>
+  </channel>
+  <channel id="2705.stations.xmltv.tvmedia.ca">
+    <display-name>Sportsnet (West) - Satellite/Digital</display-name>
+    <display-name>SNW</display-name>
+    <display-name>505</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s70398_h15_ab.png"/>
+  </channel>
+  <channel id="253.stations.xmltv.tvmedia.ca">
+    <display-name>Sportsnet (Pacific) - Satellite/Digital</display-name>
+    <display-name>SNP</display-name>
+    <display-name>506</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s18801_h15_aa.png"/>
+  </channel>
   <channel id="10026.stations.xmltv.tvmedia.ca">
     <display-name>FX Networks Canada</display-name>
     <display-name>FX</display-name>
     <display-name>507</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s73681_h15_aa.png"/>
+  </channel>
+  <channel id="32975.stations.xmltv.tvmedia.ca">
+    <display-name>MLB Network Canada HD</display-name>
+    <display-name>MLB-HD</display-name>
+    <display-name>508</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s90156_h15_aa.png"/>
+  </channel>
+  <channel id="3615.stations.xmltv.tvmedia.ca">
+    <display-name>NBA TV Canada TV HD</display-name>
+    <display-name>NBA-HD</display-name>
+    <display-name>511</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/53242-19FF4.png"/>
+  </channel>
+  <channel id="9901.stations.xmltv.tvmedia.ca">
+    <display-name>Golf Channel Canada HD</display-name>
+    <display-name>GOLF</display-name>
+    <display-name>513</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s65384_h15_aa.png"/>
+    <url>www.thegolfchannel.com</url>
   </channel>
   <channel id="2826.stations.xmltv.tvmedia.ca">
     <display-name>CBC (CBLT) Toronto, ON HD</display-name>
@@ -1410,6 +2114,13 @@
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s55097_h9_aa.png"/>
     <url>WWW.AETV.COM</url>
   </channel>
+  <channel id="3887.stations.xmltv.tvmedia.ca">
+    <display-name>CTV Speed HD</display-name>
+    <display-name>CTVSPD-HD</display-name>
+    <display-name>534</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s44794_h15_ab.png"/>
+    <url>https://www.ctv.ca/speed</url>
+  </channel>
   <channel id="4162.stations.xmltv.tvmedia.ca">
     <display-name>National Geographic Canada HD</display-name>
     <display-name>NGEOHD</display-name>
@@ -1422,6 +2133,13 @@
     <display-name>536</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s60645_h15_ac.png"/>
     <url>tlc.discovery.com</url>
+  </channel>
+  <channel id="9631.stations.xmltv.tvmedia.ca">
+    <display-name>T+E Totally Entertaining HD</display-name>
+    <display-name>T+E-HD</display-name>
+    <display-name>537</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s74863_h15_ab.png"/>
+    <url>www.tandetv.com</url>
   </channel>
   <channel id="3906.stations.xmltv.tvmedia.ca">
     <display-name>BBC First HD</display-name>
@@ -1448,6 +2166,13 @@
     <display-name>541</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s53128_h15_ac.png"/>
   </channel>
+  <channel id="32993.stations.xmltv.tvmedia.ca">
+    <display-name>Sportsman Channel Canada HD</display-name>
+    <display-name>SPMNC-HD</display-name>
+    <display-name>542</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s60399_h15_ad.png"/>
+    <url>www.wfn.tv</url>
+  </channel>
   <channel id="6994.stations.xmltv.tvmedia.ca">
     <display-name>HLN HD</display-name>
     <display-name>HLN-HD</display-name>
@@ -1469,12 +2194,25 @@
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s58646_h15_ac.png"/>
     <url>www.cnn.com</url>
   </channel>
+  <channel id="4500.stations.xmltv.tvmedia.ca">
+    <display-name>Big Ten Network HD</display-name>
+    <display-name>B10HD</display-name>
+    <display-name>546</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s56783_h15_ab.png"/>
+  </channel>
   <channel id="6791.stations.xmltv.tvmedia.ca">
     <display-name>Cottage Life HD</display-name>
     <display-name>COTTAGEHD</display-name>
     <display-name>548</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s68012_h15_aa.png"/>
     <url>www.cbccountrycanada.ca/</url>
+  </channel>
+  <channel id="3601.stations.xmltv.tvmedia.ca">
+    <display-name>NFL Network HD</display-name>
+    <display-name>NFLN-HD</display-name>
+    <display-name>549</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s45399_h15_aa.png"/>
+    <url>www.nfl.com/network</url>
   </channel>
   <channel id="2820.stations.xmltv.tvmedia.ca">
     <display-name>Crave1 - East HD</display-name>
@@ -1565,6 +2303,13 @@
     <display-name>562</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s67190_h15_ab.png"/>
   </channel>
+  <channel id="7050.stations.xmltv.tvmedia.ca">
+    <display-name>Turner Classic Movies Canada HD</display-name>
+    <display-name>TCM</display-name>
+    <display-name>563</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s67405_h15_ab.png"/>
+    <url>www.turnerclassicmovies.com</url>
+  </channel>
   <channel id="10027.stations.xmltv.tvmedia.ca">
     <display-name>FX Networks Canada HD</display-name>
     <display-name>FXHD</display-name>
@@ -1584,6 +2329,12 @@
     <display-name>568</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s60121_h15_ab.png"/>
   </channel>
+  <channel id="8431.stations.xmltv.tvmedia.ca">
+    <display-name>Sportsnet World HD</display-name>
+    <display-name>SNWLH</display-name>
+    <display-name>569</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s68946_h15_aa.png"/>
+  </channel>
   <channel id="4794.stations.xmltv.tvmedia.ca">
     <display-name>WPIX New York (SUPERSTATION) HD</display-name>
     <display-name>WPIX-HD</display-name>
@@ -1602,6 +2353,12 @@
     <display-name>572</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s53098_h15_ac.png"/>
     <url>www.ktla.com</url>
+  </channel>
+  <channel id="5882.stations.xmltv.tvmedia.ca">
+    <display-name>NewsNation HD - Eastern Feed</display-name>
+    <display-name>NEWSN-HD-E</display-name>
+    <display-name>573</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s91096_h15_af.png"/>
   </channel>
   <channel id="8451.stations.xmltv.tvmedia.ca">
     <display-name>USA Network (CAN) HD</display-name>
@@ -1664,6 +2421,19 @@
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s10136_h15_aa.png"/>
     <url>www.citytv.com/vancouver</url>
   </channel>
+  <channel id="12662.stations.xmltv.tvmedia.ca">
+    <display-name>TSC HD</display-name>
+    <display-name>TSC-HD</display-name>
+    <display-name>585</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s90941_h15_ab.png"/>
+  </channel>
+  <channel id="9440.stations.xmltv.tvmedia.ca">
+    <display-name>Weather Network HD</display-name>
+    <display-name>TWNHD</display-name>
+    <display-name>586</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s10170_h15_aa.png"/>
+    <url>www.theweathernetwork.com/ca</url>
+  </channel>
   <channel id="10240.stations.xmltv.tvmedia.ca">
     <display-name>WildBrainTV HD</display-name>
     <display-name>WILDB-HD</display-name>
@@ -1717,6 +2487,30 @@
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s70676_h15_ad.png"/>
     <url>https://www.homenetwork.ca/?redirect=home</url>
   </channel>
+  <channel id="344.stations.xmltv.tvmedia.ca">
+    <display-name>Z</display-name>
+    <display-name>Z</display-name>
+    <display-name>628</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s21544_h15_aa.png"/>
+  </channel>
+  <channel id="345.stations.xmltv.tvmedia.ca">
+    <display-name>Historia</display-name>
+    <display-name>HISTA</display-name>
+    <display-name>630</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s21542_h15_ab.png"/>
+  </channel>
+  <channel id="341.stations.xmltv.tvmedia.ca">
+    <display-name>Series +</display-name>
+    <display-name>SERI+</display-name>
+    <display-name>632</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s21543_h15_ab.png"/>
+  </channel>
+  <channel id="108.stations.xmltv.tvmedia.ca">
+    <display-name>Canal D</display-name>
+    <display-name>CAN-D</display-name>
+    <display-name>634</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s15682_h9_aa.png"/>
+  </channel>
   <channel id="306.stations.xmltv.tvmedia.ca">
     <display-name>MAX</display-name>
     <display-name>MAX</display-name>
@@ -1730,11 +2524,23 @@
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s16023_h15_ab.png"/>
     <url>www.asiantelevision.com</url>
   </channel>
+  <channel id="13657.stations.xmltv.tvmedia.ca">
+    <display-name>Zee TV Canada HD</display-name>
+    <display-name>ZCAN</display-name>
+    <display-name>682</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s83299_h15_ac.png"/>
+  </channel>
   <channel id="11051.stations.xmltv.tvmedia.ca">
     <display-name>ATN - Food Food</display-name>
     <display-name>ATNFF</display-name>
     <display-name>685</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s83580_h15_ab.png"/>
+  </channel>
+  <channel id="13667.stations.xmltv.tvmedia.ca">
+    <display-name>Zing</display-name>
+    <display-name>ZMUS</display-name>
+    <display-name>686</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s91024_h15_aa.png"/>
   </channel>
   <channel id="8966.stations.xmltv.tvmedia.ca">
     <display-name>Zoom</display-name>
@@ -1769,11 +2575,40 @@
     <display-name>751</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s17591_h15_aa.png"/>
   </channel>
+  <channel id="3622.stations.xmltv.tvmedia.ca">
+    <display-name>Rogers On Demand</display-name>
+    <display-name>ROD</display-name>
+    <display-name>755</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s46781_h15_aa.png"/>
+  </channel>
+  <channel id="3988.stations.xmltv.tvmedia.ca">
+    <display-name>Too Much! On Demand</display-name>
+    <display-name>TMOD</display-name>
+    <display-name>757</display-name>
+  </channel>
   <channel id="13625.stations.xmltv.tvmedia.ca">
     <display-name>Univision Canada</display-name>
     <display-name>UNI</display-name>
     <display-name>780</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s88279_h9_aa.png"/>
     <url>www.tlntv.com</url>
+  </channel>
+  <channel id="19467.stations.xmltv.tvmedia.ca">
+    <display-name>TSN 4K</display-name>
+    <display-name>TSN4K</display-name>
+    <display-name>994</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s102689_h15_aa.png"/>
+  </channel>
+  <channel id="19279.stations.xmltv.tvmedia.ca">
+    <display-name>Sportsnet One 4K</display-name>
+    <display-name>SN14K</display-name>
+    <display-name>997</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s100558_h9_aa.png"/>
+  </channel>
+  <channel id="19278.stations.xmltv.tvmedia.ca">
+    <display-name>Sportsnet 4K</display-name>
+    <display-name>SN4K</display-name>
+    <display-name>998</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s99158_h9_aa.png"/>
   </channel>
 </tv>

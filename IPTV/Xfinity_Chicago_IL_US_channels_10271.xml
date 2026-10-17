@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tv SYSTEM "xmltv.dtd">
-<tv date="10/16/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
+<tv date="10/17/2026" source-info-url="http://www.tvmedia.ca" source-info-name="TV Media">
   <channel id="1830.stations.xmltv.tvmedia.ca">
     <display-name>CBS (WBBM) Chicago, IL</display-name>
     <display-name>WBBM-TV</display-name>
     <display-name>2</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s10098_h15_ac.png"/>
     <url>www.cbs2chicago.com/</url>
+  </channel>
+  <channel id="594.stations.xmltv.tvmedia.ca">
+    <display-name>ESPN</display-name>
+    <display-name>ESPN</display-name>
+    <display-name>3</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s10179_h15_aa.png"/>
   </channel>
   <channel id="1831.stations.xmltv.tvmedia.ca">
     <display-name>NBC (WMAQ) Chicago, IL</display-name>
@@ -321,6 +327,19 @@
     <display-name>163</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s16123_h15_aa.png"/>
   </channel>
+  <channel id="3349.stations.xmltv.tvmedia.ca">
+    <display-name>NFL Network</display-name>
+    <display-name>NFLN</display-name>
+    <display-name>168</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s34710_h15_aa.png"/>
+  </channel>
+  <channel id="3601.stations.xmltv.tvmedia.ca">
+    <display-name>NFL Network HD</display-name>
+    <display-name>NFLN-HD</display-name>
+    <display-name>169</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s45399_h15_aa.png"/>
+    <url>www.nfl.com/network</url>
+  </channel>
   <channel id="35317.stations.xmltv.tvmedia.ca">
     <display-name>AMC+</display-name>
     <display-name>AMC+</display-name>
@@ -333,6 +352,18 @@
     <display-name>171</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s59337_h15_ab.png"/>
     <url>www.amc.com</url>
+  </channel>
+  <channel id="3036.stations.xmltv.tvmedia.ca">
+    <display-name>ESPN HD</display-name>
+    <display-name>ESPN-HD</display-name>
+    <display-name>173</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s32645_h15_ab.png"/>
+    <url>www.espn.com</url>
+  </channel>
+  <channel id="4710.stations.xmltv.tvmedia.ca">
+    <display-name>NBC Sports Network HD</display-name>
+    <display-name>NBCSNHD</display-name>
+    <display-name>174</display-name>
   </channel>
   <channel id="4660.stations.xmltv.tvmedia.ca">
     <display-name>History Channel US HD - East</display-name>
@@ -449,6 +480,26 @@
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s59684_h15_ae.png"/>
     <url>www.disneychannel.com</url>
   </channel>
+  <channel id="6039.stations.xmltv.tvmedia.ca">
+    <display-name>Golf Channel USA HD</display-name>
+    <display-name>GOLFHD</display-name>
+    <display-name>199</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/61854-1E33C.png"/>
+    <url>www.thegolfchannel.com</url>
+  </channel>
+  <channel id="6409.stations.xmltv.tvmedia.ca">
+    <display-name>NBC Sports Chicago HD</display-name>
+    <display-name>NBCSC-HD</display-name>
+    <display-name>200</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s44905_h15_ac.png"/>
+  </channel>
+  <channel id="3379.stations.xmltv.tvmedia.ca">
+    <display-name>ESPN2 HD</display-name>
+    <display-name>ESPN2-HD</display-name>
+    <display-name>203</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s45507_h15_aa.png"/>
+    <url>espn.go.com</url>
+  </channel>
   <channel id="3037.stations.xmltv.tvmedia.ca">
     <display-name>TNT HD - East Feed</display-name>
     <display-name>TNT-HD</display-name>
@@ -462,6 +513,12 @@
     <display-name>206</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s49438_h15_ab.png"/>
     <url>channel.nationalgeographic.com</url>
+  </channel>
+  <channel id="2086.stations.xmltv.tvmedia.ca">
+    <display-name>Olympic Channel</display-name>
+    <display-name>OLY</display-name>
+    <display-name>207</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s104186_h15_aa.png"/>
   </channel>
   <channel id="17034.stations.xmltv.tvmedia.ca">
     <display-name>A&amp;E US HD - Eastern Feed</display-name>
@@ -504,6 +561,19 @@
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s58515_h15_ac.png"/>
     <url>www.tbssuperstation.com</url>
   </channel>
+  <channel id="1159.stations.xmltv.tvmedia.ca">
+    <display-name>Oprah Winfrey Network USA Eastern</display-name>
+    <display-name>OWN</display-name>
+    <display-name>220</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s70387_h15_aa.png"/>
+  </channel>
+  <channel id="5490.stations.xmltv.tvmedia.ca">
+    <display-name>USA Network HD - East</display-name>
+    <display-name>USA</display-name>
+    <display-name>221</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s58452_h15_af.png"/>
+    <url>www.usanetwork.com</url>
+  </channel>
   <channel id="1273.stations.xmltv.tvmedia.ca">
     <display-name>Discovery Life Channel</display-name>
     <display-name>DLC</display-name>
@@ -524,6 +594,38 @@
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s60048_h15_ac.png"/>
     <url>www.cartoonnetwork.com</url>
   </channel>
+  <channel id="6246.stations.xmltv.tvmedia.ca">
+    <display-name>ESPN News HD</display-name>
+    <display-name>ESPNN-HD</display-name>
+    <display-name>231</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s59976_h15_aa.png"/>
+    <url>espn.go.com</url>
+  </channel>
+  <channel id="6985.stations.xmltv.tvmedia.ca">
+    <display-name>CBS Sports Network USA HD</display-name>
+    <display-name>CBSSN-HD</display-name>
+    <display-name>232</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s59250_h15_ac.png"/>
+  </channel>
+  <channel id="6218.stations.xmltv.tvmedia.ca">
+    <display-name>MLB Network HD</display-name>
+    <display-name>MLB</display-name>
+    <display-name>233</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s62081_h15_ab.png"/>
+  </channel>
+  <channel id="14157.stations.xmltv.tvmedia.ca">
+    <display-name>NHL Network USA HD</display-name>
+    <display-name>NHL-HD</display-name>
+    <display-name>234</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s58690_h15_ac.png"/>
+  </channel>
+  <channel id="11137.stations.xmltv.tvmedia.ca">
+    <display-name>Fox Sports 1 HD</display-name>
+    <display-name>FS1-HD</display-name>
+    <display-name>237</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s82547_h15_aa.png"/>
+    <url>www.foxsports.com</url>
+  </channel>
   <channel id="6542.stations.xmltv.tvmedia.ca">
     <display-name>ION (WCPX) Chicago, IL HD</display-name>
     <display-name>WCPX-HD</display-name>
@@ -542,6 +644,20 @@
     <display-name>COOKHD</display-name>
     <display-name>250</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s68065_h15_aa.png"/>
+  </channel>
+  <channel id="9579.stations.xmltv.tvmedia.ca">
+    <display-name>National Geographic Wild HD</display-name>
+    <display-name>NGWHD</display-name>
+    <display-name>251</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s67331_h15_ab.png"/>
+    <url>WWW.NATGEOCHANNEL.COM</url>
+  </channel>
+  <channel id="6245.stations.xmltv.tvmedia.ca">
+    <display-name>ESPN U HD</display-name>
+    <display-name>ESPNU-HD</display-name>
+    <display-name>253</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s60696_h15_aa.png"/>
+    <url>www.espn.com</url>
   </channel>
   <channel id="6659.stations.xmltv.tvmedia.ca">
     <display-name>E! Entertainment USA HD - East</display-name>
@@ -740,6 +856,13 @@
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s64492_h15_aa.png"/>
     <url>www.bbcamerica.com/servlet/Homelude</url>
   </channel>
+  <channel id="10263.stations.xmltv.tvmedia.ca">
+    <display-name>Fox Sports 2 HD</display-name>
+    <display-name>FS2HD</display-name>
+    <display-name>328</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s59305_h15_aa.png"/>
+    <url>www.foxsports.com</url>
+  </channel>
   <channel id="7506.stations.xmltv.tvmedia.ca">
     <display-name>FXX USA HD - Eastern</display-name>
     <display-name>FXX-HD</display-name>
@@ -816,11 +939,49 @@
     <display-name>401</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s17927_h15_aa.png"/>
   </channel>
+  <channel id="14156.stations.xmltv.tvmedia.ca">
+    <display-name>NHL Network USA</display-name>
+    <display-name>NHL</display-name>
+    <display-name>404</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s58570_h15_ab.png"/>
+  </channel>
+  <channel id="668.stations.xmltv.tvmedia.ca">
+    <display-name>Fox Sports 1</display-name>
+    <display-name>FS1</display-name>
+    <display-name>408</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s82541_h15_ab.png"/>
+    <url>www.foxsports.com</url>
+  </channel>
+  <channel id="2114.stations.xmltv.tvmedia.ca">
+    <display-name>Fox Sports 2</display-name>
+    <display-name>FS2</display-name>
+    <display-name>409</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s33178_h15_ab.png"/>
+    <url>www.foxsports.com</url>
+  </channel>
+  <channel id="6178.stations.xmltv.tvmedia.ca">
+    <display-name>MLB Network</display-name>
+    <display-name>MLB</display-name>
+    <display-name>410</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s62079_h15_aa.png"/>
+  </channel>
+  <channel id="3115.stations.xmltv.tvmedia.ca">
+    <display-name>CBS Sports Network USA</display-name>
+    <display-name>CBSSN</display-name>
+    <display-name>418</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s16365_h15_ae.png"/>
+  </channel>
   <channel id="2093.stations.xmltv.tvmedia.ca">
     <display-name>MTV Classic - East</display-name>
     <display-name>MTV-C</display-name>
     <display-name>473</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s22561_h15_ad.png"/>
+  </channel>
+  <channel id="6828.stations.xmltv.tvmedia.ca">
+    <display-name>Daystar  - Network</display-name>
+    <display-name>DSTAR</display-name>
+    <display-name>485</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/19026-94A4.png"/>
   </channel>
   <channel id="5272.stations.xmltv.tvmedia.ca">
     <display-name>Crime &amp; Investigation Network USA</display-name>
@@ -860,6 +1021,18 @@
     <display-name>PIX</display-name>
     <display-name>519</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s113001_h15_aa.png"/>
+  </channel>
+  <channel id="34660.stations.xmltv.tvmedia.ca">
+    <display-name>ScreenPix: Action</display-name>
+    <display-name>PIX-ACT</display-name>
+    <display-name>520</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s113003_h15_aa.png"/>
+  </channel>
+  <channel id="34662.stations.xmltv.tvmedia.ca">
+    <display-name>ScreenPix: Voices</display-name>
+    <display-name>PIX-VOIC</display-name>
+    <display-name>521</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s113004_h15_aa.png"/>
   </channel>
   <channel id="2078.stations.xmltv.tvmedia.ca">
     <display-name>Starz Encore Action - Eastern</display-name>
@@ -1013,6 +1186,12 @@
     <display-name>TMCX</display-name>
     <display-name>592</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s17663_h15_aa.png"/>
+  </channel>
+  <channel id="10967.stations.xmltv.tvmedia.ca">
+    <display-name>Sony Cine</display-name>
+    <display-name>CINE</display-name>
+    <display-name>619</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s109720_h15_aa.png"/>
   </channel>
   <channel id="1306.stations.xmltv.tvmedia.ca">
     <display-name>Univision - Pacific Feed</display-name>
@@ -1192,6 +1371,85 @@
     <display-name>WGN-TV2</display-name>
     <display-name>1185</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/31044-F288.png"/>
+  </channel>
+  <channel id="3036.stations.xmltv.tvmedia.ca">
+    <display-name>ESPN HD</display-name>
+    <display-name>ESPN-HD</display-name>
+    <display-name>1205</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s32645_h15_ab.png"/>
+    <url>www.espn.com</url>
+  </channel>
+  <channel id="3379.stations.xmltv.tvmedia.ca">
+    <display-name>ESPN2 HD</display-name>
+    <display-name>ESPN2-HD</display-name>
+    <display-name>1206</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s45507_h15_aa.png"/>
+    <url>espn.go.com</url>
+  </channel>
+  <channel id="4710.stations.xmltv.tvmedia.ca">
+    <display-name>NBC Sports Network HD</display-name>
+    <display-name>NBCSNHD</display-name>
+    <display-name>1207</display-name>
+  </channel>
+  <channel id="11137.stations.xmltv.tvmedia.ca">
+    <display-name>Fox Sports 1 HD</display-name>
+    <display-name>FS1-HD</display-name>
+    <display-name>1208</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s82547_h15_aa.png"/>
+    <url>www.foxsports.com</url>
+  </channel>
+  <channel id="10263.stations.xmltv.tvmedia.ca">
+    <display-name>Fox Sports 2 HD</display-name>
+    <display-name>FS2HD</display-name>
+    <display-name>1209</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s59305_h15_aa.png"/>
+    <url>www.foxsports.com</url>
+  </channel>
+  <channel id="6246.stations.xmltv.tvmedia.ca">
+    <display-name>ESPN News HD</display-name>
+    <display-name>ESPNN-HD</display-name>
+    <display-name>1210</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s59976_h15_aa.png"/>
+    <url>espn.go.com</url>
+  </channel>
+  <channel id="3601.stations.xmltv.tvmedia.ca">
+    <display-name>NFL Network HD</display-name>
+    <display-name>NFLN-HD</display-name>
+    <display-name>1215</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s45399_h15_aa.png"/>
+    <url>www.nfl.com/network</url>
+  </channel>
+  <channel id="7536.stations.xmltv.tvmedia.ca">
+    <display-name>NFL RedZone HD</display-name>
+    <display-name>NFLN</display-name>
+    <display-name>1216</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s65025_h9_aa.png"/>
+    <url>www.nfl.com/REDZONE</url>
+  </channel>
+  <channel id="14157.stations.xmltv.tvmedia.ca">
+    <display-name>NHL Network USA HD</display-name>
+    <display-name>NHL-HD</display-name>
+    <display-name>1217</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s58690_h15_ac.png"/>
+  </channel>
+  <channel id="5645.stations.xmltv.tvmedia.ca">
+    <display-name>NBA TV USA HD</display-name>
+    <display-name>NBAH</display-name>
+    <display-name>1218</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s45526_h15_ab.png"/>
+  </channel>
+  <channel id="6218.stations.xmltv.tvmedia.ca">
+    <display-name>MLB Network HD</display-name>
+    <display-name>MLB</display-name>
+    <display-name>1219</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s62081_h15_ab.png"/>
+  </channel>
+  <channel id="6039.stations.xmltv.tvmedia.ca">
+    <display-name>Golf Channel USA HD</display-name>
+    <display-name>GOLFHD</display-name>
+    <display-name>1223</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/61854-1E33C.png"/>
+    <url>www.thegolfchannel.com</url>
   </channel>
   <channel id="17034.stations.xmltv.tvmedia.ca">
     <display-name>A&amp;E US HD - Eastern Feed</display-name>
@@ -1766,6 +2024,201 @@
     <display-name>1875</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s103828_h15_ad.png"/>
   </channel>
+  <channel id="2759.stations.xmltv.tvmedia.ca">
+    <display-name>MLB Extra Innings 1</display-name>
+    <display-name>GM1</display-name>
+    <display-name>3001</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s26197_h15_ad.png"/>
+    <url>WWW.PPV.COM</url>
+  </channel>
+  <channel id="2760.stations.xmltv.tvmedia.ca">
+    <display-name>MLB Extra Innings 2</display-name>
+    <display-name>GM2</display-name>
+    <display-name>3002</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s26198_h15_ad.png"/>
+    <url>WWW.PPV.COM</url>
+  </channel>
+  <channel id="2761.stations.xmltv.tvmedia.ca">
+    <display-name>MLB Extra Innings 3</display-name>
+    <display-name>GM3</display-name>
+    <display-name>3003</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s26199_h15_ad.png"/>
+    <url>WWW.PPV.COM</url>
+  </channel>
+  <channel id="2762.stations.xmltv.tvmedia.ca">
+    <display-name>MLB Extra Innings 4</display-name>
+    <display-name>GM4</display-name>
+    <display-name>3004</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s26200_h15_ad.png"/>
+    <url>WWW.PPV.COM</url>
+  </channel>
+  <channel id="2763.stations.xmltv.tvmedia.ca">
+    <display-name>MLB Extra Innings 5</display-name>
+    <display-name>GM5</display-name>
+    <display-name>3005</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s26201_h15_ad.png"/>
+    <url>WWW.PPV.COM</url>
+  </channel>
+  <channel id="2764.stations.xmltv.tvmedia.ca">
+    <display-name>MLB Extra Innings 6</display-name>
+    <display-name>GM6</display-name>
+    <display-name>3006</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s26202_h15_ad.png"/>
+    <url>WWW.PPV.COM</url>
+  </channel>
+  <channel id="2765.stations.xmltv.tvmedia.ca">
+    <display-name>MLB Extra Innings 7</display-name>
+    <display-name>GM7</display-name>
+    <display-name>3007</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s26203_h15_ad.png"/>
+    <url>WWW.PPV.COM</url>
+  </channel>
+  <channel id="2766.stations.xmltv.tvmedia.ca">
+    <display-name>MLB Extra Innings 8</display-name>
+    <display-name>GM8</display-name>
+    <display-name>3008</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s26204_h15_ad.png"/>
+    <url>WWW.PPV.COM</url>
+  </channel>
+  <channel id="2767.stations.xmltv.tvmedia.ca">
+    <display-name>MLB Extra Innings 9</display-name>
+    <display-name>GM9</display-name>
+    <display-name>3009</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s29093_h15_ad.png"/>
+  </channel>
+  <channel id="2768.stations.xmltv.tvmedia.ca">
+    <display-name>MLB Extra Innings 10</display-name>
+    <display-name>GM10</display-name>
+    <display-name>3010</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s31250_h15_ad.png"/>
+  </channel>
+  <channel id="6025.stations.xmltv.tvmedia.ca">
+    <display-name>MLB Extra Innings 11</display-name>
+    <display-name>GM11</display-name>
+    <display-name>3011</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s53701_h15_ad.png"/>
+  </channel>
+  <channel id="6024.stations.xmltv.tvmedia.ca">
+    <display-name>MLB Extra Innings 12</display-name>
+    <display-name>GM12</display-name>
+    <display-name>3012</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s53704_h15_ad.png"/>
+  </channel>
+  <channel id="6023.stations.xmltv.tvmedia.ca">
+    <display-name>MLB Extra Innings 13</display-name>
+    <display-name>GM13</display-name>
+    <display-name>3013</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s53705_h15_ad.png"/>
+  </channel>
+  <channel id="15403.stations.xmltv.tvmedia.ca">
+    <display-name>MLB Extra Innings 14</display-name>
+    <display-name>GM14</display-name>
+    <display-name>3014</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s53708_h15_ad.png"/>
+  </channel>
+  <channel id="15375.stations.xmltv.tvmedia.ca">
+    <display-name>NHL Center Ice 1</display-name>
+    <display-name>GAME1</display-name>
+    <display-name>3067</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s26197_h15_ad.png"/>
+    <url>WWW.PPV.COM</url>
+  </channel>
+  <channel id="15383.stations.xmltv.tvmedia.ca">
+    <display-name>NHL Center Ice 2</display-name>
+    <display-name>GAME2</display-name>
+    <display-name>3068</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s26198_h15_ad.png"/>
+    <url>WWW.PPV.COM</url>
+  </channel>
+  <channel id="15385.stations.xmltv.tvmedia.ca">
+    <display-name>NHL Center Ice 3</display-name>
+    <display-name>GAME3</display-name>
+    <display-name>3069</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s26199_h15_ad.png"/>
+    <url>WWW.PPV.COM</url>
+  </channel>
+  <channel id="15387.stations.xmltv.tvmedia.ca">
+    <display-name>NHL Center Ice 4</display-name>
+    <display-name>GAME4</display-name>
+    <display-name>3070</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s26200_h15_ad.png"/>
+    <url>WWW.PPV.COM</url>
+  </channel>
+  <channel id="15389.stations.xmltv.tvmedia.ca">
+    <display-name>NHL Center Ice 5</display-name>
+    <display-name>GAME5</display-name>
+    <display-name>3071</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s26201_h15_ad.png"/>
+    <url>WWW.PPV.COM</url>
+  </channel>
+  <channel id="15392.stations.xmltv.tvmedia.ca">
+    <display-name>NHL Center Ice 6</display-name>
+    <display-name>GAME6</display-name>
+    <display-name>3072</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s26202_h15_ad.png"/>
+    <url>WWW.PPV.COM</url>
+  </channel>
+  <channel id="15393.stations.xmltv.tvmedia.ca">
+    <display-name>NHL Center Ice 7</display-name>
+    <display-name>GAME7</display-name>
+    <display-name>3073</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s26203_h15_ad.png"/>
+    <url>WWW.PPV.COM</url>
+  </channel>
+  <channel id="15395.stations.xmltv.tvmedia.ca">
+    <display-name>NHL Center Ice 8</display-name>
+    <display-name>GAME8</display-name>
+    <display-name>3074</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s26204_h15_ad.png"/>
+    <url>WWW.PPV.COM</url>
+  </channel>
+  <channel id="15397.stations.xmltv.tvmedia.ca">
+    <display-name>NHL Center Ice 9</display-name>
+    <display-name>GAME9</display-name>
+    <display-name>3075</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s29093_h15_ad.png"/>
+  </channel>
+  <channel id="15377.stations.xmltv.tvmedia.ca">
+    <display-name>NHL Center Ice 10</display-name>
+    <display-name>GAME10</display-name>
+    <display-name>3076</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s31250_h15_ad.png"/>
+  </channel>
+  <channel id="15379.stations.xmltv.tvmedia.ca">
+    <display-name>NHL Center Ice 11</display-name>
+    <display-name>GAME11</display-name>
+    <display-name>3077</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s53701_h15_ad.png"/>
+  </channel>
+  <channel id="15401.stations.xmltv.tvmedia.ca">
+    <display-name>NHL Center Ice 12</display-name>
+    <display-name>GAME12</display-name>
+    <display-name>3078</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s53704_h15_ad.png"/>
+  </channel>
+  <channel id="15381.stations.xmltv.tvmedia.ca">
+    <display-name>NHL Center Ice 13</display-name>
+    <display-name>GAME13</display-name>
+    <display-name>3079</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s53705_h15_ad.png"/>
+  </channel>
+  <channel id="16798.stations.xmltv.tvmedia.ca">
+    <display-name>NHL Center Ice 14</display-name>
+    <display-name>GAME14</display-name>
+    <display-name>3080</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s53708_h15_ad.png"/>
+  </channel>
+  <channel id="9162.stations.xmltv.tvmedia.ca">
+    <display-name>NHL Center Ice Extra</display-name>
+    <display-name>GAME13</display-name>
+    <display-name>3081</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s53705_h15_ad.png"/>
+  </channel>
+  <channel id="6026.stations.xmltv.tvmedia.ca">
+    <display-name>NHL League Wide</display-name>
+    <display-name>GAME14</display-name>
+    <display-name>3082</display-name>
+  </channel>
   <channel id="8137.stations.xmltv.tvmedia.ca">
     <display-name>Univision - Pacific Feed HD</display-name>
     <display-name>UNI</display-name>
@@ -1827,6 +2280,48 @@
     <display-name>21150</display-name>
     <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s71799_h15_ab.png"/>
     <url>www.bloomberg.com/tv</url>
+  </channel>
+  <channel id="3036.stations.xmltv.tvmedia.ca">
+    <display-name>ESPN HD</display-name>
+    <display-name>ESPN-HD</display-name>
+    <display-name>21600</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s32645_h15_ab.png"/>
+    <url>www.espn.com</url>
+  </channel>
+  <channel id="3379.stations.xmltv.tvmedia.ca">
+    <display-name>ESPN2 HD</display-name>
+    <display-name>ESPN2-HD</display-name>
+    <display-name>21700</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s45507_h15_aa.png"/>
+    <url>espn.go.com</url>
+  </channel>
+  <channel id="11137.stations.xmltv.tvmedia.ca">
+    <display-name>Fox Sports 1 HD</display-name>
+    <display-name>FS1-HD</display-name>
+    <display-name>22500</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s82547_h15_aa.png"/>
+    <url>www.foxsports.com</url>
+  </channel>
+  <channel id="10263.stations.xmltv.tvmedia.ca">
+    <display-name>Fox Sports 2 HD</display-name>
+    <display-name>FS2HD</display-name>
+    <display-name>22550</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s59305_h15_aa.png"/>
+    <url>www.foxsports.com</url>
+  </channel>
+  <channel id="6246.stations.xmltv.tvmedia.ca">
+    <display-name>ESPN News HD</display-name>
+    <display-name>ESPNN-HD</display-name>
+    <display-name>22600</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v2/s59976_h15_aa.png"/>
+    <url>espn.go.com</url>
+  </channel>
+  <channel id="6039.stations.xmltv.tvmedia.ca">
+    <display-name>Golf Channel USA HD</display-name>
+    <display-name>GOLFHD</display-name>
+    <display-name>22700</display-name>
+    <icon src="http://cdn.tvpassport.com/image/station/76x28/v3/61854-1E33C.png"/>
+    <url>www.thegolfchannel.com</url>
   </channel>
   <channel id="6112.stations.xmltv.tvmedia.ca">
     <display-name>Disney HD - Eastern</display-name>
